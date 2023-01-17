@@ -6,14 +6,32 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Parlamento de Negrete (1803)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
-         </sourceDesc>
+             <sourceDesc>
+                 <listBibl>
+                     <bibl xml:id="A">
+                         <editor>[Who is editor of Ayun version?]</editor>
+                         <title>Parlamento de Negrete 27 de Febrero de 1803</title>
+                         <pubPlace>[?]</pubPlace>
+                         <date>2008</date>
+                         <biblScope>pp. 7-27</biblScope>
+                         <note>[add any notes or description here</note>
+                     </bibl>
+                 <bibl xml:id="Z"><!--whc 1/17/23: need biblio info for Zavala version. Is it Pilar's transcription or someone else's? Is it published? If so, need publ info; if not, need to change form of this reference to msDesc. -->
+                     <editor></editor>
+                     <title></title>
+                     <pubPlace></pubPlace>
+                     <date></date>
+                     <biblScope></biblScope>
+                     <note></note>
+                 </bibl></listBibl>
+                          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
