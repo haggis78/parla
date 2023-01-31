@@ -1,0 +1,16 @@
+1/31/23 WHC:
+
+The type of pop-ups I think we want to do (e.g. click on a term, get its definition) are called "modals". They require a working combination of HTML, CSS, and JS. I've played around with it a little, not quite enough to get it working properly; there will be challenges attendant upon having 1) many of them on the same page, and 2) repeats (e.g. each time a given person is mentioned, need the same modal to pop up). 
+
+For tutorials, see:
+
+https://www.w3schools.com/howto/howto_css_modals.asp
+https://stackoverflow.com/questions/40645032/creating-multiple-modals-on-a-single-page
+https://stackoverflow.com/questions/37402241/support-for-multiple-modal-single-page
+
+
+Note that it may be necessary to put the <script> link for the JS at the bottom of the doc, right above </body>. 
+https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup 
+There will have to be the right number of var instructions in the JS file; remember the numbering starts at [0]. Possibly need to write an XQuery to count the terms/people/whatever elements in the TEI XML and generate a JS file with a for-loop creating and numbering the right number of var instructions? Or would using an XPath count() function and then just manually copying/pasting/numbering be easier? Probably.
+
+But there are other possibilities other than modals. I think I could use a general show/hide on HTML text in column 3 of the translation/comparison webpage(s). Or each <ab> unit from the XML could have, in column 3, a list of all the persons and terms etc in order of appearance in that <ab>, each of which is a link with its show/hide working in that column right below the term itself. That's less handy than clicking on the term/name in the main text columns. But a problem with clicking in the text column to show text hidden in column 3 is the vertical alignment of the page. It won't help much if you click a term and it shows up in col 3 up above the top of the screen. That's why modals may be the best bet -- they show up right on the screen.
