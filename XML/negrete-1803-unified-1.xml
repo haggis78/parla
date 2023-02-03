@@ -457,26 +457,119 @@
             </ab>
          </div>
 
-<!--EW started coding here-->
+         <!--EW started coding here-->
          <div>
             <ab>Tengo la mayor complacencia, <app>
                   <rdg wit="#Z">Caciques Principales</rdg>
                   <rdg wit="#A">caciques principales,</rdg>
                </app> mis <app>
-                  <rdg wit="#Z">Amigos</rdg><rdg wit="#A">amigos</rdg>
-               </app>, de veros hoy congregados en este Campamento, para celebrar el Parlamento
-               General con los quatro Butalmapus que comprehende la Tierra, desde el Rio Biovio al
-               Sur, hasta los Payses mas meridionales del Continente, y desde el Mar a la
-               Cordillera: Vosotros lo ha-beis solicitado con el mayor empeño, para el bien de
-               Vuestra Tierra, y el Excelentisimo Señor Capitan General del Reyno, que deseaba con
-               ansia presentarse en este Puerto para ratifi car vuestra obediencia a nuestro gran
-               Rey y Señor, y afi rmar todos los Articulos que hacen la felicidad reciproca de ambas
-               Naciones, no lo ha podido verifi car, respecto de que las graves ocupaciones del
-               principio de su Govierno, y otras empresas pendien-tes, no le han permitido asistir
-               personalmente; por cuyas justas causas ha tenido a bien conferirme sus facultades
-               para que en su nombre presida este Congreso, aconsejan-doos quanto convenga al
-               adelantamiento de vuestros interezes, civilidad, y obediencia al Rey, como sus buenos
-               Vasallos, puestos sobre su alta proteccion.</ab>
+                  <rdg wit="#Z">Amigos</rdg>
+                  <rdg wit="#A">amigos</rdg>
+               </app>, de veros hoy congregados en este <app>
+                  <rdg wit="#Z">Campamento,</rdg>
+                  <rdg wit="#A">campamento</rdg>
+               </app> para celebrar el Parlamento General con los <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuarto</rdg>
+               </app> Butalmapus que <app>
+                  <rdg wit="#Z">comprehende</rdg>
+                  <rdg wit="#A">comprende</rdg>
+               </app> la <app>
+                  <rdg wit="#Z">Tierra,</rdg>
+                  <rdg wit="#A">tierra</rdg>
+               </app> desde el <app>
+                  <rdg wit="#Z">Rio Biovio</rdg>
+                  <rdg wit="#A">río Bío- Bío</rdg>
+               </app> al <app>
+                  <rdg wit="#Z">Sur</rdg>
+                  <rdg wit="#A">sur</rdg>
+               </app>, hasta los <app>
+                  <rdg wit="#Z">Payses mas</rdg>
+                  <rdg wit="#A">países más</rdg>
+               </app> meridionales del <app>
+                  <rdg wit="#Z">Continente</rdg>
+                  <rdg wit="#A">continente</rdg>
+               </app>, y desde el <app>
+                  <rdg wit="#Z">Mar a la Cordillera:</rdg>
+                  <rdg wit="#A">la cordillera.</rdg>
+               </app> Vosotros lo <app>
+                  <rdg wit="#Z">ha-beis</rdg>
+                  <rdg wit="#A">habéis</rdg>
+               </app> solicitado con el mayor empeño<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> para el bien de <app>
+                  <rdg wit="#Z">Vuestra Tierra,</rdg>
+                  <rdg wit="#A">vuestra tierra</rdg>
+               </app> y el <app>
+                  <rdg wit="#Z"> Excelentisimo </rdg>
+                  <rdg wit="#A">Excmo.</rdg>
+               </app>Señor Capitan General del <app>
+                  <rdg wit="#Z">Reyno,</rdg>
+                  <rdg wit="#A">Reino</rdg>
+               </app> que deseaba con <app>
+                  <rdg wit="#Z">ansia</rdg>
+                  <rdg wit="#A">ansía</rdg>
+               </app> presentarse en este <app>
+                  <rdg wit="#Z">Puerto</rdg>
+                  <rdg wit="#A">puerto</rdg>
+               </app> para <app>
+                  <rdg wit="#Z">ratifi car</rdg>
+                  <rdg wit="#A">ratificar</rdg>
+               </app> vuestra obediencia a nuestro gran Rey y Señor<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y <app>
+                  <rdg wit="#Z">afi rmar</rdg>
+                  <rdg wit="#A">afirmar</rdg>
+               </app> todos los <app>
+                  <rdg wit="#Z">Articulos</rdg>
+                  <rdg wit="#A">artículos</rdg>
+               </app> que hacen la felicidad <app>
+                  <rdg wit="#Z">reciproca</rdg>
+                  <rdg wit="#A">recíproca</rdg>
+               </app> de ambas <app>
+                  <rdg wit="#Z">Naciones</rdg>
+                  <rdg wit="#A">naciones</rdg>
+               </app>, no lo ha podido <app>
+                  <rdg wit="#Z">verifi car,</rdg>
+                  <rdg wit="#A">verificar</rdg>
+               </app> respecto de que las graves ocupaciones del principio de su <app>
+                  <rdg wit="#Z">Govierno,</rdg>
+                  <rdg wit="#A">gobierno</rdg>
+               </app> y otras empresas <app>
+                  <rdg wit="#Z">pendien-tes,</rdg>
+                  <rdg wit="#A">pendientes</rdg>
+               </app> no le han permitido asistir personalmente<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> por cuyas justas causas ha tenido a bien conferirme sus facultades para que en
+               su nombre presida este Congreso<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app>
+               <app>
+                  <rdg wit="#Z">aconsejan-doos quanto</rdg>
+                  <rdg wit="#A">aconsejándoos cuanto</rdg>
+               </app> convenga al adelantamiento de vuestros <app>
+                  <rdg wit="#Z">interezes</rdg>
+                  <rdg wit="#A">intereses</rdg>
+               </app>, civilidad<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y obediencia al Rey<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> como sus buenos <app>
+                  <rdg wit="#Z">Vasallos</rdg>
+                  <rdg wit="#A">vasallos</rdg>
+               </app>, puestos <app>
+                  <rdg wit="#Z">sobre</rdg>
+                  <rdg wit="#A">bajo</rdg>
+               </app> su alta <app>
+                  <rdg wit="#Z">proteccion</rdg>
+                  <rdg wit="#A">protección</rdg>
+               </app>.</ab>
          </div>
 
          <div>
