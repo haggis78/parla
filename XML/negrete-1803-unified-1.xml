@@ -573,35 +573,202 @@
          </div>
 
          <div>
-            <ab>Yo que he visto por experiencia la situacion de Vuestros Payses, quando hace pocos
-               años me traslade por el Butalmapu de Angol al Govierno de la Plaza de Valdivia,
-               llenos de haciendas, y ganados de todas especies, adelantada la agricultura, vuestros
-               mozetones y familias, disfrutando la tranquilidad y conveniencias que ha
-               proporcionado la benignidad de vuestro amado Soberano en dispensaros todos los medios
-               y arvitrios de vuestro <pb ed="#A" n="11"/>mayor bien, y que me conducisteis con todo
-               el respeto, y obsequio posible, me congratulo por haver sido elegi-do para presidir
-               este Parlamento, y manifestaros mi corazon dispuesto a proporcionaros quanto auxilio
-               intereze la justicia, y el benefi cio de todos en general, bajo las reglas y
-               Articulos que ofrecisteis en este proprio lugar al Excelentisimo Señor Marques de
-               Osor-no el año pasado de noventa y tres, y otros que convengan tratar a vuestro
-               benefi cio, atendido el estado feliz de los quatro Butalmapus, cuyas ventajas me ha
-               demonstrado el Brigadier Comandante del Cuerpo de Dragones Don Pedro Nolasco del Rio,
-               que os ha governado tantos años con el mayor acierto; y que desea veros llegar al
-               colmo de vues-tro bien, y civilidad. Y confi ando que atendereis gustosos mis
-               consejos, y obedecereis mis preceptos, os saludo a todos a nombre del Rey, y pido
-               vuestra atencion sobre los puntos que expresa este Papel, que comprehende solamente
-               todo quanto os conviene. </ab>
+            <ab>Yo que he visto por experiencia la <app>
+                  <rdg wit="#Z">situacion</rdg>
+                  <rdg wit="#A">situación</rdg>
+               </app> de <app>
+                  <rdg wit="#Z">Vuestros Payses</rdg>
+                  <rdg wit="#A">vuestros países</rdg>
+               </app>, <app>
+                  <rdg wit="#Z">quando</rdg>
+                  <rdg wit="#A">cuando</rdg>
+               </app> hace pocos años me <app>
+                  <rdg wit="#Z">traslade</rdg>
+                  <rdg wit="#A">trasladé</rdg>
+               </app> por el <app>
+                  <rdg wit="#Z">Butalmapu</rdg>
+                  <rdg wit="A">Butamalpus</rdg>
+               </app> de Angol al <app>
+                  <rdg wit="#Z">Govierno de la Plaza</rdg>
+                  <rdg wit="#A">gobierno de la plaza</rdg>
+               </app> de Valdivia, llenos de haciendas<app>
+                  <rdg wit="Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y ganados de todas especies, adelantada la agricultura, vuestros <app>
+                  <rdg wit="#Z">mozetones</rdg>
+                  <rdg wit="#A">mocetones</rdg>
+               </app> y familias<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> disfrutando la tranquilidad y conveniencias que ha proporcionado la benignidad
+               de <app>
+                  <rdg wit="#Z">vuestro</rdg>
+                  <rdg wit="#A">nuestro</rdg>
+               </app> amado Soberano en dispensaros todos los medios y <app>
+                  <rdg wit="#Z">arvitrios</rdg>
+                  <rdg wit="#A">arbitrios</rdg>
+               </app> de vuestro <pb ed="#A" n="11"/>mayor bien, y que me <app>
+                  <rdg wit="#Z">conducisteis</rdg>
+                  <rdg wit="#A">conocisteis</rdg>
+               </app> con todo el <app>
+                  <rdg wit="#Z">respeto,</rdg>
+                  <rdg wit="#A">respecto</rdg>
+               </app> y obsequio posible, me congratulo por <app>
+                  <rdg wit="#Z">haver</rdg>
+                  <rdg wit="#A">haber</rdg>
+               </app> sido <app>
+                  <rdg wit="#Z">elegi-do</rdg>
+                  <rdg wit="#A">elegido</rdg>
+               </app> para presidir este Parlamento, y manifestaros mi <app>
+                  <rdg wit="#Z">corazon</rdg>
+                  <rdg wit="#A">corazón</rdg>
+               </app> dispuesto a proporcionaros <app>
+                  <rdg wit="#Z">quanto</rdg>
+                  <rdg wit="#A">cuanto</rdg>
+               </app> auxilio <app>
+                  <rdg wit="#Z">intereze</rdg>
+                  <rdg wit="#A">interese</rdg>
+               </app> la justicia<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y el <app>
+                  <rdg wit="#Z">benefi cio</rdg>
+                  <rdg wit="#A">beneficio</rdg>
+               </app> de todos en general<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> bajo las reglas y <app>
+                  <rdg wit="#Z">Articulos</rdg>
+                  <rdg wit="#A">artículos</rdg>
+               </app> que ofrecisteis en este proprio lugar<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> al <app>
+                  <rdg wit="#Z">Excelentisimo</rdg>
+                  <rdg wit="#A">Excmo.</rdg>
+               </app> Señor <app>
+                  <rdg wit="#Z">Marques</rdg>
+                  <rdg wit="#A">Marqués</rdg>
+               </app> de <app>
+                  <rdg wit="#Z">Osor-no</rdg>
+                  <rdg wit="#A">Osorno</rdg>
+               </app> el año <app>
+                  <rdg wit="#Z">pasado</rdg>
+                  <rdg wit="#A"/>
+               </app> de noventa y tres, y otros que convengan tratar a vuestro <app>
+                  <rdg wit="#Z">benefi cio</rdg>
+                  <rdg wit="#A">beneficio</rdg>
+               </app>, atendido el estado feliz de los <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> Butalmapus<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> cuyas ventajas me ha <app>
+                  <rdg wit="#Z">demonstrado</rdg>
+                  <rdg wit="#A">demostrado</rdg>
+               </app> el Brigadier Comandante del Cuerpo de Dragones Don Pedro Nolasco del <app>
+                  <rdg wit="#Z">Rio</rdg>
+                  <rdg wit="#A">Río</rdg>
+               </app>, que os ha <app>
+                  <rdg wit="#Z">governado</rdg>
+                  <rdg wit="#A">gobernado</rdg>
+               </app> tantos años con el mayor acierto<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A"/>
+               </app> y que desea veros llegar al colmo de <app>
+                  <rdg wit="#Z">vues-tro</rdg>
+                  <rdg wit="#A">vuestro</rdg>
+               </app> bien<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y civilidad<app>
+                  <rdg wit="#Z">. Y confi ando</rdg>
+                  <rdg wit="#A">y confiando</rdg>
+               </app> que <app>
+                  <rdg wit="#Z">atendereis</rdg>
+                  <rdg wit="#A">atenderéis</rdg>
+               </app> gustosos mis consejos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y <app>
+                  <rdg wit="#Z">obedecereis</rdg>
+                  <rdg wit="#A">obedeceréis</rdg>
+               </app> mis preceptos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> os saludo a todos a nombre del Rey, y pido vuestra <app>
+                  <rdg wit="#Z">atencion</rdg>
+                  <rdg wit="#A">atención</rdg>
+               </app> sobre los puntos que expresa este <app>
+                  <rdg wit="#Z">Papel,</rdg>
+                  <rdg wit="#A">papel</rdg>
+               </app> que <app>
+                  <rdg wit="#Z">comprehende</rdg>
+                  <rdg wit="#A">comprende</rdg>
+               </app> solamente todo <app>
+                  <rdg wit="#Z">quanto</rdg>
+                  <rdg wit="#A">cuanto</rdg>
+               </app> os conviene. </ab>
          </div>
 
          <div>
-            <ab>Creo seguramente que por el conocimiento que teneis de mi caracter, y corazon
-               deci-dido por vuestro bien, pondreis todos los medios de conservar la union en que os
-               veo, sepultando en el olvido toda disencion o enemistad que hayan tenido las
-               Reducciones anteriormente, para aumentar desde hoy las conveniencias que trae la paz
-               general, y que este Parlamento haga epoca en los tiempos mas remotos a vuestra
-               posteridad, como un fundamento invariable de todos sus Tratados, y de la proteccion
-               de nuestro Soberano, a que os hareis acreedores por vuestra subordinacion, y
-               obediencia = </ab>
+            <ab>Creo seguramente que por el conocimiento que <app>
+                  <rdg wit="#Z">teneis</rdg>
+                  <rdg wit="#A">tenéis</rdg>
+               </app> de mi <app>
+                  <rdg wit="#Z">caracter,</rdg>
+                  <rdg wit="#A">carácter</rdg>
+               </app> y <app>
+                  <rdg wit="#Z">corazon</rdg>
+                  <rdg wit="#A">corazón</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">deci-dido</rdg>
+                  <rdg wit="#A">decidido</rdg>
+               </app> por vuestro bien, <app>
+                  <rdg wit="#Z">pondreis</rdg>
+                  <rdg wit="#A">pondréis</rdg>
+               </app> todos los medios de conservar la <app>
+                  <rdg wit="#Z">union</rdg>
+                  <rdg wit="#A">unión</rdg>
+               </app> en que os veo, sepultando en el olvido toda <app>
+                  <rdg wit="#Z">disencion</rdg>
+                  <rdg wit="#A">disensión</rdg>
+               </app> o enemistad que hayan tenido las <app>
+                  <rdg wit="#Z">Reducciones</rdg>
+                  <rdg wit="#A">Pre (en blanco)</rdg>
+               </app> anteriormente<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> para aumentar desde hoy las conveniencias que trae la paz general<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y que este Parlamento haga <app>
+                  <rdg wit="#Z">epoca</rdg>
+                  <rdg wit="#A">época</rdg>
+               </app> en los tiempos <app>
+                  <rdg>mas</rdg>
+                  <rdg wit="#A">má</rdg>
+               </app> remotos a vuestra posteridad, como un fundamento invariable de todos sus <app>
+                  <rdg wit="#Z">Tratados,</rdg>
+                  <rdg wit="#A">tratados</rdg>
+               </app> y de la <app>
+                  <rdg wit="#Z">proteccion</rdg>
+                  <rdg wit="#A">protección</rdg>
+               </app> de nuestro Soberano<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> a que os <app>
+                  <rdg wit="#Z">hareis</rdg>
+                  <rdg wit="#A">haréis</rdg>
+               </app> acreedores por vuestra <app>
+                  <rdg wit="#Z">subordinacion,</rdg>
+                  <rdg wit="#A">subordinación</rdg>
+               </app> y obediencia<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A"/>
+               </app> = </ab>
          </div>
          <pb ed="#A" n="12"/>
          <!-- whc 1/20/23: haven't tagged A page breaks in this file past here; breaks tagged in separate A-only xml file; add tags for A page beginnings going forward from here as I collate-->
