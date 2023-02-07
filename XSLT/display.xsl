@@ -9,13 +9,13 @@
     version="3.0">
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
-    <xsl:variable name="editionColl" as="node()+" select="//bibl/date"/>
+    <xsl:variable name="editionColl" as="node()+" select="//bibl/rs"/>
     <xsl:template match="/">
         <xsl:for-each select="$editionColl">
             <xsl:variable name="filename" as="xs:string">
                 <xsl:value-of select="current() ! string()"/>
             </xsl:variable>
-            <xsl:result-document method="xhtml" indent="yes" href="../site/display-{$filename}.html"> 
+            <xsl:result-document method="xhtml" indent="yes" href="../site/1803-display-{$filename}.html"> 
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -26,11 +26,11 @@
                     <body>
                         
                         <div class="content">
-                            <h1><xsl:value-of select="(root()/descendant::title)[1]"/></h1>
-                            <h2>Witness <xsl:value-of select="current()"/></h2>
+                            <h1>Parlamento de Negrete (1803)</h1>
+                            <h2>Source: <xsl:value-of select="(root()/descendant::title)"/></h2>
                             <div class="transcript-about">
                                 <xsl:if test="current()/ancestor::bibl">
-                                    <xsl:value-of select="current()/ancestor::bibl/text()"/>
+                                    <xsl:value-of select="current()/ancestor::bibl//text()"/>
                                 </xsl:if>
                             </div>
                             <div class="transcript-body">
@@ -57,7 +57,7 @@
     <xsl:template match="root()/descendant::app">
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
-            <span class="variance">
+            <span class="variant">
                 <xsl:value-of select="rdg[@wit[contains(., $currentEd ! string())]]"/>
             </span>
         </xsl:if>
