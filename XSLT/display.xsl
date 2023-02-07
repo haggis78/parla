@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- WHC 02-FEB-2023: This is derived from a Brecon Project file. 
+<!-- WHC 02-FEB-2023: This is derived from a Brecon Project file authored by UPG student Alyssa Argento. 
     The purpose for this XSLT is to create a display version of each edition as an html file. 
 I am trying to make the syntax as universal as possible so it can be used with very few changes on all subsequent 
 Parlamento text files down the line. -->
@@ -30,19 +30,16 @@ Parlamento text files down the line. -->
                     <body>
                         
                         <div class="content">
-                            <h1><xsl:apply-templates select="root()/descendant::titleStmt/title"/></h1>
-                            <h2><xsl:apply-templates select="root()/descendant::publicationStmt/p"/></h2>
+                            <h1><xsl:apply-templates select="//titleStmt/title"/></h1>
+                            <h2><xsl:apply-templates select="//publicationStmt/p"/></h2>
                             
                             <div class="bibliog">
-                                                       
-                                <xsl:apply-templates select="root()/descendant::bibl">
-                                    <xsl:with-param name="currentEd" as="node()" select="current()"/>
-                                </xsl:apply-templates>
-                           
+                                <xsl:apply-templates select="//bibl[./rs/text() = $filename]"/>
                             </div>       
-                            
+                            <hr/><br/>                
                             <div class="transcript-body">
-                                <xsl:apply-templates select="root()/descendant::div">
+                                <h2>Text</h2>
+                                <xsl:apply-templates select="//div">
                                     <xsl:with-param name="currentEd" as="node()" select="current()"/>
                                 </xsl:apply-templates>
                             </div>
@@ -53,30 +50,17 @@ Parlamento text files down the line. -->
         </xsl:for-each>
     </xsl:template>
     
-    <xsl:template match="root()/descendant::bibl">
-        <xsl:param name="currentEd"/>
-        
-            <p>
-                <xsl:apply-templates>
-                    <xsl:with-param name="currentEd" select="$currentEd" as="node()"/>
-                </xsl:apply-templates>
-            </p> 
-        
-        <p><b>Editor(s):</b> <xsl:apply-templates select="(root()/descendant::editor)">
-            <xsl:with-param name="currentEd" select="$currentEd" as="node()"/>
-        </xsl:apply-templates></p>
-        
-            <p><b>Editor(s):</b> <xsl:apply-templates select="(root()/descendant::editor)"/></p>
-            <p><b>Publication title:</b><i><xsl:value-of select="(root()/descendant::title)"/></i></p>
-            <p><b>Publisher:</b><i><xsl:value-of select="(root()/descendant::publisher)"/></i></p>
-            <p><b>Publisher location:</b><i><xsl:value-of select="(root()/descendant::pubPlace)"/></i></p>
-            <p><b>Publication date:</b><i><xsl:value-of select="(root()/descendant::date)"/></i></p>
-            <p><b>Page range:</b><i><xsl:value-of select="(root()/descendant::biblScope)"/></i></p>
-            <p><b>Notes:</b><i><xsl:value-of select="(root()/descendant::note)"/></i></p>
-        
+    <xsl:template match="bibl">
+             <p><b>Editor(s): </b> <xsl:apply-templates select="(./editor)"/></p> 
+            <p><b>Publication title: </b><i><xsl:value-of select="(./title)"/></i></p>
+            <p><b>Publisher: </b><xsl:value-of select="(./publisher)"/></p>
+            <p><b>Publisher location: </b><xsl:value-of select="(./pubPlace)"/></p>
+            <p><b>Publication date: </b><xsl:value-of select="(./date)"/></p>
+            <p><b>Page range: </b><xsl:value-of select="(./biblScope)"/></p>
+            <p><b>Notes: </b><i><xsl:value-of select="(./note)"/></i></p>     
     </xsl:template>
     
-    <xsl:template match="root()/descendant::ab">
+    <xsl:template match="ab">
         <xsl:param name="currentEd"/>
         <xsl:for-each select=".">
             <p>
@@ -86,7 +70,8 @@ Parlamento text files down the line. -->
             </p>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="root()/descendant::div/head">
+    
+    <xsl:template match="div/head">
         <xsl:param name="currentEd"/>
         <xsl:for-each select=".">
             <p><b>
@@ -96,7 +81,8 @@ Parlamento text files down the line. -->
             </b></p>
         </xsl:for-each>
     </xsl:template>
-    <xsl:template match="root()/descendant::app">
+    
+    <xsl:template match="app">
         <xsl:param name="currentEd"/>
         <xsl:if test="rdg[contains(@wit, $currentEd ! string())]">
             <span class="variant">
@@ -104,4 +90,5 @@ Parlamento text files down the line. -->
             </span>
         </xsl:if>
     </xsl:template>
+    
 </xsl:stylesheet>
