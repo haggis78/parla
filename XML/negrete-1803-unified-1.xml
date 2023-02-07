@@ -20,6 +20,7 @@
                   <pubPlace>Santiago, Chile</pubPlace>
                   <date>2008</date>
                   <biblScope>pp. 7-27</biblScope>
+                  <rs>A</rs><!-- whc: addition 02 Feb -->
                   <note>[add any notes or description here: e.g. explain that this is a modernized
                      version of the text and that it omits part of the text as it appears in the
                      MS.]</note>
@@ -31,6 +32,7 @@
                   <pubPlace>Temuco, Chile</pubPlace>
                   <date>2015</date>
                   <biblScope>pp. 413-423</biblScope>
+                  <rs>Z</rs><!-- whc: addition 02 Feb -->
                   <note>[add any notes or description here: e.g. explain that this is a literal
                      transcription of the MS]</note>
                </bibl>
