@@ -20,7 +20,9 @@
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                         <link rel="stylesheet" type="text/css" href="style.css" />
-
+<!-- whc 07-FEB-2023: I removed the js link that made tick boxes work. Will need to add back in, plus 
+                        css, to be able to change color/bold/whatever for names/places/terms etc.-->
+                        <!--comment-->
                         <title>Negrete <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
