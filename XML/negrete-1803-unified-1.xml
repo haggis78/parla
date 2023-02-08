@@ -222,7 +222,7 @@
          <div>
             <head><app>
                   <rdg wit="#A"><lb/>Tratado y primer acta diaria: <lb/>3 de marzo de 1803</rdg>
-                  <rdg wit="Z"/>
+                  <rdg wit="#Z"/>
                </app></head>
          </div>
          <!--whc 1/18/23: do I want to mark up the date here?-->
