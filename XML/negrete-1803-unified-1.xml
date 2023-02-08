@@ -775,39 +775,193 @@
          <pb ed="#A" n="12"/>
          <!-- whc 1/20/23: haven't tagged A page breaks in this file past here; breaks tagged in separate A-only xml file; add tags for A page beginnings going forward from here as I collate-->
          <div>
-            <head>Articulos publicados en el Parlamento General de los Yndios de Chile congregados
-               en el Campo de Negrete en los dias tres, quatro, y cinco de Marzo de mil ochocientos
-               tres- </head>
+            <head><app>
+                  <rdg wit="#Z">Articulos</rdg>
+                  <rdg wit="#A">Artículos</rdg>
+               </app> publicados en el Parlamento General de los <app>
+                  <rdg wit="#Z">Yndios</rdg>
+                  <rdg wit="#A">Indios</rdg>
+               </app> de Chile congregados en el <app>
+                  <rdg wit="#Z">Campo</rdg>
+                  <rdg wit="#A">campo</rdg>
+               </app> de Negrete en los <app>
+                  <rdg wit="#Z">dias</rdg>
+                  <rdg wit="#A">días</rdg>
+               </app> tres, <app>
+                  <rdg wit="#Z">quatro,</rdg>
+                  <rdg wit="#A">cuarto</rdg>
+               </app> y cinco de <app>
+                  <rdg wit="#Z">Marzo</rdg>
+                  <rdg wit="#A">marzo</rdg>
+               </app> de mil ochocientos tres<app>
+                  <rdg wit="#Z">-</rdg>
+                  <rdg wit="#A">.</rdg>
+               </app>
+            </head>
+         </div>
+         <!--There is no Articulo Primero heading here. I'm not sure if that is related to the earlier comment, but I'll mention it just in case-->
+         <div>
+            <ab>Que siendo el primer paso de este Congreso<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app>
+               <app>
+                  <rdg wit="#Z">ratifi car</rdg>
+                  <rdg wit="A">ratificar</rdg>
+               </app> su reconocimiento<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y confesar todos por su Rey y Señor <app>
+                  <rdg wit="#Z">natural,</rdg>
+                  <rdg wit="#A">Natural</rdg>
+               </app> al <app>
+                  <rdg wit="#Z">Poderoso</rdg>
+                  <rdg wit="#A">poderoso</rdg>
+               </app> y Soberano Señor Don Carlos <app>
+                  <rdg wit="#Z">quarto</rdg>
+                  <rdg wit="#A">Cuarto</rdg>
+               </app>, y por su <app>
+                  <rdg wit="#Z">Succesor</rdg>
+                  <rdg wit="#A">sucesor</rdg>
+               </app> al <app>
+                  <rdg wit="#Z">Serenisimo Principe</rdg>
+                  <rdg wit="#A">Serenísimo Príncipe</rdg>
+               </app> de Asturias Don Fernando, <app>
+                  <rdg wit="#Z">debian</rdg>
+                  <rdg wit="#A">debían</rdg>
+               </app> prometer y jurar <app>
+                  <rdg wit="#Z">serles</rdg>
+                  <rdg wit="#A">series</rdg>
+                  <!--possible typo in serles instead of series-->
+               </app> en todo <app>
+                  <rdg wit="#Z">fi eles</rdg>
+                  <rdg wit="#A">fieles</rdg>
+               </app> y obedientes <app>
+                  <rdg wit="#Z">Vasallos</rdg>
+                  <rdg wit="#A">vasallos</rdg>
+               </app>, y como tales, amigos de sus amigos<app>
+                  <rdg wit="#Z">, y</rdg>
+                  <rdg wit="#A"/>
+               </app>
+               <pb ed="#Z" n="415"/>enemigos de sus enemigos, sin otra inteligencia que la que
+               corresponde a las sencillas palabras con que se les previene todo <app>
+                  <rdg wit="#Z">quanto</rdg>
+                  <rdg wit="#A">cuanto</rdg>
+               </app> se expresará en los <app>
+                  <rdg wit="#Z">Articulos siguientes = </rdg>
+                  <rdg wit="#A">artículos.</rdg>
+               </app></ab>
          </div>
 
          <div>
-            <ab>Que siendo el primer paso de este Congreso, ratifi car su reconocimiento, y confesar
-               todos por su Rey y Señor natural, al Poderoso y Soberano Señor Don Carlos quarto, y
-               por su Succesor al Serenisimo Principe de Asturias Don Fernando, debian prometer y
-               jurar serles en todo fi eles y obedientes Vasallos, y como tales, amigos de sus
-               amigos, y <pb ed="#Z" n="415"/>enemigos de sus enemigos, sin otra inteligencia que la
-               que corresponde a las sencillas palabras con que se les previene todo quanto se
-               expresará en los Articulos siguientes = </ab>
-         </div>
-
-         <div>
-            <ab>Que habiendose tratado en el Parlamento de Lonquilmo sobre los medios de entablar
-               las ferias, que proporcionasen la venta de los efectos que sacasen de comercio los
-               quatro Butalmapus, y que no tuvo efecto, por el perjuicio, y demoras que acaso les
-               resultaba, por esperar a los tiempos y periodos que expresaba aquella determinacion,
-               se trato de nuevo el mismo caso, dirigido a su bien unicamente, en el ultimo
-               Parlamento de Negrete, extendiendose a un libre comercio que podrian hacer todos los
-               naturales en todas las plazas, villas, y ciudades del Reyno, transitando libremente
-               por todos nuestros caminos y tierras con las especies que conduzcan, y del mismo modo
-               los españoles por las suyas, franqueandose los caminos reciprocamente, libre, y con
-               la mas escrupulosa seguridad; cuya resolucion quedo afi rmada, y en consequencia se
-               hizo presente a su Magestad para su Soberana aprobacion, que en efecto se obtuvo,
-               procediendose su entable en el año pasado de noventa y seis bajo las reglas que
-               expresa el Bando publico de este particular, siendo su resultado de las mayores
-               ventajas a los naturales, como lo tienen por experien-cia, y yo veo con gusto como un
-               principio de su civilidad, quietud, y aumento de sus interezes, cuyos graves motivos
-               piden su reconocimiento a las piedades del Rey, ratificando unanimes su Tratado =
-            </ab>
+            <ab>Que <app>
+                  <rdg wit="#Z">habiendose</rdg>
+                  <rdg wit="#A">habiendo</rdg>
+               </app> tratado en el Parlamento de Lonquilmo sobre los medios de entablar las ferias<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que proporcionasen la venta de los efectos que sacasen de comercio los <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> Butalmapus, y que no tuvo efecto<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> por el perjuicio<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y demoras que acaso les resultaba<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> por esperar a los tiempos y periodos que expresaba aquella <app>
+                  <rdg wit="#Z">determinacion</rdg>
+                  <rdg wit="#A">determinación</rdg>
+               </app>, se <app>
+                  <rdg wit="#Z">trato</rdg>
+                  <rdg wit="#A">trató</rdg>
+               </app> de nuevo el mismo caso<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> dirigido a su bien <app>
+                  <rdg wit="#Z">unicamente,</rdg>
+                  <rdg wit="#A">únicamente</rdg>
+               </app> en el <app>
+                  <rdg wit="#Z">ultimo</rdg>
+                  <rdg wit="#A">último</rdg>
+               </app> Parlamento de Negrete<app>
+                  <rdg wit="#Z">, extendiendose</rdg>
+                  <rdg wit="#A">estableciéndose</rdg>
+               </app> a un libre comercio que <app>
+                  <rdg wit="#Z">podrian</rdg>
+                  <rdg wit="#A">podrían</rdg>
+               </app> hacer <app>
+                  <rdg wit="#Z">todos</rdg>
+                  <rdg wit="#A"/>
+               </app> los naturales en todas las plazas, villas<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y ciudades del <app>
+                  <rdg wit="#Z">Reyno,</rdg>
+                  <rdg wit="#A">Reino</rdg>
+               </app> transitando libremente por todos nuestros caminos y tierras<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> con las especies que conduzcan, y del mismo modo los españoles por las suyas, <app>
+                  <rdg wit="#Z">franqueandose</rdg>
+                  <rdg wit="#A">franqueándose</rdg>
+               </app> los caminos <app>
+                  <rdg wit="#Z">reciprocamente,</rdg>
+                  <rdg wit="#A">recíprocamente</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">libre</rdg>
+                  <rdg wit="#A">libres</rdg>
+               </app>, y con la <app>
+                  <rdg wit="#Z">mas</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> escrupulosa seguridad<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A"/>
+               </app> cuya <app>
+                  <rdg wit="#Z">resolucion</rdg>
+                  <rdg wit="#A">resolución</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">quedo</rdg>
+                  <rdg wit="#A">quedó</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">afi rmada</rdg>
+                  <rdg wit="#A">afirmada</rdg>
+               </app>, y en <app>
+                  <rdg wit="#Z">consequencia</rdg>
+                  <rdg wit="#A">consecuencia</rdg>
+               </app> se hizo presente a <app>
+                  <rdg wit="#Z">su Magestad</rdg>
+                  <rdg wit="#A">S.M.</rdg>
+               </app> para su <app>
+                  <rdg wit="#Z">Soberana</rdg>
+                  <rdg wit="#A">soberana</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">aprobacion</rdg>
+                  <rdg wit="#A">aprobación</rdg>
+               </app>, que en efecto se obtuvo<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app>
+               <app>
+                  <rdg wit="#Z">procediendose</rdg>
+                  <rdg wit="#A">procediéndose</rdg>
+               </app> su entable en el año pasado de noventa y seis<app>
+                  <rdg wit="Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> bajo las reglas que expresa el <app>
+                  <rdg wit="#Z">Bando publico</rdg>
+                  <rdg wit="#A">bando público</rdg>
+               </app> de este particular<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> siendo su resultado de las mayores ventajas a los
+               naturales<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> como lo tienen por <app><rdg wit="#Z">experien-cia,</rdg><rdg wit="#A">experiencia</rdg></app> y yo veo con gusto como un principio de
+               su civilidad, quietud<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y aumento de sus <app><rdg wit="#Z">interezes</rdg><rdg wit="#A">intereses</rdg></app>, cuyos graves motivos piden su
+               reconocimiento a las piedades del Rey, ratificando <app><rdg wit="#Z">unanimes</rdg><rdg wit="#A">unánimes</rdg></app> <app><rdg wit="#Z">su Tratado =</rdg><rdg wit="#A">sus tratado.</rdg></app> </ab>
          </div>
 
          <div>
