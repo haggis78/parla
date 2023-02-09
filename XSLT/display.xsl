@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- WHC 02-FEB-2023: This is derived from a Brecon Project file authored by UPG student Alyssa Argento. 
+<!-- WHC 07-FEB-2023: This is derived from a Brecon Project file authored by UPG student Alyssa Argento. 
     The purpose for this XSLT is to create a display version of each edition as an html file. 
 I am trying to make the syntax as universal as possible so it can be used with very few changes on all subsequent 
 Parlamento text files down the line. -->
@@ -23,7 +23,7 @@ Parlamento text files down the line. -->
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                         <link rel="stylesheet" type="text/css" href="style.css" />
-<!-- whc 07-FEB-2023: I removed the js link that made tick boxes work. Will need to add back in, plus 
+<!-- whc 07-FEB-2023: I removed the js link that made tick boxes work. Will need to add back in, plus relevant 
                         css, to be able to change color/bold/whatever for names/places/terms etc.-->
                       <title>Negrete <xsl:value-of select="current()"/></title>
                     </head>
