@@ -20,3 +20,7 @@ table, th, td {
 th, td {
   padding: 15px;
 }
+
+td {
+    vertical-align: top;
+}

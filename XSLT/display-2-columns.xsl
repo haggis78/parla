@@ -29,6 +29,11 @@
                         
                         <div class="content">
                             <h1><xsl:apply-templates select="//titleStmt/title"/></h1>
+                            <h3>Skip to section:<xsl:text>   </xsl:text>
+                            <xsl:for-each select="//div">
+                                <a href="#sect-{count(preceding::div)+1}"><xsl:value-of select='count(preceding::div)+1'/></a>  
+                                <xsl:text>   </xsl:text>
+                            </xsl:for-each></h3>
                             <table>
                                 <tr>
                                     <td><xsl:apply-templates select="//bibl[data(@xml:id)='Z']"/></td>
@@ -39,16 +44,16 @@
 
                                 <xsl:for-each select="//body/div">
                                     <xsl:if test="./head">
-                                        <tr>
-                                            <th><xsl:apply-templates select="head" mode="Z-head"/></th>
-                                            <th><xsl:apply-templates select="head" mode="A-head"/> </th>
+                                        <tr id="sect-{count(preceding::div)+1}">
+                                            <th>[&#167;<xsl:value-of select="count(preceding::div)+1"/>]  <xsl:apply-templates select="head" mode="Z-head"/></th>
+                                            <th>[&#167;<xsl:value-of select="count(preceding::div)+1"/>]  <xsl:apply-templates select="head" mode="A-head"/></th>
                                             <td><b>Notes</b> (Click on terms in text to view)</td>
                                         </tr>
                                     </xsl:if>
                                     <xsl:if test="./ab">
-                                        <tr>
-                                            <td><xsl:apply-templates select="ab" mode="Z-block"/> </td>
-                                            <td><xsl:apply-templates select="ab" mode="A-block"/> </td>
+                                        <tr id="sect-{count(preceding::div)+1}">
+                                            <td><b>[&#167;<xsl:value-of select="count(preceding::div)+1"/>]  </b><xsl:apply-templates select="ab" mode="Z-block"/> </td>
+                                            <td><b>[&#167;<xsl:value-of select="count(preceding::div)+1"/>]  </b><xsl:apply-templates select="ab" mode="A-block"/> </td>
                                             <td><b>Notes</b> (Click on terms in text to view)</td>
                                         </tr>
                                     </xsl:if>
@@ -87,5 +92,13 @@
             <p><b>Page range: </b><xsl:value-of select="(./biblScope)"/></p>
             <p><b>Notes: </b><i><xsl:value-of select="(./note)"/></i></p>     
     </xsl:template>
+    
+    <xsl:template match="rdg">
+        <span class="variant"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="//persName">
+ <!--       <span class="persName"><a href="#{@xml:id}"><xsl:apply-templates/></a></span>
+ -->   </xsl:template>
 
 </xsl:stylesheet>
