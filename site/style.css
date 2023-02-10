@@ -24,3 +24,10 @@ th, td {
 td {
     vertical-align: top;
 }
+
+span.variant{
+    color:red;
+}
+span.persName{
+    color:green;
+}
