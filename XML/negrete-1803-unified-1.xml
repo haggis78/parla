@@ -33,9 +33,10 @@
                   <date>2015</date>
                   <biblScope>pp. 413-423</biblScope>
                   <rs>Z</rs><!-- whc: addition 02 Feb -->
-                  <note>This edition aimed at a literal transcription of the manuscript sources, including the original orthography and punctuation.
-                     The footnote on p. 413 reads: "En Chile existen versiones de este parlamento en: 
-                     ANHCh, FV, vol. 813, fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión 
+                  <note>This edition aimed at a literal transcription of the manuscript sources,
+                     including the original orthography and punctuation. The footnote on p. 413
+                     reads: "En Chile existen versiones de este parlamento en: ANHCh, FV, vol. 813,
+                     fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión
                      proveniente del Fondo Varios (Marimán, 2002: 87-101)."</note>
                </bibl>
             </listBibl>
@@ -52,13 +53,13 @@
                   <rdg wit="#A">general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
                </app>de Negrete <app>
-                  <rdg wit="#A">con los Indios de Chile en los días 3,4 y 5 de marzo de mil
+                  <rdg wit="#A">con los Indios de Chile en los días 3, 4 y 5 de marzo de mil
                      ochocientos tres años, presidido por el Señor don Pedro Quijada, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
                      a nombre del Excmo. Señor Gobernador y Capitán General del Reino de
                      Chile.</rdg>
                   <rdg wit="#Z">de 1803. AGI, Chile, 204, fs. 1-17</rdg>
-             </app></head>
+               </app></head>
          </div>
          <div>
             <head><app>
@@ -238,8 +239,10 @@
                </app> del presente año de mil ochocientos tres, a <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
-               </app> de lo mandado en el
-               <app><rdg wit="#Z">Auto</rdg><rdg wit="#A">mismo</rdg></app><!--whc 1/19/23: check Z: A has mismo (already checked), Z has Auto. Genuine diff or is one of them a typo or autocorrect?-->
+               </app> de lo mandado en el <app>
+                  <rdg wit="#Z">Auto</rdg>
+                  <rdg wit="#A">mismo</rdg>
+               </app><!--whc 1/19/23: check Z: A has mismo (already checked), Z has Auto. Genuine diff or is one of them a typo or autocorrect?-->
                antecedente, <app>
                   <rdg wit="#Z">despues</rdg>
                   <rdg wit="#A">después</rdg>
@@ -1065,8 +1068,17 @@
                </app> a la Soberana autoridad, será conciderado como un rebelde<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y castigado con todo el rigor que corresponde a los malos vasallos<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y <app><rdg wit="#Z">enemigos</rdg><rdg wit="#A">enemigo</rdg></app>
-               de su propria sangre <app><rdg wit="#Z">=</rdg><rdg wit="#A">.</rdg></app> </ab>
+               </app> y castigado con todo el rigor que corresponde a los malos vasallos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y <app>
+                  <rdg wit="#Z">enemigos</rdg>
+                  <rdg wit="#A">enemigo</rdg>
+               </app> de su propria sangre <app>
+                  <rdg wit="#Z">=</rdg>
+                  <rdg wit="#A">.</rdg>
+               </app>
+            </ab>
          </div>
 
          <div>

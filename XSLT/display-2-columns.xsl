@@ -80,7 +80,7 @@
     </xsl:template>
     
     <xsl:template match="rdg[@wit[not(contains(., 'A'))]]" mode="A-rdg"/>
-<!--whc: this suppresses non-A rdg elements when called for by mode to create A text-->
+    <!--whc: this suppresses non-A rdg elements when called for by mode to create A text-->
     
     <xsl:template match="ab" mode="Z-block">
         <xsl:apply-templates mode="Z-rdg"/>
@@ -100,9 +100,10 @@
             <p><b>Notes: </b><i><xsl:value-of select="note"/></i></p>     
     </xsl:template>
   <!--WHC 09-FEB-2023: for some reason the persName template below seems not to
-      work. Not sure why yet.-->
-    <xsl:template match="//persName">
-      <span class="persName"><xsl:apply-templates/></span>
+      work. I can't get anything to match on persName even when using the test version of
+      the xml that has some. Not sure why yet.-->
+    <xsl:template match="persName">
+      <b><xsl:apply-templates/></b>  
    </xsl:template>
     
 
