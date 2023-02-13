@@ -33,8 +33,10 @@
                   <date>2015</date>
                   <biblScope>pp. 413-423</biblScope>
                   <rs>Z</rs><!-- whc: addition 02 Feb -->
-                  <note>[add any notes or description here: e.g. explain that this is a literal
-                     transcription of the MS]</note>
+                  <note>This edition aimed at a literal transcription of the manuscript sources, including the original orthography and punctuation.
+                     The footnote on p. 413 reads: "En Chile existen versiones de este parlamento en: 
+                     ANHCh, FV, vol. 813, fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión 
+                     proveniente del Fondo Varios (Marimán, 2002: 87-101)."</note>
                </bibl>
             </listBibl>
          </sourceDesc>
@@ -55,9 +57,8 @@
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
                      a nombre del Excmo. Señor Gobernador y Capitán General del Reino de
                      Chile.</rdg>
-                  <rdg wit="#Z">de 1803. AGI, Chile, 204, fs. 1-1772</rdg>
-                  <!--whc 1/18/23: looks like that should be folios 1-17 with a superscript 72 - check on this. And should it be removed altogether from this rdg and added to the sourceDesc above?-->
-               </app></head>
+                  <rdg wit="#Z">de 1803. AGI, Chile, 204, fs. 1-17</rdg>
+             </app></head>
          </div>
          <div>
             <head><app>
@@ -238,7 +239,7 @@
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
                </app> de lo mandado en el
-               Auto<!--whc 1/19/23: check Z: A has mismo (already checked), Z has Auto. Genuine diff or is one of them a typo or autocorrect?-->
+               <app><rdg wit="#Z">Auto</rdg><rdg wit="#A">mismo</rdg></app><!--whc 1/19/23: check Z: A has mismo (already checked), Z has Auto. Genuine diff or is one of them a typo or autocorrect?-->
                antecedente, <app>
                   <rdg wit="#Z">despues</rdg>
                   <rdg wit="#A">después</rdg>

@@ -14,7 +14,7 @@
     version="3.0">
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
-
+    <xsl:strip-space elements="*"/>
     <xsl:template match="/">
             <xsl:result-document method="xhtml" indent="yes" href="../site/1803-display-2cols.html"> 
                 <html>
@@ -45,15 +45,19 @@
                                 <xsl:for-each select="//body/div">
                                     <xsl:if test="./head">
                                         <tr id="sect-{count(preceding-sibling::div)+1}">
-                                            <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  <xsl:apply-templates select="head" mode="Z-head"/></th>
-                                            <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  <xsl:apply-templates select="head" mode="A-head"/></th>
+                                            <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
+                                                <xsl:apply-templates select="head" mode="Z-head"/></th>
+                                            <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
+                                                <xsl:apply-templates select="head" mode="A-head"/></th>
                                             <td><b>Notes</b> (Click on terms in text to view)</td>
                                         </tr>
                                     </xsl:if>
                                     <xsl:if test="./ab">
                                         <tr id="sect-{count(preceding-sibling::div)+1}">
-                                            <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b><xsl:apply-templates select="ab" mode="Z-block"/> </td>
-                                            <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b><xsl:apply-templates select="ab" mode="A-block"/> </td>
+                                            <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
+                                                <xsl:apply-templates select="ab" mode="Z-block"/> </td>
+                                            <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
+                                                <xsl:apply-templates select="ab" mode="A-block"/> </td>
                                             <td><b>Notes</b> (Click on terms in text to view)</td>
                                         </tr>
                                     </xsl:if>
@@ -87,13 +91,13 @@
     </xsl:template>
     
     <xsl:template match="bibl">
-            <p><b>Editor(s): </b> <xsl:apply-templates select="(./editor)"/></p> 
-            <p><b>Publication title: </b><i><xsl:value-of select="(./title)"/></i></p>
-            <p><b>Publisher: </b><xsl:value-of select="(./publisher)"/></p>
-            <p><b>Publisher location: </b><xsl:value-of select="(./pubPlace)"/></p>
-            <p><b>Publication date: </b><xsl:value-of select="(./date)"/></p>
-            <p><b>Page range: </b><xsl:value-of select="(./biblScope)"/></p>
-            <p><b>Notes: </b><i><xsl:value-of select="(./note)"/></i></p>     
+            <p><b>Editor(s): </b> <xsl:apply-templates select="editor"/></p> 
+            <p><b>Publication title: </b><i><xsl:value-of select="title"/></i></p>
+            <p><b>Publisher: </b><xsl:value-of select="publisher"/></p>
+            <p><b>Publisher location: </b><xsl:value-of select="pubPlace"/></p>
+            <p><b>Publication date: </b><xsl:value-of select="date"/></p>
+            <p><b>Page range: </b><xsl:value-of select="biblScope"/></p>
+            <p><b>Notes: </b><i><xsl:value-of select="note"/></i></p>     
     </xsl:template>
   <!--WHC 09-FEB-2023: for some reason the persName template below seems not to
       work. Not sure why yet.-->
