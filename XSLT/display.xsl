@@ -22,7 +22,7 @@ Parlamento text files down the line. -->
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                        <link rel="stylesheet" type="text/css" href="style.css" />
+                        <link rel="stylesheet" type="text/css" href="css/style.css" />
 <!-- whc 07-FEB-2023: I removed the js link that made tick boxes work. Will need to add back in, plus relevant 
                         css, to be able to change color/bold/whatever for names/places/terms etc.-->
                       <title>Negrete <xsl:value-of select="current()"/></title>
@@ -51,13 +51,13 @@ Parlamento text files down the line. -->
     </xsl:template>
     
     <xsl:template match="bibl">
-             <p><b>Editor(s): </b> <xsl:apply-templates select="(./editor)"/></p> 
-            <p><b>Publication title: </b><i><xsl:value-of select="(./title)"/></i></p>
-            <p><b>Publisher: </b><xsl:value-of select="(./publisher)"/></p>
-            <p><b>Publisher location: </b><xsl:value-of select="(./pubPlace)"/></p>
-            <p><b>Publication date: </b><xsl:value-of select="(./date)"/></p>
-            <p><b>Page range: </b><xsl:value-of select="(./biblScope)"/></p>
-            <p><b>Notes: </b><i><xsl:value-of select="(./note)"/></i></p>     
+             <p><b>Editor(s): </b> <xsl:apply-templates select="editor"/></p> 
+            <p><b>Publication title: </b><i><xsl:value-of select="title"/></i></p>
+            <p><b>Publisher: </b><xsl:value-of select="publisher"/></p>
+            <p><b>Publisher location: </b><xsl:value-of select="pubPlace"/></p>
+            <p><b>Publication date: </b><xsl:value-of select="date"/></p>
+            <p><b>Page range: </b><xsl:value-of select="biblScope"/></p>
+            <p><b>Notes: </b><i><xsl:value-of select="note"/></i></p>     
     </xsl:template>
     
     <xsl:template match="ab">

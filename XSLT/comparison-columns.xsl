@@ -19,7 +19,7 @@ Parlamento text files down the line. -->
         <xsl:result-document method="xhtml" indent="yes" href="../site/1803-comparison.html">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <head>
-                    <link rel="stylesheet" type="text/css" href="style.css" />
+                    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
                 <script src="js/comp-checkbox2.js" type="text/javascript"></script> 
                     <title>Spanish Versions: Comparison</title>

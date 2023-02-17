@@ -103,18 +103,15 @@
             <p><b>Page range: </b><xsl:value-of select="biblScope"/></p>
             <p><b>Notes: </b><i><xsl:value-of select="note"/></i></p>     
     </xsl:template>
-  <!--WHC 09-FEB-2023: for some reason the persName template below seems not to
-      work. I can't get anything to match on persName even when using the test version of
-      the xml that has some. Not sure why yet.-->
-    <xsl:template match="persName">
-      <b><xsl:apply-templates/></b>  
+
+    <xsl:template match="persName" mode="#all">
+      <span class="pers"><xsl:apply-templates/></span>  
    </xsl:template>
     
-    <xsl:template match="term">
-        <u>
-            <xsl:apply-templates/>
-        </u>
+    <xsl:template match="term" mode="#all">
+        <span class="term"><xsl:apply-templates/></span>
     </xsl:template>
-    
+    <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
+        of nodes controlled at a higher level with modal XSLT. -->
 
 </xsl:stylesheet>
