@@ -40,33 +40,38 @@
                                     <td><xsl:apply-templates select="//bibl[data(@xml:id)='A']"/></td>
                                     <th></th>
                                 </tr>
-                                <tr><th><h2>Text: Zavala</h2></th><th><h2>Text: Ayun</h2></th><th><h2>Notes</h2></th></tr>
+                                <tr><th><h2>Text: Zavala</h2></th>
+                                    <th><h2>Text: Ayun</h2></th>
+                                    <th><h2>Notes</h2></th></tr>
 
-                                <xsl:for-each select="//body/div">
-                                    <xsl:if test="./head">
-                                        <tr id="sect-{count(preceding-sibling::div)+1}">
-                                            <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
-                                                <xsl:apply-templates select="head" mode="Z-head"/></th>
-                                            <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
-                                                <xsl:apply-templates select="head" mode="A-head"/></th>
-                                            <td><b>Notes</b> (Click on terms in text to view)</td>
-                                        </tr>
-                                    </xsl:if>
-                                    <xsl:if test="./ab">
-                                        <tr id="sect-{count(preceding-sibling::div)+1}">
-                                            <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
-                                                <xsl:apply-templates select="ab" mode="Z-block"/> </td>
-                                            <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
-                                                <xsl:apply-templates select="ab" mode="A-block"/> </td>
-                                            <td><b>Notes</b> (Click on terms in text to view)</td>
-                                        </tr>
-                                    </xsl:if>
-                                </xsl:for-each>
+<xsl:apply-templates select="//body/div"/>
+                                
                             </table>
                         </div>
                     </body>
                 </html>
             </xsl:result-document>
+    </xsl:template>
+    
+    <xsl:template match="div">
+        <xsl:if test="./head">
+            <tr id="sect-{count(preceding-sibling::div)+1}">
+                <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
+                    <xsl:apply-templates select="head" mode="Z-head"/></th>
+                <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
+                    <xsl:apply-templates select="head" mode="A-head"/></th>
+                <td><b>Notes</b> (Click on terms in text to view)</td>
+            </tr>
+        </xsl:if>
+        <xsl:if test="./ab">
+            <tr id="sect-{count(preceding-sibling::div)+1}">
+                <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
+                    <xsl:apply-templates select="ab" mode="Z-block"/> </td>
+                <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
+                    <xsl:apply-templates select="ab" mode="A-block"/> </td>
+                <td><b>Notes</b> (Click on terms in text to view)</td>
+            </tr>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="head" mode="Z-head">
@@ -78,7 +83,6 @@
     <xsl:template match="head" mode="A-head">
         <xsl:apply-templates mode="A-rdg"/>
     </xsl:template>
-    
     <xsl:template match="rdg[@wit[not(contains(., 'A'))]]" mode="A-rdg"/>
     <!--whc: this suppresses non-A rdg elements when called for by mode to create A text-->
     
@@ -105,6 +109,12 @@
     <xsl:template match="persName">
       <b><xsl:apply-templates/></b>  
    </xsl:template>
+    
+    <xsl:template match="term">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
     
 
 </xsl:stylesheet>
