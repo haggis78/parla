@@ -50,7 +50,7 @@
                                     <th><h2>Text: Ayun</h2></th>
                                     <th><h2>Notes</h2></th></tr>
 
-<xsl:apply-templates select="//body/div"/>
+                                <xsl:apply-templates select="//body/div"/>
                                 
                             </table>
                         </div>
@@ -69,27 +69,44 @@
                 <td><b>Notes</b> (Click on terms in text to view)</td>
             </tr>
         </xsl:if>
+        <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
+            Get them working perfectly on div/ab and then just copy the whole thing to div/head; or figure out a way
+            to make the notes etc. their own template rule that can be called from either type of div.-->
         <xsl:if test="./ab">
             <tr id="sect-{count(preceding-sibling::div)+1}">
                 <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
                 <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
                     <xsl:apply-templates select="ab" mode="A-block"/> </td>
-                <td><b>Notes</b> (Click on terms in text to view)
+                <td>
+                    <xsl:if test=".//term">
+                    <b>Terms</b> (Click on each term to show/hide)
+                        <ul>
                 <xsl:for-each-group select=".//term" group-by="data(@n)">
                     <xsl:variable name="term-n" select="./data(@n)"/>
-                    <xsl:variable name="this-term" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
-                    <p><b><xsl:apply-templates select="$this-term//string-join(./orth, '; ')"/></b>
+                    <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
+                    <li><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b>
                         <xsl:text>: </xsl:text>
-                        <i><xsl:apply-templates select="$this-term//pos"/></i>
+                        <i><xsl:apply-templates select="$this-term-span//pos"/></i>
                         <xsl:text>. </xsl:text>
-                        <xsl:for-each select="$this-term//sense">
+                        <xsl:for-each select="$this-term-span//sense">
                             <xsl:value-of select="./data(@n)"/><xsl:text>. </xsl:text>
-                            <xsl:apply-templates/><br/>
-                        </xsl:for-each>
-                        
-                   </p>
-                </xsl:for-each-group>                </td>
+                            <xsl:apply-templates/><xsl:text>. </xsl:text>
+                        </xsl:for-each><br/>
+                        <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/>
+                    </li>
+                </xsl:for-each-group> </ul>       </xsl:if>    
+                    <xsl:if test=".//persName">
+                        <b>Persons</b> (Click on each name to show/hide) <ul>
+                        <xsl:for-each-group select=".//persName" group-by="data(@n)">
+                            <xsl:variable name="pers-n" select="./data(@n)"/>
+                            <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
+                            <li><b><xsl:apply-templates select="$this-pers/persName/concat(roleName, ' ', forename, ' ', nameLink,' ', surname, ' ', genName)!normalize-space()"/></b>
+                                <xsl:text>. </xsl:text>
+                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/>
+                            </li>
+                        </xsl:for-each-group>   </ul>     </xsl:if>
+                </td>
             </tr>
         </xsl:if>
     </xsl:template>
@@ -125,7 +142,7 @@
     </xsl:template>
 
     <xsl:template match="div//persName" mode="#all">
-      <span class="pers"><xsl:apply-templates/></span>  
+      <u><span class="pers"><xsl:apply-templates/></span></u>  
    </xsl:template>
     
     <xsl:template match="term" mode="#all">

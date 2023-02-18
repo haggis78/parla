@@ -50,9 +50,9 @@
             <head>Parlamento <app>
                   <rdg wit="#A">general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
-               </app>de Negrete <app>
-                  <rdg wit="#A">con los Indios de Chile en los días 3,4 y 5 de marzo de mil
-                     ochocientos tres años, presidido por el <persName>Señor don Pedro Quijada</persName>, Brigadier de
+               </app> de Negrete <app>
+                  <rdg wit="#A">con los Indios de Chile en los días 3, 4 y 5 de marzo de mil
+                     ochocientos tres años, presidido por el Señor don <persName n="2">Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
                      a nombre del Excmo. Señor Gobernador y Capitán General del Reino de
                      Chile.</rdg>
@@ -79,7 +79,7 @@
                </app> de mil ochocientos tres<app>
                   <rdg wit="#Z">: El Señor Don</rdg>
                   <rdg wit="#A">, el señor don</rdg>
-               </app> <persName>Pedro Quijada</persName>, Brigadier de los Reales <app>
+               </app> <persName n="2">Pedro Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z"><term n="2">Exercitos</term>,</rdg>
                   <rdg wit="#A">, <term n="2">Ejércitos</term> y</rdg>
                </app> Comandante del Batallon de <app>
@@ -208,13 +208,13 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y firmó su Señoria<app>
-                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#Z"> = </rdg>
                   <rdg wit="#A">. – </rdg>
-               </app> Pedro Quijada<app>
-                  <rdg wit="#Z"> =</rdg>
+               </app> <persName n="2">Pedro Quijada</persName><app>
+                  <rdg wit="#Z"> = </rdg>
                   <rdg wit="#A">. – </rdg>
-               </app> Gonzalo Maria de Figueroa<app>
-                  <rdg wit="#Z"> =</rdg>
+               </app> <persName n="1">Gonzalo Maria de Figueroa</persName><app>
+                  <rdg wit="#Z"> = </rdg>
                   <rdg wit="#A">. – </rdg>
                </app>
             </ab>
@@ -238,9 +238,7 @@
                </app> del presente año de mil ochocientos tres, a <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
-               </app> de lo mandado en el
-               Auto<!--whc 1/19/23: check Z: A has mismo (already checked), Z has Auto. Genuine diff or is one of them a typo or autocorrect?-->
-               antecedente, <app>
+               </app> de lo mandado en el Auto antecedente, <app>
                   <rdg wit="#Z">despues</rdg>
                   <rdg wit="#A">después</rdg>
                </app> de haberse presentado el <app>
@@ -250,8 +248,8 @@
                   <rdg wit="#Z">a</rdg>
                   <rdg wit="#A"/>
                </app> todos los Caciques con sus <app>
-                  <rdg wit="#Z">Governadores y Capitanejos</rdg>
-                  <rdg wit="#A">Gobernadores y Capitanes</rdg>
+                  <rdg wit="#Z"><term n="5">Governadores</term> y Capitanejos</rdg>
+                  <rdg wit="#A"><term n="5">Gobernadores</term> y Capitanes</rdg>
                </app> al saludo de estilo<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>

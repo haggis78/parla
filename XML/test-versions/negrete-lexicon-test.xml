@@ -66,6 +66,9 @@
                     <sense n="2">
                         <def>Definition 2 (this would be in Spanish)</def>
                     </sense>
+                    <sense n="3">
+                        <def>Definition 3 (this would be in Spanish)</def>
+                    </sense>
                     <note>Notes on this term (in Spanish) that you plan to include in the visible definition on the site.</note>
                 </entry>
                 <entry xml:lang="eng">
@@ -135,13 +138,13 @@
                 </entry>
             </superEntry>
             
-            <superEntry n="">
+            <superEntry n="5">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Governadores</orth>
+                        <orth>Gobernadores</orth>
                     </form>
-                    <gramGrp><pos></pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
                         <def>Definition 1 (this would be in Spanish)</def>
                     </sense>
@@ -152,7 +155,7 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
+                        <orth>Governors</orth>
                     </form>
                     <sense n="1">
                         <def>Definition 1 (this would be in English)</def>
