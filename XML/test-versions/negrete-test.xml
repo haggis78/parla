@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--whc 02-FEB-2023: This file is a version of the unified file that exists ONLY for me to mess around with the coding. DO NOT use for anything else! -->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--whc 02-FEB-2023: This file is a version of the unified file that exists ONLY for me to mess around with the coding. DO NOT use for anything else! -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -80,8 +80,8 @@
                   <rdg wit="#Z">: El Señor Don</rdg>
                   <rdg wit="#A">, el señor don</rdg>
                </app> <persName>Pedro Quijada</persName>, Brigadier de los Reales <app>
-                  <rdg wit="#Z"><term>Exercitos</term>,</rdg>
-                  <rdg wit="#A">, <term>Ejércitos</term> y</rdg>
+                  <rdg wit="#Z"><term n="2">Exercitos</term>,</rdg>
+                  <rdg wit="#A">, <term n="2">Ejércitos</term> y</rdg>
                </app> Comandante del Batallon de <app>
                   <rdg wit="#Z">Ynfanteria, y <term n="1">Comicionado</term> por el Excelentisimo</rdg>
                   <rdg wit="#A">Infantería y <term n="1">comisionado</term> por el Excmo.</rdg>
@@ -91,10 +91,10 @@
                </app> General para presidir el Parlamento con los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term n="2">Cantones</term><app>
+               </app> <term n="3">Cantones</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> o <term>Butalmapus</term> de <app>
+               </app> o <term n="4">Butalmapus</term> de <app>
                   <rdg wit="#Z">Yndio; dixo</rdg>
                   <rdg wit="#A">indios dijo:</rdg>
                </app> que por <app>
@@ -104,9 +104,9 @@
                   <rdg wit="#Z">Providencias</rdg>
                   <rdg wit="#A">providencias</rdg>
                </app> libradas con anticipación para la <app>
-                  <rdg wit="#Z">Convocatoria y <term>citasion</term> al Congreso, habia</rdg>
-                  <rdg wit="#A">convocatoria y <term>citación</term> al Congreso había</rdg>
-               </app> tenido aviso que los dichos <term>Butalmapus</term> se hallaban en la mayor parte a las
+                  <rdg wit="#Z">Convocatoria y citasion al Congreso, habia</rdg>
+                  <rdg wit="#A">convocatoria y citación al Congreso había</rdg>
+               </app> tenido aviso que los dichos <term n="4">Butalmapus</term> se hallaban en la mayor parte a las
                orillas del <app>
                   <rdg wit="#Z">Biovío</rdg>
                   <rdg wit="#A">Bío-Bío</rdg>
@@ -775,7 +775,7 @@
          </div>
          <pb ed="#A" n="12"/>
          <div>
-            <head>Articulos <term>publicados</term> en el Parlamento General de los Yndios de Chile congregados
+            <head>Articulos publicados en el Parlamento General de los Yndios de Chile congregados
                en el Campo de Negrete en los dias tres, quatro, y cinco de Marzo de mil ochocientos
                tres- </head>
          </div>

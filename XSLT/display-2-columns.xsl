@@ -14,13 +14,19 @@
     version="3.0">
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
+    <xsl:variable name="negreteFiles" select="collection('../XML/test-versions/?select=*.xml')"/>
+    <xsl:variable name="negText" select="document('../XML/test-versions/negrete-test.xml')"/>
+    <xsl:variable name="negLex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
+    <xsl:variable name="negPers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
+    <!--whc 18-FEB-2023: will need to change ther varables' filepaths and file handles when it's time to run over the real files-->
     <xsl:strip-space elements="*"/>
-    <xsl:template match="/">
+    
+    <xsl:template match="$negText">
             <xsl:result-document method="xhtml" indent="yes" href="../site/1803-display-2cols.html"> 
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-                        <link rel="stylesheet" type="text/css" href="style.css" />
+                        <link rel="stylesheet" type="text/css" href="css/style.css" />
 <!-- whc 07-FEB-2023: I removed the js link that made tick boxes work. Will need to add back in, plus relevant 
                         css, to be able to change color/bold/whatever for names/places/terms etc.-->
                       <title>Negrete: Text Comparison</title>
@@ -69,7 +75,21 @@
                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
                 <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
                     <xsl:apply-templates select="ab" mode="A-block"/> </td>
-                <td><b>Notes</b> (Click on terms in text to view)</td>
+                <td><b>Notes</b> (Click on terms in text to view)
+                <xsl:for-each-group select=".//term" group-by="data(@n)">
+                    <xsl:variable name="term-n" select="./data(@n)"/>
+                    <xsl:variable name="this-term" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
+                    <p><b><xsl:apply-templates select="$this-term//string-join(./orth, '; ')"/></b>
+                        <xsl:text>: </xsl:text>
+                        <i><xsl:apply-templates select="$this-term//pos"/></i>
+                        <xsl:text>. </xsl:text>
+                        <xsl:for-each select="$this-term//sense">
+                            <xsl:value-of select="./data(@n)"/><xsl:text>. </xsl:text>
+                            <xsl:apply-templates/><br/>
+                        </xsl:for-each>
+                        
+                   </p>
+                </xsl:for-each-group>                </td>
             </tr>
         </xsl:if>
     </xsl:template>
@@ -104,12 +124,12 @@
             <p><b>Notes: </b><i><xsl:value-of select="note"/></i></p>     
     </xsl:template>
 
-    <xsl:template match="persName" mode="#all">
+    <xsl:template match="div//persName" mode="#all">
       <span class="pers"><xsl:apply-templates/></span>  
    </xsl:template>
     
     <xsl:template match="term" mode="#all">
-        <span class="term"><xsl:apply-templates/></span>
+        <b><span class="term"><xsl:apply-templates/></span></b>
     </xsl:template>
     <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
         of nodes controlled at a higher level with modal XSLT. -->
