@@ -830,7 +830,10 @@
          </div>
 
          <div>
-            <ab>Que <app>
+            <ab><app>
+                  <rdg wit="#A">2ᵒ.-</rdg>
+                  <rdg wit="#Z"/>
+               </app>Que <app>
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiendo</rdg>
                </app> tratado en el Parlamento de Lonquilmo sobre los medios de entablar las ferias<app>
@@ -957,7 +960,10 @@
 
          <div>
             <!--what should I do about the number?-->
-            <ab>3ᵒ.- Que <app>
+            <ab><app>
+                  <rdg wit="#A">3ᵒ.-</rdg>
+                  <rdg wit="#Z"/>
+               </app> Que <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
                </app> se <app>
@@ -1021,7 +1027,10 @@
          </div>
 
          <div>
-            <ab>Que <app>
+            <ab><app>
+                  <rdg wit="#A">4ᵒ.-</rdg>
+                  <rdg wit="#Z"/>
+               </app>Que <app>
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiéndose</rdg>
                </app> tratado <app>
@@ -1082,7 +1091,10 @@
          </div>
 
          <div>
-            <ab>Que fue <app>
+            <ab><app>
+                  <rdg wit="#A">5.-</rdg>
+                  <rdg wit="#Z"/>
+               </app>Que fue <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
                </app> prevenido a los Butalmapus en el anterior Parlamento, no permitan, ni den
@@ -1110,17 +1122,57 @@
                </app> de las plazas, villas<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y ciudades a que correspondan, y muy principalmente a los desertores del
-               <app><rdg wit="#Z">Presidio</rdg><rdg wit="#A">presidio</rdg></app> de Valdivia, imitando a los <app><rdg wit="#Z">caciques de Tolten</rdg><rdg wit="#A">Caciques de Toltén</rdg></app>, y de aquella parte del sur<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app>
-               que los persiguen<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y entregan a su <app><rdg wit="#Z">Governador</rdg><rdg wit="#A">Gobernador</rdg></app>, <app><rdg wit="#Z">mirandolos</rdg><rdg wit="#A">mirándolos</rdg></app> como unos enemigos de sus
-               haciendas<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y de la tranquilidad <app><rdg wit="#Z">publica: Por</rdg><rdg wit="#A">pública, por</rdg></app> lo que se les reencarga mucho la
-               <app><rdg wit="#Z">aprehencion</rdg><rdg wit="#A">aprehensión</rdg></app> de estos malvados<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> en el supuesto que por cada uno que entregaren en
-               <app><rdg wit="#Z">qualquiera de las Plazas de la Barrera, se</rdg><rdg wit="#A">cualquiera de las plazas de la Barrera de</rdg></app> les <app><rdg wit="#Z">daran</rdg><rdg wit="#A">darán</rdg></app> doce pesos, <app><rdg wit="#Z">segun</rdg><rdg wit="#A">según</rdg></app> se acordó en
-               el sobredicho anterior Parlamento<app><rdg wit="#Z"> =</rdg><rdg wit="#A">.</rdg></app> </ab>
+               </app> y ciudades a que correspondan, y muy principalmente a los desertores del <app>
+                  <rdg wit="#Z">Presidio</rdg>
+                  <rdg wit="#A">presidio</rdg>
+               </app> de Valdivia, imitando a los <app>
+                  <rdg wit="#Z">caciques de Tolten</rdg>
+                  <rdg wit="#A">Caciques de Toltén</rdg>
+               </app>, y de aquella parte del sur<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que los persiguen<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y entregan a su <app>
+                  <rdg wit="#Z">Governador</rdg>
+                  <rdg wit="#A">Gobernador</rdg>
+               </app>, <app>
+                  <rdg wit="#Z">mirandolos</rdg>
+                  <rdg wit="#A">mirándolos</rdg>
+               </app> como unos enemigos de sus haciendas<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y de la tranquilidad <app>
+                  <rdg wit="#Z">publica: Por</rdg>
+                  <rdg wit="#A">pública, por</rdg>
+               </app> lo que se les reencarga mucho la <app>
+                  <rdg wit="#Z">aprehencion</rdg>
+                  <rdg wit="#A">aprehensión</rdg>
+               </app> de estos malvados<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> en el supuesto que por cada uno que entregaren en <app>
+                  <rdg wit="#Z">qualquiera de las Plazas de la Barrera, se</rdg>
+                  <rdg wit="#A">cualquiera de las plazas de la Barrera de</rdg>
+               </app> les <app>
+                  <rdg wit="#Z">daran</rdg>
+                  <rdg wit="#A">darán</rdg>
+               </app> doce pesos, <app>
+                  <rdg wit="#Z">segun</rdg>
+                  <rdg wit="#A">según</rdg>
+               </app> se acordó en el sobredicho anterior Parlamento<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">.</rdg>
+               </app>
+            </ab>
          </div>
 
          <div>
-            <ab><pb ed="#Z" n="416"/>Que <app>
+            <ab><pb ed="#Z" n="416"/><app>
+                  <rdg wit="#A">6ᵒ.-</rdg>
+                  <rdg wit="#Z"/>
+               </app>Que <app>
                   <rdg wit="#Z">hallandose</rdg>
                   <rdg wit="#A">hallándose</rdg>
                </app>
@@ -1213,7 +1265,10 @@
          </div>
 
          <div>
-            <ab>Que estando <app>
+            <ab><app>
+                  <rdg wit="#A">7ᵒ.-</rdg>
+                  <rdg wit="#Z"/>
+               </app>Que estando <app>
                   <rdg wit="#Z">privado segun el Articulo</rdg>
                   <rdg wit="#A">privada según el artículo</rdg>
                </app> quince del <app>
@@ -1259,7 +1314,10 @@
          </div>
 
          <div>
-            <ab>Que por <app>
+            <ab><app>
+                  <rdg wit="#A">8ᵒ.-</rdg>
+                  <rdg wit="#Z"/>
+               </app>Que por <app>
                   <rdg wit="#Z">ultimo,</rdg>
                   <rdg wit="#A">último</rdg>
                </app> abrazando la piedad de nuestro Soberano todos los <app>
