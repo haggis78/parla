@@ -77,8 +77,8 @@
                   <rdg wit="#Z">Febrero</rdg>
                   <rdg wit="#A">febrero</rdg>
                </app> de mil ochocientos tres<app>
-                  <rdg wit="#Z">: El Señor Don</rdg>
-                  <rdg wit="#A">, el señor don</rdg>
+                  <rdg wit="#Z">: El Señor Don </rdg>
+                  <rdg wit="#A">, el señor don </rdg>
                </app> <persName n="2">Pedro Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z"><term n="2">Exercitos</term>,</rdg>
                   <rdg wit="#A">, <term n="2">Ejércitos</term> y</rdg>
@@ -91,7 +91,7 @@
                </app> General para presidir el Parlamento con los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term n="3">Cantones</term><app>
+               </app> <term n="3"> Cantones</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> o <term n="4">Butalmapus</term> de <app>
