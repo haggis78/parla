@@ -70,7 +70,7 @@
          </div>
 
          <div>
-            <ab>En el campo de Negrete en <app>
+            <ab>En el campo de <placeName n="1">Negrete</placeName> en <app>
                   <rdg wit="#Z">veinte y siete dias</rdg>
                   <rdg wit="#A">veintisiete días</rdg>
                </app> del mes de <app>
@@ -108,8 +108,8 @@
                   <rdg wit="#A">convocatoria y citación al Congreso había</rdg>
                </app> tenido aviso que los dichos <term n="4">Butalmapus</term> se hallaban en la mayor parte a las
                orillas del <app>
-                  <rdg wit="#Z">Biovío</rdg>
-                  <rdg wit="#A">Bío-Bío</rdg>
+                  <rdg wit="#Z"><placeName n="101">Biovío</placeName></rdg>
+                  <rdg wit="#A"><placeName n="101">Bío-Bío</placeName></rdg>
                </app> para presentarse el día primero de <app>
                   <rdg wit="#Z">Marzo</rdg>
                   <rdg wit="#A">marzo</rdg>

@@ -18,6 +18,8 @@
     <xsl:variable name="negText" select="document('../XML/test-versions/negrete-test.xml')"/>
     <xsl:variable name="negLex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
     <xsl:variable name="negPers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
+    <xsl:variable name="negPlace" select="document('../XML/test-versions/negrete-locations-test.xml')"/>
+    
     <!--whc 18-FEB-2023: will need to change ther varables' filepaths and file handles when it's time to run over the real files-->
     <xsl:strip-space elements="*"/>
     
@@ -78,34 +80,49 @@
                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
                 <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
                     <xsl:apply-templates select="ab" mode="A-block"/> </td>
+                
                 <td>
                     <xsl:if test=".//term">
-                    <b>Terms</b> (Click on each term to show/hide)
-                        <ul>
+                        <details>
+                            <summary><b>Terms</b></summary> <i>Click each term to expand/collapse</i>
+                        <p>
                 <xsl:for-each-group select=".//term" group-by="data(@n)">
                     <xsl:variable name="term-n" select="./data(@n)"/>
                     <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
-                    <li><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b>
-                        <xsl:text>: </xsl:text>
+                    <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
                         <i><xsl:apply-templates select="$this-term-span//pos"/></i>
                         <xsl:text>. </xsl:text>
                         <xsl:for-each select="$this-term-span//sense">
                             <xsl:value-of select="./data(@n)"/><xsl:text>. </xsl:text>
                             <xsl:apply-templates/><xsl:text>. </xsl:text>
                         </xsl:for-each><br/>
-                        <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/>
-                    </li>
-                </xsl:for-each-group> </ul>       </xsl:if>    
+                        <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/><br/></details>
+                </xsl:for-each-group> </p>   </details>    </xsl:if>
+                    
+                    
                     <xsl:if test=".//persName">
-                        <b>Persons</b> (Click on each name to show/hide) <ul>
+                        <details><summary><b>Persons</b></summary> <i>Click each name to expand/collapse</i>
+                            <p>
                         <xsl:for-each-group select=".//persName" group-by="data(@n)">
                             <xsl:variable name="pers-n" select="./data(@n)"/>
                             <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
-                            <li><b><xsl:apply-templates select="$this-pers/persName/concat(roleName, ' ', forename, ' ', nameLink,' ', surname, ' ', genName)!normalize-space()"/></b>
-                                <xsl:text>. </xsl:text>
-                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/>
-                            </li>
-                        </xsl:for-each-group>   </ul>     </xsl:if>
+                            <details><summary><b><xsl:apply-templates select="$this-pers/persName/concat
+                                (roleName, ' ', forename, ' ', nameLink,' ', surname, ' ', genName)!normalize-space()"/></b></summary>
+                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
+                        </xsl:for-each-group>   </p></details>     </xsl:if>
+                    
+                    <xsl:if test=".//placeName">
+                        <details><summary><b>Places</b></summary> <i>Click each place to expand/collapse</i>
+                            <p>
+                                <xsl:for-each-group select=".//placeName" group-by="data(@n)">
+                                    <xsl:variable name="place-n" select="./data(@n)"/>
+                                    
+                                    <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
+                                    <details><summary><b><xsl:apply-templates select="$this-place/concat
+                                        (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
+                                        <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
+                                        <xsl:apply-templates select="$this-place/note[data(@type)='link']"/></details>
+                                </xsl:for-each-group>   </p></details>     </xsl:if>
                 </td>
             </tr>
         </xsl:if>
@@ -147,6 +164,10 @@
     
     <xsl:template match="term" mode="#all">
         <b><span class="term"><xsl:apply-templates/></span></b>
+    </xsl:template>
+    
+    <xsl:template match="placeName" mode="#all">
+        <i><span class="place"><xsl:apply-templates/></span></i>
     </xsl:template>
     <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
         of nodes controlled at a higher level with modal XSLT. -->
