@@ -84,7 +84,7 @@
                 <td>
                     <xsl:if test=".//term">
                         <details>
-                            <summary><b>Terms</b></summary> <i>Click each term to expand/collapse</i>
+                            <summary><span class="title"><b>Terms</b></span></summary> <i>Click each term to expand/collapse</i>
                         <p>
                 <xsl:for-each-group select=".//term" group-by="data(@n)">
                     <xsl:variable name="term-n" select="./data(@n)"/>
@@ -101,7 +101,7 @@
                     
                     
                     <xsl:if test=".//persName">
-                        <details><summary><b>Persons</b></summary> <i>Click each name to expand/collapse</i>
+                        <details><summary><span class="title"><b>Persons</b></span></summary> <i>Click each name to expand/collapse</i>
                             <p>
                         <xsl:for-each-group select=".//persName" group-by="data(@n)">
                             <xsl:variable name="pers-n" select="./data(@n)"/>
@@ -112,7 +112,7 @@
                         </xsl:for-each-group>   </p></details>     </xsl:if>
                     
                     <xsl:if test=".//placeName">
-                        <details><summary><b>Places</b></summary> <i>Click each place to expand/collapse</i>
+                        <details><summary><span class="title"><b>Places</b></span></summary> <i>Click each place to expand/collapse</i>
                             <p>
                                 <xsl:for-each-group select=".//placeName" group-by="data(@n)">
                                     <xsl:variable name="place-n" select="./data(@n)"/>
