@@ -782,7 +782,12 @@
                </app>
             </head>
          </div>
-         <!--There is no Articulo Primero heading here. I'm not sure if that is related to the earlier comment, but I'll mention it just in case-->
+         <div>
+            <head><app>
+                  <rdg wit="#A">Artículo Primero</rdg>
+                  <rdg wit="#Z"/>
+               </app></head>
+         </div>
          <div>
             <ab>Que siendo el primer paso de este Congreso<app>
                   <rdg wit="#Z">,</rdg>
@@ -811,7 +816,6 @@
                </app> prometer y jurar <app>
                   <rdg wit="#Z">serles</rdg>
                   <rdg wit="#A">series</rdg>
-                  <!--possible typo in serles instead of series-->
                </app> en todo fieles y obedientes <app>
                   <rdg wit="#Z">Vasallos</rdg>
                   <rdg wit="#A">vasallos</rdg>
@@ -826,6 +830,7 @@
                </app> se expresará en los <app>
                   <rdg wit="#Z">Articulos siguientes = </rdg>
                   <rdg wit="#A">artículos.</rdg>
+                  <!--missing siguientes-->
                </app></ab>
          </div>
 
@@ -959,7 +964,6 @@
          </div>
 
          <div>
-            <!--what should I do about the number?-->
             <ab><app>
                   <rdg wit="#A">3ᵒ.-</rdg>
                   <rdg wit="#Z"/>
@@ -1093,6 +1097,7 @@
          <div>
             <ab><app>
                   <rdg wit="#A">5.-</rdg>
+                  <!--there is no superscript 0 here-->
                   <rdg wit="#Z"/>
                </app>Que fue <app>
                   <rdg wit="#Z">tambien</rdg>
@@ -1412,9 +1417,8 @@
                </app> de todas las <app>
                   <rdg wit="#Z">miciones,</rdg>
                   <rdg wit="#A">Misiones</rdg>
-               </app> con encargo muy particular de que dirija
-               todos<!--ew 2/20/23: On ayun there is a potential error with the word todas but I'm not sure what to do-->
-               sus trabajos y empeños por el bien de la tierra, favoreciendo<app>
+               </app> con encargo muy particular de que dirija todos sus trabajos y empeños por el
+               bien de la tierra, favoreciendo<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> e ilustrando en el camino del <app>
@@ -1615,14 +1619,61 @@
          </div>
 
          <div>
-            <ab>ciento y tantos caciques se explicaron en los mismos terminos poco mas o menos, con
-               expresiones tan vivas de reconocimiento, que acreditaban la buena disposicion de sus
-               corazones para observar todo lo prevenido. Y siendo ya las quatro de la tarde,
-               suplicaron cesase la parla, que se continuaria en el dia siguiente, lo que concedido
-               por su Señoria, se retiró con su Comitiva, y lo fi rmo = Pedro Quijada = Gonzalo
-               Maria de Figueroa = </ab>
+            <ab><app>
+                  <rdg wit="#Z">ciento</rdg>
+                  <rdg wit="#A">Ciento</rdg>
+               </app> y tantos caciques se explicaron en los mismos <app>
+                  <rdg wit="#Z">terminos</rdg>
+                  <rdg wit="#A">términos</rdg>
+               </app> poco <app>
+                  <rdg wit="#Z">mas</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> o menos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> con expresiones tan vivas de reconocimiento<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que acreditaban la <app>
+                  <rdg wit="#Z">buena disposicion</rdg>
+                  <rdg wit="#A">nueva disposición</rdg>
+               </app> de sus corazones para observar todo lo prevenido<app>
+                  <rdg wit="#Z">. Y</rdg>
+                  <rdg wit="#A">, y</rdg>
+               </app> siendo ya las <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> de la tarde<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> suplicaron cesase la <app>
+                  <rdg wit="#Z">parla</rdg>
+                  <rdg wit="#A">Parla</rdg>
+               </app>, que se <app>
+                  <rdg wit="#Z">continuaria</rdg>
+                  <rdg wit="#A">continuaría</rdg>
+               </app> en el <app>
+                  <rdg wit="#Z">dia</rdg>
+                  <rdg wit="#A">día</rdg>
+               </app> siguiente, lo que concedido por su <app>
+                  <rdg wit="#Z">Señoria</rdg>
+                  <rdg wit="#A">Señoría</rdg>
+               </app>, se retiró con su <app>
+                  <rdg wit="#Z">Comitiva,</rdg>
+                  <rdg wit="#A">comitiva</rdg>
+               </app> y lo firmo<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">. -</rdg>
+               </app> Pedro Quijada<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">. -</rdg>
+               </app> Gonzalo Maria de Figueroa<app>
+                  <rdg wit="#Z"> = </rdg>
+                  <rdg wit="#A">.”</rdg>
+               </app></ab>
+            <pb ed="#A" n="19"/>
          </div>
-
+         <div><head><app><rdg wit="#Z"/><rdg wit="#A">Segunda acta diaria: 4 de Marzo de 1803</rdg></app></head></div>
          <div>
             <ab>El dia quatro de dicho mes y año, hecha la señal prevenida por el cañon a la misma
                hora que el dia antes, y congregandose prontamente en la ramada los Butalmapus, pasó
