@@ -121,7 +121,7 @@
                                     <details><summary><b><xsl:apply-templates select="$this-place/concat
                                         (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
                                         <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
-                                        <xsl:apply-templates select="$this-place/note[data(@type)='link']"/></details>
+                                        <xsl:apply-templates select="$this-place/note[data(@type)='map-link']"/></details>
                                 </xsl:for-each-group>   </p></details>     </xsl:if>
                 </td>
             </tr>
