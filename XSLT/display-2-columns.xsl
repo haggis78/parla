@@ -34,7 +34,9 @@
                       <title>Negrete: Text Comparison</title>
                     </head>
                     <body>
-                        
+                        <img src="../images/heading-bickham-font.png" width="1100"
+                            alt="header with image of the words Parlamentos Project in historic script" />
+                        <hr />
                         <div class="content">
                             <h1><xsl:apply-templates select="//titleStmt/title"/></h1>
                             <h3>Skip to section:<xsl:text>   </xsl:text>
