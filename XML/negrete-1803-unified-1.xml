@@ -1673,27 +1673,163 @@
                </app></ab>
             <pb ed="#A" n="19"/>
          </div>
-         <div><head><app><rdg wit="#Z"/><rdg wit="#A">Segunda acta diaria: 4 de Marzo de 1803</rdg></app></head></div>
          <div>
-            <ab>El dia quatro de dicho mes y año, hecha la señal prevenida por el cañon a la misma
-               hora que el dia antes, y congregandose prontamente en la ramada los Butalmapus, pasó
-               su Señoria a ella con sus acompañados, y tomando su asiento, recivió el saludo y
-               atenciones acostumbradas de los caciques, continuando el Governador Curinaguel en los
-               mismos terminos que el dia antecedente, con los que aun restaban, y no habian
-               recivido sus palabras, cuya parla, y contextacion de ciento veinte y siete caciques,
-               duró hasta las quatro y media de la tarde, manifestandose todos en la mejor
-               dispocicion de conservarse fi eles, adelantar el comercio reciproco, manteniendo
-               francos sus caminos como un fundamento de este tratado, y muy particularmente para
-               todos los padres micioneros que podrian trancitar por sus tierras libremente, que
-               ellos los conducirian en los brazos si fuese necesario, con todo el respeto y amor
-               devido, y que lo mismo practicarian con sus españoles, segun lo tenian acreditado,
-               prometiendo cum-plirlo unanimemente, como todos los Articulos, y consejos que se les
-               habian comunica-do de parte de su Rey y Señor, ratifi cando fi delidad a su
-               Soberania, y pidiendo por ulti-mo se suspendiese aquel acto, respecto a lo muy
-               fatigados que se hallaban, a que accedió su Señoria, previniendolos para el siguiente
-               dia, en que por sus expresiones y consejos, les acreditaria el interez que tenia de
-               su fi delidad, dando ellos pruebas por su parte de su buena dispocicion y obediencia;
-               y actuando todo en forma, lo fi rmó = Pedro Quijada = Gonzalo Maria de Figueroa =
+            <head><app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">Segunda acta diaria: 4 de Marzo de 1803</rdg>
+               </app></head>
+         </div>
+         <div>
+            <ab><app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">“</rdg>
+               </app>El <app>
+                  <rdg wit="#Z">dia quatro</rdg>
+                  <rdg wit="#A">día cuatro</rdg>
+               </app> de dicho mes y año, hecha la señal prevenida por el cañon a la misma hora que
+               el <app>
+                  <rdg wit="#Z">dia</rdg>
+                  <rdg wit="#A">día</rdg>
+               </app> antes, y <app>
+                  <rdg wit="#Z">congregandose</rdg>
+                  <rdg wit="#A">congregándose</rdg>
+               </app> prontamente en la <app>
+                  <rdg wit="#Z">ramada</rdg>
+                  <rdg wit="#A">Ramada,</rdg>
+               </app> los Butalmapus, pasó su <app>
+                  <rdg wit="#Z">Señoria</rdg>
+                  <rdg wit="#A">señoría</rdg>
+               </app> a ella con sus acompañados, y tomando su asiento<app>
+                  <rdg wit="#Z">, recivió</rdg>
+                  <rdg wit="#A">recibió</rdg>
+               </app> el saludo y atenciones acostumbradas de los caciques, continuando el <app>
+                  <rdg wit="#Z">Governador Curinaguel</rdg>
+                  <rdg wit="#A">Gobernador Curinagüel</rdg>
+               </app> en los<app>
+                  <rdg wit="#Z"> mismos terminos que el dia antecedente, con</rdg>
+                  <rdg wit="#A">en</rdg>
+               </app> los que aun restaban<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y no <app>
+                  <rdg wit="#Z">habian recivido</rdg>
+                  <rdg wit="#A">habían recibido</rdg>
+               </app> sus palabras, cuya <app>
+                  <rdg wit="#Z">parla, y contextacion</rdg>
+                  <rdg wit="#A">Parla y contestación</rdg>
+               </app> de ciento <app>
+                  <rdg wit="#Z">veinte y siete caciques, duró</rdg>
+                  <rdg wit="#A">veintisiete Caciques, duro</rdg>
+               </app> hasta las <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> y media de la tarde, <app>
+                  <rdg wit="#Z">manifestandose</rdg>
+                  <rdg wit="#A">manifestándose</rdg>
+               </app> todos en la mejor <app>
+                  <rdg wit="#Z">dispocicion</rdg>
+                  <rdg wit="#A">disposición</rdg>
+               </app> de conservarse fieles, adelantar el comercio <app>
+                  <rdg wit="#Z">reciproco</rdg>
+                  <rdg wit="#A">recíproco</rdg>
+               </app>, manteniendo francos sus caminos como <app>
+                  <rdg wit="#Z">un</rdg>
+                  <rdg wit="#A"/>
+               </app> fundamento de este tratado<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y muy particularmente para todos los <app>
+                  <rdg wit="#Z">padres micioneros</rdg>
+                  <rdg wit="#A">Padres Misioneros</rdg>
+               </app> que <app>
+                  <rdg wit="#Z">podrian</rdg>
+                  <rdg wit="#A">podrían</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">trancitar</rdg>
+                  <rdg wit="#A">transitar</rdg>
+               </app> por sus tierras libremente<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que ellos los <app>
+                  <rdg wit="#Z">conducirian</rdg>
+                  <rdg wit="#A">conducirían</rdg>
+               </app> en los brazos<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> si fuese necesario, con todo el respeto y amor <app>
+                  <rdg wit="#Z">devido</rdg>
+                  <rdg wit="#A">debido</rdg>
+               </app>, y que lo mismo <app>
+                  <rdg wit="#Z">practicarian</rdg>
+                  <rdg wit="#A">practicarían</rdg>
+               </app> con sus españoles<app>
+                  <rdg wit="#Z">, segun</rdg>
+                  <rdg wit="#A">según</rdg>
+               </app> lo <app>
+                  <rdg wit="#Z">tenian</rdg>
+                  <rdg wit="#A">tenían</rdg>
+               </app> acreditado, prometiendo cumplirlo <app>
+                  <rdg wit="#Z">unanimemente,</rdg>
+                  <rdg wit="#A">unánimemente</rdg>
+               </app> como todos los <app>
+                  <rdg wit="#Z">Articulos,</rdg>
+                  <rdg wit="#A">artículos</rdg>
+               </app> y consejos que se les <app>
+                  <rdg wit="#Z">habian</rdg>
+                  <rdg wit="#A">habían</rdg>
+               </app> comunicado de parte de su Rey y Señor<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> ratificando fidelidad a su <app>
+                  <rdg wit="#Z">Soberania</rdg>
+                  <rdg wit="#A">Soberanía</rdg>
+               </app>, y pidiendo por <app>
+                  <rdg wit="#Z">ultimo</rdg>
+                  <rdg wit="#A">último</rdg>
+               </app> se suspendiese aquel acto<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> respecto a lo muy fatigados que se hallaban, a que accedió su <app>
+                  <rdg wit="#Z">Señoria</rdg>
+                  <rdg wit="#A">Señoría</rdg>
+               </app>, <app>
+                  <rdg wit="#Z">previniendolos</rdg>
+                  <rdg wit="#A">proviniéndoles</rdg>
+               </app> para el siguiente <app>
+                  <rdg wit="#Z">dia,</rdg>
+                  <rdg wit="#A">día</rdg>
+               </app> en que por sus expresiones y consejos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> les <app>
+                  <rdg wit="#Z">acreditaria</rdg>
+                  <rdg wit="#A">acreditaría</rdg>
+               </app> el <app>
+                  <rdg wit="#Z">interez</rdg>
+                  <rdg wit="#A">interés</rdg>
+               </app> que <app>
+                  <rdg wit="#Z">tenia</rdg>
+                  <rdg wit="#A">tenía</rdg>
+               </app> de su fidelidad, dando ellos pruebas por su parte de su buena <app>
+                  <rdg wit="#Z">dispocicion</rdg>
+                  <rdg wit="#A">disposición</rdg>
+               </app> y obediencia<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> y actuando todo en forma<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> lo firmó<app>
+                  <rdg wit="#Z"> = Pedro Quijada =</rdg>
+                  <rdg wit="#A">. -Pedro Quijada. -</rdg>
+               </app> Gonzalo <app>
+                  <rdg wit="#Z">Maria</rdg>
+                  <rdg wit="#A">María</rdg>
+               </app> de Figueroa<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">.-”</rdg>
+               </app><pb ed="#A" n="20"/>
             </ab>
          </div>
 
