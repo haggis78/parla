@@ -1832,72 +1832,412 @@
                </app><pb ed="#A" n="20"/>
             </ab>
          </div>
-
          <div>
-            <ab>El dia cinco del sobredicho mes y año, hecha la señal como los dias anteriores a la
-               misma hora, y congregados los Butalmapus en la ramada, pasó a ella su Señoria con su
-               acompañamiento, y tomando asiento, recivió el saludo, y atencio-nes que en los dias
-               antecedentes de parte de los Butalmapus. En este estado se puso en pie el Governador
-               Curinaguel, y dirigió a su Señoria el razonamiento siguiente: Hace diez años que en
-               este proprio lugar se juntó la tierra para celebrar Parlamento a presencia del
-               Excelentisimo Señor Marqués de Osorno, cuyos Tratados y consejos se han procura-do
-               cumplir con la mayor excrupulosidad, y mucho mas los que miran al libre y recipro-co
-               comercio que tantas ventajas atrahe al bien comun, pues aunque en las Reducciones de
-               Boroa, y otras, no han faltado algunos enredos y desazones, como que la autoridad de
-               los caudillos no tiene la fuerza devida para contenerlos, sin embargo se han
-               disipado, <pb ed="#Z" n="418"/>adelantandose la quietud publica, la agricultura,
-               crianzas de ganados, y dando al comer-cio toda la extencion de que son capazes los
-               pocos ramos que poseen para su trafi co, cuyas ventajas les han llenado de comodidad,
-               olvidados enteramente de las malocas que anteriormente hicieron tanto daño entre los
-               proprios Butalmapus, llegando hoy al col-mo de la paz, que les ha proporcionado el
-               haver cumplido con los Tratados, y consejos que recivieron en aquel Congreso, y los
-               mas que se les han dispensado continuamente; y que habiendo concurrido los quatro
-               Butalmapus a celebrar en estos dias igual Parla-mento, a su peticion, han oido con el
-               mayor gusto quanto se les propuso el dia primero de su apertura, y desde luego daba
-               gracias a su Magestad por los benefi cios que les dis-pensaba, y ofrecia a nombre de
-               toda la Tierra cumplir con los Tratados en general, y cada uno en particular; como
-               medios de afi rmar la tranquilidad y sosiego que les resulta, y tienen por
-               experiencia = </ab>
+            <head><app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">Ultima acta diaria: 5 de Marzo de 1803</rdg>
+               </app></head>
+         </div>
+         <div>
+            <ab><app>
+                  <rdg wit="#Z">El dia</rdg>
+                  <rdg wit="#A">“El día</rdg>
+               </app> cinco del sobredicho mes y <app>
+                  <rdg wit="#Z">año</rdg>
+                  <rdg wit="#A">ano</rdg>
+               </app>, hecha la señal como los <app>
+                  <rdg wit="#Z">dias</rdg>
+                  <rdg wit="#A">días</rdg>
+               </app> anteriores a la misma hora<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y congregados los Butalmapus en la <app>
+                  <rdg wit="#Z">ramada</rdg>
+                  <rdg wit="#A">Ramada</rdg>
+               </app>, pasó a ella su <app>
+                  <rdg wit="#Z">Señoria</rdg>
+                  <rdg wit="#A">Señoría</rdg>
+               </app> con su acompañamiento, y tomando asiento<app>
+                  <rdg wit="#Z">, recivió</rdg>
+                  <rdg wit="#A"> recibió</rdg>
+               </app> el saludo<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y atenciones que en los <app>
+                  <rdg wit="#Z">dias</rdg>
+                  <rdg wit="#A">días</rdg>
+               </app> antecedentes de parte de los Butalmapus<app>
+                  <rdg wit="#Z">. En</rdg>
+                  <rdg wit="#A">: en</rdg>
+               </app> este estado se puso en pie el <app>
+                  <rdg wit="#Z">Governador Curinaguel</rdg>
+                  <rdg wit="#A">Gobernador Curinagüel</rdg>
+               </app>, y dirigió a su <app>
+                  <rdg wit="#Z">Señoria el razonamiento</rdg>
+                  <rdg wit="#A">Señoría el Razonamiento</rdg>
+               </app> siguiente: Hace diez años que en este proprio lugar se juntó la <app>
+                  <rdg wit="#Z">tierra</rdg>
+                  <rdg wit="#A">Tierra</rdg>
+               </app> para celebrar Parlamento a presencia del <app>
+                  <rdg wit="#Z">Excelentisimo</rdg>
+                  <rdg wit="#A">Excmo.</rdg>
+               </app> Señor Marqués de Osorno, cuyos <app>
+                  <rdg wit="#Z">Tratados</rdg>
+                  <rdg wit="#A">tratados</rdg>
+               </app> y consejos<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> se han procurado cumplir con la mayor <app>
+                  <rdg wit="#Z">excrupulosidad</rdg>
+                  <rdg wit="#A">escrupulosidad</rdg>
+               </app>, y mucho <app>
+                  <rdg wit="#Z">mas</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> los que miran al libre y <app>
+                  <rdg wit="#Z">reciproco</rdg>
+                  <rdg wit="#A">recíproco</rdg>
+               </app> comercio<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> que tantas ventajas <app>
+                  <rdg wit="#Z">atrahe</rdg>
+                  <rdg wit="#A">atrae</rdg>
+               </app> al bien <app>
+                  <rdg wit="#Z">comun</rdg>
+                  <rdg wit="#A">común</rdg>
+               </app>, pues aunque en las Reducciones de Boroa<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y otras<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> no han faltado algunos enredos y desazones, como que la autoridad de los
+               caudillos no tiene la fuerza <app>
+                  <rdg wit="#Z">devida</rdg>
+                  <rdg wit="#A">debida</rdg>
+               </app> para <app>
+                  <rdg wit="#Z">contenerlos</rdg>
+                  <rdg wit="#A">contenderlos</rdg>
+               </app>, sin embargo se han disipado, <pb ed="#Z" n="418"/><app>
+                  <rdg wit="#Z">adelantandose</rdg>
+                  <rdg wit="#A">adelantándose</rdg>
+               </app> la quietud <app>
+                  <rdg wit="#Z">publica</rdg>
+                  <rdg wit="#A">pública</rdg>
+               </app>, la agricultura, crianzas de ganados, y dando al comercio toda la <app>
+                  <rdg wit="#Z">extencion</rdg>
+                  <rdg wit="#A">extensión</rdg>
+               </app> de que son <app>
+                  <rdg wit="#Z">capazes</rdg>
+                  <rdg wit="#A">capaces</rdg>
+               </app> los pocos ramos que poseen para su <app>
+                  <rdg wit="#Z">trafico</rdg>
+                  <rdg wit="#A">tráfico</rdg>
+               </app>, cuyas ventajas les han llenado de comodidad, olvidados enteramente de las <app>
+                  <rdg wit="#Z">malocas</rdg>
+                  <rdg wit="#A">Malocas</rdg>
+               </app> que anteriormente hicieron tanto daño entre los proprios Butalmapus, llegando
+               hoy al colmo de la paz, que les ha proporcionado el <app>
+                  <rdg wit="#Z">haver</rdg>
+                  <rdg wit="#A">haber</rdg>
+               </app> cumplido con los <app>
+                  <rdg wit="#Z">Tratados,</rdg>
+                  <rdg wit="#A">tratados</rdg>
+               </app> y consejos que <app>
+                  <rdg wit="#Z">recivieron</rdg>
+                  <rdg wit="#A">recibieron</rdg>
+               </app> en aquel Congreso, y los <app>
+                  <rdg wit="#Z">mas</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> que se les han dispensado continuamente<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> y que habiendo concurrido los <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> Butalmapus a celebrar en estos <app>
+                  <rdg wit="#Z">dias</rdg>
+                  <rdg wit="#A">días</rdg>
+               </app> igual <pb ed="#A" n="21"/> Parlamento<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> a su <app>
+                  <rdg wit="#Z">peticion</rdg>
+                  <rdg wit="#A">petición</rdg>
+               </app>, han <app>
+                  <rdg wit="#Z">oido</rdg>
+                  <rdg wit="#A">oído</rdg>
+               </app> con el mayor gusto<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">quanto</rdg>
+                  <rdg wit="#A">cuanto</rdg>
+               </app> se les propuso el <app>
+                  <rdg wit="#Z">dia</rdg>
+                  <rdg wit="#A">día</rdg>
+               </app> primero de su apertura, y desde luego daba gracias a <app>
+                  <rdg wit="#Z">su Magestad</rdg>
+                  <rdg wit="#A">S.M.</rdg>
+               </app> por los beneficios que les dispensaba<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y <app>
+                  <rdg wit="#Z">ofrecia</rdg>
+                  <rdg wit="#A">ofrecía</rdg>
+               </app> a nombre de toda la <app>
+                  <rdg wit="#Z">Tierra</rdg>
+                  <rdg wit="#A">tierra</rdg>
+               </app> cumplir con los <app>
+                  <rdg wit="#Z">Tratados</rdg>
+                  <rdg wit="#A">tratados</rdg>
+               </app> en general, y cada uno en particular<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> como <app>
+                  <rdg wit="#Z">medios</rdg>
+                  <rdg wit="#A">medio</rdg>
+               </app> de afirmar la tranquilidad y sosiego que les resulta<app>
+                  <rdg wit="#Z">, y tienen</rdg>
+                  <rdg wit="#A"> y tiene</rdg>
+               </app> por experiencia<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">.</rdg>
+               </app>
+            </ab>
          </div>
 
          <div>
-            <ab>El Cacique Governador de Maquehue Vilumilla, su Hermano Coiguengir, Chicaguala,
-               Pichunman, y otros, dixeron, que por encargo de los quatro Butalmapus que alli se
-               hallaban congregados, suplicaban, que respecto a la distancia en que se hallaba el
-               Colegio de educacion para sus hijos, deseaban se entablase sobre esta frontera en la
-               Villa de los Angeles, para lograr el verlos en algunas ocasiones, y de este modo
-               empeñarse los Butalmapus para presentar gustosamente sus jovenes a la educacion que
-               les dispensa la Soberana piedad, de que tenian vistas las ventajas = </ab>
+            <ab>El Cacique <app>
+                  <rdg wit="#Z">Governador de Maquehue</rdg>
+                  <rdg wit="#A">Gobernador de Maquegua</rdg>
+               </app> Vilumilla, su <app>
+                  <rdg wit="#Z">Hermano Coiguengir</rdg>
+                  <rdg wit="#A">hermano Coygüenjir</rdg>
+               </app>, Chicaguala, <app>
+                  <rdg wit="#Z">Pichunman,</rdg>
+                  <rdg wit="#A">Pichuman</rdg>
+               </app> y otros<app>
+                  <rdg wit="#Z">, dixeron,</rdg>
+                  <rdg wit="#A">dijeron</rdg>
+               </app> que por encargo de los <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> Butalmapus que <app>
+                  <rdg wit="#Z">alli</rdg>
+                  <rdg wit="#A">allí</rdg>
+               </app> se hallaban congregados<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> suplicaban<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que respecto a la distancia en que se hallaba el Colegio de <app>
+                  <rdg wit="#Z">educacion</rdg>
+                  <rdg wit="#A">educación</rdg>
+               </app> para sus hijos, deseaban se entablase sobre esta <app>
+                  <rdg wit="#Z">frontera</rdg>
+                  <rdg wit="#A">Frontera</rdg>
+               </app> en la Villa de los Angeles, para lograr el verlos en algunas ocasiones, y de
+               este modo empeñarse los Butalmapus para presentar gustosamente sus <app>
+                  <rdg wit="#Z">jovenes</rdg>
+                  <rdg wit="#A">jóvenes</rdg>
+               </app> a la <app>
+                  <rdg wit="#Z">educacion</rdg>
+                  <rdg wit="#A">educación</rdg>
+               </app> que les <app>
+                  <rdg wit="#Z">dispensa</rdg>
+                  <rdg wit="#A">dispensaba</rdg>
+               </app> la Soberana piedad<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> de que <app>
+                  <rdg wit="#Z">tenian</rdg>
+                  <rdg wit="#A">tenían</rdg>
+               </app> vistas las ventajas<app>
+                  <rdg wit="#Z"> = </rdg>
+                  <rdg wit="#A">.</rdg>
+               </app></ab>
          </div>
 
          <div>
-            <ab>Los Caciques Pehuenches de Callaqui, Quilaco, y Huinquin, llamados Coliman, Liupay,
-               y Coigueman, dixeron: Que habian oido en estos ultimos años, que se pensaba mudar el
-               Hospicio de Miciones que tienen en Santa Barbara, y que siendo este la fuente de que
-               dimanaron las que tenian antiguamente los Pehuenches, suplicaban no se hiciese
-               novedad, y se conservase para los mismos efectos, respecto a la buena dispocicion que
-               presentaba el Pehuenche Millalem de Lonco, y otras Parcialidades, siendoles a ellos
-               tambien del ma-yor benefi cio, y muy principalmente a los hijos que alli les educan
-               los padres micioneros = </ab>
+            <ab>Los <app>
+                  <rdg wit="#Z">Caciques</rdg>
+                  <rdg wit="#A">caciques</rdg>
+               </app> Pehuenches de Callaqui, Quilaco<app>
+                  <rdg wit="#Z">, y Huinquin,</rdg>
+                  <rdg wit="#A"> y Hinquién,</rdg>
+               </app> llamados Coliman, Liupay<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y <app>
+                  <rdg wit="#Z">Coigueman, dixeron:</rdg>
+                  <rdg wit="#A">Coygüemán, dijeron:</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">Que habian oido</rdg>
+                  <rdg wit="#A"> que habían oído</rdg>
+               </app> en estos <app>
+                  <rdg wit="#Z">ultimos</rdg>
+                  <rdg wit="#A">últimos</rdg>
+               </app> años<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que se pensaba mudar el Hospicio de <app>
+                  <rdg wit="#Z">Miciones</rdg>
+                  <rdg wit="#A">Misiones</rdg>
+               </app> que tienen en Santa <app>
+                  <rdg wit="#Z">Barbara</rdg>
+                  <rdg wit="#A">Bárbara</rdg>
+               </app>, y que siendo este la fuente de que dimanaron las que <app>
+                  <rdg wit="#Z">tenian</rdg>
+                  <rdg wit="#A">tenían</rdg>
+               </app> antiguamente los Pehuenches, suplicaban no se hiciese novedad<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y se conservase para los mismos efectos, respecto a la buena <app>
+                  <rdg wit="#Z">dispocicion</rdg>
+                  <rdg wit="#A">disposición</rdg>
+               </app> que presentaba el Pehuenche Millalem de <app>
+                  <rdg wit="#Z">Lonco,</rdg>
+                  <rdg wit="#A">Lolco</rdg>
+               </app> y otras <app>
+                  <rdg wit="#Z">Parcialidades, siendoles</rdg>
+                  <rdg wit="#A">parcialidades, siéndoles</rdg>
+               </app> a ellos <app>
+                  <rdg wit="#Z">tambien</rdg>
+                  <rdg wit="#A">también</rdg>
+               </app> del mayor beneficio, y muy principalmente a los hijos que <app>
+                  <rdg wit="#Z">alli les</rdg>
+                  <rdg wit="#A">allí</rdg>
+               </app> educan los <app>
+                  <rdg wit="#Z">padres micioneros = </rdg>
+                  <rdg wit="#A">Padres Misioneros.</rdg>
+               </app></ab>
+            <pb ed="#A" n="22"/>
          </div>
 
          <div>
-            <ab>El Cacique de Cura Millalim, por consejo de sus Parciales Guegnir, Pagitur, y otros,
-               dixo: que hace tiempo desea recordar los pasos de su Padre, pidiendo de nuevo la
-               micion que tuvo en Lolco, pero que no se ha resuelto hasta ahora por las malocas y
-               desavenen-cias que han tenido en años atras con los Pehuenches Orientales, las que
-               estando ente-ramente disipadas, y reconciliados, espera cimentarse a la proxima
-               primavera en su an-tiguo paiz, y para entonces pide desde ahora se les concedan
-               padres misioneros, verifi cado que sea su restablecimiento = La Reduccion de Santa
-               Feé compuesta de su Governador, y Caciques, con los de Angol, Maquegua, Lebcoyan, y
-               generalmente los mas de la tierra, suplicaron la solicitud de su difunto Governador
-               Levigueque, que hizo en el Parlamento General el año pasado de mil setecientos
-               noventa y tres para que se les diese Micioneros de Propaganda en lugar del Cura que
-               les tienen puesto, como una ne-cesidad suma espiritual; y mucho mas, por que
-               hallandose los Butalmapus en la mejor dispocicion que han manifestado acerca de los
-               padres, y ser aquel puesto de donde salian y se esparcian las miciones por la tierra,
-               como en el recidia el superior de ellas, podrian con este paso verifi car lo mismo
-               para lo succesivo, por lo que lo repitieron a voz comun con el mayor empeño = </ab>
+            <ab>El Cacique de Cura <app>
+                  <rdg wit="#Z">Millalim</rdg>
+                  <rdg wit="#A">Millalem</rdg>
+               </app>, por consejo de sus <app>
+                  <rdg wit="#Z">Parciales Guegnir</rdg>
+                  <rdg wit="#A">parciales Gúgñir</rdg>
+               </app>, Pagitur, y otros, <app>
+                  <rdg wit="#Z">dixo:</rdg>
+                  <rdg wit="#A"> dijo:</rdg>
+               </app> que hace tiempo desea recordar los pasos de su <app>
+                  <rdg wit="#Z">Padre,</rdg>
+                  <rdg wit="#A">padre</rdg>
+               </app> pidiendo de nuevo la <app>
+                  <rdg wit="#Z">micion</rdg>
+                  <rdg wit="#A">Misión</rdg>
+               </app> que tuvo en Lolco, pero que no se ha resuelto hasta ahora por las <app>
+                  <rdg wit="#Z">malocas</rdg>
+                  <rdg wit="#A">Malocas</rdg>
+               </app> y desavenencias que han tenido en años <app>
+                  <rdg wit="#Z">atras</rdg>
+                  <rdg wit="#A">atrás</rdg>
+               </app> con los Pehuenches Orientales, las que estando enteramente disipadas, y reconciliados<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> espera cimentarse a la <app>
+                  <rdg wit="#Z">proxima</rdg>
+                  <rdg wit="#A">próxima</rdg>
+               </app> primavera en su antiguo <app>
+                  <rdg wit="#Z">paiz</rdg>
+                  <rdg wit="#A">país</rdg>
+               </app>, y para entonces pide desde ahora<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> se les concedan <app>
+                  <rdg wit="#Z">padres misioneros,</rdg>
+                  <rdg wit="#A">Padres Misioneros</rdg>
+               </app> verificado que sea su restablecimiento<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">.</rdg>
+               </app> La <app>
+                  <rdg wit="#Z">Reduccion</rdg>
+                  <rdg wit="#A">Reducción</rdg>
+               </app> de Santa <app>
+                  <rdg wit="#Z">Feé</rdg>
+                  <rdg wit="#A">Fe</rdg>
+               </app> compuesta de su <app>
+                  <rdg wit="#Z">Governador,</rdg>
+                  <rdg wit="#A">Gobernador</rdg>
+               </app> y Caciques, con los de Angol, Maquegua, <app>
+                  <rdg wit="#Z">Lebcoyan</rdg>
+                  <rdg wit="#A">Lobcoyán</rdg>
+               </app>, y generalmente los <app>
+                  <rdg wit="#Z">mas</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> de la <app>
+                  <rdg wit="#Z">tierra,</rdg>
+                  <rdg wit="#A">Tierra</rdg>
+               </app> suplicaron la solicitud de su difunto <app>
+                  <rdg wit="#Z">Governador Levigueque,</rdg>
+                  <rdg wit="#A">Gobernador Leviquegüe</rdg>
+               </app> que hizo en el Parlamento General<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> el año pasado de mil setecientos noventa y tres<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> para que se les diese <app>
+                  <rdg wit="#Z">Micioneros</rdg>
+                  <rdg wit="#A">Misioneros</rdg>
+               </app> de Propaganda en lugar del Cura que <app>
+                  <rdg wit="#Z">les tienen</rdg>
+                  <rdg wit="#A">le tienen</rdg>
+               </app> puesto, como una necesidad suma espiritual<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> y mucho <app>
+                  <rdg wit="#Z">mas,</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> por que <app>
+                  <rdg wit="#Z">hallandose</rdg>
+                  <rdg wit="#A">hallándose</rdg>
+               </app> los Butalmapus en la <app>
+                  <rdg wit="#Z">mejor dispocicion</rdg>
+                  <rdg wit="#A">mayor disposición</rdg>
+               </app> que han manifestado acerca de los <app>
+                  <rdg wit="#Z">padres</rdg>
+                  <rdg wit="#A">Padres</rdg>
+               </app>, y ser aquel puesto de donde <app>
+                  <rdg wit="#Z">salian</rdg>
+                  <rdg wit="#A">salían</rdg>
+               </app> y se <app>
+                  <rdg wit="#Z">esparcian</rdg>
+                  <rdg wit="#A">expandían</rdg>
+               </app> las <app>
+                  <rdg wit="#Z">miciones por la tierra</rdg>
+                  <rdg wit="#A">Misiones por la Tierra</rdg>
+               </app>, como<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">que</rdg>
+               </app> en <app>
+                  <rdg wit="#Z">el recidia</rdg>
+                  <rdg wit="#A">él residía</rdg>
+               </app> el <app>
+                  <rdg wit="#Z">superior</rdg>
+                  <rdg wit="#A">Superior</rdg>
+               </app> de ellas, <app>
+                  <rdg wit="#Z">podrian</rdg>
+                  <rdg wit="#A">podrían</rdg>
+               </app> con este paso verificar lo mismo para lo <app>
+                  <rdg wit="#Z">succesivo,</rdg>
+                  <rdg wit="#A">sucesivo</rdg>
+               </app> por lo que lo repitieron a voz <app>
+                  <rdg wit="#Z">comun</rdg>
+                  <rdg wit="#A">común</rdg>
+               </app> con el mayor <app>
+                  <rdg wit="#Z">empeño =</rdg>
+                  <rdg wit="#A">empeñó.</rdg>
+               </app>
+            </ab>
          </div>
 
          <div>
