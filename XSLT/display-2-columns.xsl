@@ -123,7 +123,8 @@
                                     <details><summary><b><xsl:apply-templates select="$this-place/concat
                                         (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
                                         <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
-                                        <xsl:apply-templates select="$this-place/note[data(@type)='map-link']"/></details>
+                                        <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
+                                    </details>
                                 </xsl:for-each-group>   </p></details>     </xsl:if>
                 </td>
             </tr>

@@ -25,7 +25,7 @@
                <region>Bío Bío Province</region>
             <placeName><settlement type="village">Negrete</settlement></placeName>
                <location><geo>-37.58625, -72.53205</geo></location>
-               <note type="map-link"></note>
+               <note type="map-link">https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg</note>
                <note xml:lang="span">Spanish description of Negrete here</note>
                <note xml:lang="eng">English description of Negrete here</note>
          </place>
@@ -40,7 +40,7 @@
                <region>Bío Bío Province</region>
                <geogName>Bío Bío <geogFeat>River</geogFeat></geogName>
                <location><geo>-37.66735, -72.16367</geo></location>
-               <note type="map-link"></note>
+               <note type="map-link">https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg</note>
                <note xml:lang="span">Spanish description of Bío Bío river here</note>
                <note xml:lang="eng">English description of Bío Bío river here</note>
             </place>
