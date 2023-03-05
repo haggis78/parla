@@ -2241,73 +2241,450 @@
          </div>
 
          <div>
-            <ab>Los Caciques Governadores de Arauco, Tirúa, y Boca de la Ym-perial, y lo mismo los
-               de Angol, Repocura, Maquegua, Chacaico, y generalmente todos los Llanos, dixeron: Que
-               los Tratados del libre comercio estaban en su fuerza, y los ca-minos francos para
-               todas partes, y solo suplicaban no se permitiese por las Plazas de la Barrera,
-               introducirse ladrones a sus tierras, sino que el comercio se hiciese por hombres
-               honrados, para evitar toda desavenencia, privandolo asi el Excelentisimo Señor
-               Capitan General, a quien repetian esta suplica; y que en quanto a las parcialidades,
-               caciques, o mozetones que promoviesen enredos o malocas en la tierra, se procediese
-               por los Butal-mapus a su castigo, mirandolos como enemigos comunes, y de su propria
-               sangre, segun expresa el Articulo quarto de esta materia; y que por lo que mira a los
-               malhechores, y <pb ed="#Z" n="419"/>precidarios de Valdivia que desertan de los
-               españoles, y se acogen a sus tierras, deben los Butalmapus no permitirlos, y
-               entregarlos como se les ha prevenido, pues realmente son la peste de la tierra por
-               sus malos consejos y costumbres = Ygualmente dixeron los Go-vernadores de los quatro
-               Butalmapus, y generalmente todos los caciques congregados, que de ningun modo
-               permitirian en sus costas, embarcaciones, ni gentes extrangeras, como ya lo tenian
-               ofrecido en otros parlamentos, pues no ignoraban sus designios de-pravados, y que los
-               caciques de Arauco, Tucapel, Boca de Ymperial, y toda la rivera del mar hasta
-               Valdivia, debian de ser los mas zelosos, como mas interezados, y que el resto de los
-               Butalmapus ayudaria gustoso en qualesquier caso de esta naturaleza para lo
-               suc-cesivo; añadiendo, que por lo que hace al comercio, y escrupulosa conducta en las
-               Pam-pas, y Provincias de Buenos Ayres, tienen acreditada su buena feé en estos
-               ultimos años, que continuarán con el mayor empeño, y a cuyo efecto pidieron algunos
-               caciques y ca-pitanejos, papeles de seguridad para presentarse en aquellos payzes con
-               sus ponchos, y demas generos de comercio, y que por ultimo, nada deseaban mas, que
-               acreditar con su cumplimiento la estimacion que tienen de los buenos consejos que han
-               recivido, y reci-ven continuamente, de cuya observancia estan convencidos los buenos
-               caciques, que les resulta la quietud y conveniencias que disfrutan en la actualidad =
+            <ab>Los <app>
+                  <rdg wit="#Z">Caciques Governadores</rdg>
+                  <rdg wit="#A">caciques Gobernadores</rdg>
+               </app> de Arauco, <app>
+                  <rdg wit="#Z">Tirúa, y Boca de la Ymperial</rdg>
+                  <rdg wit="#A">Tucapel, Tirúa Boroa, de la Imperial</rdg>
+               </app>, y lo mismo los de Angol, Repocura, Maquegua, <app>
+                  <rdg wit="#Z">Chacaico</rdg>
+                  <rdg wit="#A">Chacayco</rdg>
+               </app>, y generalmente todos los Llanos,<app>
+                  <rdg wit="#Z"> dixeron:</rdg>
+                  <rdg wit="#A">dijeron</rdg>
+               </app><app>
+                  <rdg wit="#Z"> Que los Tratados</rdg>
+                  <rdg wit="#A">que los tratados</rdg>
+               </app> del libre comercio estaban en su fuerza<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y <pb ed="#A" n="23"/>los caminos francos para todas <app>
+                  <rdg wit="#Z">partes,</rdg>
+                  <rdg wit="#A">las partes</rdg>
+               </app> y <app>
+                  <rdg wit="#Z">solo</rdg>
+                  <rdg wit="#A">sólo</rdg>
+               </app> suplicaban no se permitiese por las Plazas de la <app>
+                  <rdg wit="#Z">Barrera,</rdg>
+                  <rdg wit="#A">Barreras</rdg>
+               </app> introducirse ladrones a sus tierras, sino que el comercio se hiciese por
+               hombres honrados<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> para evitar toda desavenencia, <app>
+                  <rdg wit="#Z">privandolo</rdg>
+                  <rdg wit="#A">privándolo</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">asi</rdg>
+                  <rdg wit="#A">así</rdg>
+               </app> el <app>
+                  <rdg wit="#Z">Excelentisimo</rdg>
+                  <rdg wit="#A">Excmo.</rdg>
+               </app> Señor <app>
+                  <rdg wit="#Z">Capitan</rdg>
+                  <rdg wit="#A">Capitán</rdg>
+               </app> General, a quien <app>
+                  <rdg wit="#Z">repetian</rdg>
+                  <rdg wit="#A">repetían</rdg>
+               </app> esta suplica<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> y que en <app>
+                  <rdg wit="#Z">quanto</rdg>
+                  <rdg wit="#A">cuanto</rdg>
+               </app> a las <app>
+                  <rdg wit="#Z">parcialidades, caciques,</rdg>
+                  <rdg wit="#A">Parcialidades Caciques</rdg>
+               </app> o <app>
+                  <rdg wit="#Z">mozetones</rdg>
+                  <rdg wit="#A">mocetones</rdg>
+               </app> que promoviesen enredos o <app>
+                  <rdg wit="#Z">malocas</rdg>
+                  <rdg wit="#A">Malocas</rdg>
+               </app> en la <app>
+                  <rdg wit="#Z">tierra,</rdg>
+                  <rdg wit="#A">Tierra</rdg>
+               </app> se procediese por los Butalmapus a su castigo<app>
+                  <rdg wit="#Z">, mirandolos</rdg>
+                  <rdg wit="#A">mirándolos</rdg>
+               </app> como enemigos comunes<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y de su propria sangre, <app>
+                  <rdg wit="#Z">segun expresa</rdg>
+                  <rdg wit="#A">según se expresa</rdg>
+               </app> el <app>
+                  <rdg wit="#Z">Articulo</rdg>
+                  <rdg wit="#A">artículo</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">quarto</rdg>
+                  <rdg wit="#A">cuarto</rdg>
+               </app> de esta materia<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A"/>
+               </app> y que por lo que mira a los malhechores<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y <pb ed="#Z" n="419"/><app>
+                  <rdg wit="#Z">precidarios</rdg>
+                  <rdg wit="#A">presidiarios</rdg>
+               </app> de Valdivia<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> que desertan de los españoles, y se acogen a sus tierras, deben los Butalmapus
+               no permitirlos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y entregarlos como se les ha prevenido<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> pues realmente son la peste de la <app>
+                  <rdg wit="#Z">tierra</rdg>
+                  <rdg wit="#A">Tierra,</rdg>
+               </app> por sus malos consejos y costumbres<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">.</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">Ygualmente</rdg>
+                  <rdg wit="#A">Igualmente</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">dixeron</rdg>
+                  <rdg wit="#A">dijeron</rdg>
+               </app> los <app>
+                  <rdg wit="#Z">Governadores</rdg>
+                  <rdg wit="#A">Gobernadores</rdg>
+               </app> de los <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> Butalmapus, <app>
+                  <rdg wit="#Z">y</rdg>
+                  <rdg wit="#A"/>
+               </app> generalmente todos los <app>
+                  <rdg wit="#Z">caciques</rdg>
+                  <rdg wit="#A">Caiques</rdg>
+               </app> congregados, que de <app>
+                  <rdg wit="#Z">ningun</rdg>
+                  <rdg wit="#A">ningún</rdg>
+               </app> modo <app>
+                  <rdg wit="#Z">permitirian</rdg>
+                  <rdg wit="#A">permitirían</rdg>
+               </app> en sus costas, embarcaciones<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> ni gentes <app>
+                  <rdg wit="#Z">extrangeras,</rdg>
+                  <rdg wit="#A">extranjeras</rdg>
+               </app> como ya lo <app>
+                  <rdg wit="#Z">tenian</rdg>
+                  <rdg wit="#A">tenían</rdg>
+               </app> ofrecido en otros <app>
+                  <rdg wit="#Z">parlamentos</rdg>
+                  <rdg wit="#A">Parlamentos</rdg>
+               </app>, pues no ignoraban sus designios depravados, y que los caciques de Arauco,
+               Tucapel, <app>
+                  <rdg wit="#Z">Boca de Ymperial,</rdg>
+                  <rdg wit="#A">Boroa, de la Imperial</rdg>
+               </app> y <app>
+                  <rdg wit="#Z">toda</rdg>
+                  <rdg wit="#A">de toda</rdg>
+               </app> la <app>
+                  <rdg wit="#Z">rivera</rdg>
+                  <rdg wit="#A">ribera</rdg>
+               </app> del mar hasta Valdivia<app>
+                  <rdg wit="#Z">, debian</rdg>
+                  <rdg wit="#A">debían</rdg>
+               </app> de ser los <app>
+                  <rdg wit="#Z">mas zelosos</rdg>
+                  <rdg wit="#A">más celosos</rdg>
+               </app>, como <app>
+                  <rdg wit="#Z">mas interezados,</rdg>
+                  <rdg wit="#A">más interesados</rdg>
+               </app> y que el resto de los Butalmapus <app>
+                  <rdg wit="#Z">ayudaria</rdg>
+                  <rdg wit="#A">ayudaría</rdg>
+               </app> gustoso <app>
+                  <rdg wit="#Z">en qualesquier</rdg>
+                  <rdg wit="#A">a cualesquier</rdg>
+               </app> caso de esta naturaleza para lo <app>
+                  <rdg wit="#Z">succesivo; añadiendo,</rdg>
+                  <rdg wit="#A">sucesivo añadiendo</rdg>
+               </app> que por lo que hace al comercio<app>
+                  <rdg>,</rdg>
+                  <rdg wit="#Z"/>
+               </app> y escrupulosa conducta en las <app>
+                  <rdg wit="#Z">Pam-pas,</rdg>
+                  <rdg wit="#A">pampas</rdg>
+               </app> y <app>
+                  <rdg wit="#Z">Provincias de Buenos Ayres,</rdg>
+                  <rdg wit="#A">provincias de Buenos Aires</rdg>
+               </app> tienen acreditada su buena <app>
+                  <rdg wit="#Z">feé</rdg>
+                  <rdg wit="#A">fe</rdg>
+               </app> en estos <app>
+                  <rdg wit="#Z">ultimos</rdg>
+                  <rdg wit="#A">últimos</rdg>
+               </app> años, que continuarán con el mayor empeño, y a cuyo efecto <pb ed="#A" n="24"
+               />pidieron algunos <app>
+                  <rdg wit="#Z">caciques y ca-pitanejos,</rdg>
+                  <rdg wit="#A">Caciques y Capitanejos</rdg>
+               </app> papeles de seguridad para presentarse en aquellos <app>
+                  <rdg wit="#Z">payzes</rdg>
+                  <rdg wit="#A">países</rdg>
+               </app> con sus ponchos, y <app>
+                  <rdg wit="#Z">demas</rdg>
+                  <rdg wit="#A">demás</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">generos</rdg>
+                  <rdg wit="#A">géneros</rdg>
+               </app> de comercio, y que por <app>
+                  <rdg wit="#Z">ultimo,</rdg>
+                  <rdg wit="#A">último</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">nada</rdg>
+                  <rdg wit="#A"/>
+               </app> deseaban <app>
+                  <rdg wit="#Z">mas,</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> que acreditar con su cumplimiento la <app>
+                  <rdg wit="#Z">estimacion</rdg>
+                  <rdg wit="#A">estimación</rdg>
+               </app> que tienen de los buenos consejos que han <app>
+                  <rdg wit="#Z">recivido,</rdg>
+                  <rdg wit="#A">recibido</rdg>
+               </app> y <app>
+                  <rdg wit="#Z">reciven</rdg>
+                  <rdg wit="#A">reciben</rdg>
+               </app> continuamente, de cuya observancia <app>
+                  <rdg wit="#Z">estan</rdg>
+                  <rdg wit="#A">están</rdg>
+               </app> convencidos los buenos caciques<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que les resulta la quietud y conveniencias que disfrutan en la actualidad<app>
+                  <rdg wit="#Z"> = </rdg>
+                  <rdg wit="#A">.</rdg>
+               </app></ab>
+         </div>
+
+         <div>
+            <ab>El Señor Presidente del Congreso<app>
+                  <rdg wit="#Z">, despues</rdg>
+                  <rdg wit="#A">después</rdg>
+               </app> de haber <app>
+                  <rdg wit="#Z">oido</rdg>
+                  <rdg wit="#A">oído</rdg>
+               </app> la larga arenga de sus <app>
+                  <rdg wit="#Z">contextaciones</rdg>
+                  <rdg wit="#A">contestaciones</rdg>
+               </app>, y la buena <app>
+                  <rdg wit="#Z">dispocicion</rdg>
+                  <rdg wit="#A">disposición</rdg>
+               </app> que manifestaban para el cumplimiento de <app>
+                  <rdg wit="#Z">quanto</rdg>
+                  <rdg wit="#A">cuanto</rdg>
+               </app> se les <app>
+                  <rdg wit="#Z">habia</rdg>
+                  <rdg wit="#A">había</rdg>
+               </app> propuesto, les <app>
+                  <rdg wit="#Z">dixo</rdg>
+                  <rdg wit="#A">dijo</rdg>
+               </app>: <app>
+                  <rdg wit="#Z">Que</rdg>
+                  <rdg wit="#A">que</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">tenia</rdg>
+                  <rdg wit="#A">tenía</rdg>
+               </app> mucho gusto en ver se explicasen de un modo tan expresivo y obediente<app>
+                  <rdg wit="#Z"> a quanto</rdg>
+                  <rdg wit="#A">, a cuanto</rdg>
+               </app> se les <app>
+                  <rdg wit="#Z">habia</rdg>
+                  <rdg wit="#A">había</rdg>
+               </app> propuesto, dirigido todo al bien de los Butalmapus, que tanto encargaba la
+               piedad de nuestro amado Soberano<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> pero que teniendo noticia que en otros Parlamentos <app>
+                  <rdg wit="#Z">habian</rdg>
+                  <rdg wit="#A">habían</rdg>
+               </app> hecho las mismas demonstraciones y ofrecimientos, faltando <app>
+                  <rdg wit="#Z">despues</rdg>
+                  <rdg wit="#A">después</rdg>
+               </app> a muchos <app>
+                  <rdg wit="#Z">Tratados</rdg>
+                  <rdg wit="#A">tratados,</rdg>
+               </app> en perjuicio <app>
+                  <rdg wit="#Z">los mas</rdg>
+                  <rdg wit="#A">por los más</rdg>
+               </app> de ellos, de sus <app>
+                  <rdg wit="#Z">proprios interezes</rdg>
+                  <rdg wit="#A">propios intereses</rdg>
+               </app>, deseaba que el presente<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> como les propuso el primer <app>
+                  <rdg wit="#Z">dia</rdg>
+                  <rdg wit="#A">día</rdg>
+               </app>, fuese el fundamento invariable de sus <app>
+                  <rdg wit="#Z">Tratados</rdg>
+                  <rdg wit="#A">tratados</rdg>
+               </app>, pues lo contrario <app>
+                  <rdg wit="#Z">seria</rdg>
+                  <rdg wit="#A">sería</rdg>
+               </app> provocar a su castigo el poder de <app>
+                  <rdg wit="#Z">su Magestad,</rdg>
+                  <rdg wit="#A">S.M.</rdg>
+               </app> y por de contado<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> extinguir estos Congresos o Parlamentos, que son excusados no <app>
+                  <rdg wit="#Z">verificandose</rdg>
+                  <rdg wit="#A">verificándose</rdg>
+               </app> por su parte los efectos<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> y que siendo su <app>
+                  <rdg wit="#Z">caracter</rdg>
+                  <rdg wit="#A">carácter</rdg>
+               </app> anunciar a sus amigos los caciques la verdad, lo <app>
+                  <rdg wit="#Z">hacia</rdg>
+                  <rdg wit="#A">hacía</rdg>
+               </app> notorio a todos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> por el deseo de su acierto<app>
+                  <rdg wit="#Z">. Que</rdg>
+                  <rdg wit="#A">; que</rdg>
+               </app> por <app>
+                  <rdg wit="#Z">ultimo,</rdg>
+                  <rdg wit="#A">último</rdg>
+               </app> y en prueba de <app>
+                  <rdg wit="#Z">los</rdg>
+                  <rdg wit="#A">sus</rdg>
+               </app> sentimientos de humanidad que <pb ed="#A" n="25"/><app>
+                  <rdg wit="#Z">le</rdg>
+                  <rdg wit="#A">lo</rdg>
+               </app> asisten por el bien de los naturales, <app>
+                  <rdg wit="#Z">queria</rdg>
+                  <rdg wit="#A">quería</rdg>
+               </app> darles un consejo, y que <app>
+                  <rdg wit="#Z">esperaba</rdg>
+                  <rdg wit="#A">esperaban</rdg>
+               </app> lo aprobasen y cumpliesen <app>
+                  <rdg wit="#Z">dejandoles</rdg>
+                  <rdg wit="#A">dejándoles</rdg>
+               </app> esta memoria<app>
+                  <rdg wit="#Z"> =</rdg>
+                  <rdg wit="#A">.</rdg>
+               </app>
             </ab>
          </div>
 
          <div>
-            <ab>El Señor Presidente del Congreso, despues de haber oido la larga arenga de sus
-               contextaciones, y la buena dispocicion que manifestaban para el cumplimiento de
-               quanto se les habia propuesto, les dixo: Que tenia mucho gusto en ver se explicasen
-               de un modo tan expresivo y obe-diente a quanto se les habia propuesto, dirigido todo
-               al bien de los Butalmapus, que tanto encargaba la piedad de nuestro amado Soberano;
-               pero que teniendo noticia que en otros Parlamentos habian hecho las mismas
-               demonstraciones y ofrecimientos, faltando despues a muchos Tratados en perjuicio los
-               mas de ellos, de sus proprios interezes, de-seaba que el presente, como les propuso
-               el primer dia, fuese el fundamento invariable de sus Tratados, pues lo contrario
-               seria provocar a su castigo el poder de su Magestad, y por de contado, extinguir
-               estos Congresos o Parlamentos, que son excusados no verifi cando-se por su parte los
-               efectos; y que siendo su caracter anunciar a sus amigos los caciques la verdad, lo
-               hacia notorio a todos, por el deseo de su acierto. Que por ultimo, y en prueba de los
-               sentimientos de humanidad que le asisten por el bien de los naturales, queria darles
-               un consejo, y que esperaba lo aprobasen y cumpliesen dejandoles esta memoria = </ab>
-         </div>
-
-         <div>
-            <ab>Que al tiempo de trancitar por la tierra en años pasados quando fue destinado al
-               Govier-no de Valdivia, tuvo noticias, y vio por experiencia hasta donde llega la
-               crueldad sugeri-da por el Demonio en busca de algunos embusteros llamados adivinos,
-               atribuyendo la muerte natural de los hombres a hechizos y brugerias de algunos o
-               algunas desgraciadas a quienes las imputan aquellos embusteros, con cuya unica
-               declaracion proceden a las carnicerias mas sangrientas e injustas, de que no hay
-               exemplar: y deseando desengañar-los, y que en lo succesivo olviden semejante crueldad
-               contra su misma sangre, les supli-caba esten persuadidos, que la muerte es el termino
-               de todos los hombres desde nuestros primeros padres, y que esta inhumana y cruel
-               conducta debe extinguirse en toda la tierra, en el supuesto que si alguno intentare
-               para lo succesivo semejante atrocidad, lo embaracen los caciques, y recojan las
-               victimas destinadas al cuchillo, o al fuego, y las entreguen a los comandantes de la
-               Barrera, en donde se les gratifi cará competentemente como a defenzores de la
-               humanidad; cuyo consejo esperaba sea admitido, y observado por los Butalmapus,
-               encargando al Comisario General de Naciones, y capitanes, vigilen, y avisen de
-               qualesquiera infraccion (que no espera) para que sea conocido, y tratado como merece
-               el agresor de semejante barbarie = </ab>
+            <ab>Que al tiempo de <app>
+                  <rdg wit="#Z">trancitar</rdg>
+                  <rdg wit="#A">transitar</rdg>
+               </app> por la tierra en años pasados <app>
+                  <rdg wit="#Z">quando</rdg>
+                  <rdg wit="#A">cuando</rdg>
+               </app> fue destinado al <app>
+                  <rdg wit="#Z">Govierno</rdg>
+                  <rdg wit="#A">Gobierno</rdg>
+               </app> de Valdivia<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> tuvo noticias<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y vio por experiencia hasta donde llega la crueldad sugerida por el <app>
+                  <rdg wit="#Z">Demonio</rdg>
+                  <rdg wit="#A">demonio</rdg>
+               </app> en <app>
+                  <rdg wit="#Z">busca</rdg>
+                  <rdg wit="#A">boca</rdg>
+               </app> de algunos embusteros llamados adivinos, atribuyendo la muerte natural de los
+               hombres a hechizos <app>
+                  <rdg wit="#Z">y brugerias</rdg>
+                  <rdg wit="#A">o brujerías</rdg>
+               </app> de algunos o algunas desgraciadas a quienes las imputan aquellos embusteros,
+               con cuya <app>
+                  <rdg wit="#Z">unica</rdg>
+                  <rdg wit="#A">única</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">declaracion</rdg>
+                  <rdg wit="#A">declaración</rdg>
+               </app> proceden a las <app>
+                  <rdg wit="#Z">carnicerias</rdg>
+                  <rdg wit="#A">carnicerías</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">mas</rdg>
+                  <rdg wit="#A">más</rdg>
+               </app> sangrientas e <app>
+                  <rdg wit="#Z">injustas,</rdg>
+                  <rdg wit="#A">injusta</rdg>
+               </app> de que no hay <app>
+                  <rdg wit="#Z">exemplar:</rdg>
+                  <rdg wit="#A">ejemplar</rdg>
+               </app> y deseando desengañarlos, y que en <app>
+                  <rdg wit="#Z">lo succesivo</rdg>
+                  <rdg wit="#A">los sucesivo</rdg>
+               </app> olviden <app>
+                  <rdg wit="#Z">semejante</rdg>
+                  <rdg wit="#A">semejantes</rdg>
+               </app> crueldad contra su misma sangre, les suplicaba <app>
+                  <rdg wit="#Z">esten</rdg>
+                  <rdg wit="#A">estén</rdg>
+               </app> persuadidos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> que la muerte es el termino de todos los hombres desde nuestros primeros padres<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y que esta inhumana y cruel conducta debe extinguirse en toda la tierra, en el
+               supuesto que si alguno intentare para lo <app>
+                  <rdg wit="#Z">succesivo</rdg>
+                  <rdg wit="#A">sucesivo</rdg>
+               </app> semejante atrocidad, lo embaracen los caciques<app>
+                  <rdg wit="#Z">, y</rdg>
+                  <rdg wit="#A">o</rdg>
+               </app> recojan las <app>
+                  <rdg wit="#Z">victimas</rdg>
+                  <rdg wit="#A">víctimas</rdg>
+               </app> destinadas al cuchillo<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> o al fuego, y las entreguen a los comandantes de la Barrera, en donde se <app>
+                  <rdg wit="#Z">les</rdg>
+                  <rdg wit="#A">le</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">gratificará</rdg>
+                  <rdg wit="A">gratificara</rdg>
+               </app> competentemente como a <app>
+                  <rdg wit="#Z">defenzores</rdg>
+                  <rdg wit="#A">defensores</rdg>
+               </app> de la humanidad<app>
+                  <rdg wit="#Z">;</rdg>
+                  <rdg wit="#A">,</rdg>
+               </app> cuyo consejo esperaba <app>
+                  <rdg wit="#Z">sea</rdg>
+                  <rdg wit="#A">ser</rdg>
+               </app> admitido<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y observado por los Butalmapus, <app><rdg wit="#Z">encargando</rdg><rdg wit="#A">encargado</rdg></app> al Comisario General de Naciones, y
+               capitanes, vigilen<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y avisen de <app><rdg wit="#Z">qualesquiera</rdg><rdg wit="#A">cualesquier</rdg></app> <app><rdg wit="#Z">infraccion</rdg><rdg wit="#A">infracción</rdg></app> (que no espera) para que sea
+               conocido<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y tratado como merece<app><rdg wit="#Z"/><rdg wit="#A">,</rdg></app> el agresor de semejante barbarie<app><rdg wit="#Z"> = </rdg><rdg wit="#A">.</rdg></app></ab><pb ed="#A" n="26"/>
          </div>
 
          <div>
