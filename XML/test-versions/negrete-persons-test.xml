@@ -23,6 +23,7 @@
             
             <person n="1">
                   <persName>
+                     <name>Gonzalo Maria de Figueroa</name>
                   <roleName></roleName>
                   <forename>Gonzalo Maria</forename>
                   <nameLink>de</nameLink>
@@ -39,6 +40,7 @@
             <person n="2"><!-- whc: may include attributes role, sex, gender, age: add if known/used -->
                <!-- whc: for further specs and details, see https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER -->
                <persName><!-- whc: contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. -->
+                  <name>Don Pedro Quijada</name><!-- whc: Use this for the name you want displayed in lists or elsewhere on website -->
                   <roleName>Don</roleName><!-- whc: contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank: encloses an associated name component such as an aristocratic or official title which exists in some sense independently of its bearer. See  https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER for details and use of attributes for diff types. -->
                   <forename>Pedro</forename><!-- whc: contains a forename, given or baptismal name -->
                   <nameLink></nameLink><!-- whc: contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of -->
@@ -55,6 +57,7 @@
             <person n="3"><!-- whc: may include attributes role, sex, gender, age: add if known/used -->
                <!-- whc: for further specs and details, see https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER -->
                <persName><!-- whc: contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. -->
+                  <name></name><!-- whc: Use this for the name you want displayed in lists or elsewhere on website -->
                   <roleName></roleName><!-- whc: contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank: encloses an associated name component such as an aristocratic or official title which exists in some sense independently of its bearer. See  https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER for details and use of attributes for diff types. -->
                   <forename></forename><!-- whc: contains a forename, given or baptismal name -->
                   <nameLink></nameLink><!-- whc: contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of -->
@@ -69,6 +72,7 @@
             <person n="4"><!-- whc: may include attributes role, sex, gender, age: add if known/used -->
                <!-- whc: for further specs and details, see https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER -->
                <persName><!-- whc: contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. -->
+                  <name></name><!-- whc: Use this for the name you want displayed in lists or elsewhere on website -->
                   <roleName></roleName><!-- whc: contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank: encloses an associated name component such as an aristocratic or official title which exists in some sense independently of its bearer. See  https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER for details and use of attributes for diff types. -->
                   <forename></forename><!-- whc: contains a forename, given or baptismal name -->
                   <nameLink></nameLink><!-- whc: contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of -->

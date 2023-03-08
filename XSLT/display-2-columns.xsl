@@ -70,7 +70,7 @@
                     <xsl:apply-templates select="head" mode="Z-head"/></th>
                 <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
                     <xsl:apply-templates select="head" mode="A-head"/></th>
-                <td><b>Notes</b> (Click on terms in text to view)</td>
+                <td><b>Notas</b> <i>Haga clic en cada categoría para ver</i></td>
             </tr>
         </xsl:if>
         <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
@@ -84,9 +84,15 @@
                     <xsl:apply-templates select="ab" mode="A-block"/> </td>
                 
                 <td>
+                    <xsl:if test="ab[.//term or .//persName or .//placeName]">
+                        <span class="title"><b>Notas</b></span> <i> Haga clic en cada categoría para ver</i>
+                    </xsl:if>
+                    <xsl:if test="ab[not(.//term or .//persName or .//placeName)]">
+                        <i>No hay notas en esta sección.</i>
+                    </xsl:if>
                     <xsl:if test=".//term">
                         <details>
-                            <summary><span class="title"><b>Terms</b></span></summary> <i>Click each term to expand/collapse</i>
+                            <summary><span class="title"><b>Términos</b></span></summary> <i>Click en cada término para ver</i>
                         <p>
                 <xsl:for-each-group select=".//term" group-by="data(@n)">
                     <xsl:variable name="term-n" select="./data(@n)"/>
@@ -103,18 +109,17 @@
                     
                     
                     <xsl:if test=".//persName">
-                        <details><summary><span class="title"><b>Persons</b></span></summary> <i>Click each name to expand/collapse</i>
+                        <details><summary><span class="title"><b>Personas</b></span></summary> <i>Click en cada nombre para ver</i>
                             <p>
                         <xsl:for-each-group select=".//persName" group-by="data(@n)">
                             <xsl:variable name="pers-n" select="./data(@n)"/>
                             <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
-                            <details><summary><b><xsl:apply-templates select="$this-pers/persName/concat
-                                (roleName, ' ', forename, ' ', nameLink,' ', surname, ' ', genName)!normalize-space()"/></b></summary>
+                            <details><summary><b><xsl:apply-templates select="$this-pers/persName/name"/></b></summary>
                                 <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
                         </xsl:for-each-group>   </p></details>     </xsl:if>
                     
                     <xsl:if test=".//placeName">
-                        <details><summary><span class="title"><b>Places</b></span></summary> <i>Click each place to expand/collapse</i>
+                        <details><summary><span class="title"><b>Lugares</b></span></summary> <i>Click en cada nombre de lugar para ver</i>
                             <p>
                                 <xsl:for-each-group select=".//placeName" group-by="data(@n)">
                                     <xsl:variable name="place-n" select="./data(@n)"/>

@@ -19,7 +19,7 @@
     <text>
         <body>
             
-            <superEntry xml:id="demo1234">
+            <superEntry n="1">
                 <entry xml:lang="span">
                     <form>
                         <orth>Nacion</orth>
