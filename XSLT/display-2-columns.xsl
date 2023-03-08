@@ -52,7 +52,7 @@
                                 </tr>
                                 <tr><th><h2>Text: Zavala</h2></th>
                                     <th><h2>Text: Ayun</h2></th>
-                                    <th><h2>Notes</h2></th></tr>
+                                    <th><h2>Notas</h2></th></tr>
 
                                 <xsl:apply-templates select="//body/div"/>
                                 
@@ -70,7 +70,7 @@
                     <xsl:apply-templates select="head" mode="Z-head"/></th>
                 <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
                     <xsl:apply-templates select="head" mode="A-head"/></th>
-                <td><b>Notas</b> <i> Haga clic en cada categoría para ver</i></td>
+                <td><b>Notas</b> <i> Click en cada categoría para ver</i></td>
             </tr>
         </xsl:if>
         <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
@@ -85,11 +85,12 @@
                 
                 <td>
                     <xsl:if test="ab[.//term or .//persName or .//placeName]">
-                        <span class="title"><b>Notas</b></span> <i> Haga clic en cada categoría para ver</i><hr/>
+                        <span class="title"><b>Notas</b></span> <i> Click en cada categoría para ver</i><hr/>
                     </xsl:if>
                     <xsl:if test="ab[not(.//term or .//persName or .//placeName)]">
                         <i>No hay notas en esta sección.</i>
                     </xsl:if>
+                    
                     <xsl:if test=".//term">
                         <details>
                             <summary><span class="title"><b>Términos</b></span></summary> <i>Click en cada término para ver</i>
