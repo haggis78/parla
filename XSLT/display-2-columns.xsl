@@ -70,7 +70,8 @@
                     <xsl:apply-templates select="head" mode="Z-head"/></th>
                 <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
                     <xsl:apply-templates select="head" mode="A-head"/></th>
-                <td><b>Notas</b> <i> Click en cada categoría para ver</i></td>
+                <td><b>Notas</b> <i> Click en cada categoría para ver</i>
+                    <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Volver al principio</a></button></td>
             </tr>
         </xsl:if>
         <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
@@ -85,10 +86,12 @@
                 
                 <td>
                     <xsl:if test="ab[.//term or .//persName or .//placeName]">
-                        <span class="title"><b>Notas</b></span> <i> Click en cada categoría para ver</i><hr/>
+                        <span class="title"><b>Notas</b></span> <i> Click en cada categoría para ver</i>
+                        <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Volver al principio</a></button><hr/>
                     </xsl:if>
                     <xsl:if test="ab[not(.//term or .//persName or .//placeName)]">
                         <i>No hay notas en esta sección.</i>
+                        <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Volver al principio</a></button>
                     </xsl:if>
                     
                     <xsl:if test=".//term">
