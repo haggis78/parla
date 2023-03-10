@@ -47,7 +47,7 @@
       <body>
 
          <div>
-            <pb ed="#A" n="7"/>
+            <pb ed="#A" n="7"/><!--EW there is no number 7 in the ayun-->
             <pb ed="#Z" n="413"/>
             <head>Parlamento <app>
                   <rdg wit="#A">general celebrado en el campo</rdg>
@@ -147,9 +147,9 @@
                </app> expresando estar <app>
                   <rdg wit="#Z">prontos</rdg>
                   <rdg wit="#A">pronto</rdg>
-               </app> todos los <app>
+               </app> <pb ed="#A" n="8"/>todos los <app>
                   <rdg wit="#Z">Caciques Principales de la Tierra</rdg>
-                  <rdg wit="#A">caciques <pb ed="#A" n="8"/>principales de la tierra</rdg>
+                  <rdg wit="#A">caciques principales de la tierra</rdg>
                </app> para saludarle<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -753,7 +753,7 @@
                </app> y obediencia<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A"/>
-               </app> = </ab>
+               </app> = <pb ed="#A" n="12"/></ab>
          </div>
          <pb ed="#A" n="12"/>
          <!-- whc 1/20/23: haven't tagged A page breaks in this file past here; breaks tagged in separate A-only xml file; add tags for A page beginnings going forward from here as I collate-->
@@ -892,7 +892,7 @@
                </app> con las especies que conduzcan, y del mismo modo los españoles por las suyas, <app>
                   <rdg wit="#Z">franqueandose</rdg>
                   <rdg wit="#A">franqueándose</rdg>
-               </app> los caminos <app>
+               </app> los caminos <pb ed="#A" n="13"/><app>
                   <rdg wit="#Z">reciprocamente,</rdg>
                   <rdg wit="#A">recíprocamente</rdg>
                </app>
@@ -1043,7 +1043,7 @@
                </app> en el Parlamento de Lonquilmo, y refrendado en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> de Negrete, sobre las desavenencias,<app>
+               </app> de Negrete, sobre las desavenencias,<pb ed="#A" n="14"/><app>
                   <rdg wit="#Z"> rovos,</rdg>
                   <rdg wit="#A">robos</rdg>
                </app> y malocas sangrientas<app>
@@ -1169,7 +1169,7 @@
                </app> se acordó en el sobredicho anterior Parlamento<app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">.</rdg>
-               </app>
+               </app>   <pb ed="#A" n="15"/>
             </ab>
          </div>
 
@@ -1300,7 +1300,7 @@
                </app> por lo que <app>
                   <rdg wit="#Z">intereza</rdg>
                   <rdg wit="#A">interesa</rdg>
-               </app> el respeto y <app>
+               </app> el <pb ed="#A" n="16"/>respeto y <app>
                   <rdg wit="#Z">subordinacion</rdg>
                   <rdg wit="#A">la subordinación</rdg>
                </app> a las <app>
@@ -1417,7 +1417,7 @@
                </app> de todas las <app>
                   <rdg wit="#Z">miciones,</rdg>
                   <rdg wit="#A">Misiones</rdg>
-               </app> con encargo muy particular de que dirija todos sus trabajos y empeños por el
+               </app> con encargo muy particular de que dirija todos sus <pb ed="#A" n="17"/>trabajos y empeños por el
                bien de la tierra, favoreciendo<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -1528,7 +1528,7 @@
                </app> con recuerdo de todos los <app>
                   <rdg wit="#Z">Articulos y Tratados</rdg>
                   <rdg wit="#A">artículos y tratados</rdg>
-               </app> del anterior Parlamento<app>
+               </app> del anterior <pb ed="#A" n="18"/>Parlamento<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> cuyos puntos <app>
@@ -2682,152 +2682,377 @@
                </app> admitido<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y observado por los Butalmapus, <app><rdg wit="#Z">encargando</rdg><rdg wit="#A">encargado</rdg></app> al Comisario General de Naciones, y
-               capitanes, vigilen<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y avisen de <app><rdg wit="#Z">qualesquiera</rdg><rdg wit="#A">cualesquier</rdg></app> <app><rdg wit="#Z">infraccion</rdg><rdg wit="#A">infracción</rdg></app> (que no espera) para que sea
-               conocido<app><rdg wit="#Z">,</rdg><rdg wit="#A"/></app> y tratado como merece<app><rdg wit="#Z"/><rdg wit="#A">,</rdg></app> el agresor de semejante barbarie<app><rdg wit="#Z"> = </rdg><rdg wit="#A">.</rdg></app></ab><pb ed="#A" n="26"/>
+               </app> y observado por los Butalmapus, <app>
+                  <rdg wit="#Z">encargando</rdg>
+                  <rdg wit="#A">encargado</rdg>
+               </app> al Comisario General de Naciones, y capitanes, vigilen<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y avisen de <app>
+                  <rdg wit="#Z">qualesquiera</rdg>
+                  <rdg wit="#A">cualesquier</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">infraccion</rdg>
+                  <rdg wit="#A">infracción</rdg>
+               </app> (que no espera) para que sea conocido<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y tratado como merece<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> el agresor de semejante barbarie<app>
+                  <rdg wit="#Z"> = </rdg>
+                  <rdg wit="#A">.</rdg>
+               </app></ab>
+            <pb ed="#A" n="26"/>
          </div>
 
          <div>
-            <ab>Todos los caciques oyeron con particular atencion este consejo, y tratandose unos
-               con otros, se decian: que era la prueba del buen corazon de los superiores, y muy
-               particularmente del que presidia el Parlamento: Que ellos por su parte quedaban
-               convencidos para evitar en adelante aquellos crueles proce<pb ed="#Z" n="419"
-               />dimientos, y el Governador Curinaguel, el de Arauco, Tucapel, y otros, exforzaron a
-               todos los casiques para complacer al Señor Presidente del Congreso, y entregar si
-               llegase algun caso extremo, a todo hombre o muger calumniado de hechizero o brujo,
-               con car-go de que no vuelva jamas a la tierra = </ab>
+            <ab>Todos los <app>
+                  <rdg wit="#Z">caciques</rdg>
+                  <rdg wit="#A">Caciques</rdg>
+               </app> oyeron con particular <app>
+                  <rdg wit="#Z">atencion</rdg>
+                  <rdg wit="#A">atención</rdg>
+               </app> este consejo, y <app>
+                  <rdg wit="#Z">tratandose</rdg>
+                  <rdg wit="#A">tratándose</rdg>
+               </app> unos con otros<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> se <app>
+                  <rdg wit="#Z">decian</rdg>
+                  <rdg wit="#A">decían</rdg>
+               </app>: que era la prueba <app>
+                  <rdg wit="#Z">del</rdg>
+                  <rdg wit="#A">de</rdg>
+               </app> buen <app>
+                  <rdg wit="#Z">corazon</rdg>
+                  <rdg wit="#A">corazón</rdg>
+               </app> de los superiores<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y muy particularmente del que <app>
+                  <rdg wit="#Z">presidia</rdg>
+                  <rdg wit="#A">presidía</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">el Parlamento: Que</rdg>
+                  <rdg wit="#A">al Parlamento; que</rdg>
+               </app> ellos por su parte quedaban <app>
+                  <rdg wit="#Z">convencidos</rdg>
+                  <rdg wit="#A"/>
+               </app> para <app>
+                  <rdg wit="#Z">evitar</rdg>
+                  <rdg wit="#A">contar</rdg>
+               </app> en adelante aquellos crueles proce<pb ed="#Z" n="419"/>dimientos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y el <app>
+                  <rdg wit="#Z">Governador Curinaguel</rdg>
+                  <rdg wit="#A">Gobernador Curanigüel</rdg>
+               </app>, el <app>
+                  <rdg wit="#Z">de</rdg>
+                  <rdg wit="#A"/>
+               </app> Arauco, Tucapel<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y otros<app>
+                  <rdg wit="#Z">, exforzaron</rdg>
+                  <rdg wit="#A">esforzaron</rdg>
+               </app> a todos los <app>
+                  <rdg wit="#Z">casiques</rdg>
+                  <rdg wit="#A">Caciques</rdg>
+               </app> para complacer al Señor Presidente del Congreso<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y entregar si llegase <app>
+                  <rdg wit="#Z">algun</rdg>
+                  <rdg wit="#A">algún</rdg>
+               </app> caso extremo<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> a todo hombre o <app>
+                  <rdg wit="#Z">muger calumniado</rdg>
+                  <rdg wit="#A">mujer alumniado</rdg>
+               </app> de <app>
+                  <rdg wit="#Z">hechizero o brujo,</rdg>
+                  <rdg wit="#A">brujo o hechicero</rdg>
+               </app> con cargo de que no vuelva <app>
+                  <rdg wit="#Z">jamas</rdg>
+                  <rdg wit="#A">jamás</rdg>
+               </app> a la tierra<app>
+                  <rdg wit="#Z"> = </rdg>
+                  <rdg wit="#A">/</rdg>
+               </app></ab>
          </div>
 
          <div>
-            <ab>Que desde luego ratifi caban sus promesas, y que no faltarian a ellas, estando
-               dispuestos a quanto se les mandase en servicio del Rey, y bien comun de ellos, y de
-               los españoles, suplicando que por conclucion del Congreso, se hiciese una salva para
-               manifestar todos su alegria, y reconocimiento al Rey, en aquel dia que habian llegado
-               al colmo de la confi anza que les inspira el trato con los españoles, por las
-               continuadas pruebas que tienen de sus buenos corazones. Con lo que teniendo su
-               Señoria por concluido este acto, mandó hiciesen todos el juramento de vasallage y fi
-               de-lidad en la forma de vida, lo que se verifi co por los yndios cristianos, jurando
-               por la Santa Cruz, y los gentiles, levantando el brazo (todos hincados de rodillas) y
-               reconocien-do por su Rey y Señor natural al Poderoso Rey de las Españas el Señor Don
-               Carlos quarto, y por su immediato Succesor al Serenisimo Principe de Asturias Don
-               Fernando, y que guardarian excrupulosamente los Tratados y Consejos de este
-               Parlamento, y del anterior, lo que verifi cado con el mayor decoro, y general alegria
-               de los quatro Butalma-pus, se hizo la salva de quince cañonazos, repitiendo Viva el
-               Rey, y abrazando con sin-gular gusto y cariño al Señor Presidente del Congreso, a
-               todos los circunstantes, y ellos entre si, se mandó fi rmar por los Señores que se
-               hallaron presentes, que si para esparcir desde aquel puesto a lo interior del
-               Butalmapu de Angol fuere conveniente alli algun hospicio, se les concedera despues
-               que admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifi estan
-               condescender. Que por medio del Comisario de Naciones se manifi este a los Butalmapus
-               en las Juntas que han de celebrar la proxima primavera para divulgar a todas sus
-               parcialidades los Tratados de este Parlamento, la grande satisfaccion que me resulta
-               de su conformidad a los consejos, y prevenciones que les hizo el Señor mi comicionado
-               en aquel Congreso, relativas a la conservacion de su tranquilidad, y union reciproca,
-               y de su fi delidad a los españoles en la franquicia de sus caminos para Valdivia,
-               rezguardo de sus costas contra los enemigos comunes, cesasion de incurciones en la
-               pampas de Buenos Ayres, dedicandose al trabajo y cultura de sus tierras para vivir
-               feliz-mente con sus familias; y que me prometo su exacto cumplimiento, para tener la
-               com-placencia de dispensarles por ello todos los benefi cios, amparo, y justicia, que
-               penden de mi autoridad, conforme a las benignas intenciones del Soberano, como ya lo
-               he hecho, atendiendoles en sus pretenciones justas que han ocurrido desde mi ingreso
-               al Mando Superior de este Reyno, y ahora con ocasion del Parlamento, embiandoles
-               abundantes agazajos a todos los concurrentes, y asignando a los caciques de mas
-               sequito y acreditada conducta, pensiones fi xas costeadas por la Real Hacienda
-               mediante la inmensa liberali-dad del Rey, que tiene encargado se les trate con la
-               mayor humanidad y obsequio, a quien por eso deben reconocer como padre, y rendirle
-               sus mas humildes homenages, como a todos los gefes que en su Real nombre goviernan
-               este Reyno, y su frontera; y fi nalmente, que dandose las merecidas gracias al Señor
-               Brigadier Don Pedro Quijada Comicionado Presidente, por su buen desempeño, y
-               ventajosos efectos de este acto, no menos que al Señor Brigadier Don Pedro Nolazco
-               del Rio Comandante de la Plaza de los Angeles, por su cooperacion, e infl ujo con los
-               Yndios que ha tenido para el logro de aquellos, se le remita Testimonio de este Auto
-               para su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
-               traslados con las ordenes oportunas para la execucion de todo lo prevenido, a los
-               Comandantes de las Plazas Fronterizas, Cavildo de la Ciudad, y demas a quienes toque
-               de qualquier manera, y que con el integro de estas Actas se de cuenta a su Magestad
-               para su Real inteligencia, y aprobacion. Y asi lo proveyó, mandó, y fi rmó su
-               Excelencia, de que certifi co = Muñoz = Por mandado de su Excelencia = Judas Tadeo
-               Reyes, Secretario. <pb ed="#Z" n="420"/>Concuerda con su original [de] que certifico.
-               Santiago y octubre dies y ocho de mil ochosientos tres. </ab>
+            <ab>Que desde luego ratificaban sus promesas, y que no <app>
+                  <rdg wit="#Z">faltarian</rdg>
+                  <rdg wit="#A">faltarían</rdg>
+               </app> a ellas, estando dispuestos a <app>
+                  <rdg wit="#Z">quanto</rdg>
+                  <rdg wit="#A">cuanto</rdg>
+               </app> se les mandase en servicio del Rey, y bien <app>
+                  <rdg wit="#Z">comun</rdg>
+                  <rdg wit="#A">común</rdg>
+               </app> de ellos, y de los españoles, suplicando que por <app>
+                  <rdg wit="#Z">conclucion</rdg>
+                  <rdg wit="#A">conclusión</rdg>
+               </app> del Congreso<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> se <app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">les</rdg>
+               </app>hiciese una salva para manifestar todos su <app>
+                  <rdg wit="#Z">alegria,</rdg>
+                  <rdg wit="#A">alegría</rdg>
+               </app> y reconocimiento al Rey<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> en aquel <app>
+                  <rdg wit="#Z">dia</rdg>
+                  <rdg wit="#A">día</rdg>
+               </app> que <app>
+                  <rdg wit="#Z">habian</rdg>
+                  <rdg wit="#A">habían</rdg>
+               </app> llegado al colmo de la confianza que les inspira <app>
+                  <rdg wit="#Z">el</rdg>
+                  <rdg wit="#A">al</rdg>
+               </app> trato con los españoles<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> por las continuadas pruebas que tienen de sus buenos corazones<app>
+                  <rdg wit="#Z">. Con</rdg>
+                  <rdg wit="#A">con</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">lo</rdg>
+                  <rdg wit="#A">o</rdg>
+               </app> que teniendo su <app>
+                  <rdg wit="#Z">Señoria</rdg>
+                  <rdg wit="#A">Señoría</rdg>
+               </app> por concluido este acto, <app>
+                  <rdg wit="#Z">mandó</rdg>
+                  <rdg wit="#A">mando</rdg>
+               </app> hiciesen todos el juramento de <app>
+                  <rdg wit="#Z">vasallage</rdg>
+                  <rdg wit="#A">vasallaje</rdg>
+               </app> y fidelidad<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> en la forma <app>
+                  <rdg wit="#Z">de vida</rdg>
+                  <rdg wit="#A">debida</rdg>
+               </app>, lo que se <app>
+                  <rdg wit="#Z">verifico</rdg>
+                  <rdg wit="#A">verificó</rdg>
+               </app> por los <app>
+                  <rdg wit="#Z">yndios cristianos,</rdg>
+                  <rdg wit="#A">Indios Cristianos</rdg>
+               </app> jurando por la Santa Cruz, y los gentiles<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> levantando el brazo (todos hincados de rodillas) y reconociendo por su Rey y
+               Señor natural<app>
+                  <rdg wit="#Z"/>
+                  <rdg wit="#A">,</rdg>
+               </app> al <app>
+                  <rdg wit="#Z">Poderoso</rdg>
+                  <rdg wit="#A">poderoso</rdg>
+               </app> Rey de las Españas el Señor Don Carlos <app>
+                  <rdg wit="#Z">quarto</rdg>
+                  <rdg wit="#A">Cuarto</rdg>
+               </app>, y por su <app>
+                  <rdg wit="#Z">immediato Succesor</rdg>
+                  <rdg wit="#A">inmediato sucesor</rdg>
+               </app> al <app>
+                  <rdg wit="#Z">Serenisimo Principe</rdg>
+                  <rdg wit="#A">Serenísimo Príncipe</rdg>
+               </app> de Asturias Don Fernando<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y que <app>
+                  <rdg wit="#Z">guardarian</rdg>
+                  <rdg wit="#A">guardarían</rdg>
+               </app>
+               <app>
+                  <rdg wit="#Z">excrupulosamente</rdg>
+                  <rdg wit="#A">escrupulosamente</rdg>
+               </app> los<app>
+                  <rdg wit="#Z"> Tratados</rdg>
+                  <rdg wit="#A">tratados</rdg>
+               </app> y <pb ed="#A" n="26"/><app>
+                  <rdg wit="#Z">Consejos</rdg>
+                  <rdg wit="#A">consejos</rdg>
+               </app> de este Parlamento<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y del anterior, lo que verificado con el mayor decoro<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y general <app>
+                  <rdg wit="#Z">alegria</rdg>
+                  <rdg wit="#A">alegría</rdg>
+               </app> de los <app>
+                  <rdg wit="#Z">quatro</rdg>
+                  <rdg wit="#A">cuatro</rdg>
+               </app> Butalmapus, se hizo la salva de quince cañonazos<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A">;</rdg>
+               </app> repitiendo <app>
+                  <rdg wit="#Z">Viva</rdg>
+                  <rdg wit="#A">viva</rdg>
+               </app> el Rey<app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A"/>
+               </app> y abrazando con singular gusto y cariño al Señor Presidente del Congreso, a
+               todos los circunstantes, y ellos entre <app>
+                  <rdg wit="#Z">si,</rdg>
+                  <rdg wit="#A">sí</rdg>
+               </app> se mandó firmar por los Señores que se hallaron presentes, <app>
+                  <rdg wit="#Z">que si para esparcir desde aquel puesto a lo interior del Butalmapu
+                     de Angol fuere conveniente alli algun hospicio, se les concedera despues que
+                     admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifi estan
+                     condescender. Que por medio del Comisario de Naciones se manifi este a los
+                     Butalmapus en las Juntas que han de celebrar la proxima primavera para divulgar
+                     a todas sus parcialidades los Tratados de este Parlamento, la grande
+                     satisfaccion que me resulta de su conformidad a los consejos, y prevenciones
+                     que les hizo el Señor mi comicionado en aquel Congreso, relativas a la
+                     conservacion de su tranquilidad, y union reciproca, y de su fi delidad a los
+                     españoles en la franquicia de sus caminos para Valdivia, rezguardo de sus
+                     costas contra los enemigos comunes, cesasion de incurciones en la pampas de
+                     Buenos Ayres, dedicandose al trabajo y cultura de sus tierras para vivir
+                     feliz-mente con sus familias; y que me prometo su exacto cumplimiento, para
+                     tener la com-placencia de dispensarles por ello todos los benefi cios, amparo,
+                     y justicia, que penden de mi autoridad, conforme a las benignas intenciones del
+                     Soberano, como ya lo he hecho, atendiendoles en sus pretenciones justas que han
+                     ocurrido desde mi ingreso al Mando Superior de este Reyno, y ahora con ocasion
+                     del Parlamento, embiandoles abundantes agazajos a todos los concurrentes, y
+                     asignando a los caciques de mas sequito y acreditada conducta, pensiones fi xas
+                     costeadas por la Real Hacienda mediante la inmensa liberali-dad del Rey, que
+                     tiene encargado se les trate con la mayor humanidad y obsequio, a quien por eso
+                     deben reconocer como padre, y rendirle sus mas humildes homenages, como a todos
+                     los gefes que en su Real nombre goviernan este Reyno, y su frontera; y fi
+                     nalmente, que dandose las merecidas gracias al Señor Brigadier Don Pedro
+                     Quijada Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
+                     este acto, no menos que al Señor Brigadier Don Pedro Nolazco del Rio Comandante
+                     de la Plaza de los Angeles, por su cooperacion, e infl ujo con los Yndios que
+                     ha tenido para el logro de aquellos, se le remita Testimonio de este Auto para
+                     su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
+                     traslados con las ordenes oportunas para la execucion de todo lo prevenido, a
+                     los Comandantes de las Plazas Fronterizas, Cavildo de la Ciudad, y demas a
+                     quienes toque de qualquier manera, y que con el integro de estas Actas se de
+                     cuenta a su Magestad para su Real inteligencia, y aprobacion. Y asi lo proveyó,
+                     mandó, y fi rmó su Excelencia, de que certifi co = Muñoz = Por mandado de su
+                     Excelencia = Judas Tadeo Reyes, Secretario. <pb ed="#Z" n="420"/>Concuerda con
+                     su original [de] que certifico. Santiago y octubre dies y ocho de mil
+                     ochosientos tres.</rdg>
+                  <rdg wit="#A"/>
+               </app>
+            </ab>
          </div>
          <!-- whc 1/20/23: see printed copy of Z for formatting -->
          <div>
-            <ab>Antonio Garfi a s Escrivano subtituto de Gobierno RESUMEN Caciques de los quatro
-               Butalmapus Capitanejos, Mozetones, y Respetados de iden 
-               <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
+            <ab><app>
+                  <rdg wit="#Z">Antonio Garfi a s Escrivano subtituto de Gobierno RESUMEN Caciques
+                     de los quatro Butalmapus Capitanejos, Mozetones, y Respetados de iden <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
                   from A here -->
-               <pb ed="#Z" n="422"/>Señor Don Luis Muñoz de Guzman, Teniente General de los Reales
-               Exercitos, Presidente, Governador, y Capitan General del Reyno de Chile = En la
-               Ciudad de Santiago de Chile a diez y nueve de Junio de mil ochocientos tres: El
-               Excelentisimo Señor Don Luis Muñoz de Guzman, Cavallero del Orden de Santiago,
-               Comendador de las Pueblas en la de Alcantara, Teniente General de la Real Armada,
-               Governador y Capitan general del Reyno de Chile, Presidente de su real Audiencia,
-               Superintendente Subdelegado de Real Hacienda, y Correos, y Vice Patrono Real,
-               [rúbrica]: Habiendo visto el Parlamento General celebrado en el Campo de Negrete por
-               su Comicionado el Señor Brigadier Don Pedro Quijada, Comandante Ynterino de Armas de
-               la Provincia de la Concepcion, con los quatro Butalmapus de aquella Frontera, y
-               Payzes del Sur, en los dias desde el tres al cinco de marzo proximo pasado, dixo, que
-               debia aprobar, y aprobaba los ocho Articulos de su contenido, respecto de dirigirse a
-               la ratifi cacion de los Tratados, y Parlamentos anteriores aprobados por su Magestad,
-               como oportunos para la consolidacion de la paz, y mejor civilizacion de aquellas
-               naciones, y su reconocimiento a la Soberana de nuestro Catolico Rey y Señor Don
-               Carlos quarto: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
-               ellos quedó establecido de acuerdo con los governadores, caciques, y gilmenes de sus
-               respectivas Parcialidades, y Ayllareques, precaviendose por lo que respecta a la
-               libertad del comercio reciproco de que trata el Articulo segundo; y es conforme a la
-               Ley veinte y quatro titulo primero libro sexto de estos dominios, toda coaccion y
-               engaño de los yndios, y la introduccion en sus tierras de armas ofensivas y
-               defensivas, vino, y demas efectos prohibidos, conforme a la misma Ley, y siguientes
-               hasta la treinta y una del citado titulo y libro, y al peculiar Reglamento formado en
-               su razon, y aprobado por Real Orden de nueve de Febrero de mil setecientos noventa y
-               siete. Y en quanto a las pretenciones particulares que hicieron en aquel Congreso
-               varios caciques, mandó su Señoria, se haga entender al de Maquegua, y sus compañeros,
-               que deben renunciar la corta satisfaccion de poder vicitar mas facilmente a los
-               jovenes que entreguen para su educacion en el Seminario, trasladandose a la Plaza de
-               los Angeles, por las mayores ventajas que resultan de su reunion al Colegio de los
-               Padres Micioneros de la Ciudad de Chillan, donde logran mejores comodidades para su
-               subsistencia, y asig-nacion de maestros los mas a proposito, bajo la direccion del
-               Padre Guardian, estando asi dispuesto por el Rey, sin arvitrio aqui para variarlo,
-               por los muchos inconvenientes al instituto de ambos establecimientos, y mayores
-               dotaciones, y costos exorbitantes de nueva fabrica, que sobrevendrian de su
-               reparacion. Que no se haga novedad en la subsis-tencia del Hospicio de Santa Barbara,
-               que se habia proyectado abandonar, sino que antes se proceda a su refaccion,
-               progresando el Expediente que estaba suspenso, y pendiente de la resolucion que se
-               tomase sobre este particular en este Parlamento, por lo que puede importar a la
-               consecucion de miciones en las Parcialidades de Pehuenches, y señalada-mente el
-               restablecimiento de la de Lolco, como solicitan sus caciques, a cuyo efecto se
-               encargará al Señor Yntendente Comandante Militar de la Provincia de la Concepcion,
-               procure su realizacion, convocando las Juntas oportunas de los yndios, y consultando
-               previamente a esta Superioridad las demas providencias que convenga anticipar para su
-               allanamiento, asignacion de los micioneros de acuerdo con el Padre Prefecto y
-               Guardian del Colegio de Chillan, y proviciones de gastos para su establecimiento, y
-               sinodos fi xos: Que al cacique de la Reduccion de Santa Feé se le persuada, desista
-               de su pretencion de tener parroco micionero a exemplo de su respetable antecesor el
-               anciano honrado Levigueque, por ser esta una materia vintilada, y decidida
-               anteriormente con anuencia del Ylustrisimo Señor Obispo de la Concepcion, conforme a
-               los derechos de su Jurisdiccion, y a las Constituciones Pontifi cias, e Ynstituto de
-               los Micioneros, que solo deben emplearse en la convercion de los Ynfi eles, hasta que
-               formalicen las reducciones, respecto de que la de Santa Feé, por su antiguedad,
-               entera sujecion al gremio de la Yglecia, y <pb ed="#Z" n="423"/>situacion en
-               territorio de los españoles, debe gloriarse del timbre de estar exenta de aquel
-               concepto, como las de San Cristoval, y otras de igual claze sujetas a la doctrina de
-               los curas instituidos por el ordinario Ecleciastico, en todo igual a los de los
-               españoles; y de que certifico =
+                     <pb ed="#Z" n="422"/>Señor Don Luis Muñoz de Guzman, Teniente General de los
+                     Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de Chile
+                     = En la Ciudad de Santiago de Chile a diez y nueve de Junio de mil ochocientos
+                     tres: El Excelentisimo Señor Don Luis Muñoz de Guzman, Cavallero del Orden de
+                     Santiago, Comendador de las Pueblas en la de Alcantara, Teniente General de la
+                     Real Armada, Governador y Capitan general del Reyno de Chile, Presidente de su
+                     real Audiencia, Superintendente Subdelegado de Real Hacienda, y Correos, y Vice
+                     Patrono Real, [rúbrica]: Habiendo visto el Parlamento General celebrado en el
+                     Campo de Negrete por su Comicionado el Señor Brigadier Don Pedro Quijada,
+                     Comandante Ynterino de Armas de la Provincia de la Concepcion, con los quatro
+                     Butalmapus de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
+                     cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
+                     Articulos de su contenido, respecto de dirigirse a la ratifi cacion de los
+                     Tratados, y Parlamentos anteriores aprobados por su Magestad, como oportunos
+                     para la consolidacion de la paz, y mejor civilizacion de aquellas naciones, y
+                     su reconocimiento a la Soberana de nuestro Catolico Rey y Señor Don Carlos
+                     quarto: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
+                     ellos quedó establecido de acuerdo con los governadores, caciques, y gilmenes
+                     de sus respectivas Parcialidades, y Ayllareques, precaviendose por lo que
+                     respecta a la libertad del comercio reciproco de que trata el Articulo segundo;
+                     y es conforme a la Ley veinte y quatro titulo primero libro sexto de estos
+                     dominios, toda coaccion y engaño de los yndios, y la introduccion en sus
+                     tierras de armas ofensivas y defensivas, vino, y demas efectos prohibidos,
+                     conforme a la misma Ley, y siguientes hasta la treinta y una del citado titulo
+                     y libro, y al peculiar Reglamento formado en su razon, y aprobado por Real
+                     Orden de nueve de Febrero de mil setecientos noventa y siete. Y en quanto a las
+                     pretenciones particulares que hicieron en aquel Congreso varios caciques, mandó
+                     su Señoria, se haga entender al de Maquegua, y sus compañeros, que deben
+                     renunciar la corta satisfaccion de poder vicitar mas facilmente a los jovenes
+                     que entreguen para su educacion en el Seminario, trasladandose a la Plaza de
+                     los Angeles, por las mayores ventajas que resultan de su reunion al Colegio de
+                     los Padres Micioneros de la Ciudad de Chillan, donde logran mejores comodidades
+                     para su subsistencia, y asig-nacion de maestros los mas a proposito, bajo la
+                     direccion del Padre Guardian, estando asi dispuesto por el Rey, sin arvitrio
+                     aqui para variarlo, por los muchos inconvenientes al instituto de ambos
+                     establecimientos, y mayores dotaciones, y costos exorbitantes de nueva fabrica,
+                     que sobrevendrian de su reparacion. Que no se haga novedad en la subsis-tencia
+                     del Hospicio de Santa Barbara, que se habia proyectado abandonar, sino que
+                     antes se proceda a su refaccion, progresando el Expediente que estaba suspenso,
+                     y pendiente de la resolucion que se tomase sobre este particular en este
+                     Parlamento, por lo que puede importar a la consecucion de miciones en las
+                     Parcialidades de Pehuenches, y señalada-mente el restablecimiento de la de
+                     Lolco, como solicitan sus caciques, a cuyo efecto se encargará al Señor
+                     Yntendente Comandante Militar de la Provincia de la Concepcion, procure su
+                     realizacion, convocando las Juntas oportunas de los yndios, y consultando
+                     previamente a esta Superioridad las demas providencias que convenga anticipar
+                     para su allanamiento, asignacion de los micioneros de acuerdo con el Padre
+                     Prefecto y Guardian del Colegio de Chillan, y proviciones de gastos para su
+                     establecimiento, y sinodos fi xos: Que al cacique de la Reduccion de Santa Feé
+                     se le persuada, desista de su pretencion de tener parroco micionero a exemplo
+                     de su respetable antecesor el anciano honrado Levigueque, por ser esta una
+                     materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo Señor
+                     Obispo de la Concepcion, conforme a los derechos de su Jurisdiccion, y a las
+                     Constituciones Pontifi cias, e Ynstituto de los Micioneros, que solo deben
+                     emplearse en la convercion de los Ynfi eles, hasta que formalicen las
+                     reducciones, respecto de que la de Santa Feé, por su antiguedad, entera
+                     sujecion al gremio de la Yglecia, y <pb ed="#Z" n="423"/>situacion en
+                     territorio de los españoles, debe gloriarse del timbre de estar exenta de aquel
+                     concepto, como las de San Cristoval, y otras de igual claze sujetas a la
+                     doctrina de los curas instituidos por el ordinario Ecleciastico, en todo igual
+                     a los de los españoles; y </rdg>
+                  <rdg wit="#A"/>
+               </app>de que certifico =
                <!--whc 1/20/23: these last few words, y de que certifico, do appear at the end of Ayun, though several paragraphs are omitted above it. -->
             </ab>
          </div>
 
          <div>
-            <ab>Pedro Quijada = Pedro Nolazco del Rio = Mariano José de Roa = Juan Zapatero = Manuel
-               de Vega Bazan = Pedro José de Benavente = Melchor de Carvajal = Luis de la Cruz =
-               Miguel Puga = Fray Francisco Xavier de Alday = Fray Gil Calvo = Guardian de Chillan =
-               Gonzalo Maria de Figueroa, Secretario de la Comicion. </ab>
+            <ab><app>
+                  <rdg wit="#Z">Pedro Quijada = Pedro Nolazco del Rio = Mariano José de Roa = Juan
+                     Zapatero = Manuel de Vega Bazan = Pedro José de Benavente = Melchor de Carvajal
+                     = Luis de la Cruz = Miguel Puga = Fray Francisco Xavier de Alday = Fray Gil
+                     Calvo = Guardian de Chillan = Gonzalo Maria de Figueroa, Secretario de la
+                     Comicion.</rdg>
+                  <rdg wit="#A">Pedro Quijada. - Pedro Nolasco del Rio. - Mariano José de Roa. -
+                     Juan Zapatero. - Melchor de Carvajal. - Pedro José de Benavente. - Miguel Puga.
+                     - Luis de la Cruz – Fr. Gil Calvo.- Guardián de Chillán. - Fr. Francisco Javier
+                     de Aldai Prefecto de Misiones. _ Gonzalo M. de Figueroa secretario de la
+                     comisión.” </rdg>
+               </app>
+            </ab>
          </div>
 
          <div>
-            <ab>Relacion de los Caciques Governadores y particulares, con sus Respetados y Mozetones
-               que han concurrido al Parlamento General de Negrete de los quatro Butalmapus,
-               cele-brado el dia tres de Marzo de mil ochocientos tres. </ab>
+            <ab><app>
+                  <rdg wit="#Z">Relacion de los Caciques Governadores y particulares, con sus
+                     Respetados y Mozetones que han concurrido al Parlamento General de Negrete de
+                     los quatro Butalmapus, cele-brado el dia tres de Marzo de mil ochocientos
+                     tres.</rdg>
+                  <rdg wit="#A"/>
+               </app>
+            </ab>
          </div>
 
       </body>
