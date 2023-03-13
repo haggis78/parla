@@ -14,16 +14,17 @@
          <sourceDesc>
             <listBibl>
                <bibl xml:id="A">
-                  <editor/><!--whc 1/20/23: [Who is editor of Ayun version? None listed in the bibliography in the NEH application.] -->
+                  <editor>[Need some corporate name for Ayun editorial team]</editor><!--whc 1/20/23: [Who is editor of Ayun version? None listed in the bibliography in the NEH application.] -->
                   <title>Parlamento de Negrete 27 de Febrero de 1803 </title>
                   <publisher>Corporación Ayun</publisher>
                   <pubPlace>Santiago, Chile</pubPlace>
                   <date>2008</date>
                   <biblScope>pp. 7-27</biblScope>
                   <rs>A</rs><!-- whc: addition 02 Feb -->
-                  <note>[add any notes or description here: e.g. explain that this is a modernized
-                     version of the text and that it omits part of the text as it appears in the
-                     MS.]</note>
+                  <note xml:lang="span">[add any notes or description here IN SPANISH: e.g. explain that this is a literal
+                     transcription of the MS]</note>
+                  <note xml:lang="eng">[add any notes or description here IN ENGLISH: e.g. explain that this is a literal
+                     transcription of the MS]</note>
                </bibl>
                <bibl xml:id="Z"><!--whc 1/17/23: need biblio info for Zavala version. Is it Pilar's transcription or someone else's? Is it published? If so, need publ info; if not, need to change form of this reference to msDesc. -->
                   <editor>José Manuel Zavala Cepeda</editor>
@@ -33,12 +34,19 @@
                   <date>2015</date>
                   <biblScope>pp. 413-423</biblScope>
                   <rs>Z</rs><!-- whc: addition 02 Feb -->
-                  <note>This edition aimed at a literal transcription of the manuscript sources,
+                  <note xml:lang="span">[add any notes or description here IN SPANISH: something to 
+                     this effect:] This edition aimed at a literal transcription of the manuscript sources,
                      including the original orthography and punctuation. The footnote on p. 413
                      reads: "En Chile existen versiones de este parlamento en: ANHCh, FV, vol. 813,
                      fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión
                      proveniente del Fondo Varios (Marimán, 2002: 87-101)."</note>
-               </bibl>
+                  <note xml:lang="eng">[add any notes or description here IN ENGLISH: something to 
+                     this effect:] This edition aimed at a literal transcription of the manuscript sources,
+                     including the original orthography and punctuation. The footnote on p. 413
+                     reads: "En Chile existen versiones de este parlamento en: ANHCh, FV, vol. 813,
+                     fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión
+                     proveniente del Fondo Varios (Marimán, 2002: 87-101)."</note>
+                  </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>

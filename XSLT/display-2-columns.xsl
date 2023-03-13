@@ -160,6 +160,9 @@
         <xsl:apply-templates mode="A-rdg"/>
     </xsl:template>
     
+    <!-- whc 3/13/23: need to change the words below (editors, etc.) into Spanish here,
+    but use xml comment to save copy of this template rule with English terms to re-use 
+    instead when creating Eng-Span page; will also need to call notes in English there-->
     <xsl:template match="bibl">
             <p><b>Editor(s): </b> <xsl:apply-templates select="editor"/></p> 
             <p><b>Publication title: </b><i><xsl:value-of select="title"/></i></p>
@@ -167,7 +170,8 @@
             <p><b>Publisher location: </b><xsl:value-of select="pubPlace"/></p>
             <p><b>Publication date: </b><xsl:value-of select="date"/></p>
             <p><b>Page range: </b><xsl:value-of select="biblScope"/></p>
-            <p><b>Notes: </b><i><xsl:value-of select="note"/></i></p>     
+            <p><b>Notes: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>     
+    
     </xsl:template>
 
     <xsl:template match="div//persName" mode="#all">

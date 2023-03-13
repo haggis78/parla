@@ -15,14 +15,17 @@
          <sourceDesc>
             <listBibl>
                <bibl xml:id="A">
-                  <editor/><!--whc 1/20/23: [Who is editor of Ayun version? None listed in the bibliography in the NEH application.] -->
+                  <editor>[Need some corporate name for Ayun editorial team]</editor><!--whc 1/20/23: [Who is editor of Ayun version? None listed in the bibliography in the NEH application.] -->
                   <title>Parlamento de Negrete 27 de Febrero de 1803</title>
                   <publisher>Corporación Ayun</publisher>
                   <pubPlace>Santiago, Chile</pubPlace>
                   <date>2008</date>
                   <biblScope>pp. 7-27</biblScope>
                   <rs>A</rs><!-- whc: addition 02 Feb -->
-                  <note>[add any notes or description here: e.g. explain that this is a modernized
+                  <note xml:lang="span">[add any notes or description here IN SPANISH: e.g. explain that this is a modernized
+                     version of the text and that it omits part of the text as it appears in the
+                     MS.]</note>
+                  <note xml:lang="eng">[add any notes or description here IN ENGLISH: e.g. explain that this is a modernized
                      version of the text and that it omits part of the text as it appears in the
                      MS.]</note>
                </bibl>
@@ -34,7 +37,9 @@
                   <date>2015</date>
                   <biblScope>pp. 413-423</biblScope>
                   <rs>Z</rs><!-- whc: addition 02 Feb -->
-                  <note>[add any notes or description here: e.g. explain that this is a literal
+                  <note xml:lang="span">[add any notes or description here IN SPANISH: e.g. explain that this is a literal
+                     transcription of the MS]</note>
+                  <note xml:lang="eng">[add any notes or description here IN ENGLISH: e.g. explain that this is a literal
                      transcription of the MS]</note>
                </bibl>
             </listBibl>
