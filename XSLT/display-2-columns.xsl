@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- WHC 09-FEB-2023: The purpose for this XSLT is to create a display version of each edition 
-    IN TWO PARALLEL COLUMNS (actually in a table element) as an html file. 
+    IN TWO PARALLEL COLUMNS (actually in a table element) as an html file, with a third column for notes. 
     I moved away from the whole way the selection of rdg elements worked in Brecon to make a much cleaner, more elegant
     stylesheet. It is static, meaning that it will not make different versions appear and disappear at a click like Brecon.
     That would have been very tricky to manage, maybe impossible, once a separate file with the English translation 
