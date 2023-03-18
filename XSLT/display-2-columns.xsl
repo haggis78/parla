@@ -31,15 +31,15 @@
                         <link rel="stylesheet" type="text/css" href="css/style.css" />
 <!-- whc 07-FEB-2023: I removed the js link that made tick boxes work. Will need to add back in, plus relevant 
                         css, to be able to change color/bold/whatever for names/places/terms etc.-->
-                      <title>Negrete: Text Comparison</title>
+                        <title>Negrete: Comparación de Textos</title>
                     </head>
                     <body>
                         <img src="../images/heading-bickham-font.png" width="1100"
                             alt="header with image of the words Parlamentos Project in historic script" />
                         <hr />
                         <div class="content">
-                            <h1><xsl:apply-templates select="//titleStmt/title"/></h1>
-                            <h3>Skip to section:<xsl:text>   </xsl:text>
+                            <h1><xsl:apply-templates select="//titleStmt/title"/><xsl:text>: Comparación de Textos</xsl:text></h1>
+                            <h3>Pase a la sección:<xsl:text>   </xsl:text>
                             <xsl:for-each select="//body/div">
                                 <a href="#sect-{count(preceding-sibling::div)+1}"><xsl:value-of select='count(preceding-sibling::div)+1'/></a>  
                                 <xsl:text>   </xsl:text>
