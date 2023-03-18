@@ -20,7 +20,7 @@
     <xsl:variable name="negPers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
     <xsl:variable name="negPlace" select="document('../XML/test-versions/negrete-locations-test.xml')"/>
     
-    <!--whc 18-FEB-2023: will need to change ther varables' filepaths and file handles when it's time to run over the real files-->
+    <!--whc 18-FEB-2023: will need to change the varables' filepaths and file handles when it's time to run over the real files-->
     <xsl:strip-space elements="*"/>
     
     <xsl:template match="$negText">
@@ -50,8 +50,8 @@
                                     <td><xsl:apply-templates select="//bibl[data(@xml:id)='A']"/></td>
                                     <th></th>
                                 </tr>
-                                <tr><th><h2>Text: Zavala</h2></th>
-                                    <th><h2>Text: Ayun</h2></th>
+                                <tr><th><h2>Texto: Zavala</h2></th>
+                                    <th><h2>Texto: Ayun</h2></th>
                                     <th><h2>Notas</h2></th></tr>
 
                                 <xsl:apply-templates select="//body/div"/>
@@ -70,8 +70,8 @@
                     <xsl:apply-templates select="head" mode="Z-head"/></th>
                 <th>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  
                     <xsl:apply-templates select="head" mode="A-head"/></th>
-                <td><b>Notas</b> <i> Click en cada categoría para ver</i>
-                    <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Volver al principio</a></button></td>
+                <td><b>Notas</b> <i> Haga clic en cada categoría para ampliar/contraer</i>
+                    <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Inicio de página</a></button></td>
             </tr>
         </xsl:if>
         <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
@@ -86,17 +86,17 @@
                 
                 <td>
                     <xsl:if test="ab[.//term or .//persName or .//placeName]">
-                        <span class="title"><b>Notas</b></span> <i> Click en cada categoría para ver</i>
-                        <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Volver al principio</a></button><hr/>
+                        <span class="title"><b>Notas</b></span> <i> Haga clic en cada categoría para ampliar/contraer</i>
+                        <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Inicio de página</a></button><hr/>
                     </xsl:if>
                     <xsl:if test="ab[not(.//term or .//persName or .//placeName)]">
                         <i>No hay notas en esta sección.</i>
-                        <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Volver al principio</a></button>
+                        <button type="button" class= "btn btn-light" name="button" style="float: right;"><a href="#top">Inicio de página</a></button>
                     </xsl:if>
                     
                     <xsl:if test=".//term">
                         <details>
-                            <summary><span class="title"><b>Términos</b></span></summary> <i>Click en cada término para ver</i>
+                            <summary><span class="title"><b>Términos</b></span></summary> <i>Haga clic en cada término para ampliar/contraer</i>
                         <p>
                 <xsl:for-each-group select=".//term" group-by="data(@n)">
                     <xsl:variable name="term-n" select="./data(@n)"/>
@@ -113,7 +113,7 @@
                     
                     
                     <xsl:if test=".//persName">
-                        <details><summary><span class="title"><b>Personas</b></span></summary> <i>Click en cada nombre para ver</i>
+                        <details><summary><span class="title"><b>Personas</b></span></summary> <i>Haga clic en cada nombre para ampliar/contraer</i>
                             <p>
                         <xsl:for-each-group select=".//persName" group-by="data(@n)">
                             <xsl:variable name="pers-n" select="./data(@n)"/>
@@ -123,7 +123,7 @@
                         </xsl:for-each-group>   </p></details>     </xsl:if>
                     
                     <xsl:if test=".//placeName">
-                        <details><summary><span class="title"><b>Lugares</b></span></summary> <i>Click en cada nombre de lugar para ver</i>
+                        <details><summary><span class="title"><b>Lugares</b></span></summary> <i>Haga clic en cada lugar para ampliar/contraer</i>
                             <p>
                                 <xsl:for-each-group select=".//placeName" group-by="data(@n)">
                                     <xsl:variable name="place-n" select="./data(@n)"/>
@@ -160,18 +160,24 @@
         <xsl:apply-templates mode="A-rdg"/>
     </xsl:template>
     
-    <!-- whc 3/13/23: need to change the words below (editors, etc.) into Spanish here,
-    but use xml comment to save copy of this template rule with English terms to re-use 
-    instead when creating Eng-Span page; will also need to call notes in English there-->
-    <xsl:template match="bibl">
+    <!-- whc 3/17/23: This is the version to use in other stylesheet(s) to give info in English
+        <xsl:template match="bibl">
             <p><b>Editor(s): </b> <xsl:apply-templates select="editor"/></p> 
             <p><b>Publication title: </b><i><xsl:value-of select="title"/></i></p>
             <p><b>Publisher: </b><xsl:value-of select="publisher"/></p>
             <p><b>Publisher location: </b><xsl:value-of select="pubPlace"/></p>
             <p><b>Publication date: </b><xsl:value-of select="date"/></p>
             <p><b>Page range: </b><xsl:value-of select="biblScope"/></p>
-            <p><b>Notes: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>     
-    
+            <p><b>Notes: </b><i><xsl:value-of select="note[@xml:lang='eng']"/></i></p>     
+    </xsl:template>-->
+    <xsl:template match="bibl">
+            <p><b>Editor(es): </b> <xsl:apply-templates select="editor"/></p> 
+        <p><b>Título de publicación: </b><i><xsl:value-of select="title"/></i></p>
+        <p><b>Editorial: </b><xsl:value-of select="publisher"/></p>
+        <p><b>Lugar de publicación: </b><xsl:value-of select="pubPlace"/></p>
+        <p><b>Fecha de publicación: </b><xsl:value-of select="date"/></p>
+        <p><b>Intervalo de página: </b><xsl:value-of select="biblScope"/></p>
+            <p><b>Notas: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>     
     </xsl:template>
 
     <xsl:template match="div//persName" mode="#all">
