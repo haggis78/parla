@@ -27,7 +27,7 @@
                      transcription of the MS]</note>
                </bibl>
                <bibl xml:id="Z"><!--whc 1/17/23: need biblio info for Zavala version. Is it Pilar's transcription or someone else's? Is it published? If so, need publ info; if not, need to change form of this reference to msDesc. -->
-                  <editor>José Manuel Zavala Cepeda</editor>
+                  <editor><persName>José Manuel Zavala Cepeda</persName></editor>
                   <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
                   <publisher>Ediciones Universidad Católica de Temuco</publisher>
                   <pubPlace>Temuco, Chile</pubPlace>
@@ -62,7 +62,7 @@
                   <rdg wit="#Z"/>
                </app>de Negrete <app>
                   <rdg wit="#A">con los Indios de Chile en los días 3, 4 y 5 de marzo de mil
-                     ochocientos tres años, presidido por el Señor don Pedro Quijada, Brigadier de
+                     ochocientos tres años, presidido por el Señor don <persName>Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
                      a nombre del Excmo. Señor Gobernador y Capitán General del Reino de
                      Chile.</rdg>
@@ -73,7 +73,7 @@
             <head><app>
                   <rdg wit="#A"><lb/>Acta preliminar (instalación del comisionado real): <lb/>27 de
                      febrero de 1803</rdg>
-                  <rdg wit="Z"/>
+                  <rdg wit="#Z"/>
                </app></head>
             <!--whc 1/18/23: do I want to mark up the date here? Line breaks?-->
          </div>
@@ -88,7 +88,7 @@
                </app> de mil ochocientos tres<app>
                   <rdg wit="#Z">: El Señor Don</rdg>
                   <rdg wit="#A">, el señor don</rdg>
-               </app> Pedro Quijada, Brigadier de los Reales <app>
+               </app> <persName>Pedro Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z">Exercitos,</rdg>
                   <rdg wit="#A">, Ejércitos y</rdg>
                </app> Comandante del Batallon de <app>
@@ -219,10 +219,10 @@
                </app> y firmó su Señoria<app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. – </rdg>
-               </app> Pedro Quijada<app>
+               </app> <persName>Pedro Quijada</persName><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. – </rdg>
-               </app> Gonzalo Maria de Figueroa<app>
+               </app> <persName>Gonzalo Maria de Figueroa</persName><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. – </rdg>
                </app>
@@ -310,7 +310,7 @@
                </app> que les estaban preparados<app>
                   <rdg wit="#Z">;</rdg>
                   <rdg wit="#A">,</rdg>
-               </app> el Señor Don Pedro de Quijada, Brigadier de los Reales <app>
+               </app> el Señor Don <persName>Pedro de Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z">Exercitos</rdg>
                   <rdg wit="#A">Ejércitos</rdg>
                </app>, Comandante del <app>
@@ -325,9 +325,9 @@
                </app> y a nombre del <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> Señor Don Luiz Muñoz de <app>
-                  <rdg wit="#Z">Guzman</rdg>
-                  <rdg wit="#A">Guzmán</rdg>
+               </app> Señor Don <app>
+                  <rdg wit="#Z"><persName>Luiz Muñoz de Guzman</persName></rdg>
+                  <rdg wit="#A"><persName>Luiz Muñoz de Guzmán</persName></rdg>
                </app>, <app>
                   <rdg wit="#Z">Governador Capitan General,</rdg>
                   <rdg wit="#A">Gobernador, Capitán General</rdg>
@@ -340,9 +340,9 @@
                </app> acompañado de los Señores<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> el Brigadier Don Pedro <app>
-                  <rdg wit="#Z">Nolazco del Rio</rdg>
-                  <rdg wit="#A">Nolasco del Río</rdg>
+               </app> el Brigadier Don <app>
+                  <rdg wit="#Z"><persName>Pedro Nolazco del Rio</persName></rdg>
+                  <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
                </app>, Comandante del Cuerpo de Dragones<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -350,30 +350,30 @@
                   <rdg wit="#Z">Quartel General de los Angeles</rdg>
                   <rdg wit="#A">cuartel general de los Ángeles</rdg>
                </app>, <app>
-                  <rdg wit="#Z">Don Mariano de Roa, Arzediando</rdg>
-                  <rdg wit="#A">don Mariano de Roa Arcediano</rdg>
+                  <rdg wit="#Z">Don <persName>Mariano de Roa</persName>, Arzediando</rdg>
+                  <rdg wit="#A">don <persName>Mariano de Roa</persName> Arcediano</rdg>
                </app> de la Santa <app>
                   <rdg wit="#Z">Yglesia Catedral de la Ciudad de Concepcion</rdg>
                   <rdg wit="#A">Iglesia Catedral de la ciudad de la Concepción,</rdg>
                </app> a nombre del <app>
                   <rdg wit="#Z">Ylustrisimo</rdg>
                   <rdg wit="#A">Ilustrísimo</rdg>
-               </app> Señor Obispo de ella, Don Manuel de Vega <app>
-                  <rdg wit="#Z">Bazan,</rdg>
-                  <rdg wit="#A">Bazán</rdg>
-               </app> y Don Juan Zapatero, <app>
-                  <rdg wit="#Z">Coroneles de Artilleria</rdg>
-                  <rdg wit="#A">coroneles de artillería</rdg>
-               </app>, Don Melchor de <app>
-                  <rdg wit="#Z">Carbajal</rdg>
-                  <rdg wit="#A">Carvajal</rdg>
-               </app>, Teniente Coronel de Dragones, el de igual <app>
+               </app> Señor <persName>Obispo de ella</persName>, Don <app>
+                  <rdg wit="#Z"><persName>Manuel de Vega Bazan</persName>,</rdg>
+                  <rdg wit="#A"><persName>Manuel de Vega Bazán</persName></rdg>
+               </app> y Don <persName>Juan Zapatero</persName>, <app>
+                  <rdg wit="#Z"><persName>Coroneles de Artilleria</persName></rdg>
+                  <rdg wit="#A"><persName>coroneles de artillería</persName></rdg>
+               </app>, Don <app>
+                  <rdg wit="#Z"><persName>Melchor de Carbajal</persName></rdg>
+                  <rdg wit="#A"><persName>Melchor de Carvajal</persName></rdg>
+               </app>, <persName>Teniente Coronel de Dragones</persName>, el de igual <app>
                   <rdg wit="#Z">claze</rdg>
                   <rdg wit="#A">clase</rdg>
-               </app> Don Pedro <app>
-                  <rdg wit="#Z">Jose</rdg>
-                  <rdg wit="#A">José</rdg>
-               </app> de Benavente, Don Miguel Puga<app>
+               </app> Don <app>
+                  <rdg wit="#Z"><persName>Pedro Jose de Benavente</persName></rdg>
+                  <rdg wit="#A"><persName>Pedro José de Benavente</persName></rdg>
+               </app> , Don <persName>Miguel Puga</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y Don Luis de la Cruz, <app>
@@ -388,9 +388,9 @@
                </app>, el Reverendo Padre <app>
                   <rdg wit="#Z">Guardian</rdg>
                   <rdg wit="#A">Guardián</rdg>
-               </app> del Colegio de Propaganda Fray Gil Calvo, Prefecto de Misiones, Fray Francisco <app>
-                  <rdg wit="#Z">Xavier de Alday</rdg>
-                  <rdg wit="#A">Javier de Aldai</rdg>
+               </app> del Colegio de Propaganda Fray <persName>Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
+                  <rdg wit="#Z"><persName>Francisco Xavier de Alday</persName></rdg>
+                  <rdg wit="#A"><persName>Francisco Javier de Aldai</persName></rdg>
                </app> con seis <app>
                   <rdg wit="#Z">Religiosos,</rdg>
                   <rdg wit="#A">religiosos</rdg>
@@ -404,10 +404,10 @@
                </app> y Provincia, <app>
                   <rdg wit="#Z">hallandose</rdg>
                   <rdg wit="#A">hallándose</rdg>
-               </app> a todo presente Don Gonzalo <app>
-                  <rdg wit="#Z">Maria</rdg>
-                  <rdg wit="#A">María</rdg>
-               </app> de Figueroa, <app>
+               </app> a todo presente Don <app>
+                  <rdg wit="#Z"><persName>Gonzalo Maria de Figueroa</persName></rdg>
+                  <rdg wit="#A"><persName>Gonzalo María de Figueroa</persName></rdg>
+               </app> , <app>
                   <rdg wit="#Z">Secretario de la Comicion:</rdg>
                   <rdg wit="#A">secretario de la comisión,</rdg>
                </app>
@@ -598,12 +598,12 @@
                   <rdg wit="#A">trasladé</rdg>
                </app> por el <app>
                   <rdg wit="#Z">Butalmapu</rdg>
-                  <rdg wit="A">Butamalpus</rdg>
+                  <rdg wit="#A">Butamalpus</rdg>
                </app> de Angol al <app>
                   <rdg wit="#Z">Govierno de la Plaza</rdg>
                   <rdg wit="#A">gobierno de la plaza</rdg>
                </app> de Valdivia, llenos de haciendas<app>
-                  <rdg wit="Z">,</rdg>
+                  <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y ganados de todas especies, adelantada la agricultura, vuestros <app>
                   <rdg wit="#Z">mozetones</rdg>
@@ -652,9 +652,9 @@
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
                </app> Señor <app>
-                  <rdg wit="#Z">Marques</rdg>
-                  <rdg wit="#A">Marqués</rdg>
-               </app> de Osorno el año <app>
+                  <rdg wit="#Z"><persName>Marques de Osorno</persName></rdg>
+                  <rdg wit="#A"><persName>Marqués de Osorno</persName></rdg>
+               </app> el año <app>
                   <rdg wit="#Z">pasado</rdg>
                   <rdg wit="#A"/>
                </app> de noventa y tres, y otros que convengan tratar a vuestro beneficio, atendido
@@ -667,9 +667,9 @@
                </app> cuyas ventajas me ha <app>
                   <rdg wit="#Z">demonstrado</rdg>
                   <rdg wit="#A">demostrado</rdg>
-               </app> el Brigadier Comandante del Cuerpo de Dragones Don Pedro Nolasco del <app>
-                  <rdg wit="#Z">Rio</rdg>
-                  <rdg wit="#A">Río</rdg>
+               </app> el Brigadier Comandante del Cuerpo de Dragones Don <app>
+                  <rdg wit="#Z"><persName>Pedro Nolasco del Rio</persName></rdg>
+                  <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
                </app>, que os ha <app>
                   <rdg wit="#Z">governado</rdg>
                   <rdg wit="#A">gobernado</rdg>
@@ -763,7 +763,6 @@
                   <rdg wit="#A"/>
                </app> = <pb ed="#A" n="12"/></ab>
          </div>
-         <pb ed="#A" n="12"/>
          <!-- whc 1/20/23: haven't tagged A page breaks in this file past here; breaks tagged in separate A-only xml file; add tags for A page beginnings going forward from here as I collate-->
          <div>
             <head><app>
@@ -809,16 +808,16 @@
                </app> al <app>
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
-               </app> y Soberano Señor Don Carlos <app>
-                  <rdg wit="#Z">quarto</rdg>
-                  <rdg wit="#A">Cuarto</rdg>
+               </app> y Soberano Señor Don <app>
+                  <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
+                  <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
                   <rdg wit="#Z">Succesor</rdg>
                   <rdg wit="#A">sucesor</rdg>
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias Don Fernando, <app>
+               </app> de Asturias Don <persName>Fernando</persName>, <app>
                   <rdg wit="#Z">debian</rdg>
                   <rdg wit="#A">debían</rdg>
                </app> prometer y jurar <app>
@@ -941,7 +940,7 @@
                   <rdg wit="#Z">procediendose</rdg>
                   <rdg wit="#A">procediéndose</rdg>
                </app> su entable en el año pasado de noventa y seis<app>
-                  <rdg wit="Z"/>
+                  <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> bajo las reglas que expresa el <app>
                   <rdg wit="#Z">Bando publico</rdg>
@@ -1081,7 +1080,7 @@
                   <rdg wit="#Z">venganzas</rdg>
                   <rdg wit="#A">vengazar</rdg>
                </app>, faltando a este <app>
-                  <rdg wit="Z">Tratado</rdg>
+                  <rdg wit="#Z">Tratado</rdg>
                   <rdg wit="#A">tratado</rdg>
                </app> contra el respeto <app>
                   <rdg wit="#Z">devido</rdg>
@@ -1456,8 +1455,8 @@
                   <rdg wit="#Z">lizencia</rdg>
                   <rdg wit="#A">licencia</rdg>
                </app> para hablar el Cacique <app>
-                  <rdg wit="#Z">Governador de la Reduccion cristiana de Santa Fee Don Ygnacio
-                     Naipayl[ic]an,</rdg>
+                  <rdg wit="#Z">Governador de la Reduccion cristiana de Santa Fee Don <persName>Ygnacio
+                     Naipayl[ic]an</persName>,</rdg>
                   <rdg wit="#A">Gobernador de la Reducción Cristiana de Santa Fe, Don Ignacio
                      Nágpayluan</rdg>
                </app> conforme a la preferencia antigua que tiene en estos casos<app>
@@ -1476,8 +1475,8 @@
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
                </app> Butalmapus, el que recayó por votos uniformes en el<app>
-                  <rdg wit="#Z"> Governador de la Reduccion de Angol Don Francisco Curinaguel</rdg>
-                  <rdg wit="#A">Gobernador de la Reducción de Angol Don Francisco Curinagüel</rdg>
+                  <rdg wit="#Z"> Governador de la Reduccion de Angol Don <persName>Francisco Curinaguel</persName></rdg>
+                  <rdg wit="#A">Gobernador de la Reducción de Angol Don <persName>Francisco Curinagüel</persName></rdg>
                </app>, y en <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
@@ -1518,7 +1517,7 @@
                </app> hecha por el <app>
                   <rdg wit="#Z"> Excelentisimo Señor Capitan General en el señor</rdg>
                   <rdg wit="#A">Excmo. Señor Capitán General en el Señor</rdg>
-               </app> Brigadier Don Pedro Quijada para presidir el Parlamento General<app>
+               </app> Brigadier Don <persName>Pedro Quijada</persName> para presidir el Parlamento General<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> era de la mayor <app>
@@ -1672,10 +1671,10 @@
                </app> y lo firmo<app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. -</rdg>
-               </app> Pedro Quijada<app>
+               </app> <persName>Pedro Quijada</persName><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. -</rdg>
-               </app> Gonzalo Maria de Figueroa<app>
+               </app> <persName>Gonzalo Maria de Figueroa</persName><app>
                   <rdg wit="#Z"> = </rdg>
                   <rdg wit="#A">.”</rdg>
                </app></ab>
@@ -1829,12 +1828,12 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> lo firmó<app>
-                  <rdg wit="#Z"> = Pedro Quijada =</rdg>
-                  <rdg wit="#A">. -Pedro Quijada. -</rdg>
-               </app> Gonzalo <app>
-                  <rdg wit="#Z">Maria</rdg>
-                  <rdg wit="#A">María</rdg>
-               </app> de Figueroa<app>
+                  <rdg wit="#Z"> = <persName>Pedro Quijada</persName> =</rdg>
+                  <rdg wit="#A">. -<persName>Pedro Quijada</persName>. -</rdg>
+               </app><app>
+                  <rdg wit="#Z"><persName>Gonzalo Maria de Figueroa</persName></rdg>
+                  <rdg wit="#A"><persName>Gonzalo María de Figueroa</persName></rdg>
+               </app> <app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">.-”</rdg>
                </app><pb ed="#A" n="20"/>
@@ -2677,7 +2676,7 @@
                </app>
                <app>
                   <rdg wit="#Z">gratificará</rdg>
-                  <rdg wit="A">gratificara</rdg>
+                  <rdg wit="#A">gratificara</rdg>
                </app> competentemente como a <app>
                   <rdg wit="#Z">defenzores</rdg>
                   <rdg wit="#A">defensores</rdg>
@@ -2871,16 +2870,16 @@
                </app> al <app>
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
-               </app> Rey de las Españas el Señor Don Carlos <app>
-                  <rdg wit="#Z">quarto</rdg>
-                  <rdg wit="#A">Cuarto</rdg>
+               </app> Rey de las Españas el Señor Don <app>
+                  <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
+                  <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
                   <rdg wit="#Z">immediato Succesor</rdg>
                   <rdg wit="#A">inmediato sucesor</rdg>
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias Don Fernando<app>
+               </app> de Asturias Don <persName>Fernando</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y que <app>
@@ -2893,7 +2892,7 @@
                </app> los<app>
                   <rdg wit="#Z"> Tratados</rdg>
                   <rdg wit="#A">tratados</rdg>
-               </app> y <pb ed="#A" n="26"/><app>
+               </app> y <pb ed="#A" n="27"/><app>
                   <rdg wit="#Z">Consejos</rdg>
                   <rdg wit="#A">consejos</rdg>
                </app> de este Parlamento<app>
@@ -2945,9 +2944,9 @@
                      tiene encargado se les trate con la mayor humanidad y obsequio, a quien por eso
                      deben reconocer como padre, y rendirle sus mas humildes homenages, como a todos
                      los gefes que en su Real nombre goviernan este Reyno, y su frontera; y fi
-                     nalmente, que dandose las merecidas gracias al Señor Brigadier Don Pedro
-                     Quijada Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
-                     este acto, no menos que al Señor Brigadier Don Pedro Nolazco del Rio Comandante
+                     nalmente, que dandose las merecidas gracias al Señor Brigadier Don <persName>Pedro
+                     Quijada</persName> Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
+                     este acto, no menos que al Señor Brigadier Don <persName>Pedro Nolazco del Rio</persName> Comandante
                      de la Plaza de los Angeles, por su cooperacion, e infl ujo con los Yndios que
                      ha tenido para el logro de aquellos, se le remita Testimonio de este Auto para
                      su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
@@ -2978,15 +2977,15 @@
                      Real Armada, Governador y Capitan general del Reyno de Chile, Presidente de su
                      real Audiencia, Superintendente Subdelegado de Real Hacienda, y Correos, y Vice
                      Patrono Real, [rúbrica]: Habiendo visto el Parlamento General celebrado en el
-                     Campo de Negrete por su Comicionado el Señor Brigadier Don Pedro Quijada,
+                     Campo de Negrete por su Comicionado el Señor Brigadier Don <persName>Pedro Quijada</persName>,
                      Comandante Ynterino de Armas de la Provincia de la Concepcion, con los quatro
                      Butalmapus de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
                      cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
                      Articulos de su contenido, respecto de dirigirse a la ratifi cacion de los
                      Tratados, y Parlamentos anteriores aprobados por su Magestad, como oportunos
                      para la consolidacion de la paz, y mejor civilizacion de aquellas naciones, y
-                     su reconocimiento a la Soberana de nuestro Catolico Rey y Señor Don Carlos
-                     quarto: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
+                     su reconocimiento a la Soberana de nuestro Catolico Rey y Señor Don <persName>Carlos
+                     quarto</persName>: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
                      ellos quedó establecido de acuerdo con los governadores, caciques, y gilmenes
                      de sus respectivas Parcialidades, y Ayllareques, precaviendose por lo que
                      respecta a la libertad del comercio reciproco de que trata el Articulo segundo;
@@ -3022,7 +3021,7 @@
                      se le persuada, desista de su pretencion de tener parroco micionero a exemplo
                      de su respetable antecesor el anciano honrado Levigueque, por ser esta una
                      materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo Señor
-                     Obispo de la Concepcion, conforme a los derechos de su Jurisdiccion, y a las
+                     <persName>Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
                      Constituciones Pontifi cias, e Ynstituto de los Micioneros, que solo deben
                      emplearse en la convercion de los Ynfi eles, hasta que formalicen las
                      reducciones, respecto de que la de Santa Feé, por su antiguedad, entera
@@ -3040,15 +3039,15 @@
 
          <div>
             <ab><app>
-                  <rdg wit="#Z">Pedro Quijada = Pedro Nolazco del Rio = Mariano José de Roa = Juan
-                     Zapatero = Manuel de Vega Bazan = Pedro José de Benavente = Melchor de Carvajal
-                     = Luis de la Cruz = Miguel Puga = Fray Francisco Xavier de Alday = Fray Gil
-                     Calvo = Guardian de Chillan = Gonzalo Maria de Figueroa, Secretario de la
+                  <rdg wit="#Z"><persName>Pedro Quijada</persName> = <persName>Pedro Nolazco del Rio</persName> = <persName>Mariano José de Roa</persName> = <persName>Juan
+                     Zapatero</persName> = <persName>Manuel de Vega Bazan</persName> = <persName>Pedro José de Benavente</persName> = Melchor de Carvajal
+                     = Luis de la Cruz = <persName>Miguel Puga</persName> = Fray <persName>Francisco Xavier de Alday</persName> = Fray <persName>Gil
+                     Calvo</persName> = Guardian de Chillan = <persName>Gonzalo Maria de Figueroa</persName>, Secretario de la
                      Comicion.</rdg>
-                  <rdg wit="#A">Pedro Quijada. - Pedro Nolasco del Rio. - Mariano José de Roa. -
-                     Juan Zapatero. - Melchor de Carvajal. - Pedro José de Benavente. - Miguel Puga.
-                     - Luis de la Cruz – Fr. Gil Calvo.- Guardián de Chillán. - Fr. Francisco Javier
-                     de Aldai Prefecto de Misiones. _ Gonzalo M. de Figueroa secretario de la
+                  <rdg wit="#A"><persName>Pedro Quijada</persName>. - <persName>Pedro Nolasco del Rio</persName>. - <persName>Mariano José de Roa</persName>. -
+                     <persName>Juan Zapatero</persName>. - <persName>Melchor de Carvajal</persName>. - <persName>Pedro José de Benavente</persName>. - Miguel Puga.
+                     - Luis de la Cruz – Fr. <persName>Gil Calvo</persName>.- Guardián de Chillán. - Fr. <persName>Francisco Javier
+                     de Aldai</persName> Prefecto de Misiones. _ <persName>Gonzalo M. de Figueroa</persName> secretario de la
                      comisión.” </rdg>
                </app>
             </ab>
