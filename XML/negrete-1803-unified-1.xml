@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Parlamento de Negrete (1803)</title>
+            <title><term>Parlamento</term> de <term>Negrete</term> (1803)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -15,7 +15,7 @@
             <listBibl>
                <bibl xml:id="A">
                   <editor>[Need some corporate name for Ayun editorial team]</editor><!--whc 1/20/23: [Who is editor of Ayun version? None listed in the bibliography in the NEH application.] -->
-                  <title>Parlamento de Negrete 27 de Febrero de 1803 </title>
+                  <title><term>Parlamento</term> de <term>Negrete</term> 27 de Febrero de 1803 </title>
                   <publisher>Corporación Ayun</publisher>
                   <pubPlace>Santiago, Chile</pubPlace>
                   <date>2008</date>
@@ -28,7 +28,7 @@
                </bibl>
                <bibl xml:id="Z"><!--whc 1/17/23: need biblio info for Zavala version. Is it Pilar's transcription or someone else's? Is it published? If so, need publ info; if not, need to change form of this reference to msDesc. -->
                   <editor><persName>José Manuel Zavala Cepeda</persName></editor>
-                  <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                  <title>Los <term>Parlamento</term>s Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
                   <publisher>Ediciones Universidad Católica de Temuco</publisher>
                   <pubPlace>Temuco, Chile</pubPlace>
                   <date>2015</date>
@@ -37,13 +37,13 @@
                   <note xml:lang="span">[add any notes or description here IN SPANISH: something to 
                      this effect:] This edition aimed at a literal transcription of the manuscript sources,
                      including the original orthography and punctuation. The footnote on p. 413
-                     reads: "En Chile existen versiones de este parlamento en: ANHCh, FV, vol. 813,
+                     reads: "En Chile existen versiones de este <term>parlamento</term> en: ANHCh, FV, vol. 813,
                      fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión
                      proveniente del Fondo Varios (Marimán, 2002: 87-101)."</note>
                   <note xml:lang="eng">[add any notes or description here IN ENGLISH: something to 
                      this effect:] This edition aimed at a literal transcription of the manuscript sources,
                      including the original orthography and punctuation. The footnote on p. 413
-                     reads: "En Chile existen versiones de este parlamento en: ANHCh, FV, vol. 813,
+                     reads: "En Chile existen versiones de este <term>parlamento</term> en: ANHCh, FV, vol. 813,
                      fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión
                      proveniente del Fondo Varios (Marimán, 2002: 87-101)."</note>
                   </bibl>
@@ -57,12 +57,12 @@
          <div>
             <pb ed="#A" n="7"/><!--EW there is no number 7 in the ayun-->
             <pb ed="#Z" n="413"/>
-            <head>Parlamento <app>
+            <head><term>Parlamento</term> <app>
                   <rdg wit="#A">general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
-               </app>de Negrete <app>
+               </app>de <term>Negrete</term> <app>
                   <rdg wit="#A">con los Indios de Chile en los días 3, 4 y 5 de marzo de mil
-                     ochocientos tres años, presidido por el Señor don <persName>Pedro Quijada</persName>, Brigadier de
+                     ochocientos tres años, presidido por el Señor <term>don</term> <persName>Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
                      a nombre del Excmo. Señor Gobernador y Capitán General del Reino de
                      Chile.</rdg>
@@ -79,15 +79,15 @@
          </div>
 
          <div>
-            <ab>En el campo de Negrete en <app>
+            <ab>En el campo de <term>Negrete</term> en <app>
                   <rdg wit="#Z">veinte y siete dias</rdg>
                   <rdg wit="#A">veintisiete días</rdg>
                </app> del mes de <app>
                   <rdg wit="#Z">Febrero</rdg>
                   <rdg wit="#A">febrero</rdg>
                </app> de mil ochocientos tres<app>
-                  <rdg wit="#Z">: El Señor Don</rdg>
-                  <rdg wit="#A">, el señor don</rdg>
+                  <rdg wit="#Z">: El Señor <term>Don</term></rdg>
+                  <rdg wit="#A">, el señor <term>don</term></rdg>
                </app> <persName>Pedro Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z">Exercitos,</rdg>
                   <rdg wit="#A">, Ejércitos y</rdg>
@@ -97,13 +97,13 @@
                </app> Señor <app>
                   <rdg wit="#Z">Capitan</rdg>
                   <rdg wit="#A">Capitán</rdg>
-               </app> General para presidir el Parlamento con los <app>
+               </app> General para presidir el <term>Parlamento</term> con los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
                </app> Cantones<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> o Butalmapus de <app>
+               </app> o <term>Butalmapus</term> de <app>
                   <rdg wit="#Z">Yndio; dixo</rdg>
                   <rdg wit="#A">indios dijo:</rdg>
                </app> que por <app>
@@ -115,7 +115,7 @@
                </app> libradas con anticipación para la <app>
                   <rdg wit="#Z">Convocatoria y citasion al Congreso, habia</rdg>
                   <rdg wit="#A">convocatoria y citación al Congreso había</rdg>
-               </app> tenido aviso que los dichos Butalmapus se hallaban en la mayor parte a las
+               </app> tenido aviso que los dichos <term>Butalmapus</term> se hallaban en la mayor parte a las
                orillas del <app>
                   <rdg wit="#Z">Biovío</rdg>
                   <rdg wit="#A">Bío-Bío</rdg>
@@ -175,8 +175,8 @@
                   <rdg wit="#Z">dias veinte y ocho de febrero, y primero de Marzo,</rdg>
                   <rdg wit="#A">días veintiocho de febrero y primero de marzo</rdg>
                </app> para que pasasen los <app>
-                  <rdg wit="#Z">Caciques y sus Comitivas por los Vados de Daquegue y Negrete,</rdg>
-                  <rdg wit="#A">caciques y sus comitivas por los vados de Dagüegüe y Negrete</rdg>
+                  <rdg wit="#Z">Caciques y sus Comitivas por los Vados de Daquegue y <term>Negrete</term>,</rdg>
+                  <rdg wit="#A">caciques y sus comitivas por los vados de Dagüegüe y <term>Negrete</term></rdg>
                </app> dando lugar al <app>
                   <rdg wit="#Z">arrivo</rdg>
                   <rdg wit="#A">arribo</rdg>
@@ -195,7 +195,7 @@
                </app> y ceremonial de estilo en estos casos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y que el tres a las seis de la mañana se verificase la apertura del Parlamento General<app>
+               </app> y que el tres a las seis de la mañana se verificase la apertura del <term>Parlamento</term> General<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> en la <app>
@@ -295,7 +295,7 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus con doscientos treinta y nueve <app>
+               </app> <term>Butalmapus</term> con doscientos treinta y nueve <app>
                   <rdg wit="#Z">Caciques,</rdg>
                   <rdg wit="#A">caciques</rdg>
                </app> y cantidad de <app>
@@ -310,7 +310,7 @@
                </app> que les estaban preparados<app>
                   <rdg wit="#Z">;</rdg>
                   <rdg wit="#A">,</rdg>
-               </app> el Señor Don <persName>Pedro de Quijada</persName>, Brigadier de los Reales <app>
+               </app> el Señor <term>Don</term> <persName>Pedro de Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z">Exercitos</rdg>
                   <rdg wit="#A">Ejércitos</rdg>
                </app>, Comandante del <app>
@@ -325,7 +325,7 @@
                </app> y a nombre del <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> Señor Don <app>
+               </app> Señor <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Luiz Muñoz de Guzman</persName></rdg>
                   <rdg wit="#A"><persName>Luiz Muñoz de Guzmán</persName></rdg>
                </app>, <app>
@@ -340,7 +340,7 @@
                </app> acompañado de los Señores<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> el Brigadier Don <app>
+               </app> el Brigadier <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Pedro Nolazco del Rio</persName></rdg>
                   <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
                </app>, Comandante del Cuerpo de Dragones<app>
@@ -350,33 +350,33 @@
                   <rdg wit="#Z">Quartel General de los Angeles</rdg>
                   <rdg wit="#A">cuartel general de los Ángeles</rdg>
                </app>, <app>
-                  <rdg wit="#Z">Don <persName>Mariano de Roa</persName>, Arzediando</rdg>
-                  <rdg wit="#A">don <persName>Mariano de Roa</persName> Arcediano</rdg>
+                  <rdg wit="#Z"><term>Don</term> <persName>Mariano de Roa</persName>, Arzediando</rdg>
+                  <rdg wit="#A"><term>don</term> <persName>Mariano de Roa</persName> Arcediano</rdg>
                </app> de la Santa <app>
                   <rdg wit="#Z">Yglesia Catedral de la Ciudad de Concepcion</rdg>
                   <rdg wit="#A">Iglesia Catedral de la ciudad de la Concepción,</rdg>
                </app> a nombre del <app>
                   <rdg wit="#Z">Ylustrisimo</rdg>
                   <rdg wit="#A">Ilustrísimo</rdg>
-               </app> Señor <persName>Obispo de ella</persName>, Don <app>
+               </app> Señor <persName>Obispo de ella</persName>, <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Manuel de Vega Bazan</persName>,</rdg>
                   <rdg wit="#A"><persName>Manuel de Vega Bazán</persName></rdg>
-               </app> y Don <persName>Juan Zapatero</persName>, <app>
+               </app> y <term>Don</term> <persName>Juan Zapatero</persName>, <app>
                   <rdg wit="#Z"><persName>Coroneles de Artilleria</persName></rdg>
                   <rdg wit="#A"><persName>coroneles de artillería</persName></rdg>
-               </app>, Don <app>
+               </app>, <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Melchor de Carbajal</persName></rdg>
                   <rdg wit="#A"><persName>Melchor de Carvajal</persName></rdg>
                </app>, <persName>Teniente Coronel de Dragones</persName>, el de igual <app>
                   <rdg wit="#Z">claze</rdg>
                   <rdg wit="#A">clase</rdg>
-               </app> Don <app>
+               </app> <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Pedro Jose de Benavente</persName></rdg>
                   <rdg wit="#A"><persName>Pedro José de Benavente</persName></rdg>
-               </app> , Don <persName>Miguel Puga</persName><app>
+               </app> , <term>Don</term> <persName>Miguel Puga</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y Don Luis de la Cruz, <app>
+               </app> y <term>Don</term> Luis de la Cruz, <app>
                   <rdg wit="#Z">Alferez Real,</rdg>
                   <rdg wit="#A">alférez Real</rdg>
                </app> y Alcalde Provincial, Diputados del <app>
@@ -404,7 +404,7 @@
                </app> y Provincia, <app>
                   <rdg wit="#Z">hallandose</rdg>
                   <rdg wit="#A">hallándose</rdg>
-               </app> a todo presente Don <app>
+               </app> a todo presente <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Gonzalo Maria de Figueroa</persName></rdg>
                   <rdg wit="#A"><persName>Gonzalo María de Figueroa</persName></rdg>
                </app> , <app>
@@ -461,7 +461,7 @@
                </app> a los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus<app>
+               </app> <term>Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> en la forma siguiente<app>
@@ -482,10 +482,10 @@
                </app>, de veros hoy congregados en este <app>
                   <rdg wit="#Z">Campamento,</rdg>
                   <rdg wit="#A">campamento</rdg>
-               </app> para celebrar el Parlamento General con los <app>
+               </app> para celebrar el <term>Parlamento</term> General con los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuarto</rdg>
-               </app> Butalmapus que <app>
+               </app> <term>Butalmapus</term> que <app>
                   <rdg wit="#Z">comprehende</rdg>
                   <rdg wit="#A">comprende</rdg>
                </app> la <app>
@@ -627,7 +627,7 @@
                </app> y obsequio posible, me congratulo por <app>
                   <rdg wit="#Z">haver</rdg>
                   <rdg wit="#A">haber</rdg>
-               </app> sido elegido para presidir este Parlamento, y manifestaros mi <app>
+               </app> sido elegido para presidir este <term>Parlamento</term>, y manifestaros mi <app>
                   <rdg wit="#Z">corazon</rdg>
                   <rdg wit="#A">corazón</rdg>
                </app> dispuesto a proporcionaros <app>
@@ -661,13 +661,13 @@
                el estado feliz de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus<app>
+               </app> <term>Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> cuyas ventajas me ha <app>
                   <rdg wit="#Z">demonstrado</rdg>
                   <rdg wit="#A">demostrado</rdg>
-               </app> el Brigadier Comandante del Cuerpo de Dragones Don <app>
+               </app> el Brigadier Comandante del Cuerpo de Dragones <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Pedro Nolasco del Rio</persName></rdg>
                   <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
                </app>, que os ha <app>
@@ -737,7 +737,7 @@
                </app> para aumentar desde hoy las conveniencias que trae la paz general<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y que este Parlamento haga <app>
+               </app> y que este <term>Parlamento</term> haga <app>
                   <rdg wit="#Z">epoca</rdg>
                   <rdg wit="#A">época</rdg>
                </app> en los tiempos <app>
@@ -768,13 +768,13 @@
             <head><app>
                   <rdg wit="#Z">Articulos</rdg>
                   <rdg wit="#A">Artículos</rdg>
-               </app> publicados en el Parlamento General de los <app>
+               </app> publicados en el <term>Parlamento</term> General de los <app>
                   <rdg wit="#Z">Yndios</rdg>
                   <rdg wit="#A">Indios</rdg>
                </app> de Chile congregados en el <app>
                   <rdg wit="#Z">Campo</rdg>
                   <rdg wit="#A">campo</rdg>
-               </app> de Negrete en los <app>
+               </app> de <term>Negrete</term> en los <app>
                   <rdg wit="#Z">dias</rdg>
                   <rdg wit="#A">días</rdg>
                </app> tres, <app>
@@ -808,7 +808,7 @@
                </app> al <app>
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
-               </app> y Soberano Señor Don <app>
+               </app> y Soberano Señor <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
                   <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
@@ -817,7 +817,7 @@
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias Don <persName>Fernando</persName>, <app>
+               </app> de Asturias <term>Don</term> <persName>Fernando</persName>, <app>
                   <rdg wit="#Z">debian</rdg>
                   <rdg wit="#A">debían</rdg>
                </app> prometer y jurar <app>
@@ -848,13 +848,13 @@
                </app>Que <app>
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiendo</rdg>
-               </app> tratado en el Parlamento de Lonquilmo sobre los medios de entablar las ferias<app>
+               </app> tratado en el <term>Parlamento</term> de <term>Lonquilmo</term> sobre los medios de entablar las ferias<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> que proporcionasen la venta de los efectos que sacasen de comercio los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus, y que no tuvo efecto<app>
+               </app> <term>Butalmapus</term>, y que no tuvo efecto<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> por el perjuicio<app>
@@ -878,7 +878,7 @@
                </app> en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> Parlamento de Negrete<app>
+               </app> <term>Parlamento</term> de <term>Negrete</term><app>
                   <rdg wit="#Z">, extendiendose</rdg>
                   <rdg wit="#A">estableciéndose</rdg>
                </app> a un libre comercio que <app>
@@ -985,7 +985,7 @@
                   <rdg wit="#A">Tierra</rdg>
                </app>
                <app>
-                  <rdg wit="#Z">(y fue el Articulo tercero del ultimo Parlamento de Negrete)</rdg>
+                  <rdg wit="#Z">(y fue el Articulo tercero del ultimo <term>Parlamento</term> de <term>Negrete</term>)</rdg>
                   <rdg wit="#A"/>
                </app> que los hijos de los <app>
                   <rdg wit="#Z">Governadores</rdg>
@@ -1003,7 +1003,7 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> teniendo a la vista a varios hijos de los naturales de los <app>
-                  <rdg wit="#Z">quatro Butalmapus,</rdg>
+                  <rdg wit="#Z">quatro <term>Butalmapus</term>,</rdg>
                   <rdg wit="#A">cuatro Butamalpus</rdg>
                </app> colocados en la alta dignidad del <app>
                   <rdg wit="#Z">Sacerdocio,</rdg>
@@ -1047,16 +1047,16 @@
                </app> tratado <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
-               </app> en el Parlamento de Lonquilmo, y refrendado en el <app>
+               </app> en el <term>Parlamento</term> de <term>Lonquilmo</term>, y refrendado en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> de Negrete, sobre las desavenencias,<pb ed="#A" n="14"/><app>
+               </app> de <term>Negrete</term>, sobre las desavenencias,<pb ed="#A" n="14"/><app>
                   <rdg wit="#Z"> rovos,</rdg>
                   <rdg wit="#A">robos</rdg>
                </app> y malocas sangrientas<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> que han tenido antes algunas Parcialidades de los Butalmapus<app>
+               </app> que han tenido antes algunas Parcialidades de los <term>Butalmapus</term><app>
                   <rdg wit="#Z">, y viendolos</rdg>
                   <rdg wit="#A">viéndolos</rdg>
                </app> hoy reunidos en paz<app>
@@ -1109,7 +1109,7 @@
                </app>Que fue <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
-               </app> prevenido a los Butalmapus en el anterior Parlamento, no permitan, ni den
+               </app> prevenido a los <term>Butalmapus</term> en el anterior <term>Parlamento</term>, no permitan, ni den
                acogida en sus tierras a <app>
                   <rdg wit="#Z">Españoles, facinerosos, o Ladrones</rdg>
                   <rdg wit="#A">españoles facineroso o ladrones</rdg>
@@ -1173,7 +1173,7 @@
                </app> doce pesos, <app>
                   <rdg wit="#Z">segun</rdg>
                   <rdg wit="#A">según</rdg>
-               </app> se acordó en el sobredicho anterior Parlamento<app>
+               </app> se acordó en el sobredicho anterior <term>Parlamento</term><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">.</rdg>
                </app>   <pb ed="#A" n="15"/>
@@ -1248,7 +1248,7 @@
                </app> siempre que se hallen atacados, conforme lo tienen prometido y jurado los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus, cuya <app>
+               </app> <term>Butalmapus</term>, cuya <app>
                   <rdg wit="#Z">obligacion</rdg>
                   <rdg wit="#A">obligación</rdg>
                </app> se les recuerda ahora, a fin de que <app>
@@ -1286,7 +1286,7 @@
                </app> quince del <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> Parlamento de Negrete, toda <app>
+               </app> <term>Parlamento</term> de <term>Negrete</term>, toda <app>
                   <rdg wit="#Z">incurcion</rdg>
                   <rdg wit="#A">incursión</rdg>
                </app> sobre las <app>
@@ -1298,7 +1298,7 @@
                </app> y comercio de aquellas provincias, y viendo por experiencia el <app>
                   <rdg wit="#Z">excrupuloso</rdg>
                   <rdg wit="#A">escrupuloso</rdg>
-               </app> cumplimiento que han dado los Butalmapus a este <app>
+               </app> cumplimiento que han dado los <term>Butalmapus</term> a este <app>
                   <rdg wit="#Z">Tra-tado</rdg>
                   <rdg wit="#A">tratado</rdg>
                </app>, se les recomienda la <app>
@@ -1455,9 +1455,9 @@
                   <rdg wit="#Z">lizencia</rdg>
                   <rdg wit="#A">licencia</rdg>
                </app> para hablar el Cacique <app>
-                  <rdg wit="#Z">Governador de la Reduccion cristiana de Santa Fee Don <persName>Ygnacio
+                  <rdg wit="#Z">Governador de la Reduccion cristiana de Santa Fee <term>Don</term> <persName>Ygnacio
                      Naipayl[ic]an</persName>,</rdg>
-                  <rdg wit="#A">Gobernador de la Reducción Cristiana de Santa Fe, Don Ignacio
+                  <rdg wit="#A">Gobernador de la Reducción Cristiana de Santa Fe, <term>Don</term> Ignacio
                      Nágpayluan</rdg>
                </app> conforme a la preferencia antigua que tiene en estos casos<app>
                   <rdg wit="#Z">, y concedida, dirigio</rdg>
@@ -1474,9 +1474,9 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus, el que recayó por votos uniformes en el<app>
-                  <rdg wit="#Z"> Governador de la Reduccion de Angol Don <persName>Francisco Curinaguel</persName></rdg>
-                  <rdg wit="#A">Gobernador de la Reducción de Angol Don <persName>Francisco Curinagüel</persName></rdg>
+               </app> <term>Butalmapus</term>, el que recayó por votos uniformes en el<app>
+                  <rdg wit="#Z"> Governador de la Reduccion de Angol <term>Don</term> <persName>Francisco Curinaguel</persName></rdg>
+                  <rdg wit="#A">Gobernador de la Reducción de Angol <term>Don</term> <persName>Francisco Curinagüel</persName></rdg>
                </app>, y en <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
@@ -1499,7 +1499,7 @@
                </app> y pidió <app>
                   <rdg wit="#Z">atencion</rdg>
                   <rdg wit="#A">atención</rdg>
-               </app> a los Butalmapus<app>
+               </app> a los <term>Butalmapus</term><app>
                   <rdg wit="#Z">, expresandoles menudamente quanto habia</rdg>
                   <rdg wit="#A">expresándoles menudamente, cuánto habrá</rdg>
                </app> expuesto <app>
@@ -1517,13 +1517,13 @@
                </app> hecha por el <app>
                   <rdg wit="#Z"> Excelentisimo Señor Capitan General en el señor</rdg>
                   <rdg wit="#A">Excmo. Señor Capitán General en el Señor</rdg>
-               </app> Brigadier Don <persName>Pedro Quijada</persName> para presidir el Parlamento General<app>
+               </app> Brigadier <term>Don</term> <persName>Pedro Quijada</persName> para presidir el <term>Parlamento</term> General<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> era de la mayor <app>
                   <rdg wit="#Z">satisfaccion,</rdg>
                   <rdg wit="#A">satisfacción</rdg>
-               </app> y gusto de los Butalmapus, y mucho <app>
+               </app> y gusto de los <term>Butalmapus</term>, y mucho <app>
                   <rdg wit="#Z">mas</rdg>
                   <rdg wit="#A">más</rdg>
                </app> la piadosa memoria que les <app>
@@ -1535,7 +1535,7 @@
                </app> con recuerdo de todos los <app>
                   <rdg wit="#Z">Articulos y Tratados</rdg>
                   <rdg wit="#A">artículos y tratados</rdg>
-               </app> del anterior <pb ed="#A" n="18"/>Parlamento<app>
+               </app> del anterior <pb ed="#A" n="18"/><term>Parlamento</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> cuyos puntos <app>
@@ -1547,7 +1547,7 @@
                </app> por el Comisario General de Naciones, que <app>
                   <rdg wit="#Z">solo</rdg>
                   <rdg wit="#A">sólo</rdg>
-               </app> terminaban al bien y utilidad de los Butalmapus<app>
+               </app> terminaban al bien y utilidad de los <term>Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y que por lo mismo era grande su reconocimiento al Rey<app>
@@ -1588,7 +1588,7 @@
                </app>: que todo era de las mayores <app>
                   <rdg wit="#Z">ventajas</rdg>
                   <rdg wit="#A">lisonjas</rdg>
-               </app> a los Butalmapus<app>
+               </app> a los <term>Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y del <app>
@@ -1703,7 +1703,7 @@
                </app> prontamente en la <app>
                   <rdg wit="#Z">ramada</rdg>
                   <rdg wit="#A">Ramada,</rdg>
-               </app> los Butalmapus, pasó su <app>
+               </app> los <term>Butalmapus</term>, pasó su <app>
                   <rdg wit="#Z">Señoria</rdg>
                   <rdg wit="#A">señoría</rdg>
                </app> a ella con sus acompañados, y tomando su asiento<app>
@@ -1858,7 +1858,7 @@
                </app> anteriores a la misma hora<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y congregados los Butalmapus en la <app>
+               </app> y congregados los <term>Butalmapus</term> en la <app>
                   <rdg wit="#Z">ramada</rdg>
                   <rdg wit="#A">Ramada</rdg>
                </app>, pasó a ella su <app>
@@ -1873,7 +1873,7 @@
                </app> y atenciones que en los <app>
                   <rdg wit="#Z">dias</rdg>
                   <rdg wit="#A">días</rdg>
-               </app> antecedentes de parte de los Butalmapus<app>
+               </app> antecedentes de parte de los <term>Butalmapus</term><app>
                   <rdg wit="#Z">. En</rdg>
                   <rdg wit="#A">: en</rdg>
                </app> este estado se puso en pie el <app>
@@ -1885,7 +1885,7 @@
                </app> siguiente: Hace diez años que en este proprio lugar se juntó la <app>
                   <rdg wit="#Z">tierra</rdg>
                   <rdg wit="#A">Tierra</rdg>
-               </app> para celebrar Parlamento a presencia del <app>
+               </app> para celebrar <term>Parlamento</term> a presencia del <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
                </app> Señor Marqués de Osorno, cuyos <app>
@@ -1943,7 +1943,7 @@
                </app>, cuyas ventajas les han llenado de comodidad, olvidados enteramente de las <app>
                   <rdg wit="#Z">malocas</rdg>
                   <rdg wit="#A">Malocas</rdg>
-               </app> que anteriormente hicieron tanto daño entre los proprios Butalmapus, llegando
+               </app> que anteriormente hicieron tanto daño entre los proprios <term>Butalmapus</term>, llegando
                hoy al colmo de la paz, que les ha proporcionado el <app>
                   <rdg wit="#Z">haver</rdg>
                   <rdg wit="#A">haber</rdg>
@@ -1962,10 +1962,10 @@
                </app> y que habiendo concurrido los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus a celebrar en estos <app>
+               </app> <term>Butalmapus</term> a celebrar en estos <app>
                   <rdg wit="#Z">dias</rdg>
                   <rdg wit="#A">días</rdg>
-               </app> igual <pb ed="#A" n="21"/> Parlamento<app>
+               </app> igual <pb ed="#A" n="21"/> <term>Parlamento</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> a su <app>
@@ -2031,7 +2031,7 @@
                </app> que por encargo de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus que <app>
+               </app> <term>Butalmapus</term> que <app>
                   <rdg wit="#Z">alli</rdg>
                   <rdg wit="#A">allí</rdg>
                </app> se hallaban congregados<app>
@@ -2047,7 +2047,7 @@
                   <rdg wit="#Z">frontera</rdg>
                   <rdg wit="#A">Frontera</rdg>
                </app> en la Villa de los Angeles, para lograr el verlos en algunas ocasiones, y de
-               este modo empeñarse los Butalmapus para presentar gustosamente sus <app>
+               este modo empeñarse los <term>Butalmapus</term> para presentar gustosamente sus <app>
                   <rdg wit="#Z">jovenes</rdg>
                   <rdg wit="#A">jóvenes</rdg>
                </app> a la <app>
@@ -2186,7 +2186,7 @@
                </app> suplicaron la solicitud de su difunto <app>
                   <rdg wit="#Z">Governador Levigueque,</rdg>
                   <rdg wit="#A">Gobernador Leviquegüe</rdg>
-               </app> que hizo en el Parlamento General<app>
+               </app> que hizo en el <term>Parlamento</term> General<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> el año pasado de mil setecientos noventa y tres<app>
@@ -2207,7 +2207,7 @@
                </app> por que <app>
                   <rdg wit="#Z">hallandose</rdg>
                   <rdg wit="#A">hallándose</rdg>
-               </app> los Butalmapus en la <app>
+               </app> los <term>Butalmapus</term> en la <app>
                   <rdg wit="#Z">mejor dispocicion</rdg>
                   <rdg wit="#A">mayor disposición</rdg>
                </app> que han manifestado acerca de los <app>
@@ -2313,7 +2313,7 @@
                </app> en la <app>
                   <rdg wit="#Z">tierra,</rdg>
                   <rdg wit="#A">Tierra</rdg>
-               </app> se procediese por los Butalmapus a su castigo<app>
+               </app> se procediese por los <term>Butalmapus</term> a su castigo<app>
                   <rdg wit="#Z">, mirandolos</rdg>
                   <rdg wit="#A">mirándolos</rdg>
                </app> como enemigos comunes<app>
@@ -2341,7 +2341,7 @@
                </app> de Valdivia<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
-               </app> que desertan de los españoles, y se acogen a sus tierras, deben los Butalmapus
+               </app> que desertan de los españoles, y se acogen a sus tierras, deben los <term>Butalmapus</term>
                no permitirlos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -2368,7 +2368,7 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus, <app>
+               </app> <term>Butalmapus</term>, <app>
                   <rdg wit="#Z">y</rdg>
                   <rdg wit="#A"/>
                </app> generalmente todos los <app>
@@ -2390,8 +2390,8 @@
                   <rdg wit="#Z">tenian</rdg>
                   <rdg wit="#A">tenían</rdg>
                </app> ofrecido en otros <app>
-                  <rdg wit="#Z">parlamentos</rdg>
-                  <rdg wit="#A">Parlamentos</rdg>
+                  <rdg wit="#Z"><term>parlamento</term>s</rdg>
+                  <rdg wit="#A"><term>Parlamento</term>s</rdg>
                </app>, pues no ignoraban sus designios depravados, y que los caciques de Arauco,
                Tucapel, <app>
                   <rdg wit="#Z">Boca de Ymperial,</rdg>
@@ -2411,7 +2411,7 @@
                </app>, como <app>
                   <rdg wit="#Z">mas interezados,</rdg>
                   <rdg wit="#A">más interesados</rdg>
-               </app> y que el resto de los Butalmapus <app>
+               </app> y que el resto de los <term>Butalmapus</term> <app>
                   <rdg wit="#Z">ayudaria</rdg>
                   <rdg wit="#A">ayudaría</rdg>
                </app> gustoso <app>
@@ -2515,11 +2515,11 @@
                </app> se les <app>
                   <rdg wit="#Z">habia</rdg>
                   <rdg wit="#A">había</rdg>
-               </app> propuesto, dirigido todo al bien de los Butalmapus, que tanto encargaba la
+               </app> propuesto, dirigido todo al bien de los <term>Butalmapus</term>, que tanto encargaba la
                piedad de nuestro amado Soberano<app>
                   <rdg wit="#Z">;</rdg>
                   <rdg wit="#A">,</rdg>
-               </app> pero que teniendo noticia que en otros Parlamentos <app>
+               </app> pero que teniendo noticia que en otros <term>Parlamento</term>s <app>
                   <rdg wit="#Z">habian</rdg>
                   <rdg wit="#A">habían</rdg>
                </app> hecho las mismas demonstraciones y ofrecimientos, faltando <app>
@@ -2552,7 +2552,7 @@
                </app> y por de contado<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> extinguir estos Congresos o Parlamentos, que son excusados no <app>
+               </app> extinguir estos Congresos o <term>Parlamento</term>s, que son excusados no <app>
                   <rdg wit="#Z">verificandose</rdg>
                   <rdg wit="#A">verificándose</rdg>
                </app> por su parte los efectos<app>
@@ -2689,7 +2689,7 @@
                </app> admitido<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y observado por los Butalmapus, <app>
+               </app> y observado por los <term>Butalmapus</term>, <app>
                   <rdg wit="#Z">encargando</rdg>
                   <rdg wit="#A">encargado</rdg>
                </app> al Comisario General de Naciones, y capitanes, vigilen<app>
@@ -2745,8 +2745,8 @@
                   <rdg wit="#A">presidía</rdg>
                </app>
                <app>
-                  <rdg wit="#Z">el Parlamento: Que</rdg>
-                  <rdg wit="#A">al Parlamento; que</rdg>
+                  <rdg wit="#Z">el <term>Parlamento</term>: Que</rdg>
+                  <rdg wit="#A">al <term>Parlamento</term>; que</rdg>
                </app> ellos por su parte quedaban <app>
                   <rdg wit="#Z">convencidos</rdg>
                   <rdg wit="#A"/>
@@ -2870,7 +2870,7 @@
                </app> al <app>
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
-               </app> Rey de las Españas el Señor Don <app>
+               </app> Rey de las Españas el Señor <term>Don</term> <app>
                   <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
                   <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
@@ -2879,7 +2879,7 @@
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias Don <persName>Fernando</persName><app>
+               </app> de Asturias <term>Don</term> <persName>Fernando</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y que <app>
@@ -2895,7 +2895,7 @@
                </app> y <pb ed="#A" n="27"/><app>
                   <rdg wit="#Z">Consejos</rdg>
                   <rdg wit="#A">consejos</rdg>
-               </app> de este Parlamento<app>
+               </app> de este <term>Parlamento</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y del anterior, lo que verificado con el mayor decoro<app>
@@ -2907,7 +2907,7 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus, se hizo la salva de quince cañonazos<app>
+               </app> <term>Butalmapus</term>, se hizo la salva de quince cañonazos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A">;</rdg>
                </app> repitiendo <app>
@@ -2925,8 +2925,8 @@
                      de Angol fuere conveniente alli algun hospicio, se les concedera despues que
                      admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifi estan
                      condescender. Que por medio del Comisario de Naciones se manifi este a los
-                     Butalmapus en las Juntas que han de celebrar la proxima primavera para divulgar
-                     a todas sus parcialidades los Tratados de este Parlamento, la grande
+                     <term>Butalmapus</term> en las Juntas que han de celebrar la proxima primavera para divulgar
+                     a todas sus parcialidades los Tratados de este <term>Parlamento</term>, la grande
                      satisfaccion que me resulta de su conformidad a los consejos, y prevenciones
                      que les hizo el Señor mi comicionado en aquel Congreso, relativas a la
                      conservacion de su tranquilidad, y union reciproca, y de su fi delidad a los
@@ -2938,15 +2938,15 @@
                      y justicia, que penden de mi autoridad, conforme a las benignas intenciones del
                      Soberano, como ya lo he hecho, atendiendoles en sus pretenciones justas que han
                      ocurrido desde mi ingreso al Mando Superior de este Reyno, y ahora con ocasion
-                     del Parlamento, embiandoles abundantes agazajos a todos los concurrentes, y
+                     del <term>Parlamento</term>, embiandoles abundantes agazajos a todos los concurrentes, y
                      asignando a los caciques de mas sequito y acreditada conducta, pensiones fi xas
                      costeadas por la Real Hacienda mediante la inmensa liberali-dad del Rey, que
                      tiene encargado se les trate con la mayor humanidad y obsequio, a quien por eso
                      deben reconocer como padre, y rendirle sus mas humildes homenages, como a todos
                      los gefes que en su Real nombre goviernan este Reyno, y su frontera; y fi
-                     nalmente, que dandose las merecidas gracias al Señor Brigadier Don <persName>Pedro
+                     nalmente, que dandose las merecidas gracias al Señor Brigadier <term>Don</term> <persName>Pedro
                      Quijada</persName> Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
-                     este acto, no menos que al Señor Brigadier Don <persName>Pedro Nolazco del Rio</persName> Comandante
+                     este acto, no menos que al Señor Brigadier <term>Don</term> <persName>Pedro Nolazco del Rio</persName> Comandante
                      de la Plaza de los Angeles, por su cooperacion, e infl ujo con los Yndios que
                      ha tenido para el logro de aquellos, se le remita Testimonio de este Auto para
                      su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
@@ -2966,25 +2966,25 @@
          <div>
             <ab><app>
                   <rdg wit="#Z">Antonio Garfi a s Escrivano subtituto de Gobierno RESUMEN Caciques
-                     de los quatro Butalmapus Capitanejos, Mozetones, y Respetados de iden 
+                     de los quatro <term>Butalmapus</term> Capitanejos, Mozetones, y Respetados de iden 
                      <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
                   from A here -->
-                     <pb ed="#Z" n="422"/>Señor Don Luis Muñoz de Guzman, Teniente General de los
+                     <pb ed="#Z" n="422"/>Señor <term>Don</term> Luis Muñoz de Guzman, Teniente General de los
                      Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de Chile
                      = En la Ciudad de Santiago de Chile a diez y nueve de Junio de mil ochocientos
-                     tres: El Excelentisimo Señor Don Luis Muñoz de Guzman, Cavallero del Orden de
+                     tres: El Excelentisimo Señor <term>Don</term> Luis Muñoz de Guzman, Cavallero del Orden de
                      Santiago, Comendador de las Pueblas en la de Alcantara, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de Chile, Presidente de su
                      real Audiencia, Superintendente Subdelegado de Real Hacienda, y Correos, y Vice
-                     Patrono Real, [rúbrica]: Habiendo visto el Parlamento General celebrado en el
-                     Campo de Negrete por su Comicionado el Señor Brigadier Don <persName>Pedro Quijada</persName>,
+                     Patrono Real, [rúbrica]: Habiendo visto el <term>Parlamento</term> General celebrado en el
+                     Campo de <term>Negrete</term> por su Comicionado el Señor Brigadier <term>Don</term> <persName>Pedro Quijada</persName>,
                      Comandante Ynterino de Armas de la Provincia de la Concepcion, con los quatro
-                     Butalmapus de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
+                     <term>Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
                      cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
                      Articulos de su contenido, respecto de dirigirse a la ratifi cacion de los
-                     Tratados, y Parlamentos anteriores aprobados por su Magestad, como oportunos
+                     Tratados, y <term>Parlamento</term>s anteriores aprobados por su Magestad, como oportunos
                      para la consolidacion de la paz, y mejor civilizacion de aquellas naciones, y
-                     su reconocimiento a la Soberana de nuestro Catolico Rey y Señor Don <persName>Carlos
+                     su reconocimiento a la Soberana de nuestro Catolico Rey y Señor <term>Don</term> <persName>Carlos
                      quarto</persName>: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
                      ellos quedó establecido de acuerdo con los governadores, caciques, y gilmenes
                      de sus respectivas Parcialidades, y Ayllareques, precaviendose por lo que
@@ -3009,7 +3009,7 @@
                      del Hospicio de Santa Barbara, que se habia proyectado abandonar, sino que
                      antes se proceda a su refaccion, progresando el Expediente que estaba suspenso,
                      y pendiente de la resolucion que se tomase sobre este particular en este
-                     Parlamento, por lo que puede importar a la consecucion de miciones en las
+                     <term>Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
                      Parcialidades de Pehuenches, y señalada-mente el restablecimiento de la de
                      Lolco, como solicitan sus caciques, a cuyo efecto se encargará al Señor
                      Yntendente Comandante Militar de la Provincia de la Concepcion, procure su
@@ -3056,8 +3056,8 @@
          <div>
             <ab><app>
                   <rdg wit="#Z">Relacion de los Caciques Governadores y particulares, con sus
-                     Respetados y Mozetones que han concurrido al Parlamento General de Negrete de
-                     los quatro Butalmapus, cele-brado el dia tres de Marzo de mil ochocientos
+                     Respetados y Mozetones que han concurrido al <term>Parlamento</term> General de <term>Negrete</term> de
+                     los quatro <term>Butalmapus</term>, cele-brado el dia tres de Marzo de mil ochocientos
                      tres.</rdg>
                   <rdg wit="#A"/>
                </app>
