@@ -1,4 +1,6 @@
 declare default element namespace "http://www.tei-c.org/ns/1.0";
+declare option saxon:output "method=html";
+
 <html>
     <head><title>Divergences between Ayun and Zavala</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

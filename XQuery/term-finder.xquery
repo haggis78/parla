@@ -1,7 +1,9 @@
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare option saxon:output "method=html";
+declare variable $parla := doc('../xml/negrete-1803-unified-1.xml');
 (:whc 1 April 2023: This runs over the text XML and creates a table listing and
 numbering the <term> words. :)
+
 <html><head></head><body>
 <h1>Terms tagged in Negrete 1803 XML</h1>
 <p>This HTML is created by running the file term-finder.xquery over the Negrete Parlamento
@@ -13,8 +15,8 @@ but that's fine: Those numbers will stay unused for the moment and can be used f
 additional terms tagged in the future.</p>
 <table>
 <tr><th>No.</th><th>Term</th></tr>
-{let $terms := //term/string()
-for $term in $terms=>distinct-values()
+{let $terms := $parla//term
+for $term in $terms/string()=>distinct-values()
 order by $term
 count $pos
 return 
@@ -22,3 +24,5 @@ return
 }
 </table></body>
 </html>
+(:let $filename :="Negrete-terms-table.html"
+let $doc-uri := fn:put(   )   haven't figured this out yet  :)
