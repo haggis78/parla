@@ -25,4 +25,7 @@ return
 </table></body>
 </html>
 (:let $filename :="Negrete-terms-table.html"
-let $doc-uri := fn:put(   )   haven't figured this out yet  :)
+let $uri  
+put($doc as node(), $uri as xs:string) ➔ xs:NCName?
+
+haven't figured this out yet  :)
