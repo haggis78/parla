@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><term>Parlamento</term> de <term>Negrete</term> (1803)</title>
+            <title><term>Parlamento</term> de <placeName>Negrete</placeName> (1803)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -15,7 +15,7 @@
             <listBibl>
                <bibl xml:id="A">
                   <editor>[Need some corporate name for Ayun editorial team]</editor><!--whc 1/20/23: [Who is editor of Ayun version? None listed in the bibliography in the NEH application.] -->
-                  <title><term>Parlamento</term> de <term>Negrete</term> 27 de Febrero de 1803 </title>
+                  <title><term>Parlamento</term> de <placeName>Negrete</placeName> 27 de Febrero de 1803 </title>
                   <publisher>Corporación Ayun</publisher>
                   <pubPlace>Santiago, Chile</pubPlace>
                   <date>2008</date>
@@ -60,7 +60,7 @@
             <head><term>Parlamento</term> <app>
                   <rdg wit="#A">general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
-               </app>de <term>Negrete</term> <app>
+               </app>de <placeName>Negrete</placeName> <app>
                   <rdg wit="#A">con los Indios de Chile en los días 3, 4 y 5 de marzo de mil
                      ochocientos tres años, presidido por el Señor <term>don</term> <persName>Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
@@ -79,7 +79,7 @@
          </div>
 
          <div>
-            <ab>En el campo de <term>Negrete</term> en <app>
+            <ab>En el campo de <placeName>Negrete</placeName> en <app>
                   <rdg wit="#Z">veinte y siete dias</rdg>
                   <rdg wit="#A">veintisiete días</rdg>
                </app> del mes de <app>
@@ -117,8 +117,8 @@
                   <rdg wit="#A">convocatoria y citación al Congreso había</rdg>
                </app> tenido aviso que los dichos <term>Butalmapus</term> se hallaban en la mayor parte a las
                orillas del <app>
-                  <rdg wit="#Z"><term>Biovío</term></rdg>
-                  <rdg wit="#A"><term>Bío-Bío</term></rdg>
+                  <rdg wit="#Z"><placeName>Biovío</placeName></rdg>
+                  <rdg wit="#A"><placeName>Bío-Bío</placeName></rdg>
                </app> para presentarse el día primero de <app>
                   <rdg wit="#Z">Marzo</rdg>
                   <rdg wit="#A">marzo</rdg>
@@ -129,8 +129,8 @@
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiéndose</rdg>
                </app> trasladado su Señoría desde la <app>
-                  <rdg wit="#Z">Plaza de los Angeles del mismo dia</rdg>
-                  <rdg wit="#A">plaza de los Ángeles el mismo día</rdg>
+                  <rdg wit="#Z">Plaza de <placeName>los Angeles</placeName> del mismo dia</rdg>
+                  <rdg wit="#A">plaza de <placeName>los Ángeles</placeName> el mismo día</rdg>
                </app> al lugar del campamento con las <app>
                   <rdg wit="#Z">Tropas del Cuerpo de Dragones, Artilleria, y Milicias</rdg>
                   <rdg wit="#A">tropas del cuerpo de dragones, artillería y milicias</rdg>
@@ -175,8 +175,8 @@
                   <rdg wit="#Z">dias veinte y ocho de febrero, y primero de Marzo,</rdg>
                   <rdg wit="#A">días veintiocho de febrero y primero de marzo</rdg>
                </app> para que pasasen los <app>
-                  <rdg wit="#Z"><term>Caciques</term> y sus Comitivas por los Vados de <term>Daquegue</term> y <term>Negrete</term>,</rdg>
-                  <rdg wit="#A"><term>caciques</term> y sus comitivas por los vados de <term>Dagüegüe</term> y <term>Negrete</term></rdg>
+                  <rdg wit="#Z"><term>Caciques</term> y sus Comitivas por los Vados de <term>Daquegue</term> y <placeName>Negrete</placeName>,</rdg>
+                  <rdg wit="#A"><term>caciques</term> y sus comitivas por los vados de <term>Dagüegüe</term> y <placeName>Negrete</placeName></rdg>
                </app> dando lugar al <app>
                   <rdg wit="#Z">arrivo</rdg>
                   <rdg wit="#A">arribo</rdg>
@@ -347,14 +347,14 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y del <app>
-                  <rdg wit="#Z">Quartel General de los Angeles</rdg>
-                  <rdg wit="#A">cuartel general de los Ángeles</rdg>
+                  <rdg wit="#Z">Quartel General de <placeName>los Angeles</placeName></rdg>
+                  <rdg wit="#A">cuartel general de <placeName>los Ángeles</placeName></rdg>
                </app>, <app>
                   <rdg wit="#Z"><term>Don</term> <persName>Mariano de Roa</persName>, Arzediando</rdg>
                   <rdg wit="#A"><term>don</term> <persName>Mariano de Roa</persName> Arcediano</rdg>
                </app> de la Santa <app>
-                  <rdg wit="#Z">Yglesia Catedral de la Ciudad de <term>Concepcion</term></rdg>
-                  <rdg wit="#A">Iglesia Catedral de la ciudad de la <term>Concepción</term>,</rdg>
+                  <rdg wit="#Z">Yglesia Catedral de la Ciudad de <placeName>Concepcion</placeName></rdg>
+                  <rdg wit="#A">Iglesia Catedral de la ciudad de la <placeName>Concepción</placeName>,</rdg>
                </app> a nombre del <app>
                   <rdg wit="#Z">Ylustrisimo</rdg>
                   <rdg wit="#A">Ilustrísimo</rdg>
@@ -383,8 +383,8 @@
                   <rdg wit="#Z"><term>Cavildo</term></rdg>
                   <rdg wit="#A"><term>Cabildo</term></rdg>
                </app> de la <app>
-                  <rdg wit="#Z">Ciudad de la <term>Concepcion</term></rdg>
-                  <rdg wit="#A">ciudad de la <term>Concepción</term></rdg>
+                  <rdg wit="#Z">Ciudad de la <placeName>Concepcion</placeName></rdg>
+                  <rdg wit="#A">ciudad de la <placeName>Concepción</placeName></rdg>
                </app>, el Reverendo Padre <app>
                   <rdg wit="#Z">Guardian</rdg>
                   <rdg wit="#A">Guardián</rdg>
@@ -599,10 +599,10 @@
                </app> por el <app>
                   <rdg wit="#Z">Butalmapu</rdg>
                   <rdg wit="#A"><term>Butamalpus</term></rdg>
-               </app> de <term>Angol</term> al <app>
+               </app> de <placeName>Angol</placeName> al <app>
                   <rdg wit="#Z">Govierno de la Plaza</rdg>
                   <rdg wit="#A">gobierno de la plaza</rdg>
-               </app> de <term>Valdivia</term>, llenos de <term>haciendas</term><app>
+               </app> de <placeName>Valdivia</placeName>, llenos de <term>haciendas</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y ganados de todas especies, adelantada la agricultura, vuestros <app>
@@ -652,8 +652,8 @@
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
                </app> Señor <app>
-                  <rdg wit="#Z"><persName>Marques de Osorno</persName></rdg>
-                  <rdg wit="#A"><persName>Marqués de Osorno</persName></rdg>
+                  <rdg wit="#Z"><persName>Marques de <placeName>Osorno</placeName></persName></rdg>
+                  <rdg wit="#A"><persName>Marqués de <placeName>Osorno</placeName></persName></rdg>
                </app> el año <app>
                   <rdg wit="#Z">pasado</rdg>
                   <rdg wit="#A"/>
@@ -774,7 +774,7 @@
                </app> de Chile congregados en el <app>
                   <rdg wit="#Z">Campo</rdg>
                   <rdg wit="#A">campo</rdg>
-               </app> de <term>Negrete</term> en los <app>
+               </app> de <placeName>Negrete</placeName> en los <app>
                   <rdg wit="#Z">dias</rdg>
                   <rdg wit="#A">días</rdg>
                </app> tres, <app>
@@ -848,7 +848,7 @@
                </app>Que <app>
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiendo</rdg>
-               </app> tratado en el <term>Parlamento</term> de <term>Lonquilmo</term> sobre los medios de entablar las ferias<app>
+               </app> tratado en el <term>Parlamento</term> de <placeName>Lonquilmo</placeName> sobre los medios de entablar las ferias<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> que proporcionasen la venta de los efectos que sacasen de comercio los <app>
@@ -878,7 +878,7 @@
                </app> en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> <term>Parlamento</term> de <term>Negrete</term><app>
+               </app> <term>Parlamento</term> de <placeName>Negrete</placeName><app>
                   <rdg wit="#Z">, extendiendose</rdg>
                   <rdg wit="#A">estableciéndose</rdg>
                </app> a un libre comercio que <app>
@@ -985,7 +985,7 @@
                   <rdg wit="#A">Tierra</rdg>
                </app>
                <app>
-                  <rdg wit="#Z">(y fue el Articulo tercero del ultimo <term>Parlamento</term> de <term>Negrete</term>)</rdg>
+                  <rdg wit="#Z">(y fue el Articulo tercero del ultimo <term>Parlamento</term> de <placeName>Negrete</placeName>)</rdg>
                   <rdg wit="#A"/>
                </app> que los hijos de los <app>
                   <rdg wit="#Z">Governadores</rdg>
@@ -997,8 +997,8 @@
                   <rdg wit="#Z">su Magestad</rdg>
                   <rdg wit="#A">S.M.</rdg>
                </app> costea en la <app>
-                  <rdg wit="#Z">Ciudad de Chillan,</rdg>
-                  <rdg wit="#A">ciudad de <term>Chillán</term></rdg>
+                  <rdg wit="#Z">Ciudad de <placeName>Chillan</placeName>,</rdg>
+                  <rdg wit="#A">ciudad de <placeName>Chillán</placeName></rdg>
                </app> cuyas ventajas tocan por experiencia<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -1047,10 +1047,10 @@
                </app> tratado <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
-               </app> en el <term>Parlamento</term> de <term>Lonquilmo</term>, y refrendado en el <app>
+               </app> en el <term>Parlamento</term> de <placeName>Lonquilmo</placeName>, y refrendado en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> de <term>Negrete</term>, sobre las desavenencias,<pb ed="#A" n="14"/><app>
+               </app> de <placeName>Negrete</placeName>, sobre las desavenencias,<pb ed="#A" n="14"/><app>
                   <rdg wit="#Z"> rovos,</rdg>
                   <rdg wit="#A">robos</rdg>
                </app> y <term>malocas</term> sangrientas<app>
@@ -1137,9 +1137,9 @@
                </app> y ciudades a que correspondan, y muy principalmente a los desertores del <app>
                   <rdg wit="#Z">Presidio</rdg>
                   <rdg wit="#A">presidio</rdg>
-               </app> de <term>Valdivia</term>, imitando a los <app>
-                  <rdg wit="#Z"><term>caciques</term> de Tolten</rdg>
-                  <rdg wit="#A"><term>Caciques</term> de <term>Toltén</term></rdg>
+               </app> de <placeName>Valdivia</placeName>, imitando a los <app>
+                  <rdg wit="#Z"><term>caciques</term> de <placeName>Tolten</placeName></rdg>
+                  <rdg wit="#A"><term>Caciques</term> de <placeName>Toltén</placeName></rdg>
                </app>, y de aquella parte del sur<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -1165,8 +1165,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> en el supuesto que por cada uno que entregaren en <app>
-                  <rdg wit="#Z">qualquiera de las Plazas de la <term>Barrera</term>, se</rdg>
-                  <rdg wit="#A">cualquiera de las plazas de la <term>Barrera</term> de</rdg>
+                  <rdg wit="#Z">qualquiera de las Plazas de la <placeName>Barrera</placeName>, se</rdg>
+                  <rdg wit="#A">cualquiera de las plazas de la <placeName>Barrera</placeName> de</rdg>
                </app> les <app>
                   <rdg wit="#Z">daran</rdg>
                   <rdg wit="#A">darán</rdg>
@@ -1199,7 +1199,7 @@
                   <rdg wit="#A">Ballena</rdg>
                </app>, se introducen sagazmente en sus costas, como ya sucedió en las de <app>
                   <rdg wit="#Z">Tirua</rdg>
-                  <rdg wit="#A"><term>Tirúa</term></rdg>
+                  <rdg wit="#A"><placeName>Tirúa</placeName></rdg>
                </app> en los <app>
                   <rdg wit="#Z">ultimos</rdg>
                   <rdg wit="#A">últimos</rdg>
@@ -1286,7 +1286,7 @@
                </app> quince del <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> <term>Parlamento</term> de <term>Negrete</term>, toda <app>
+               </app> <term>Parlamento</term> de <placeName>Negrete</placeName>, toda <app>
                   <rdg wit="#Z">incurcion</rdg>
                   <rdg wit="#A">incursión</rdg>
                </app> sobre las <app>
@@ -1475,8 +1475,8 @@
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
                </app> <term>Butalmapus</term>, el que recayó por votos uniformes en el<app>
-                  <rdg wit="#Z"> Governador de la Reduccion de <term>Angol</term> <term>Don</term> <persName>Francisco Curinaguel</persName></rdg>
-                  <rdg wit="#A">Gobernador de la Reducción de <term>Angol</term> <term>Don</term> <persName>Francisco Curinagüel</persName></rdg>
+                  <rdg wit="#Z"> Governador de la Reduccion de <placeName>Angol</placeName> <term>Don</term> <persName>Francisco Curinaguel</persName></rdg>
+                  <rdg wit="#A">Gobernador de la Reducción de <placeName>Angol</placeName> <term>Don</term> <persName>Francisco Curinagüel</persName></rdg>
                </app>, y en <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
@@ -1579,7 +1579,7 @@
                </app> Tranamilla de la <app>
                   <rdg wit="#Z">Reduccion</rdg>
                   <rdg wit="#A">Reducción</rdg>
-               </app> de Temulemu, recopilando <app>
+               </app> de <placeName>Temulemu</placeName>, recopilando <app>
                   <rdg wit="#Z">quanto habia oido</rdg>
                   <rdg wit="#A">cuanto había oído</rdg>
                </app> al Señor Presidente del Congreso<app>
@@ -1888,7 +1888,7 @@
                </app> para celebrar <term>Parlamento</term> a presencia del <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> <term>Señor Marqués de Osorno</term>, cuyos <app>
+               </app> <term>Señor Marqués de <placeName>Osorno</placeName></term>, cuyos <app>
                   <rdg wit="#Z">Tratados</rdg>
                   <rdg wit="#A">tratados</rdg>
                </app> y consejos<app>
@@ -1912,7 +1912,7 @@
                </app> al bien <app>
                   <rdg wit="#Z">comun</rdg>
                   <rdg wit="#A">común</rdg>
-               </app>, pues aunque en las Reducciones de Boroa<app>
+               </app>, pues aunque en las Reducciones de <placeName>Boroa</placeName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y otras<app>
@@ -2017,8 +2017,8 @@
 
          <div>
             <ab>El Cacique <app>
-                  <rdg wit="#Z">Governador de Maquehue</rdg>
-                  <rdg wit="#A">Gobernador de Maquegua</rdg>
+                  <rdg wit="#Z">Governador de <placeName>Maquehue</placeName></rdg>
+                  <rdg wit="#A">Gobernador de <placeName>Maquegua</placeName></rdg>
                </app> Vilumilla, su <app>
                   <rdg wit="#Z">Hermano Coiguengir</rdg>
                   <rdg wit="#A">hermano Coygüenjir</rdg>
@@ -2046,7 +2046,7 @@
                </app> para sus hijos, deseaban se entablase sobre esta <app>
                   <rdg wit="#Z">frontera</rdg>
                   <rdg wit="#A">Frontera</rdg>
-               </app> en la Villa de los Angeles, para lograr el verlos en algunas ocasiones, y de
+               </app> en la Villa de <placeName>los Angeles</placeName>, para lograr el verlos en algunas ocasiones, y de
                este modo empeñarse los <term>Butalmapus</term> para presentar gustosamente sus <app>
                   <rdg wit="#Z">jovenes</rdg>
                   <rdg wit="#A">jóvenes</rdg>
@@ -2072,9 +2072,9 @@
             <ab>Los <app>
                   <rdg wit="#Z"><term>Caciques</term></rdg>
                   <rdg wit="#A"><term>caciques</term></rdg>
-               </app> <term>Pehuenches</term> de Callaqui, Quilaco<app>
-                  <rdg wit="#Z">, y Huinquin,</rdg>
-                  <rdg wit="#A"> y Hinquién,</rdg>
+               </app> <term>Pehuenches</term> de <placeName>Callaqui</placeName>, <placeName>Quilaco</placeName><app>
+                  <rdg wit="#Z">, y <placeName>Huinquin</placeName>,</rdg>
+                  <rdg wit="#A"> y <placeName>Hinquién</placeName>,</rdg>
                </app> llamados Coliman, Liupay<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -2107,8 +2107,8 @@
                   <rdg wit="#Z">dispocicion</rdg>
                   <rdg wit="#A">disposición</rdg>
                </app> que presentaba el Pehuenche Millalem de <app>
-                  <rdg wit="#Z">Lonco,</rdg>
-                  <rdg wit="#A">Lolco</rdg>
+                  <rdg wit="#Z"><placeName>Lonco</placeName>,</rdg>
+                  <rdg wit="#A"><placeName>Lolco</placeName></rdg>
                </app> y otras <app>
                   <rdg wit="#Z">Parcialidades, siendoles</rdg>
                   <rdg wit="#A">parcialidades, siéndoles</rdg>
@@ -2141,7 +2141,7 @@
                </app> pidiendo de nuevo la <app>
                   <rdg wit="#Z">micion</rdg>
                   <rdg wit="#A">Misión</rdg>
-               </app> que tuvo en Lolco, pero que no se ha resuelto hasta ahora por las <app>
+               </app> que tuvo en <placeName>Lolco</placeName>, pero que no se ha resuelto hasta ahora por las <app>
                   <rdg wit="#Z"><term>malocas</term></rdg>
                   <rdg wit="#A"><term>Malocas</term></rdg>
                </app> y desavenencias que han tenido en años <app>
@@ -2174,7 +2174,7 @@
                </app> compuesta de su <app>
                   <rdg wit="#Z">Governador,</rdg>
                   <rdg wit="#A">Gobernador</rdg>
-               </app> y <term>Caciques</term>, con los de <term>Angol</term>, Maquegua, <app>
+               </app> y <term>Caciques</term>, con los de <placeName>Angol</placeName>, <placeName>Maquegua</placeName>, <app>
                   <rdg wit="#Z">Lebcoyan</rdg>
                   <rdg wit="#A">Lobcoyán</rdg>
                </app>, y generalmente los <app>
@@ -2252,9 +2252,9 @@
                   <rdg wit="#Z"><term>Caciques</term> Governadores</rdg>
                   <rdg wit="#A"><term>caciques</term> Gobernadores</rdg>
                </app> de Arauco, <app>
-                  <rdg wit="#Z"><term>Tirúa</term>, y Boca de la Ymperial</rdg>
-                  <rdg wit="#A">Tucapel, <term>Tirúa</term> Boroa, de la Imperial</rdg>
-               </app>, y lo mismo los de <term>Angol</term>, Repocura, Maquegua, <app>
+                  <rdg wit="#Z"><placeName>Tirúa</placeName>, y Boca de la Ymperial</rdg>
+                  <rdg wit="#A">Tucapel, <placeName>Tirúa</placeName> <placeName>Boroa</placeName>, de la Imperial</rdg>
+               </app>, y lo mismo los de <placeName>Angol</placeName>, Repocura, <placeName>Maquegua</placeName>, <app>
                   <rdg wit="#Z">Chacaico</rdg>
                   <rdg wit="#A">Chacayco</rdg>
                </app>, y generalmente todos los Llanos,<app>
@@ -2273,8 +2273,8 @@
                   <rdg wit="#Z">solo</rdg>
                   <rdg wit="#A">sólo</rdg>
                </app> suplicaban no se permitiese por las Plazas de la <app>
-                  <rdg wit="#Z"><term>Barrera</term>,</rdg>
-                  <rdg wit="#A"><term>Barrera</term>s</rdg>
+                  <rdg wit="#Z"><placeName>Barrera</placeName>,</rdg>
+                  <rdg wit="#A"><placeName>Barrera</placeName>s</rdg>
                </app> introducirse ladrones a sus tierras, sino que el comercio se hiciese por
                hombres honrados<app>
                   <rdg wit="#Z">,</rdg>
@@ -2338,7 +2338,7 @@
                </app> y <pb ed="#Z" n="419"/><app>
                   <rdg wit="#Z">precidarios</rdg>
                   <rdg wit="#A">presidiarios</rdg>
-               </app> de <term>Valdivia</term><app>
+               </app> de <placeName>Valdivia</placeName><app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> que desertan de los españoles, y se acogen a sus tierras, deben los <term>Butalmapus</term>
@@ -2395,14 +2395,14 @@
                </app>, pues no ignoraban sus designios depravados, y que los <term>caciques</term> de Arauco,
                Tucapel, <app>
                   <rdg wit="#Z">Boca de Ymperial,</rdg>
-                  <rdg wit="#A">Boroa, de la Imperial</rdg>
+                  <rdg wit="#A"><placeName>Boroa</placeName>, de la Imperial</rdg>
                </app> y <app>
                   <rdg wit="#Z">toda</rdg>
                   <rdg wit="#A">de toda</rdg>
                </app> la <app>
                   <rdg wit="#Z">rivera</rdg>
                   <rdg wit="#A">ribera</rdg>
-               </app> del mar hasta <term>Valdivia</term><app>
+               </app> del mar hasta <placeName>Valdivia</placeName><app>
                   <rdg wit="#Z">, debian</rdg>
                   <rdg wit="#A">debían</rdg>
                </app> de ser los <app>
@@ -2427,8 +2427,8 @@
                   <rdg wit="#Z">Pam-pas,</rdg>
                   <rdg wit="#A">pampas</rdg>
                </app> y <app>
-                  <rdg wit="#Z">Provincias de Buenos Ayres,</rdg>
-                  <rdg wit="#A">provincias de <term>Buenos Aires</term></rdg>
+                  <rdg wit="#Z">Provincias de <placeName>Buenos Ayres</placeName>,</rdg>
+                  <rdg wit="#A">provincias de <placeName>Buenos Aires</placeName></rdg>
                </app> tienen acreditada su buena <app>
                   <rdg wit="#Z">feé</rdg>
                   <rdg wit="#A">fe</rdg>
@@ -2605,7 +2605,7 @@
                </app> fue destinado al <app>
                   <rdg wit="#Z">Govierno</rdg>
                   <rdg wit="#A">Gobierno</rdg>
-               </app> de <term>Valdivia</term><app>
+               </app> de <placeName>Valdivia</placeName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> tuvo noticias<app>
@@ -2670,7 +2670,7 @@
                </app> destinadas al cuchillo<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> o al fuego, y las entreguen a los comandantes de la <term>Barrera</term>, en donde se <app>
+               </app> o al fuego, y las entreguen a los comandantes de la <placeName>Barrera</placeName>, en donde se <app>
                   <rdg wit="#Z">les</rdg>
                   <rdg wit="#A">le</rdg>
                </app>
@@ -2922,7 +2922,7 @@
                   <rdg wit="#A">sí</rdg>
                </app> se mandó firmar por los Señores que se hallaron presentes, <app>
                   <rdg wit="#Z">que si para esparcir desde aquel puesto a lo interior del Butalmapu
-                     de <term>Angol</term> fuere conveniente alli algun hospicio, se les concedera despues que
+                     de <placeName>Angol</placeName> fuere conveniente alli algun hospicio, se les concedera despues que
                      admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifi estan
                      condescender. Que por medio del Comisario de Naciones se manifi este a los
                      <term>Butalmapus</term> en las Juntas que han de celebrar la proxima primavera para divulgar
@@ -2930,9 +2930,9 @@
                      satisfaccion que me resulta de su conformidad a los consejos, y prevenciones
                      que les hizo el Señor mi comicionado en aquel Congreso, relativas a la
                      conservacion de su tranquilidad, y union reciproca, y de su fi delidad a los
-                     españoles en la franquicia de sus caminos para <term>Valdivia</term>, rezguardo de sus
+                     españoles en la franquicia de sus caminos para <placeName>Valdivia</placeName>, rezguardo de sus
                      costas contra los enemigos comunes, cesasion de incurciones en la pampas de
-                     Buenos Ayres, dedicandose al trabajo y cultura de sus tierras para vivir
+                     <placeName>Buenos Ayres</placeName>, dedicandose al trabajo y cultura de sus tierras para vivir
                      feliz-mente con sus familias; y que me prometo su exacto cumplimiento, para
                      tener la com-placencia de dispensarles por ello todos los benefi cios, amparo,
                      y justicia, que penden de mi autoridad, conforme a las benignas intenciones del
@@ -2947,7 +2947,7 @@
                      nalmente, que dandose las merecidas gracias al Señor Brigadier <term>Don</term> <persName>Pedro
                      Quijada</persName> Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
                      este acto, no menos que al Señor Brigadier <term>Don</term> <persName>Pedro Nolazco del Rio</persName> Comandante
-                     de la Plaza de los Angeles, por su cooperacion, e infl ujo con los Yndios que
+                     de la Plaza de <placeName>los Angeles</placeName>, por su cooperacion, e infl ujo con los Yndios que
                      ha tenido para el logro de aquellos, se le remita Testimonio de este Auto para
                      su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
                      traslados con las ordenes oportunas para la execucion de todo lo prevenido, a
@@ -2977,8 +2977,8 @@
                      Real Armada, Governador y Capitan general del Reyno de Chile, Presidente de su
                      real Audiencia, Superintendente Subdelegado de Real Hacienda, y Correos, y Vice
                      Patrono Real, [rúbrica]: Habiendo visto el <term>Parlamento</term> General celebrado en el
-                     Campo de <term>Negrete</term> por su Comicionado el Señor Brigadier <term>Don</term> <persName>Pedro Quijada</persName>,
-                     Comandante Ynterino de Armas de la Provincia de la <term>Concepcion</term>, con los quatro
+                     Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el Señor Brigadier <term>Don</term> <persName>Pedro Quijada</persName>,
+                     Comandante Ynterino de Armas de la Provincia de la <placeName>Concepcion</placeName>, con los quatro
                      <term>Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
                      cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
                      Articulos de su contenido, respecto de dirigirse a la ratifi cacion de los
@@ -2996,11 +2996,11 @@
                      y libro, y al peculiar Reglamento formado en su razon, y aprobado por Real
                      Orden de nueve de Febrero de mil setecientos noventa y siete. Y en quanto a las
                      pretenciones particulares que hicieron en aquel Congreso varios <term>caciques</term>, mandó
-                     su Señoria, se haga entender al de Maquegua, y sus compañeros, que deben
+                     su Señoria, se haga entender al de <placeName>Maquegua</placeName>, y sus compañeros, que deben
                      renunciar la corta satisfaccion de poder vicitar mas facilmente a los jovenes
                      que entreguen para su educacion en el Seminario, trasladandose a la Plaza de
-                     los Angeles, por las mayores ventajas que resultan de su reunion al Colegio de
-                     los Padres Micioneros de la Ciudad de Chillan, donde logran mejores comodidades
+                     <placeName>los Angeles</placeName>, por las mayores ventajas que resultan de su reunion al Colegio de
+                     los Padres Micioneros de la Ciudad de <placeName>Chillan</placeName>, donde logran mejores comodidades
                      para su subsistencia, y asig-nacion de maestros los mas a proposito, bajo la
                      direccion del Padre Guardian, estando asi dispuesto por el Rey, sin arvitrio
                      aqui para variarlo, por los muchos inconvenientes al instituto de ambos
@@ -3011,17 +3011,17 @@
                      y pendiente de la resolucion que se tomase sobre este particular en este
                      <term>Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
                      Parcialidades de <term>Pehuenches</term>, y señalada-mente el restablecimiento de la de
-                     Lolco, como solicitan sus <term>caciques</term>, a cuyo efecto se encargará al Señor
-                     Yntendente Comandante Militar de la Provincia de la <term>Concepcion</term>, procure su
+                     <placeName>Lolco</placeName>, como solicitan sus <term>caciques</term>, a cuyo efecto se encargará al Señor
+                     Yntendente Comandante Militar de la Provincia de la <placeName>Concepcion</placeName>, procure su
                      realizacion, convocando las Juntas oportunas de los yndios, y consultando
                      previamente a esta Superioridad las demas providencias que convenga anticipar
                      para su allanamiento, asignacion de los micioneros de acuerdo con el Padre
-                     Prefecto y Guardian del Colegio de Chillan, y proviciones de gastos para su
+                     Prefecto y Guardian del Colegio de <placeName>Chillan</placeName>, y proviciones de gastos para su
                      establecimiento, y sinodos fi xos: Que al cacique de la Reduccion de Santa Feé
                      se le persuada, desista de su pretencion de tener parroco micionero a exemplo
                      de su respetable antecesor el anciano honrado Levigueque, por ser esta una
                      materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo Señor
-                     <persName>Obispo de la <term>Concepcion</term></persName>, conforme a los derechos de su Jurisdiccion, y a las
+                     <persName>Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
                      Constituciones Pontifi cias, e Ynstituto de los Micioneros, que solo deben
                      emplearse en la convercion de los Ynfi eles, hasta que formalicen las
                      reducciones, respecto de que la de Santa Feé, por su antiguedad, entera
@@ -3042,11 +3042,11 @@
                   <rdg wit="#Z"><persName>Pedro Quijada</persName> = <persName>Pedro Nolazco del Rio</persName> = <persName>Mariano José de Roa</persName> = <persName>Juan
                      Zapatero</persName> = <persName>Manuel de Vega Bazan</persName> = <persName>Pedro José de Benavente</persName> = Melchor de Carvajal
                      = Luis de la Cruz = <persName>Miguel Puga</persName> = Fray <persName>Francisco Xavier de Alday</persName> = Fray <persName>Gil
-                     Calvo</persName> = Guardian de Chillan = <persName>Gonzalo Maria de Figueroa</persName>, Secretario de la
+                     Calvo</persName> = Guardian de <placeName>Chillan</placeName> = <persName>Gonzalo Maria de Figueroa</persName>, Secretario de la
                      Comicion.</rdg>
                   <rdg wit="#A"><persName>Pedro Quijada</persName>. - <persName>Pedro Nolasco del Rio</persName>. - <persName>Mariano José de Roa</persName>. -
                      <persName>Juan Zapatero</persName>. - <persName>Melchor de Carvajal</persName>. - <persName>Pedro José de Benavente</persName>. - Miguel Puga.
-                     - Luis de la Cruz – Fr. <persName>Gil Calvo</persName>.- Guardián de <term>Chillán</term>. - Fr. <persName>Francisco Javier
+                     - Luis de la Cruz – Fr. <persName>Gil Calvo</persName>.- Guardián de <placeName>Chillán</placeName>. - Fr. <persName>Francisco Javier
                      de Aldai</persName> Prefecto de Misiones. _ <persName>Gonzalo M. de Figueroa</persName> secretario de la
                      comisión.” </rdg>
                </app>
@@ -3056,7 +3056,7 @@
          <div>
             <ab><app>
                   <rdg wit="#Z">Relacion de los <term>Caciques</term> Governadores y particulares, con sus
-                     Respetados y Mozetones que han concurrido al <term>Parlamento</term> General de <term>Negrete</term> de
+                     Respetados y Mozetones que han concurrido al <term>Parlamento</term> General de <placeName>Negrete</placeName> de
                      los quatro <term>Butalmapus</term>, cele-brado el dia tres de Marzo de mil ochocientos
                      tres.</rdg>
                   <rdg wit="#A"/>
