@@ -24,7 +24,7 @@
     <xsl:strip-space elements="*"/>
     
     <xsl:template match="$negText">
-            <xsl:result-document method="xhtml" indent="yes" href="../site/1803-display-2cols.html"> 
+            <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-2cols.html"> 
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

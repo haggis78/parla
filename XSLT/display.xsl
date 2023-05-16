@@ -18,7 +18,7 @@ Parlamento text files down the line. -->
             <xsl:variable name="filename" as="xs:string">
                 <xsl:value-of select="current() ! string()"/>
             </xsl:variable>
-            <xsl:result-document method="xhtml" indent="yes" href="../site/1803-display-{$filename}.html"> 
+            <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-{$filename}.html"> 
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,7 +28,9 @@ Parlamento text files down the line. -->
                       <title>Negrete <xsl:value-of select="current()"/></title>
                     </head>
                     <body>
-                        
+                        <img src="../images/heading-bickham-font.png" width="1100"
+                            alt="header with image of the words Parlamentos Project in historic script" />
+                        <hr />
                         <div class="content">
                             <h1><xsl:apply-templates select="//titleStmt/title"/></h1>
                             <h2><xsl:apply-templates select="//publicationStmt/p"/></h2>

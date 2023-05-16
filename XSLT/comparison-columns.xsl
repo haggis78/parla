@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--DO NOT USE: see notes below-->
+
 <!-- WHC 09-FEB-2023: This is derived from a Brecon Project file authored by UPG student Alyssa Argento. 
     The purpose for this XSLT is to create an html page with the two Spanish versions in parallel columns. 
 I am trying to make the syntax as universal as possible so it can be used with very few changes on all subsequent 
