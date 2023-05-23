@@ -34,7 +34,7 @@
                         <title>Negrete: Comparación de Textos</title>
                     </head>
                     <body>
-                        <img src="../images/heading-bickham-font.png" width="1100"
+                        <img src="images/heading-bickham-font.png" width="1100"
                             alt="header with image of the words Parlamentos Project in historic script" />
                         <hr />
                         <div class="content">
@@ -171,7 +171,7 @@
             <p><b>Notes: </b><i><xsl:value-of select="note[@xml:lang='eng']"/></i></p>     
     </xsl:template>-->
     <xsl:template match="bibl">
-            <p><b>Editor(es): </b> <xsl:apply-templates select="editor"/></p> 
+            <p><b>Editor(es): </b><xsl:apply-templates select="editor"/></p> 
         <p><b>Título de publicación: </b><i><xsl:value-of select="title"/></i></p>
         <p><b>Editorial: </b><xsl:value-of select="publisher"/></p>
         <p><b>Lugar de publicación: </b><xsl:value-of select="pubPlace"/></p>
