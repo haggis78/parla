@@ -167,6 +167,37 @@
                 </entry>
             </superEntry>
             
+            <superEntry n="6">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Parlamento</orth>
+                        
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def>Definition 1 (this would be in Spanish)</def>
+                    </sense>
+                    <sense n="2">
+                        <def>Definition 2 (this would be in Spanish)</def>
+                    </sense>
+                    <note>You can use this element to contain notes that you plan to include in the visible definition on the site.</note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Parlamento</orth>
+                    </form>
+                    <sense n="1">
+                        <def>Definition 1 (this would be in English)</def>
+                    </sense>
+                    <sense n="2">
+                        <def>Definition 2 (this would be in English)</def>
+                    </sense>
+                    <note>You can use this element to contain notes that you plan to include in the visible definition on the site.</note>
+                </entry>
+            </superEntry>
+            
+            
+            
             <superEntry n="">
                 <entry xml:lang="span">
                     <form>

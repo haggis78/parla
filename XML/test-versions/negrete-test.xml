@@ -49,23 +49,25 @@
    <text>
       <body>
 
-         <div>
+         <div n="1"><!--whc 25-May-2023: adding n= to divs; changing stylesheet to pull this number instead of counting divs-->
             <pb ed="#A" n="7"/>
             <pb ed="#Z" n="413"/>
-            <head>Parlamento <app>
-                  <rdg wit="#A">general celebrado en el campo</rdg>
+            <head><term n="6">Parlamento</term> <app>
+                  <rdg wit="#A"> general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
-               </app> de Negrete <app>
-                  <rdg wit="#A">con los Indios de Chile en los días 3, 4 y 5 de marzo de mil
+               </app> de <placeName>Negrete</placeName> <app>
+                  <rdg wit="#A"> con los Indios de Chile en los días 3, 4 y 5 de marzo de mil
                      ochocientos tres años, presidido por el Señor don <persName n="2">Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
                      a nombre del Excmo. Señor Gobernador y Capitán General del Reino de
-                     Chile.</rdg>
-                  <rdg wit="#Z">de 1803. AGI, Chile, 204, fs. 1-1772</rdg>
+                     <placeName>Chile</placeName>.</rdg>
+                  <rdg wit="#Z"> de 1803. AGI, <placeName>Chile</placeName>, 204, fs. 1-17.</rdg>
                   <!--whc 1/18/23: looks like that should be folios 1-17 with a superscript 72 - check on this. And should it be removed altogether from this rdg and added to the sourceDesc above?-->
                </app></head>
          </div>
-         <div>
+         <div><!--whc 25-May-2023: NOT numbering head divs that appear only in Ayun, as this would confuse things
+            when we move to page displaying Zavala and English translation (both of which omit these). So no section number
+            will appear in those cases.-->
             <head><app>
                   <rdg wit="#A"><lb/>Acta preliminar (instalación del comisionado real): <lb/>27 de
                      febrero de 1803</rdg>
@@ -74,7 +76,7 @@
             <!--whc 1/18/23: do I want to mark up the date here? Line breaks?-->
          </div>
 
-         <div>
+         <div n="2">
             <ab>En el campo de <placeName n="1">Negrete</placeName> en <app>
                   <rdg wit="#Z">veinte y siete dias</rdg>
                   <rdg wit="#A">veintisiete días</rdg>
@@ -191,7 +193,7 @@
                </app> y ceremonial de estilo en estos casos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y que el tres a las seis de la mañana se verificase la apertura del Parlamento General<app>
+               </app> y que el tres a las seis de la mañana se verificase la apertura del <term n="6">Parlamento</term> General<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> en la <app>
@@ -233,7 +235,7 @@
          </div>
          <!--whc 1/18/23: do I want to mark up the date here?-->
 
-         <div>
+         <div n="3">
             <ab>En el <app>
                   <rdg wit="#Z">dia</rdg>
                   <rdg wit="#A">día</rdg>
@@ -464,7 +466,7 @@
          </div>
 
          <!--EW started coding here-->
-         <div>
+         <div n="4">
             <ab>Tengo la mayor complacencia, <app>
                   <rdg wit="#Z">Caciques Principales</rdg>
                   <rdg wit="#A">caciques principales,</rdg>
@@ -578,7 +580,7 @@
                </app>.</ab>
          </div>
 
-         <div>
+         <div n="5">
             <ab>Yo que he visto por experiencia la <app>
                   <rdg wit="#Z">situacion</rdg>
                   <rdg wit="#A">situación</rdg>
@@ -718,7 +720,7 @@
                </app> os conviene. </ab>
          </div>
 
-         <div>
+         <div n="6">
             <ab>Creo seguramente que por el conocimiento que <app>
                   <rdg wit="#Z">teneis</rdg>
                   <rdg wit="#A">tenéis</rdg>
@@ -777,7 +779,7 @@
                </app> = </ab>
          </div>
          <pb ed="#A" n="12"/>
-         <div>
+         <div n="7">
             <head>Articulos publicados en el Parlamento General de los Yndios de Chile congregados
                en el Campo de Negrete en los dias tres, quatro, y cinco de Marzo de mil ochocientos
                tres- </head>

@@ -26,6 +26,24 @@ td {
     vertical-align: top;
 }
 
+html{
+scroll-behavior: smooth;
+}
+
+.top-btn{
+    float:right;
+    background-color: #F5F5F5;
+  color: #404040;
+  padding: 2px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.top-btn:hover {
+color:#F5F5F5;
+        background-color: #404040;
+    }
+
 span.variant{
     color:red;
 }
