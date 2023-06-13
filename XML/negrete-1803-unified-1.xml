@@ -1676,7 +1676,7 @@
                   <rdg wit="#A">. -</rdg>
                </app> <persName>Gonzalo Maria de Figueroa</persName><app>
                   <rdg wit="#Z"> = </rdg>
-                  <rdg wit="#A">.”</rdg>
+                  <rdg wit="#A">."</rdg>
                </app></ab>
             <pb ed="#A" n="19"/>
          </div>
@@ -1835,7 +1835,7 @@
                   <rdg wit="#A"><persName>Gonzalo María de Figueroa</persName></rdg>
                </app> <app>
                   <rdg wit="#Z"> =</rdg>
-                  <rdg wit="#A">.-”</rdg>
+                  <rdg wit="#A">.-"</rdg>
                </app><pb ed="#A" n="20"/>
             </ab>
          </div>
@@ -2755,7 +2755,7 @@
                </app> para <app>
                   <rdg wit="#Z">evitar</rdg>
                   <rdg wit="#A">contar</rdg>
-               </app> en adelante aquellos crueles proce<pb ed="#Z" n="419"/>dimientos<app>
+               </app> en adelante aquellos crueles proce<pb ed="#Z" n="420"/>dimientos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y el <app>
@@ -2956,8 +2956,8 @@
                      los Comandantes de las Plazas Fronterizas, <term>Cavildo</term> de la Ciudad, y demas a
                      quienes toque de qualquier manera, y que con el integro de estas Actas se de
                      cuenta a su Magestad para su Real inteligencia, y aprobacion. Y asi lo proveyó,
-                     mandó, y fi rmó su Excelencia, de que certifi co = Muñoz = Por mandado de su
-                     Excelencia = Judas Tadeo Reyes, Secretario. <pb ed="#Z" n="420"/>Concuerda con
+                     mandó, y firmó su Excelencia, de que certifico = <persName>Muñoz</persName> = Por mandado de su
+                     Excelencia = <persName>Judas Tadeo Reyes</persName>, Secretario. <pb ed="#Z" n="421"/>Concuerda con
                      su original [de] que certifico. Santiago y octubre dies y ocho de mil
                      ochosientos tres.</rdg>
                   <rdg wit="#A"/>
@@ -2967,22 +2967,75 @@
          <!-- whc 1/20/23: see printed copy of Z for formatting -->
          <div>
             <ab><app>
-                  <rdg wit="#Z"><lb/>Antonio Garfi a s Escrivano subtituto de Gobierno <lb/>RESUMEN <lb/><term>Caciques</term>
-                     de los quatro <term>Butalmapus</term> <lb/><term>Capitanejos</term>, <term>Mozetones</term>, y Respetados de iden 
-                     <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
-                  from A here -->
-                     
-                     <!-- whc 13-JUN-2023: CHUNK OF TEXT MISING HERE -->
-                     
-                     
-                     <pb ed="#Z" n="422"/><term><term>Señor</term> <term>Don</term></term> Luis Muñoz de Guzman, Teniente General de los
+                  <rdg wit="#Z"><persName>Antonio Garfias</persName>
+                     <lb/>Escrivano subtituto de Gobierno 
+                     <lb/>RESUMEN 
+                     <lb/><term>Caciques</term> de los quatro <term>Butalmapus</term> 239 
+                     <lb/><term>Capitanejos</term>, <term>Mozetones</term>, y Respetados de iden 3060 
+                     <lb/>3299</rdg><rdg wit="#A"/></app></ab>
+            <!-- whc 13-JUN-2023: What is appropriate element to indicate a horizontal rule here? -->
+         </div>
+         <div><ab>
+            <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
+                  from A -->
+              <app><rdg wit="#Z">Asciende la suma de Concurrentes de los quatro <term>Butalmapus</term> al Parlamento General, a
+               tres mil doscientos noventa y nueve, segun las listas, y noticias que tomó el <term>Comisario de
+               Naciones y Lengua general</term> a su arrivo al Campamento, sin incluir las continuas partidas
+               que fueron llegando en los dias consecutivos de la Parla, que por las ocupaciones no se
+               pudieron llevar en cuenta. Y para que conste lo firmamos los sobredichos <term>Comisario
+               General de Naciones, y Lengua General</term>, en la <term>Plaza</term> de los Angeles en ocho de Marzo de
+               mil ochocientos tres = <persName>Sebastian Xibaja</persName> = <persName>Fermin Villagran</persName>.</rdg><rdg wit="#A"/></app></ab></div>
+            
+            <div><ab><app><rdg wit="#Z">Excelentisimo <term>Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
+            adjunto Expediente del Parlamento General celebrado en el Campo de <placeName>Negrete</placeName> con los
+            quatro <term>Butalmapus</term> o Cantones de esta Frontera, segun lo ofreci a Vuexcelencia en mi
+            anterior Oficio de fecha ocho de Marzo proximo pasado al tiempo de su conclucion; sirviendose
+            Vuexcelencia darme, y conferir la necesaria Comicion, de resultas de los justos
+            motivos que le imposibilitaban su asistencia personal, por su Superior Orden de treinta
+            de Octubre ultimo =</rdg><rdg wit="#A"/></app></ab></div> 
+         
+         <div><ab><app><rdg wit="#Z">El Estado inclusive demuestra el numero de tropas de Dragones,
+            y Milicia asistentes en el Campamento. El de Yndios va por <term>Butalmapus</term> o Goviernos
+            para inteligencia de los que concurrieron. El Plano servira para dar idea del modo con
+            que se colocaron las oficinas para el Congreso. Y las Actas originadas en aquel tiempo
+            orientaran a Vuexcelencia de los Tratados, y ratificaciones de una paz general concertada
+            a beneficio del mejor Servicio del Rey, y de una Sociedad asegurada con los naturales,
+            ofrecido todo por la demonstracion de sus promesas, y cargos sugeridos Sin embargo
+            de no haber alcanzado en la celebracion el Acesor Doctor <term>Don</term> <persName>Juan Martinez de Rosas</persName>,
+            como Auditor de Guerra, segun la costumbre de otros Parlamentos, a estimulo de los
+            conocimientos, y practica del <term>Señor</term> Brigadier Comandante del Cuerpo de Dragones
+            <term>Don</term> <persName>Pedro Nolazco del Rio</persName> (como tengo a Vuexcelencia anunciado) confi e con su asociamiento
+            quanto se ha ofrecido, y he logrado su conclucion, lisongeandome de los meritos
+            que proporcionalmente lo han hecho ventajoso, pudiendo Vuexcelencia conocerlo
+            en sus Articulos, corto tiempo del Congreso, nada de superfluidad en sus gastos, a pesar
+            del excesivo numero de concurrentes Parcialidades, y otras circunstancias beneméritas
+            =</rdg><rdg wit="#A"/></app></ab></div>
+         
+         <div><ab><app><rdg wit="#Z">En cumplimiento de mi obligacion recomiendo a Vuexcelencia el merito que han
+            adquirido los oficiales empleados en aquella fatiga durante el tiempo del Parlamento,
+            donde desempeñaron con la mayor dedicacion las atenciones del Servicio, sin haber
+            dado causa para la menor reconvención = </rdg><rdg wit="#A"/></app></ab></div>
+         
+         
+         <div><ab><app><rdg wit="#Z">Enterado Vuexcelencia por todo lo expuesto,
+            conocerá los deseos que me estimulan en el cumplimiento de la Comicion con que se
+            sirvió distinguirme, dandole por ello constante prueba de mi reconocimiento, y del
+            anhelo con que ansio ocuparme en los asuntos del Real Servicio. Bajo de este concepto
+            espero sea todo lo obrado de la Superior aprobacion de Vuexcelencia, y me servira de la
+            mayor satisfacción =</rdg><rdg wit="#A"/></app></ab></div>
+            
+            <div><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. Concepcion treinta de
+            Abril de mil ochocientos tres = Excelentisimo <term>Señor</term> = <persName>Pedro Quijada</persName> = Excelentisimo
+                     <pb ed="#Z" n="422"/><term><term>Señor</term> <term>Don</term></term> <persName>Luis Muñoz de Guzman</persName>, Teniente General de los
                      Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de <placeName>Chile</placeName>
-                     = En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
+               = </rdg><rdg wit="#A"/></app></ab></div>
+                     
+               <div><head><app><rdg wit="#Z">En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
                      tres: El Excelentisimo <term><term>Señor</term> <term>Don</term></term> Luis Muñoz de Guzman, Cavallero del Orden de
                      Santiago, Comendador de las <placeName>Pueblas</placeName> en la de Alcantara, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de <placeName>Chile</placeName>, Presidente de su
                      <term>real Audiencia</term>, Superintendente Subdelegado de <term>Real Hacienda</term>, y Correos, y Vice
-                     Patrono Real, [rúbrica]:</rdg><rdg wit="#A"/></app></ab></div> 
+                     Patrono Real, [rúbrica]:</rdg><rdg wit="#A"/></app></head></div> 
          
         
                      <div><ab><app><rdg wit="#Z">Habiendo visto el <term>Parlamento</term> General celebrado en el
@@ -3017,12 +3070,12 @@
                      que sobrevendrian de su reparacion.</rdg>
                <rdg wit="#A"/></app></ab></div> 
                      
-                     <div><ab><app><rdg wit="#Z">Que no se haga novedad en la subsis-tencia
+                     <div><ab><app><rdg wit="#Z">Que no se haga novedad en la subsistencia
                      del Hospicio de Santa Barbara, que se habia proyectado abandonar, sino que
                      antes se proceda a su refaccion, progresando el Expediente que estaba suspenso,
                      y pendiente de la resolucion que se tomase sobre este particular en este
                      <term>Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
-                     Parcialidades de <term>Pehuenches</term>, y señalada-mente el restablecimiento de la de
+                     Parcialidades de <term>Pehuenches</term>, y señaladamente el restablecimiento de la de
                      <placeName>Lolco</placeName>, como solicitan sus <term>caciques</term>, a cuyo efecto se encargará al <term>Señor</term>
                      Yntendente Comandante Militar de la Provincia de la <placeName>Concepcion</placeName>, procure su
                      realizacion, convocando las Juntas oportunas de los yndios, y consultando
@@ -3034,8 +3087,8 @@
                      de su respetable antecesor el anciano honrado Levigueque, por ser esta una
                      materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo <term>Señor</term>
                      <persName>Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
-                     Constituciones Pontifi cias, e Ynstituto de los Micioneros, que solo deben
-                     emplearse en la convercion de los Ynfi eles, hasta que formalicen las
+                     Constituciones Pontificias, e Ynstituto de los Micioneros, que solo deben
+                     emplearse en la convercion de los Ynfieles, hasta que formalicen las
                      reducciones, respecto de que la de <placeName>Santa Feé</placeName>, por su antiguedad, entera
                      sujecion al gremio de la Yglecia, y <pb ed="#Z" n="423"/>situacion en
                      territorio de los españoles, debe gloriarse del timbre de estar exenta de aquel
@@ -3051,16 +3104,23 @@
 
          <div>
             <ab><app>
-                  <rdg wit="#Z"><persName>Pedro Quijada</persName> = <persName>Pedro Nolazco del Rio</persName> = <persName>Mariano José de Roa</persName> = <persName>Juan
-                     Zapatero</persName> = <persName>Manuel de Vega Bazan</persName> = <persName>Pedro José de Benavente</persName> = Melchor de Carvajal
-                     = Luis de la Cruz = <persName>Miguel Puga</persName> = Fray <persName>Francisco Xavier de Alday</persName> = Fray <persName>Gil
-                     Calvo</persName> = Guardian de <placeName>Chillan</placeName> = <persName>Gonzalo Maria de Figueroa</persName>, Secretario de la
-                     Comicion.</rdg>
+                  <rdg wit="#Z"><persName>Pedro Quijada</persName> = 
+                     <persName>Pedro Nolazco del Rio</persName> = 
+                     <persName>Mariano José de Roa</persName> = 
+                     <persName>Juan Zapatero</persName> = 
+                     <persName>Manuel de Vega Bazan</persName> = 
+                     <persName>Pedro José de Benavente</persName> = 
+                     <persName>Melchor de Carvajal</persName> = 
+                     <persName>Luis de la Cruz</persName> = 
+                     <persName>Miguel Puga</persName> = 
+                     Fray <persName>Francisco Xavier de Alday</persName> = 
+                     Fray <persName>Gil Calvo</persName> = Guardian de <placeName>Chillan</placeName> = 
+                     <persName>Gonzalo Maria de Figueroa</persName>, Secretario de la Comicion.</rdg>
                   <rdg wit="#A"><persName>Pedro Quijada</persName>. - <persName>Pedro Nolasco del Rio</persName>. - <persName>Mariano José de Roa</persName>. -
                      <persName>Juan Zapatero</persName>. - <persName>Melchor de Carvajal</persName>. - <persName>Pedro José de Benavente</persName>. - Miguel Puga.
                      - Luis de la Cruz – Fr. <persName>Gil Calvo</persName>.- Guardián de <placeName>Chillán</placeName>. - Fr. <persName>Francisco Javier
                      de Aldai</persName> Prefecto de Misiones. _ <persName>Gonzalo M. de Figueroa</persName> secretario de la
-                     comisión.” </rdg>
+                     comisión." </rdg>
                </app>
             </ab>
          </div>
@@ -3069,7 +3129,7 @@
             <ab><app>
                   <rdg wit="#Z">Relacion de los <term>Caciques</term> Governadores y particulares, con sus
                      Respetados y <term>Mozetones</term> que han concurrido al <term>Parlamento</term> General de <placeName>Negrete</placeName> de
-                     los quatro <term>Butalmapus</term>, cele-brado el dia tres de Marzo de mil ochocientos
+                     los quatro <term>Butalmapus</term>, celebrado el dia tres de Marzo de mil ochocientos
                      tres.</rdg>
                   <rdg wit="#A"/>
                </app>
