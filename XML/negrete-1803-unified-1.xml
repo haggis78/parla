@@ -1689,7 +1689,7 @@
          <div>
             <ab><app>
                   <rdg wit="#Z"/>
-                  <rdg wit="#A">“</rdg>
+                  <rdg wit="#A">"</rdg>
                </app>El <app>
                   <rdg wit="#Z">dia quatro</rdg>
                   <rdg wit="#A">día cuatro</rdg>
@@ -2355,6 +2355,8 @@
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">.</rdg>
                </app>
+            </ab></div>
+         <div><ab>
                <app>
                   <rdg wit="#Z">Ygualmente</rdg>
                   <rdg wit="#A">Igualmente</rdg>
@@ -2965,10 +2967,14 @@
          <!-- whc 1/20/23: see printed copy of Z for formatting -->
          <div>
             <ab><app>
-                  <rdg wit="#Z">Antonio Garfi a s Escrivano subtituto de Gobierno RESUMEN <term>Caciques</term>
-                     de los quatro <term>Butalmapus</term> <term>Capitanejos</term>, <term>Mozetones</term>, y Respetados de iden 
+                  <rdg wit="#Z"><lb/>Antonio Garfi a s Escrivano subtituto de Gobierno <lb/>RESUMEN <lb/><term>Caciques</term>
+                     de los quatro <term>Butalmapus</term> <lb/><term>Capitanejos</term>, <term>Mozetones</term>, y Respetados de iden 
                      <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
                   from A here -->
+                     
+                     <!-- whc 13-JUN-2023: CHUNK OF TEXT MISING HERE -->
+                     
+                     
                      <pb ed="#Z" n="422"/><term><term>Señor</term> <term>Don</term></term> Luis Muñoz de Guzman, Teniente General de los
                      Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de <placeName>Chile</placeName>
                      = En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
@@ -2976,7 +2982,10 @@
                      Santiago, Comendador de las <placeName>Pueblas</placeName> en la de Alcantara, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de <placeName>Chile</placeName>, Presidente de su
                      <term>real Audiencia</term>, Superintendente Subdelegado de <term>Real Hacienda</term>, y Correos, y Vice
-                     Patrono Real, [rúbrica]: Habiendo visto el <term>Parlamento</term> General celebrado en el
+                     Patrono Real, [rúbrica]:</rdg><rdg wit="#A"/></app></ab></div> 
+         
+        
+                     <div><ab><app><rdg wit="#Z">Habiendo visto el <term>Parlamento</term> General celebrado en el
                      Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el <term>Señor</term> Brigadier <term>Don</term> <persName>Pedro Quijada</persName>,
                      Comandante Ynterino de Armas de la Provincia de la <placeName>Concepcion</placeName>, con los quatro
                      <term>Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
@@ -3005,7 +3014,10 @@
                      direccion del Padre Guardian, estando asi dispuesto por el Rey, sin arvitrio
                      aqui para variarlo, por los muchos inconvenientes al instituto de ambos
                      establecimientos, y mayores dotaciones, y costos exorbitantes de nueva fabrica,
-                     que sobrevendrian de su reparacion. Que no se haga novedad en la subsis-tencia
+                     que sobrevendrian de su reparacion.</rdg>
+               <rdg wit="#A"/></app></ab></div> 
+                     
+                     <div><ab><app><rdg wit="#Z">Que no se haga novedad en la subsis-tencia
                      del Hospicio de Santa Barbara, que se habia proyectado abandonar, sino que
                      antes se proceda a su refaccion, progresando el Expediente que estaba suspenso,
                      y pendiente de la resolucion que se tomase sobre este particular en este
