@@ -129,8 +129,8 @@
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiéndose</rdg>
                </app> trasladado su Señoría desde la <app>
-                  <rdg wit="#Z">Plaza de <placeName>los Angeles</placeName> del mismo dia</rdg>
-                  <rdg wit="#A">plaza de <placeName>los Ángeles</placeName> el mismo día</rdg>
+                  <rdg wit="#Z"><term n="18">Plaza</term> de <placeName>los Angeles</placeName> del mismo dia</rdg>
+                  <rdg wit="#A"><term n="18">plaza</term> de <placeName>los Ángeles</placeName> el mismo día</rdg>
                </app> al lugar del campamento con las <app>
                   <rdg wit="#Z">Tropas del Cuerpo de Dragones, Artilleria, y Milicias</rdg>
                   <rdg wit="#A">tropas del cuerpo de dragones, artillería y milicias</rdg>
@@ -143,13 +143,13 @@
                </app> a su <app>
                   <rdg wit="#Z">arrivo</rdg>
                   <rdg wit="#A">arribo</rdg>
-               </app> el Comisario de Naciones<app>
+               </app> el <term n="7">Comisario de Naciones<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> Lengua <app>
                   <rdg wit="#Z">general,</rdg>
                   <rdg wit="#A">General</rdg>
-               </app> y sus Capitanes<app>
+               </app></term> y sus Capitanes<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> expresando estar <app>
@@ -199,8 +199,8 @@
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> en la <app>
-                  <rdg wit="#Z"><term>Ramada</term></rdg>
-                  <rdg wit="#A"><term>ramada</term></rdg>
+                  <rdg wit="#Z"><term n="20">Ramada</term></rdg>
+                  <rdg wit="#A"><term n="20">ramada</term></rdg>
                </app> destinada a este efecto<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
@@ -279,7 +279,7 @@
                <app>
                   <rdg wit="#Z">guarneciendose</rdg>
                   <rdg wit="#A">guarneciéndoles</rdg>
-               </app> al mismo tiempo la <term>Ramada</term> de la <term n="15">Parla</term> con las <app>
+               </app> al mismo tiempo la <term n="20">Ramada</term> de la <term n="15">Parla</term> con las <app>
                   <rdg wit="#Z">Compañias de Milicias</rdg>
                   <rdg wit="#A">compañías de milicias</rdg>
                </app> y del <app>
@@ -331,7 +331,7 @@
                </app>, <app>
                   <rdg wit="#Z">Governador Capitan General,</rdg>
                   <rdg wit="#A">Gobernador, Capitán General</rdg>
-               </app> y Presidente de la <term n="22">Real Audiencia</term> de este <app>
+               </app> y Presidente de la <term n="21">Real Audiencia</term> de este <app>
                   <rdg wit="#Z">Reyno</rdg>
                   <rdg wit="#A">Reino</rdg>
                </app>, se <app>
@@ -388,7 +388,7 @@
                </app>, el Reverendo Padre <app>
                   <rdg wit="#Z">Guardian</rdg>
                   <rdg wit="#A">Guardián</rdg>
-               </app> del <term n="8">Colegio de Propaganda</term> Fray <persName>Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
+               </app> del <term n="8">Colegio de <term n="29">Propaganda</term></term> Fray <persName>Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
                   <rdg wit="#Z"><persName>Francisco Xavier de Alday</persName></rdg>
                   <rdg wit="#A"><persName>Francisco Javier de Aldai</persName></rdg>
                </app> con seis <app>
@@ -420,10 +420,10 @@
                </app> el <app>
                   <rdg wit="#Z">juramente</rdg>
                   <rdg wit="#A">juramento</rdg>
-               </app> acostumbrado al Comisario de Naciones y <app>
+               </app> acostumbrado al <term n="7">Comisario de Naciones y <app>
                   <rdg wit="#Z">Lenguas general,</rdg>
                   <rdg wit="#A">Lengua General</rdg>
-               </app> de traducir fielmente <app>
+               </app></term> de traducir fielmente <app>
                   <rdg wit="#Z">quanto</rdg>
                   <rdg wit="#A">cuanto</rdg>
                </app> se <app>
@@ -600,8 +600,8 @@
                   <rdg wit="#Z">Butalmapu</rdg>
                   <rdg wit="#A"><term n="2">Butamalpus</term></rdg>
                </app> de <placeName>Angol</placeName> al <app>
-                  <rdg wit="#Z">Govierno de la Plaza</rdg>
-                  <rdg wit="#A">gobierno de la plaza</rdg>
+                  <rdg wit="#Z">Govierno de la <term n="18">Plaza</term></rdg>
+                  <rdg wit="#A">gobierno de la <term n="18">plaza</term></rdg>
                </app> de <placeName>Valdivia</placeName>, llenos de <term n="27">haciendas</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -729,7 +729,7 @@
                   <rdg wit="#Z">disencion</rdg>
                   <rdg wit="#A">disensión</rdg>
                </app> o enemistad que hayan tenido las <app>
-                  <rdg wit="#Z">Reducciones</rdg>
+                  <rdg wit="#Z"><term n="11">Reducciones</term></rdg>
                   <rdg wit="#A">Pre (en blanco)</rdg>
                </app> anteriormente<app>
                   <rdg wit="#Z">,</rdg>
@@ -887,7 +887,7 @@
                </app> hacer <app>
                   <rdg wit="#Z">todos</rdg>
                   <rdg wit="#A"/>
-               </app> los naturales en todas las plazas, villas<app>
+               </app> los naturales en todas las <term n="18">plazas</term>, villas<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y ciudades del <app>
@@ -1131,7 +1131,7 @@
                </app> o los entreguen en las <app>
                   <rdg wit="#Z">carzeles</rdg>
                   <rdg wit="#A">cárceles</rdg>
-               </app> de las plazas, villas<app>
+               </app> de las <term n="18">plazas</term>, villas<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y ciudades a que correspondan, y muy principalmente a los desertores del <app>
@@ -1165,8 +1165,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> en el supuesto que por cada uno que entregaren en <app>
-                  <rdg wit="#Z">qualquiera de las Plazas de la <placeName>Barrera</placeName>, se</rdg>
-                  <rdg wit="#A">cualquiera de las plazas de la <placeName>Barrera</placeName> de</rdg>
+                  <rdg wit="#Z">qualquiera de las <term n="19">Plazas de la Barrera</term>, se</rdg>
+                  <rdg wit="#A">cualquiera de las <term n="19">plazas de la Barrera</term> de</rdg>
                </app> les <app>
                   <rdg wit="#Z">daran</rdg>
                   <rdg wit="#A">darán</rdg>
@@ -1290,8 +1290,8 @@
                   <rdg wit="#Z">incurcion</rdg>
                   <rdg wit="#A">incursión</rdg>
                </app> sobre las <app>
-                  <rdg wit="#Z">pampas</rdg>
-                  <rdg wit="#A">Pampas</rdg>
+                  <rdg wit="#Z"><term n="30">pampas</term></rdg>
+                  <rdg wit="#A"><term n="30">Pampas</term></rdg>
                </app> de Buenos <app>
                   <rdg wit="#Z">Ayres,</rdg>
                   <rdg wit="#A">Aires</rdg>
@@ -1455,10 +1455,10 @@
                   <rdg wit="#Z">lizencia</rdg>
                   <rdg wit="#A">licencia</rdg>
                </app> para hablar el Cacique <app>
-                  <rdg wit="#Z">Governador de la Reduccion cristiana de <placeName>Santa Fee</placeName> <term n="12">Don</term> <persName>Ygnacio
+                  <rdg wit="#Z">Governador de la <term n="11">Reduccion</term> cristiana de <placeName>Santa Fee</placeName> <term n="12">Don</term> <persName>Ygnacio
                      Naipayl[ic]an</persName>,</rdg>
-                  <rdg wit="#A">Gobernador de la Reducción Cristiana de <placeName>Santa Fe</placeName>, <term n="12">Don</term> Ignacio
-                     Nágpayluan</rdg>
+                  <rdg wit="#A">Gobernador de la <term n="11">Reducción</term> Cristiana de <placeName>Santa Fe</placeName>, <term n="12">Don</term> <persName>Ignacio
+                     Nágpayluan</persName></rdg>
                </app> conforme a la preferencia antigua que tiene en estos casos<app>
                   <rdg wit="#Z">, y concedida, dirigio</rdg>
                   <rdg wit="#A">y concedida dirigió</rdg>
@@ -1475,8 +1475,8 @@
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
                </app> <term n="2">Butalmapus</term>, el que recayó por votos uniformes en el<app>
-                  <rdg wit="#Z"> Governador de la Reduccion de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinaguel</persName></rdg>
-                  <rdg wit="#A">Gobernador de la Reducción de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinagüel</persName></rdg>
+                  <rdg wit="#Z"> Governador de la <term n="11">Reduccion</term> de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinaguel</persName></rdg>
+                  <rdg wit="#A">Gobernador de la <term n="11">Reducción</term> de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinagüel</persName></rdg>
                </app>, y en <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
@@ -1493,7 +1493,7 @@
                   <rdg wit="#Z">mas</rdg>
                   <rdg wit="#A">más</rdg>
                </app> abajo el del Brigadier Comandante del Cuerpo de Dragones, los ató todos con el
-               del Comisario General de Naciones<app>
+               del <term n="7">Comisario General de Naciones</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y pidió <app>
@@ -1544,7 +1544,7 @@
                </app> con particular <app>
                   <rdg wit="#Z">atencion</rdg>
                   <rdg wit="#A">atención</rdg>
-               </app> por el Comisario General de Naciones, que <app>
+               </app> por el <term n="7">Comisario General de Naciones</term>, que <app>
                   <rdg wit="#Z">solo</rdg>
                   <rdg wit="#A">sólo</rdg>
                </app> terminaban al bien y utilidad de los <term n="2">Butalmapus</term><app>
@@ -1577,8 +1577,8 @@
                   <rdg wit="#Z">Cacique</rdg>
                   <rdg wit="#A">cacique</rdg>
                </app> Tranamilla de la <app>
-                  <rdg wit="#Z">Reduccion</rdg>
-                  <rdg wit="#A">Reducción</rdg>
+                  <rdg wit="#Z"><term n="11">Reduccion</term></rdg>
+                  <rdg wit="#A"><term  n="11">Reducción</term></rdg>
                </app> de <placeName>Temulemu</placeName>, recopilando <app>
                   <rdg wit="#Z">quanto habia oido</rdg>
                   <rdg wit="#A">cuanto había oído</rdg>
@@ -1701,8 +1701,8 @@
                   <rdg wit="#Z">congregandose</rdg>
                   <rdg wit="#A">congregándose</rdg>
                </app> prontamente en la <app>
-                  <rdg wit="#Z"><term>ramada</term></rdg>
-                  <rdg wit="#A"><term>Ramada</term>,</rdg>
+                  <rdg wit="#Z"><term n="20">ramada</term></rdg>
+                  <rdg wit="#A"><term n="20">Ramada</term>,</rdg>
                </app> los <term n="2">Butalmapus</term>, pasó su <app>
                   <rdg wit="#Z">Señoria</rdg>
                   <rdg wit="#A">señoría</rdg>
@@ -1859,8 +1859,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y congregados los <term n="2">Butalmapus</term> en la <app>
-                  <rdg wit="#Z"><term>ramada</term></rdg>
-                  <rdg wit="#A"><term>Ramada</term></rdg>
+                  <rdg wit="#Z"><term n="20">ramada</term></rdg>
+                  <rdg wit="#A"><term n="20">Ramada</term></rdg>
                </app>, pasó a ella su <app>
                   <rdg wit="#Z">Señoria</rdg>
                   <rdg wit="#A">Señoría</rdg>
@@ -1912,7 +1912,7 @@
                </app> al bien <app>
                   <rdg wit="#Z">comun</rdg>
                   <rdg wit="#A">común</rdg>
-               </app>, pues aunque en las Reducciones de <placeName>Boroa</placeName><app>
+               </app>, pues aunque en las <term n="11">Reducciones</term> de <placeName>Boroa</placeName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y otras<app>
@@ -2166,8 +2166,8 @@
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">.</rdg>
                </app> La <app>
-                  <rdg wit="#Z">Reduccion</rdg>
-                  <rdg wit="#A">Reducción</rdg>
+                  <rdg wit="#Z"><term n="11">Reduccion</term></rdg>
+                  <rdg wit="#A"><term n="11">Reducción</term></rdg>
                </app> de Santa <app>
                   <rdg wit="#Z">Feé</rdg>
                   <rdg wit="#A">Fe</rdg>
@@ -2195,7 +2195,7 @@
                </app> para que se les diese <app>
                   <rdg wit="#Z">Micioneros</rdg>
                   <rdg wit="#A">Misioneros</rdg>
-               </app> de <term>Propaganda</term> en lugar del <placeName>Cura</placeName> que <app>
+               </app> de <term n="29">Propaganda</term> en lugar del <placeName>Cura</placeName> que <app>
                   <rdg wit="#Z">les tienen</rdg>
                   <rdg wit="#A">le tienen</rdg>
                </app> puesto, como una necesidad suma espiritual<app>
@@ -2272,9 +2272,9 @@
                </app> y <app>
                   <rdg wit="#Z">solo</rdg>
                   <rdg wit="#A">sólo</rdg>
-               </app> suplicaban no se permitiese por las Plazas de la <app>
-                  <rdg wit="#Z"><placeName>Barrera</placeName>,</rdg>
-                  <rdg wit="#A"><placeName>Barrera</placeName>s</rdg>
+               </app> suplicaban no se permitiese por las <term n="19">Plazas de la Barrera</term><app>
+                  <rdg wit="#Z">,</rdg>
+                  <rdg wit="#A">s</rdg>
                </app> introducirse ladrones a sus tierras, sino que el comercio se hiciese por
                hombres honrados<app>
                   <rdg wit="#Z">,</rdg>
@@ -2426,8 +2426,8 @@
                   <rdg>,</rdg>
                   <rdg wit="#Z"/>
                </app> y escrupulosa conducta en las <app>
-                  <rdg wit="#Z">Pam-pas,</rdg>
-                  <rdg wit="#A">pampas</rdg>
+                  <rdg wit="#Z"><term n="30">Pampas</term>,</rdg>
+                  <rdg wit="#A"><term n="30">pampas</term></rdg>
                </app> y <app>
                   <rdg wit="#Z">Provincias de <placeName>Buenos Ayres</placeName>,</rdg>
                   <rdg wit="#A">provincias de <placeName>Buenos Aires</placeName></rdg>
@@ -2444,7 +2444,7 @@
                </app> papeles de seguridad para presentarse en aquellos <app>
                   <rdg wit="#Z">payzes</rdg>
                   <rdg wit="#A">países</rdg>
-               </app> con sus ponchos, y <app>
+               </app> con sus <term n="10">ponchos</term>, y <app>
                   <rdg wit="#Z">demas</rdg>
                   <rdg wit="#A">demás</rdg>
                </app>
@@ -2694,7 +2694,7 @@
                </app> y observado por los <term n="2">Butalmapus</term>, <app>
                   <rdg wit="#Z">encargando</rdg>
                   <rdg wit="#A">encargado</rdg>
-               </app> al Comisario General de Naciones, y capitanes, vigilen<app>
+               </app> al <term n="7">Comisario General de Naciones</term>, y capitanes, vigilen<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y avisen de <app>
@@ -2925,23 +2925,23 @@
                </app> se mandó firmar por los <term n="23">Señores</term> que se hallaron presentes, <app>
                   <rdg wit="#Z">que si para esparcir desde aquel puesto a lo interior del Butalmapu
                      de <placeName>Angol</placeName> fuere conveniente alli algun hospicio, se les concedera despues que
-                     admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifi estan
-                     condescender. Que por medio del Comisario de Naciones se manifi este a los
+                     admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifiestan
+                     condescender. Que por medio del <term n="7">Comisario de Naciones</term> se manifieste a los
                      <term n="2">Butalmapus</term> en las Juntas que han de celebrar la proxima primavera para divulgar
                      a todas sus parcialidades los Tratados de este <term n="16">Parlamento</term>, la grande
                      satisfaccion que me resulta de su conformidad a los consejos, y prevenciones
                      que les hizo el <term n="23">Señor</term> mi comicionado en aquel Congreso, relativas a la
-                     conservacion de su tranquilidad, y union reciproca, y de su fi delidad a los
+                     conservacion de su tranquilidad, y union reciproca, y de su fidelidad a los
                      españoles en la franquicia de sus caminos para <placeName>Valdivia</placeName>, rezguardo de sus
-                     costas contra los enemigos comunes, cesasion de incurciones en la pampas de
+                     costas contra los enemigos comunes, cesasion de incurciones en la <term n="30">pampas</term> de
                      <placeName>Buenos Ayres</placeName>, dedicandose al trabajo y cultura de sus tierras para vivir
                      feliz-mente con sus familias; y que me prometo su exacto cumplimiento, para
-                     tener la com-placencia de dispensarles por ello todos los benefi cios, amparo,
+                     tener la com-placencia de dispensarles por ello todos los beneficios, amparo,
                      y justicia, que penden de mi autoridad, conforme a las benignas intenciones del
                      Soberano, como ya lo he hecho, atendiendoles en sus pretenciones justas que han
                      ocurrido desde mi ingreso al Mando Superior de este Reyno, y ahora con ocasion
                      del <term n="16">Parlamento</term>, embiandoles abundantes agazajos a todos los concurrentes, y
-                     asignando a los <term n="5">caciques</term> de mas sequito y acreditada conducta, pensiones fi xas
+                     asignando a los <term n="5">caciques</term> de mas sequito y acreditada conducta, pensiones fixas
                      costeadas por la <term n="22">Real Hacienda</term> mediante la inmensa liberali-dad del Rey, que
                      tiene encargado se les trate con la mayor humanidad y obsequio, a quien por eso
                      deben reconocer como padre, y rendirle sus mas humildes homenages, como a todos
@@ -2949,11 +2949,11 @@
                      nalmente, que dandose las merecidas gracias al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro
                      Quijada</persName> Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
                      este acto, no menos que al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro Nolazco del Rio</persName> Comandante
-                     de la Plaza de <placeName>los Angeles</placeName>, por su cooperacion, e infl ujo con los Yndios que
+                     de la <term n="18">Plaza</term> de <placeName>los Angeles</placeName>, por su cooperacion, e infl ujo con los Yndios que
                      ha tenido para el logro de aquellos, se le remita Testimonio de este Auto para
                      su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
                      traslados con las ordenes oportunas para la execucion de todo lo prevenido, a
-                     los Comandantes de las Plazas Fronterizas, <term>Cavildo</term> de la Ciudad, y demas a
+                     los Comandantes de las <term n="18">Plazas</term> Fronterizas, <term n="4">Cavildo</term> de la Ciudad, y demas a
                      quienes toque de qualquier manera, y que con el integro de estas Actas se de
                      cuenta a su Magestad para su Real inteligencia, y aprobacion. Y asi lo proveyó,
                      mandó, y firmó su Excelencia, de que certifico = <persName>Muñoz</persName> = Por mandado de su
@@ -2979,11 +2979,11 @@
             <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
                   from A -->
               <app><rdg wit="#Z">Asciende la suma de Concurrentes de los quatro <term n="2">Butalmapus</term> al Parlamento General, a
-               tres mil doscientos noventa y nueve, segun las listas, y noticias que tomó el <term>Comisario de
+               tres mil doscientos noventa y nueve, segun las listas, y noticias que tomó el <term n="7">Comisario de
                Naciones y Lengua general</term> a su arrivo al Campamento, sin incluir las continuas partidas
                que fueron llegando en los dias consecutivos de la Parla, que por las ocupaciones no se
-               pudieron llevar en cuenta. Y para que conste lo firmamos los sobredichos <term>Comisario
-               General de Naciones, y Lengua General</term>, en la <term>Plaza</term> de los Angeles en ocho de Marzo de
+               pudieron llevar en cuenta. Y para que conste lo firmamos los sobredichos <term n="7">Comisario
+               General de Naciones, y Lengua General</term>, en la <term n="18">Plaza</term> de los Angeles en ocho de Marzo de
                mil ochocientos tres = <persName>Sebastian Xibaja</persName> = <persName>Fermin Villagran</persName>.</rdg><rdg wit="#A"/></app></ab></div>
             
             <div><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
@@ -3004,7 +3004,7 @@
             de no haber alcanzado en la celebracion el Acesor Doctor <term n="12">Don</term> <persName>Juan Martinez de Rosas</persName>,
             como Auditor de Guerra, segun la costumbre de otros Parlamentos, a estimulo de los
             conocimientos, y practica del <term n="23">Señor</term> Brigadier Comandante del Cuerpo de Dragones
-            <term n="12">Don</term> <persName>Pedro Nolazco del Rio</persName> (como tengo a Vuexcelencia anunciado) confi e con su asociamiento
+            <term n="12">Don</term> <persName>Pedro Nolazco del Rio</persName> (como tengo a Vuexcelencia anunciado) confie con su asociamiento
             quanto se ha ofrecido, y he logrado su conclucion, lisongeandome de los meritos
             que proporcionalmente lo han hecho ventajoso, pudiendo Vuexcelencia conocerlo
             en sus Articulos, corto tiempo del Congreso, nada de superfluidad en sus gastos, a pesar
@@ -3034,7 +3034,7 @@
                      tres: El Excelentisimo <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> Luis Muñoz de Guzman, Cavallero del Orden de
                      Santiago, Comendador de las <placeName>Pueblas</placeName> en la de Alcantara, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de <placeName>Chile</placeName>, Presidente de su
-                     <term n="22">real Audiencia</term>, Superintendente Subdelegado de <term n="22">Real Hacienda</term>, y Correos, y Vice
+                     <term n="21">real Audiencia</term>, Superintendente Subdelegado de <term n="22">Real Hacienda</term>, y Correos, y Vice
                      Patrono Real, [rúbrica]:</rdg><rdg wit="#A"/></app></head></div> 
          
         
@@ -3043,7 +3043,7 @@
                      Comandante Ynterino de Armas de la Provincia de la <placeName>Concepcion</placeName>, con los quatro
                      <term n="2">Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
                      cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
-                     Articulos de su contenido, respecto de dirigirse a la ratifi cacion de los
+                     Articulos de su contenido, respecto de dirigirse a la ratificacion de los
                      Tratados, y <term n="16">Parlamento</term>s anteriores aprobados por su Magestad, como oportunos
                      para la consolidacion de la paz, y mejor civilizacion de aquellas naciones, y
                      su reconocimiento a la Soberana de nuestro Catolico Rey y <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Carlos
@@ -3060,7 +3060,7 @@
                      pretenciones particulares que hicieron en aquel Congreso varios <term n="5">caciques</term>, mandó
                      su Señoria, se haga entender al de <placeName>Maquegua</placeName>, y sus compañeros, que deben
                      renunciar la corta satisfaccion de poder vicitar mas facilmente a los jovenes
-                     que entreguen para su educacion en el Seminario, trasladandose a la Plaza de
+                     que entreguen para su educacion en el Seminario, trasladandose a la <term n="18">Plaza</term> de
                      <placeName>los Angeles</placeName>, por las mayores ventajas que resultan de su reunion al Colegio de
                      los Padres Micioneros de la Ciudad de <placeName>Chillan</placeName>, donde logran mejores comodidades
                      para su subsistencia, y asig-nacion de maestros los mas a proposito, bajo la
@@ -3082,14 +3082,14 @@
                      previamente a esta Superioridad las demas providencias que convenga anticipar
                      para su allanamiento, asignacion de los micioneros de acuerdo con el Padre
                      Prefecto y Guardian del Colegio de <placeName>Chillan</placeName>, y proviciones de gastos para su
-                     establecimiento, y sinodos fi xos: Que al cacique de la Reduccion de <placeName>Santa Feé</placeName>
+                        establecimiento, y sinodos fixos: Que al cacique de la <term  n="11">Reduccion</term> de <placeName>Santa Feé</placeName>
                      se le persuada, desista de su pretencion de tener parroco micionero a exemplo
                      de su respetable antecesor el anciano honrado Levigueque, por ser esta una
                      materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo <term n="23">Señor</term>
                      <persName>Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
                      Constituciones Pontificias, e Ynstituto de los Micioneros, que solo deben
                      emplearse en la convercion de los Ynfieles, hasta que formalicen las
-                     reducciones, respecto de que la de <placeName>Santa Feé</placeName>, por su antiguedad, entera
+                        <term n="11">reducciones</term>, respecto de que la de <placeName>Santa Feé</placeName>, por su antiguedad, entera
                      sujecion al gremio de la Yglecia, y <pb ed="#Z" n="423"/>situacion en
                      territorio de los españoles, debe gloriarse del timbre de estar exenta de aquel
                      concepto, como las de San Cristoval, y otras de igual claze sujetas a la
