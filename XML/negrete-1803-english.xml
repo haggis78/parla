@@ -6,7 +6,7 @@
     <teiHeader>    <!--whc: for now we'll just leave all the teiHeader stuff as is. May need to change some later, but that's not a priority now.-->
       <fileDesc>
          <titleStmt>
-            <title>Parlamento de Negrete (1803)</title>
+            <title>Parlamento of Negrete (1803)</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
