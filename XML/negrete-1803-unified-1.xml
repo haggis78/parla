@@ -57,14 +57,14 @@
          <div>
             <pb ed="#A" n="7"/><!--EW there is no number 7 in the ayun-->
             <pb ed="#Z" n="413"/>
-            <head><term>Parlamento</term> <app>
+            <head><term n="16">Parlamento</term> <app>
                   <rdg wit="#A">general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
                </app>de <placeName>Negrete</placeName> <app>
                   <rdg wit="#A">con los Indios de <placeName>Chile</placeName> en los días 3, 4 y 5 de marzo de mil
-                     ochocientos tres años, presidido por el <term><term>Señor</term> <term>don</term></term> <persName>Pedro Quijada</persName>, Brigadier de
+                     ochocientos tres años, presidido por el <term n="24"><term n="23">Señor</term> <term n="12">don</term></term> <persName>Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
-                     a nombre del Excmo. <term>Señor</term> Gobernador y Capitán General del Reino de
+                     a nombre del Excmo. <term n="23">Señor</term> Gobernador y Capitán General del Reino de
                      <placeName>Chile</placeName>.</rdg>
                   <rdg wit="#Z">de 1803. AGI, <placeName>Chile</placeName>, 204, fs. 1-17</rdg>
                </app></head>
@@ -86,24 +86,24 @@
                   <rdg wit="#Z">Febrero</rdg>
                   <rdg wit="#A">febrero</rdg>
                </app> de mil ochocientos tres<app>
-                  <rdg wit="#Z">: El <term><term>Señor</term> <term>Don</term></term></rdg>
-                  <rdg wit="#A">, el <term><term>señor</term> <term>don</term></term></rdg>
+                  <rdg wit="#Z">: El <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term></rdg>
+                  <rdg wit="#A">, el <term n="24"><term n="23">señor</term> <term n="12">don</term></term></rdg>
                </app> <persName>Pedro Quijada</persName>, Brigadier de los Reales<app>
                   <rdg wit="#Z"> Exercitos,</rdg>
                   <rdg wit="#A">, Ejércitos y</rdg>
                </app> Comandante del Batallon de <app>
                   <rdg wit="#Z">Ynfanteria, y Comicionado por el Excelentisimo</rdg>
                   <rdg wit="#A">Infantería y comisionado por el Excmo.</rdg>
-               </app> <term>Señor</term> <app>
+               </app> <term n="23">Señor</term> <app>
                   <rdg wit="#Z">Capitan</rdg>
                   <rdg wit="#A">Capitán</rdg>
-               </app> General para presidir el <term>Parlamento</term> con los <app>
+               </app> General para presidir el <term n="16">Parlamento</term> con los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
                </app> Cantones<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> o <term>Butalmapus</term> de <app>
+               </app> o <term n="2">Butalmapus</term> de <app>
                   <rdg wit="#Z">Yndio; dixo</rdg>
                   <rdg wit="#A">indios dijo:</rdg>
                </app> que por <app>
@@ -115,7 +115,7 @@
                </app> libradas con anticipación para la <app>
                   <rdg wit="#Z">Convocatoria y citasion al Congreso, habia</rdg>
                   <rdg wit="#A">convocatoria y citación al Congreso había</rdg>
-               </app> tenido aviso que los dichos <term>Butalmapus</term> se hallaban en la mayor parte a las
+               </app> tenido aviso que los dichos <term n="2">Butalmapus</term> se hallaban en la mayor parte a las
                orillas del <app>
                   <rdg wit="#Z"><placeName>Biovío</placeName></rdg>
                   <rdg wit="#A"><placeName>Bío-Bío</placeName></rdg>
@@ -156,8 +156,8 @@
                   <rdg wit="#Z">prontos</rdg>
                   <rdg wit="#A">pronto</rdg>
                </app> <pb ed="#A" n="8"/>todos los <app>
-                  <rdg wit="#Z"><term>Caciques</term> Principales de la Tierra</rdg>
-                  <rdg wit="#A"><term>caciques</term> principales de la tierra</rdg>
+                  <rdg wit="#Z"><term n="5">Caciques</term> Principales de la Tierra</rdg>
+                  <rdg wit="#A"><term n="5">caciques</term> principales de la tierra</rdg>
                </app> para saludarle<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -175,14 +175,14 @@
                   <rdg wit="#Z">dias veinte y ocho de febrero, y primero de Marzo,</rdg>
                   <rdg wit="#A">días veintiocho de febrero y primero de marzo</rdg>
                </app> para que pasasen los <app>
-                  <rdg wit="#Z"><term>Caciques</term> y sus Comitivas por los Vados de <term>Daquegue</term> y <placeName>Negrete</placeName>,</rdg>
-                  <rdg wit="#A"><term>caciques</term> y sus comitivas por los vados de <term>Dagüegüe</term> y <placeName>Negrete</placeName></rdg>
+                  <rdg wit="#Z"><term n="5">Caciques</term> y sus Comitivas por los Vados de <placeName>Daquegue</placeName> y <placeName>Negrete</placeName>,</rdg>
+                  <rdg wit="#A"><term n="5">caciques</term> y sus comitivas por los vados de <placeName>Dagüegüe</placeName> y <placeName>Negrete</placeName></rdg>
                </app> dando lugar al <app>
                   <rdg wit="#Z">arrivo</rdg>
                   <rdg wit="#A">arribo</rdg>
                </app> de los <app>
-                  <rdg wit="#Z"><term>Peguenches</term></rdg>
-                  <rdg wit="#A"><term>Pehuenches</term></rdg>
+                  <rdg wit="#Z"><term n="17">Peguenches</term></rdg>
+                  <rdg wit="#A"><term n="17">Pehuenches</term></rdg>
                </app> que por las noticias se esperaban con prontitud<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -195,7 +195,7 @@
                </app> y ceremonial de estilo en estos casos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y que el tres a las seis de la mañana se verificase la apertura del <term>Parlamento</term> General<app>
+               </app> y que el tres a las seis de la mañana se verificase la apertura del <term n="16">Parlamento</term> General<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> en la <app>
@@ -260,8 +260,8 @@
                </app> anterior <app>
                   <rdg wit="#Z">a</rdg>
                   <rdg wit="#A"/>
-               </app> todos los <term>Caciques</term> con sus <app>
-                  <rdg wit="#Z">Governadores y <term>Capitanejos</term></rdg>
+               </app> todos los <term n="5">Caciques</term> con sus <app>
+                  <rdg wit="#Z">Governadores y <term n="6">Capitanejos</term></rdg>
                   <rdg wit="#A">Gobernadores y Capitanes</rdg>
                </app> al saludo de estilo<app>
                   <rdg wit="#Z">,</rdg>
@@ -279,7 +279,7 @@
                <app>
                   <rdg wit="#Z">guarneciendose</rdg>
                   <rdg wit="#A">guarneciéndoles</rdg>
-               </app> al mismo tiempo la <term>Ramada</term> de la <term>Parla</term> con las <app>
+               </app> al mismo tiempo la <term>Ramada</term> de la <term n="15">Parla</term> con las <app>
                   <rdg wit="#Z">Compañias de Milicias</rdg>
                   <rdg wit="#A">compañías de milicias</rdg>
                </app> y del <app>
@@ -295,12 +295,12 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term> con doscientos treinta y nueve <app>
-                  <rdg wit="#Z"><term>Caciques</term>,</rdg>
-                  <rdg wit="#A"><term>caciques</term></rdg>
+               </app> <term n="2">Butalmapus</term> con doscientos treinta y nueve <app>
+                  <rdg wit="#Z"><term n="5">Caciques</term>,</rdg>
+                  <rdg wit="#A"><term n="5">caciques</term></rdg>
                </app> y cantidad de <app>
-                  <rdg wit="#Z"><term>Capitanejos</term></rdg>
-                  <rdg wit="#A"><term>capitanejos</term></rdg>
+                  <rdg wit="#Z"><term n="6">Capitanejos</term></rdg>
+                  <rdg wit="#A"><term n="6">capitanejos</term></rdg>
                </app> y respetados hasta el <pb ed="#A" n="9"/>numero de mil y tantas personas, <app>
                   <rdg wit="#Z">colocandose</rdg>
                   <rdg wit="#A">colocándose</rdg>
@@ -310,7 +310,7 @@
                </app> que les estaban preparados<app>
                   <rdg wit="#Z">;</rdg>
                   <rdg wit="#A">,</rdg>
-               </app> el <term><term>Señor</term> <term>Don</term></term> <persName>Pedro de Quijada</persName>, Brigadier de los Reales <app>
+               </app> el <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Pedro de Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z">Exercitos</rdg>
                   <rdg wit="#A">Ejércitos</rdg>
                </app>, Comandante del <app>
@@ -325,22 +325,22 @@
                </app> y a nombre del <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> <term><term>Señor</term> <term>Don</term></term> <app>
+               </app> <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <app>
                   <rdg wit="#Z"><persName>Luiz Muñoz de Guzman</persName></rdg>
                   <rdg wit="#A"><persName>Luiz Muñoz de Guzmán</persName></rdg>
                </app>, <app>
                   <rdg wit="#Z">Governador Capitan General,</rdg>
                   <rdg wit="#A">Gobernador, Capitán General</rdg>
-               </app> y Presidente de la <term>Real Audiencia</term> de este <app>
+               </app> y Presidente de la <term n="22">Real Audiencia</term> de este <app>
                   <rdg wit="#Z">Reyno</rdg>
                   <rdg wit="#A">Reino</rdg>
                </app>, se <app>
                   <rdg wit="#Z">Presento en el</rdg>
                   <rdg wit="#A">presentó en ella</rdg>
-               </app> acompañado de los <term>Señores</term><app>
+               </app> acompañado de los <term n="23">Señores</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> el Brigadier <term>Don</term> <app>
+               </app> el Brigadier <term n="12">Don</term> <app>
                   <rdg wit="#Z"><persName>Pedro Nolazco del Rio</persName></rdg>
                   <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
                </app>, Comandante del Cuerpo de Dragones<app>
@@ -350,45 +350,45 @@
                   <rdg wit="#Z">Quartel General de <placeName>los Angeles</placeName></rdg>
                   <rdg wit="#A">cuartel general de <placeName>los Ángeles</placeName></rdg>
                </app>, <app>
-                  <rdg wit="#Z"><term>Don</term> <persName>Mariano de Roa</persName>, Arzediando</rdg>
-                  <rdg wit="#A"><term>don</term> <persName>Mariano de Roa</persName> Arcediano</rdg>
+                  <rdg wit="#Z"><term n="12">Don</term> <persName>Mariano de Roa</persName>, Arzediando</rdg>
+                  <rdg wit="#A"><term n="12">don</term> <persName>Mariano de Roa</persName> Arcediano</rdg>
                </app> de la Santa <app>
                   <rdg wit="#Z">Yglesia Catedral de la Ciudad de <placeName>Concepcion</placeName></rdg>
                   <rdg wit="#A">Iglesia Catedral de la ciudad de la <placeName>Concepción</placeName>,</rdg>
                </app> a nombre del <app>
                   <rdg wit="#Z">Ylustrisimo</rdg>
                   <rdg wit="#A">Ilustrísimo</rdg>
-               </app> <term>Señor</term> <persName>Obispo de ella</persName>, <term>Don</term> <app>
+               </app> <term n="23">Señor</term> <persName>Obispo de ella</persName>, <term n="12">Don</term> <app>
                   <rdg wit="#Z"><persName>Manuel de Vega Bazan</persName>,</rdg>
                   <rdg wit="#A"><persName>Manuel de Vega Bazán</persName></rdg>
-               </app> y <term>Don</term> <persName>Juan Zapatero</persName>, <app>
+               </app> y <term n="12">Don</term> <persName>Juan Zapatero</persName>, <app>
                   <rdg wit="#Z"><persName>Coroneles de Artilleria</persName></rdg>
                   <rdg wit="#A"><persName>coroneles de artillería</persName></rdg>
-               </app>, <term>Don</term> <app>
+               </app>, <term n="12">Don</term> <app>
                   <rdg wit="#Z"><persName>Melchor de Carbajal</persName></rdg>
                   <rdg wit="#A"><persName>Melchor de Carvajal</persName></rdg>
                </app>, <persName>Teniente Coronel de Dragones</persName>, el de igual <app>
                   <rdg wit="#Z">claze</rdg>
                   <rdg wit="#A">clase</rdg>
-               </app> <term>Don</term> <app>
+               </app> <term n="12">Don</term> <app>
                   <rdg wit="#Z"><persName>Pedro Jose de Benavente</persName></rdg>
                   <rdg wit="#A"><persName>Pedro José de Benavente</persName></rdg>
-               </app> , <term>Don</term> <persName>Miguel Puga</persName><app>
+               </app> , <term n="12">Don</term> <persName>Miguel Puga</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y <term>Don</term> Luis de la Cruz, <app>
+               </app> y <term n="12">Don</term> Luis de la Cruz, <app>
                   <rdg wit="#Z">Alferez Real,</rdg>
                   <rdg wit="#A">alférez Real</rdg>
                </app> y Alcalde Provincial, Diputados del <app>
-                  <rdg wit="#Z"><term>Cavildo</term></rdg>
-                  <rdg wit="#A"><term>Cabildo</term></rdg>
+                  <rdg wit="#Z"><term n="4">Cavildo</term></rdg>
+                  <rdg wit="#A"><term n="4">Cabildo</term></rdg>
                </app> de la <app>
                   <rdg wit="#Z">Ciudad de la <placeName>Concepcion</placeName></rdg>
                   <rdg wit="#A">ciudad de la <placeName>Concepción</placeName></rdg>
                </app>, el Reverendo Padre <app>
                   <rdg wit="#Z">Guardian</rdg>
                   <rdg wit="#A">Guardián</rdg>
-               </app> del <term>Colegio de <term>Propaganda</term></term> Fray <persName>Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
+               </app> del <term n="8">Colegio de Propaganda</term> Fray <persName>Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
                   <rdg wit="#Z"><persName>Francisco Xavier de Alday</persName></rdg>
                   <rdg wit="#A"><persName>Francisco Javier de Aldai</persName></rdg>
                </app> con seis <app>
@@ -404,7 +404,7 @@
                </app> y Provincia, <app>
                   <rdg wit="#Z">hallandose</rdg>
                   <rdg wit="#A">hallándose</rdg>
-               </app> a todo presente <term>Don</term> <app>
+               </app> a todo presente <term n="12">Don</term> <app>
                   <rdg wit="#Z"><persName>Gonzalo Maria de Figueroa</persName></rdg>
                   <rdg wit="#A"><persName>Gonzalo María de Figueroa</persName></rdg>
                </app> , <app>
@@ -461,7 +461,7 @@
                </app> a los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term><app>
+               </app> <term n="2">Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> en la forma siguiente<app>
@@ -474,18 +474,18 @@
          <!--EW started coding here-->
          <div>
             <ab>Tengo la mayor complacencia, <app>
-                  <rdg wit="#Z"><term>Caciques</term> Principales</rdg>
-                  <rdg wit="#A"><term>caciques</term> principales,</rdg>
+                  <rdg wit="#Z"><term n="5">Caciques</term> Principales</rdg>
+                  <rdg wit="#A"><term n="5">caciques</term> principales,</rdg>
                </app> mis <app>
                   <rdg wit="#Z">Amigos</rdg>
                   <rdg wit="#A">amigos</rdg>
                </app>, de veros hoy congregados en este <app>
                   <rdg wit="#Z">Campamento,</rdg>
                   <rdg wit="#A">campamento</rdg>
-               </app> para celebrar el <term>Parlamento</term> General con los <app>
+               </app> para celebrar el <term n="16">Parlamento</term> General con los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuarto</rdg>
-               </app> <term>Butalmapus</term> que <app>
+               </app> <term n="2">Butalmapus</term> que <app>
                   <rdg wit="#Z">comprehende</rdg>
                   <rdg wit="#A">comprende</rdg>
                </app> la <app>
@@ -504,8 +504,8 @@
                   <rdg wit="#Z">Continente</rdg>
                   <rdg wit="#A">continente</rdg>
                </app>, y desde el <app>
-                  <rdg wit="#Z">Mar a la <term>Cordillera</term>:</rdg>
-                  <rdg wit="#A">la <term>cordillera</term>.</rdg>
+                  <rdg wit="#Z">Mar a la <term n="9">Cordillera</term>:</rdg>
+                  <rdg wit="#A">la <term n="9">cordillera</term>.</rdg>
                </app> Vosotros lo <app>
                   <rdg wit="#Z">habeis</rdg>
                   <rdg wit="#A">habéis</rdg>
@@ -518,7 +518,7 @@
                </app> y el <app>
                   <rdg wit="#Z"> Excelentisimo </rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app><term>Señor</term> Capitan General del <app>
+               </app><term n="23">Señor</term> Capitan General del <app>
                   <rdg wit="#Z">Reyno,</rdg>
                   <rdg wit="#A">Reino</rdg>
                </app> que deseaba con <app>
@@ -530,7 +530,7 @@
                </app> para <app>
                   <rdg wit="#Z">ratificar</rdg>
                   <rdg wit="#A">ratificar</rdg>
-               </app> vuestra obediencia a nuestro gran Rey y <term>Señor</term><app>
+               </app> vuestra obediencia a nuestro gran Rey y <term n="23">Señor</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y afirmar todos los <app>
@@ -598,16 +598,16 @@
                   <rdg wit="#A">trasladé</rdg>
                </app> por el <app>
                   <rdg wit="#Z">Butalmapu</rdg>
-                  <rdg wit="#A"><term>Butamalpus</term></rdg>
+                  <rdg wit="#A"><term n="2">Butamalpus</term></rdg>
                </app> de <placeName>Angol</placeName> al <app>
                   <rdg wit="#Z">Govierno de la Plaza</rdg>
                   <rdg wit="#A">gobierno de la plaza</rdg>
-               </app> de <placeName>Valdivia</placeName>, llenos de <term>haciendas</term><app>
+               </app> de <placeName>Valdivia</placeName>, llenos de <term n="27">haciendas</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y ganados de todas especies, adelantada la agricultura, vuestros <app>
-                  <rdg wit="#Z"><term>mozetones</term></rdg>
-                  <rdg wit="#A">mocetones</rdg>
+                  <rdg wit="#Z"><term n="14">mozetones</term></rdg>
+                  <rdg wit="#A"><term n="14">mocetones</term></rdg>
                </app> y familias<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -627,7 +627,7 @@
                </app> y obsequio posible, me congratulo por <app>
                   <rdg wit="#Z">haver</rdg>
                   <rdg wit="#A">haber</rdg>
-               </app> sido elegido para presidir este <term>Parlamento</term>, y manifestaros mi <app>
+               </app> sido elegido para presidir este <term n="16">Parlamento</term>, y manifestaros mi <app>
                   <rdg wit="#Z">corazon</rdg>
                   <rdg wit="#A">corazón</rdg>
                </app> dispuesto a proporcionaros <app>
@@ -651,7 +651,7 @@
                </app> al <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> <term>Señor</term> <app>
+               </app> <term n="23">Señor</term> <app>
                   <rdg wit="#Z"><persName>Marques de <placeName>Osorno</placeName></persName></rdg>
                   <rdg wit="#A"><persName>Marqués de <placeName>Osorno</placeName></persName></rdg>
                </app> el año <app>
@@ -661,13 +661,13 @@
                el estado feliz de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term><app>
+               </app> <term n="2">Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> cuyas ventajas me ha <app>
                   <rdg wit="#Z">demonstrado</rdg>
                   <rdg wit="#A">demostrado</rdg>
-               </app> el Brigadier Comandante del Cuerpo de Dragones <term>Don</term> <app>
+               </app> el Brigadier Comandante del Cuerpo de Dragones <term n="12">Don</term> <app>
                   <rdg wit="#Z"><persName>Pedro Nolasco del Rio</persName></rdg>
                   <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
                </app>, que os ha <app>
@@ -737,7 +737,7 @@
                </app> para aumentar desde hoy las conveniencias que trae la paz general<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y que este <term>Parlamento</term> haga <app>
+               </app> y que este <term n="16">Parlamento</term> haga <app>
                   <rdg wit="#Z">epoca</rdg>
                   <rdg wit="#A">época</rdg>
                </app> en los tiempos <app>
@@ -768,7 +768,7 @@
             <head><app>
                   <rdg wit="#Z">Articulos</rdg>
                   <rdg wit="#A">Artículos</rdg>
-               </app> publicados en el <term>Parlamento</term> General de los <app>
+               </app> publicados en el <term n="16">Parlamento</term> General de los <app>
                   <rdg wit="#Z">Yndios</rdg>
                   <rdg wit="#A">Indios</rdg>
                </app> de <placeName>Chile</placeName> congregados en el <app>
@@ -802,13 +802,13 @@
                </app>ratificar su reconocimiento<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y confesar todos por su Rey y <term>Señor</term> <app>
+               </app> y confesar todos por su Rey y <term n="23">Señor</term> <app>
                   <rdg wit="#Z">natural,</rdg>
                   <rdg wit="#A">Natural</rdg>
                </app> al <app>
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
-               </app> y Soberano <term><term>Señor</term> <term>Don</term></term> <app>
+               </app> y Soberano <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <app>
                   <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
                   <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
@@ -817,7 +817,7 @@
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias <term>Don</term> <persName>Fernando</persName>, <app>
+               </app> de Asturias <term n="12">Don</term> <persName>Fernando</persName>, <app>
                   <rdg wit="#Z">debian</rdg>
                   <rdg wit="#A">debían</rdg>
                </app> prometer y jurar <app>
@@ -848,13 +848,13 @@
                </app>Que <app>
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiendo</rdg>
-               </app> tratado en el <term>Parlamento</term> de <placeName>Lonquilmo</placeName> sobre los medios de entablar las ferias<app>
+               </app> tratado en el <term n="16">Parlamento</term> de <placeName>Lonquilmo</placeName> sobre los medios de entablar las ferias<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> que proporcionasen la venta de los efectos que sacasen de comercio los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term>, y que no tuvo efecto<app>
+               </app> <term n="2">Butalmapus</term>, y que no tuvo efecto<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> por el perjuicio<app>
@@ -878,7 +878,7 @@
                </app> en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> <term>Parlamento</term> de <placeName>Negrete</placeName><app>
+               </app> <term n="16">Parlamento</term> de <placeName>Negrete</placeName><app>
                   <rdg wit="#Z">, extendiendose</rdg>
                   <rdg wit="#A">estableciéndose</rdg>
                </app> a un libre comercio que <app>
@@ -985,12 +985,12 @@
                   <rdg wit="#A">Tierra</rdg>
                </app>
                <app>
-                  <rdg wit="#Z">(y fue el Articulo tercero del ultimo <term>Parlamento</term> de <placeName>Negrete</placeName>)</rdg>
+                  <rdg wit="#Z">(y fue el Articulo tercero del ultimo <term n="16">Parlamento</term> de <placeName>Negrete</placeName>)</rdg>
                   <rdg wit="#A"/>
                </app> que los hijos de los <app>
                   <rdg wit="#Z">Governadores</rdg>
                   <rdg wit="#A">Gobernadores</rdg>
-               </app>, <term>Caciques</term><app>
+               </app>, <term n="5">Caciques</term><app>
                   <rdg wit="#Z">, o Yndios Principales</rdg>
                   <rdg wit="#A">o Indios principales</rdg>
                </app>, se eduquen cristianamente en el Seminario que <app>
@@ -1003,8 +1003,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> teniendo a la vista a varios hijos de los naturales de los <app>
-                  <rdg wit="#Z">quatro <term>Butalmapus</term>,</rdg>
-                  <rdg wit="#A">cuatro <term>Butamalpus</term></rdg>
+                  <rdg wit="#Z">quatro <term n="2">Butalmapus</term>,</rdg>
+                  <rdg wit="#A">cuatro <term n="2">Butamalpus</term></rdg>
                </app> colocados en la alta dignidad del <app>
                   <rdg wit="#Z">Sacerdocio,</rdg>
                   <rdg wit="#A">sacerdocio</rdg>
@@ -1017,7 +1017,7 @@
                </app> que les ha proporcionado <app>
                   <rdg wit="#Z">sus buena educacion;</rdg>
                   <rdg wit="#A">su buena educación,</rdg>
-               </app> por lo que se les repite nuevamente, que todos los buenos <term>caciques</term> <app>
+               </app> por lo que se les repite nuevamente, que todos los buenos <term n="5">caciques</term> <app>
                   <rdg wit="#Z">exfuercen</rdg>
                   <rdg wit="#A">esforzen</rdg>
                </app> sus empeños<app>
@@ -1047,16 +1047,16 @@
                </app> tratado <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
-               </app> en el <term>Parlamento</term> de <placeName>Lonquilmo</placeName>, y refrendado en el <app>
+               </app> en el <term n="16">Parlamento</term> de <placeName>Lonquilmo</placeName>, y refrendado en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
                </app> de <placeName>Negrete</placeName>, sobre las desavenencias,<pb ed="#A" n="14"/><app>
                   <rdg wit="#Z"> rovos,</rdg>
                   <rdg wit="#A">robos</rdg>
-               </app> y <term>malocas</term> sangrientas<app>
+               </app> y <term n="13">malocas</term> sangrientas<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> que han tenido antes algunas Parcialidades de los <term>Butalmapus</term><app>
+               </app> que han tenido antes algunas Parcialidades de los <term n="2">Butalmapus</term><app>
                   <rdg wit="#Z">, y viendolos</rdg>
                   <rdg wit="#A">viéndolos</rdg>
                </app> hoy reunidos en paz<app>
@@ -1109,7 +1109,7 @@
                </app>Que fue <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
-               </app> prevenido a los <term>Butalmapus</term> en el anterior <term>Parlamento</term>, no permitan, ni den
+               </app> prevenido a los <term n="2">Butalmapus</term> en el anterior <term n="16">Parlamento</term>, no permitan, ni den
                acogida en sus tierras a <app>
                   <rdg wit="#Z">Españoles, facinerosos, o Ladrones</rdg>
                   <rdg wit="#A">españoles facineroso o ladrones</rdg>
@@ -1138,8 +1138,8 @@
                   <rdg wit="#Z">Presidio</rdg>
                   <rdg wit="#A">presidio</rdg>
                </app> de <placeName>Valdivia</placeName>, imitando a los <app>
-                  <rdg wit="#Z"><term>caciques</term> de <placeName>Tolten</placeName></rdg>
-                  <rdg wit="#A"><term>Caciques</term> de <placeName>Toltén</placeName></rdg>
+                  <rdg wit="#Z"><term n="5">caciques</term> de <placeName>Tolten</placeName></rdg>
+                  <rdg wit="#A"><term n="5">Caciques</term> de <placeName>Toltén</placeName></rdg>
                </app>, y de aquella parte del sur<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -1152,7 +1152,7 @@
                </app>, <app>
                   <rdg wit="#Z">mirandolos</rdg>
                   <rdg wit="#A">mirándolos</rdg>
-               </app> como unos enemigos de sus <term>haciendas</term><app>
+               </app> como unos enemigos de sus <term n="27">haciendas</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y de la tranquilidad <app>
@@ -1170,10 +1170,10 @@
                </app> les <app>
                   <rdg wit="#Z">daran</rdg>
                   <rdg wit="#A">darán</rdg>
-               </app> doce <term>pesos</term>, <app>
+               </app> doce <term n="28">pesos</term>, <app>
                   <rdg wit="#Z">segun</rdg>
                   <rdg wit="#A">según</rdg>
-               </app> se acordó en el sobredicho anterior <term>Parlamento</term><app>
+               </app> se acordó en el sobredicho anterior <term n="16">Parlamento</term><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">.</rdg>
                </app>   <pb ed="#A" n="15"/>
@@ -1248,7 +1248,7 @@
                </app> siempre que se hallen atacados, conforme lo tienen prometido y jurado los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term>, cuya <app>
+               </app> <term n="2">Butalmapus</term>, cuya <app>
                   <rdg wit="#Z">obligacion</rdg>
                   <rdg wit="#A">obligación</rdg>
                </app> se les recuerda ahora, a fin de que <app>
@@ -1286,7 +1286,7 @@
                </app> quince del <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
-               </app> <term>Parlamento</term> de <placeName>Negrete</placeName>, toda <app>
+               </app> <term n="16">Parlamento</term> de <placeName>Negrete</placeName>, toda <app>
                   <rdg wit="#Z">incurcion</rdg>
                   <rdg wit="#A">incursión</rdg>
                </app> sobre las <app>
@@ -1298,7 +1298,7 @@
                </app> y comercio de aquellas provincias, y viendo por experiencia el <app>
                   <rdg wit="#Z">excrupuloso</rdg>
                   <rdg wit="#A">escrupuloso</rdg>
-               </app> cumplimiento que han dado los <term>Butalmapus</term> a este <app>
+               </app> cumplimiento que han dado los <term n="2">Butalmapus</term> a este <app>
                   <rdg wit="#Z">Tra-tado</rdg>
                   <rdg wit="#A">tratado</rdg>
                </app>, se les recomienda la <app>
@@ -1360,7 +1360,7 @@
                </app> a estas tierras, no para buscar oro, plata<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> ni <term>haciendas</term>, sino para su amparo<app>
+               </app> ni <term n="27">haciendas</term>, sino para su amparo<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y enseñar a todos el camino del <app>
@@ -1401,8 +1401,8 @@
                   <rdg wit="#Z">miciones,</rdg>
                   <rdg wit="#A">Misiones</rdg>
                </app> y tratar amistosamente con todos los <app>
-                  <rdg wit="#Z"><term>caciques</term>, como asi</rdg>
-                  <rdg wit="#A"><term>cacique</term> como así</rdg>
+                  <rdg wit="#Z"><term n="5">caciques</term>, como asi</rdg>
+                  <rdg wit="#A"><term n="5">cacique</term> como así</rdg>
                </app> se lo encarga <app>
                   <rdg wit="#Z">su Ma-gestad; y yo,</rdg>
                   <rdg wit="#A">S.M.,</rdg>
@@ -1455,14 +1455,14 @@
                   <rdg wit="#Z">lizencia</rdg>
                   <rdg wit="#A">licencia</rdg>
                </app> para hablar el Cacique <app>
-                  <rdg wit="#Z">Governador de la Reduccion cristiana de <placeName>Santa Fee</placeName> <term>Don</term> <persName>Ygnacio
+                  <rdg wit="#Z">Governador de la Reduccion cristiana de <placeName>Santa Fee</placeName> <term n="12">Don</term> <persName>Ygnacio
                      Naipayl[ic]an</persName>,</rdg>
-                  <rdg wit="#A">Gobernador de la Reducción Cristiana de <placeName>Santa Fe</placeName>, <term>Don</term> Ignacio
+                  <rdg wit="#A">Gobernador de la Reducción Cristiana de <placeName>Santa Fe</placeName>, <term n="12">Don</term> Ignacio
                      Nágpayluan</rdg>
                </app> conforme a la preferencia antigua que tiene en estos casos<app>
                   <rdg wit="#Z">, y concedida, dirigio</rdg>
                   <rdg wit="#A">y concedida dirigió</rdg>
-               </app> su <term>parla</term> a todos los <term>caciques</term> presentes, <app>
+               </app> su <term n="15">parla</term> a todos los <term n="5">caciques</term> presentes, <app>
                   <rdg wit="#Z">proponiendoles</rdg>
                   <rdg wit="#A">proponiéndoles</rdg>
                </app> el nombramiento del <app>
@@ -1474,9 +1474,9 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term>, el que recayó por votos uniformes en el<app>
-                  <rdg wit="#Z"> Governador de la Reduccion de <placeName>Angol</placeName> <term>Don</term> <persName>Francisco Curinaguel</persName></rdg>
-                  <rdg wit="#A">Gobernador de la Reducción de <placeName>Angol</placeName> <term>Don</term> <persName>Francisco Curinagüel</persName></rdg>
+               </app> <term n="2">Butalmapus</term>, el que recayó por votos uniformes en el<app>
+                  <rdg wit="#Z"> Governador de la Reduccion de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinaguel</persName></rdg>
+                  <rdg wit="#A">Gobernador de la Reducción de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinagüel</persName></rdg>
                </app>, y en <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
@@ -1484,7 +1484,7 @@
                   <rdg wit="#Z">los bastones,</rdg>
                   <rdg wit="#A">las bastones </rdg>
                </app> y colocando en lugar preeminente sobre ellos el del <app>
-                  <rdg wit="#Z"><term>Señor</term></rdg>
+                  <rdg wit="#Z"><term n="23">Señor</term></rdg>
                   <rdg wit="#A"/>
                </app> Presidente del Congreso<app>
                   <rdg wit="#Z">,</rdg>
@@ -1499,7 +1499,7 @@
                </app> y pidió <app>
                   <rdg wit="#Z">atencion</rdg>
                   <rdg wit="#A">atención</rdg>
-               </app> a los <term>Butalmapus</term><app>
+               </app> a los <term n="2">Butalmapus</term><app>
                   <rdg wit="#Z">, expresandoles menudamente quanto habia</rdg>
                   <rdg wit="#A">expresándoles menudamente, cuánto habrá</rdg>
                </app> expuesto <app>
@@ -1515,27 +1515,27 @@
                   <rdg wit="#Z">Governador Curinaguel, dixo, que la eleccion</rdg>
                   <rdg wit="#A">Gobernador Curinagüel dijo: que la elección</rdg>
                </app> hecha por el <app>
-                  <rdg wit="#Z"> Excelentisimo <term>Señor</term> Capitan General en el <term>señor</term></rdg>
-                  <rdg wit="#A">Excmo. <term>Señor</term> Capitán General en el <term>Señor</term></rdg>
-               </app> Brigadier <term>Don</term> <persName>Pedro Quijada</persName> para presidir el <term>Parlamento</term> General<app>
+                  <rdg wit="#Z"> Excelentisimo <term n="23">Señor</term> Capitan General en el <term n="23">señor</term></rdg>
+                  <rdg wit="#A">Excmo. <term n="23">Señor</term> Capitán General en el <term n="23">Señor</term></rdg>
+               </app> Brigadier <term n="12">Don</term> <persName>Pedro Quijada</persName> para presidir el <term n="16">Parlamento</term> General<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> era de la mayor <app>
                   <rdg wit="#Z">satisfaccion,</rdg>
                   <rdg wit="#A">satisfacción</rdg>
-               </app> y gusto de los <term>Butalmapus</term>, y mucho <app>
+               </app> y gusto de los <term n="2">Butalmapus</term>, y mucho <app>
                   <rdg wit="#Z">mas</rdg>
                   <rdg wit="#A">más</rdg>
                </app> la piadosa memoria que les <app>
                   <rdg wit="#Z">habia</rdg>
                   <rdg wit="#A">habían</rdg>
-               </app> anunciado de su Rey y <term>Señor</term><app>
+               </app> anunciado de su Rey y <term n="23">Señor</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> con recuerdo de todos los <app>
                   <rdg wit="#Z">Articulos y Tratados</rdg>
                   <rdg wit="#A">artículos y tratados</rdg>
-               </app> del anterior <pb ed="#A" n="18"/><term>Parlamento</term><app>
+               </app> del anterior <pb ed="#A" n="18"/><term n="16">Parlamento</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> cuyos puntos <app>
@@ -1547,7 +1547,7 @@
                </app> por el Comisario General de Naciones, que <app>
                   <rdg wit="#Z">solo</rdg>
                   <rdg wit="#A">sólo</rdg>
-               </app> terminaban al bien y utilidad de los <term>Butalmapus</term><app>
+               </app> terminaban al bien y utilidad de los <term n="2">Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y que por lo mismo era grande su reconocimiento al Rey<app>
@@ -1557,8 +1557,8 @@
                   <rdg wit="#Z">tierra</rdg>
                   <rdg wit="#A">Tierra</rdg>
                </app> dispuesto gustosamente a obedecerlos y ratificarlos, empeñando a todos los <app>
-                  <rdg wit="#Z"><term>caciques</term></rdg>
-                  <rdg wit="#A"><term>Caciques</term></rdg>
+                  <rdg wit="#Z"><term n="5">caciques</term></rdg>
+                  <rdg wit="#A"><term n="5">Caciques</term></rdg>
                </app> para adelantar el estado feliz en que se hallaban por los medios que se les
                han proporcionado<app>
                   <rdg wit="#Z">,</rdg>
@@ -1582,13 +1582,13 @@
                </app> de <placeName>Temulemu</placeName>, recopilando <app>
                   <rdg wit="#Z">quanto habia oido</rdg>
                   <rdg wit="#A">cuanto había oído</rdg>
-               </app> al <term>Señor</term> Presidente del Congreso<app>
+               </app> al <term n="23">Señor</term> Presidente del Congreso<app>
                   <rdg wit="#Z">, dixo</rdg>
                   <rdg wit="#A">dijo</rdg>
                </app>: que todo era de las mayores <app>
                   <rdg wit="#Z">ventajas</rdg>
                   <rdg wit="#A">lisonjas</rdg>
-               </app> a los <term>Butalmapus</term><app>
+               </app> a los <term n="2">Butalmapus</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y del <app>
@@ -1629,7 +1629,7 @@
             <ab><app>
                   <rdg wit="#Z">ciento</rdg>
                   <rdg wit="#A">Ciento</rdg>
-               </app> y tantos <term>caciques</term> se explicaron en los mismos <app>
+               </app> y tantos <term n="5">caciques</term> se explicaron en los mismos <app>
                   <rdg wit="#Z">terminos</rdg>
                   <rdg wit="#A">términos</rdg>
                </app> poco <app>
@@ -1654,8 +1654,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> suplicaron cesase la <app>
-                  <rdg wit="#Z"><term>parla</term></rdg>
-                  <rdg wit="#A"><term>Parla</term></rdg>
+                  <rdg wit="#Z"><term n="15">parla</term></rdg>
+                  <rdg wit="#A"><term n="15">Parla</term></rdg>
                </app>, que se <app>
                   <rdg wit="#Z">continuaria</rdg>
                   <rdg wit="#A">continuaría</rdg>
@@ -1703,13 +1703,13 @@
                </app> prontamente en la <app>
                   <rdg wit="#Z"><term>ramada</term></rdg>
                   <rdg wit="#A"><term>Ramada</term>,</rdg>
-               </app> los <term>Butalmapus</term>, pasó su <app>
+               </app> los <term n="2">Butalmapus</term>, pasó su <app>
                   <rdg wit="#Z">Señoria</rdg>
                   <rdg wit="#A">señoría</rdg>
                </app> a ella con sus acompañados, y tomando su asiento<app>
                   <rdg wit="#Z">, recivió</rdg>
                   <rdg wit="#A">recibió</rdg>
-               </app> el saludo y atenciones acostumbradas de los <term>caciques</term>, continuando el <app>
+               </app> el saludo y atenciones acostumbradas de los <term n="5">caciques</term>, continuando el <app>
                   <rdg wit="#Z">Governador Curinaguel</rdg>
                   <rdg wit="#A">Gobernador Curinagüel</rdg>
                </app> en los<app>
@@ -1722,11 +1722,11 @@
                   <rdg wit="#Z">habian recivido</rdg>
                   <rdg wit="#A">habían recibido</rdg>
                </app> sus palabras, cuya <app>
-                  <rdg wit="#Z"><term>parla</term>, y contextacion</rdg>
-                  <rdg wit="#A"><term>Parla</term> y contestación</rdg>
+                  <rdg wit="#Z"><term n="15">parla</term>, y contextacion</rdg>
+                  <rdg wit="#A"><term n="15">Parla</term> y contestación</rdg>
                </app> de ciento <app>
-                  <rdg wit="#Z">veinte y siete <term>caciques</term>, duró</rdg>
-                  <rdg wit="#A">veintisiete <term>Caciques</term>, duro</rdg>
+                  <rdg wit="#Z">veinte y siete <term n="5">caciques</term>, duró</rdg>
+                  <rdg wit="#A">veintisiete <term n="5">Caciques</term>, duro</rdg>
                </app> hasta las <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
@@ -1785,7 +1785,7 @@
                </app> y consejos que se les <app>
                   <rdg wit="#Z">habian</rdg>
                   <rdg wit="#A">habían</rdg>
-               </app> comunicado de parte de su Rey y <term>Señor</term><app>
+               </app> comunicado de parte de su Rey y <term n="23">Señor</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> ratificando fidelidad a su <app>
@@ -1858,7 +1858,7 @@
                </app> anteriores a la misma hora<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y congregados los <term>Butalmapus</term> en la <app>
+               </app> y congregados los <term n="2">Butalmapus</term> en la <app>
                   <rdg wit="#Z"><term>ramada</term></rdg>
                   <rdg wit="#A"><term>Ramada</term></rdg>
                </app>, pasó a ella su <app>
@@ -1873,7 +1873,7 @@
                </app> y atenciones que en los <app>
                   <rdg wit="#Z">dias</rdg>
                   <rdg wit="#A">días</rdg>
-               </app> antecedentes de parte de los <term>Butalmapus</term><app>
+               </app> antecedentes de parte de los <term n="2">Butalmapus</term><app>
                   <rdg wit="#Z">. En</rdg>
                   <rdg wit="#A">: en</rdg>
                </app> este estado se puso en pie el <app>
@@ -1885,10 +1885,10 @@
                </app> siguiente: Hace diez años que en este proprio lugar se juntó la <app>
                   <rdg wit="#Z">tierra</rdg>
                   <rdg wit="#A">Tierra</rdg>
-               </app> para celebrar <term>Parlamento</term> a presencia del <app>
+               </app> para celebrar <term n="16">Parlamento</term> a presencia del <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> <term><term>Señor</term> Marqués de <placeName>Osorno</placeName></term>, cuyos <app>
+               </app> <term n="24"><term n="23">Señor</term> <persName>Marqués de <placeName>Osorno</placeName></persName></term>, cuyos <app>
                   <rdg wit="#Z">Tratados</rdg>
                   <rdg wit="#A">tratados</rdg>
                </app> y consejos<app>
@@ -1919,7 +1919,7 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> no han faltado algunos enredos y desazones, como que la autoridad de los
-               <term>caudillos</term> no tiene la fuerza <app>
+               <term n="25">caudillos</term> no tiene la fuerza <app>
                   <rdg wit="#Z">devida</rdg>
                   <rdg wit="#A">debida</rdg>
                </app> para <app>
@@ -1941,9 +1941,9 @@
                   <rdg wit="#Z">trafico</rdg>
                   <rdg wit="#A">tráfico</rdg>
                </app>, cuyas ventajas les han llenado de comodidad, olvidados enteramente de las <app>
-                  <rdg wit="#Z"><term>malocas</term></rdg>
-                  <rdg wit="#A"><term>Malocas</term></rdg>
-               </app> que anteriormente hicieron tanto daño entre los proprios <term>Butalmapus</term>, llegando
+                  <rdg wit="#Z"><term n="13">malocas</term></rdg>
+                  <rdg wit="#A"><term n="13">Malocas</term></rdg>
+               </app> que anteriormente hicieron tanto daño entre los proprios <term n="2">Butalmapus</term>, llegando
                hoy al colmo de la paz, que les ha proporcionado el <app>
                   <rdg wit="#Z">haver</rdg>
                   <rdg wit="#A">haber</rdg>
@@ -1962,10 +1962,10 @@
                </app> y que habiendo concurrido los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term> a celebrar en estos <app>
+               </app> <term n="2">Butalmapus</term> a celebrar en estos <app>
                   <rdg wit="#Z">dias</rdg>
                   <rdg wit="#A">días</rdg>
-               </app> igual <pb ed="#A" n="21"/> <term>Parlamento</term><app>
+               </app> igual <pb ed="#A" n="21"/> <term n="16">Parlamento</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> a su <app>
@@ -2031,7 +2031,7 @@
                </app> que por encargo de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term> que <app>
+               </app> <term n="2">Butalmapus</term> que <app>
                   <rdg wit="#Z">alli</rdg>
                   <rdg wit="#A">allí</rdg>
                </app> se hallaban congregados<app>
@@ -2047,7 +2047,7 @@
                   <rdg wit="#Z">frontera</rdg>
                   <rdg wit="#A">Frontera</rdg>
                </app> en la Villa de <placeName>los Angeles</placeName>, para lograr el verlos en algunas ocasiones, y de
-               este modo empeñarse los <term>Butalmapus</term> para presentar gustosamente sus <app>
+               este modo empeñarse los <term n="2">Butalmapus</term> para presentar gustosamente sus <app>
                   <rdg wit="#Z">jovenes</rdg>
                   <rdg wit="#A">jóvenes</rdg>
                </app> a la <app>
@@ -2070,9 +2070,9 @@
 
          <div>
             <ab>Los <app>
-                  <rdg wit="#Z"><term>Caciques</term></rdg>
-                  <rdg wit="#A"><term>caciques</term></rdg>
-               </app> <term>Pehuenches</term> de <placeName>Callaqui</placeName>, <placeName>Quilaco</placeName><app>
+                  <rdg wit="#Z"><term n="5">Caciques</term></rdg>
+                  <rdg wit="#A"><term n="5">caciques</term></rdg>
+               </app> <term n="17">Pehuenches</term> de <placeName>Callaqui</placeName>, <placeName>Quilaco</placeName><app>
                   <rdg wit="#Z">, y <placeName>Huinquin</placeName>,</rdg>
                   <rdg wit="#A"> y <placeName>Hinquién</placeName>,</rdg>
                </app> llamados Coliman, Liupay<app>
@@ -2100,7 +2100,7 @@
                </app>, y que siendo este la fuente de que dimanaron las que <app>
                   <rdg wit="#Z">tenian</rdg>
                   <rdg wit="#A">tenían</rdg>
-               </app> antiguamente los <term>Pehuenches</term>, suplicaban no se hiciese novedad<app>
+               </app> antiguamente los <term n="17">Pehuenches</term>, suplicaban no se hiciese novedad<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y se conservase para los mismos efectos, respecto a la buena <app>
@@ -2142,12 +2142,12 @@
                   <rdg wit="#Z">micion</rdg>
                   <rdg wit="#A">Misión</rdg>
                </app> que tuvo en <placeName>Lolco</placeName>, pero que no se ha resuelto hasta ahora por las <app>
-                  <rdg wit="#Z"><term>malocas</term></rdg>
-                  <rdg wit="#A"><term>Malocas</term></rdg>
+                  <rdg wit="#Z"><term n="13">malocas</term></rdg>
+                  <rdg wit="#A"><term n="13">Malocas</term></rdg>
                </app> y desavenencias que han tenido en años <app>
                   <rdg wit="#Z">atras</rdg>
                   <rdg wit="#A">atrás</rdg>
-               </app> con los <term>Pehuenches</term> Orientales, las que estando enteramente disipadas, y reconciliados<app>
+               </app> con los <term n="17">Pehuenches</term> Orientales, las que estando enteramente disipadas, y reconciliados<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> espera cimentarse a la <app>
@@ -2174,7 +2174,7 @@
                </app> compuesta de su <app>
                   <rdg wit="#Z">Governador,</rdg>
                   <rdg wit="#A">Gobernador</rdg>
-               </app> y <term>Caciques</term>, con los de <placeName>Angol</placeName>, <placeName>Maquegua</placeName>, <app>
+               </app> y <term n="5">Caciques</term>, con los de <placeName>Angol</placeName>, <placeName>Maquegua</placeName>, <app>
                   <rdg wit="#Z"><placeName>Lebcoyan</placeName></rdg>
                   <rdg wit="#A"><placeName>Lobcoyán</placeName></rdg>
                </app>, y generalmente los <app>
@@ -2186,7 +2186,7 @@
                </app> suplicaron la solicitud de su difunto <app>
                   <rdg wit="#Z">Governador Levigueque,</rdg>
                   <rdg wit="#A">Gobernador Leviquegüe</rdg>
-               </app> que hizo en el <term>Parlamento</term> General<app>
+               </app> que hizo en el <term n="16">Parlamento</term> General<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> el año pasado de mil setecientos noventa y tres<app>
@@ -2207,7 +2207,7 @@
                </app> por que <app>
                   <rdg wit="#Z">hallandose</rdg>
                   <rdg wit="#A">hallándose</rdg>
-               </app> los <term>Butalmapus</term> en la <app>
+               </app> los <term n="2">Butalmapus</term> en la <app>
                   <rdg wit="#Z">mejor dispocicion</rdg>
                   <rdg wit="#A">mayor disposición</rdg>
                </app> que han manifestado acerca de los <app>
@@ -2249,8 +2249,8 @@
 
          <div>
             <ab>Los <app>
-                  <rdg wit="#Z"><term>Caciques</term> Governadores</rdg>
-                  <rdg wit="#A"><term>caciques</term> Gobernadores</rdg>
+                  <rdg wit="#Z"><term n="5">Caciques</term> Governadores</rdg>
+                  <rdg wit="#A"><term n="5">caciques</term> Gobernadores</rdg>
                </app> de <placeName>Arauco</placeName>, <app>
                   <rdg wit="#Z"><placeName>Tirúa</placeName>, y Boca de la Ymperial</rdg>
                   <rdg wit="#A"><placeName>Tucapel</placeName>, <placeName>Tirúa</placeName> <placeName><placeName>Boroa</placeName>, de la Imperial</placeName></rdg>
@@ -2289,7 +2289,7 @@
                </app> el <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> <term>Señor</term> <app>
+               </app> <term n="23">Señor</term> <app>
                   <rdg wit="#Z">Capitan</rdg>
                   <rdg wit="#A">Capitán</rdg>
                </app> General, a quien <app>
@@ -2302,18 +2302,18 @@
                   <rdg wit="#Z">quanto</rdg>
                   <rdg wit="#A">cuanto</rdg>
                </app> a las <app>
-                  <rdg wit="#Z">parcialidades, <term>caciques</term>,</rdg>
-                  <rdg wit="#A">Parcialidades <term>Caciques</term></rdg>
+                  <rdg wit="#Z">parcialidades, <term n="5">caciques</term>,</rdg>
+                  <rdg wit="#A">Parcialidades <term n="5">Caciques</term></rdg>
                </app> o <app>
-                  <rdg wit="#Z"><term>mozetones</term></rdg>
-                  <rdg wit="#A">mocetones</rdg>
+                  <rdg wit="#Z"><term n="14">mozetones</term></rdg>
+                  <rdg wit="#A"><term n="14">mocetones</term></rdg>
                </app> que promoviesen enredos o <app>
-                  <rdg wit="#Z"><term>malocas</term></rdg>
-                  <rdg wit="#A"><term>Malocas</term></rdg>
+                  <rdg wit="#Z"><term n="13">malocas</term></rdg>
+                  <rdg wit="#A"><term n="13">Malocas</term></rdg>
                </app> en la <app>
                   <rdg wit="#Z">tierra,</rdg>
                   <rdg wit="#A">Tierra</rdg>
-               </app> se procediese por los <term>Butalmapus</term> a su castigo<app>
+               </app> se procediese por los <term n="2">Butalmapus</term> a su castigo<app>
                   <rdg wit="#Z">, mirandolos</rdg>
                   <rdg wit="#A">mirándolos</rdg>
                </app> como enemigos comunes<app>
@@ -2341,7 +2341,7 @@
                </app> de <placeName>Valdivia</placeName><app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
-               </app> que desertan de los españoles, y se acogen a sus tierras, deben los <term>Butalmapus</term>
+               </app> que desertan de los españoles, y se acogen a sus tierras, deben los <term n="2">Butalmapus</term>
                no permitirlos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -2370,11 +2370,11 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term>, <app>
+               </app> <term n="2">Butalmapus</term>, <app>
                   <rdg wit="#Z">y</rdg>
                   <rdg wit="#A"/>
                </app> generalmente todos los <app>
-                  <rdg wit="#Z"><term>caciques</term></rdg>
+                  <rdg wit="#Z"><term n="5">caciques</term></rdg>
                   <rdg wit="#A">Caiques</rdg>
                </app> congregados, que de <app>
                   <rdg wit="#Z">ningun</rdg>
@@ -2392,9 +2392,9 @@
                   <rdg wit="#Z">tenian</rdg>
                   <rdg wit="#A">tenían</rdg>
                </app> ofrecido en otros <app>
-                  <rdg wit="#Z"><term>parlamento</term>s</rdg>
-                  <rdg wit="#A"><term>Parlamento</term>s</rdg>
-               </app>, pues no ignoraban sus designios depravados, y que los <term>caciques</term> de <placeName>Arauco</placeName>,
+                  <rdg wit="#Z"><term n="16">parlamento</term>s</rdg>
+                  <rdg wit="#A"><term n="16">Parlamento</term>s</rdg>
+               </app>, pues no ignoraban sus designios depravados, y que los <term n="5">caciques</term> de <placeName>Arauco</placeName>,
                <placeName>Tucapel</placeName>, <app>
                   <rdg wit="#Z">Boca de Ymperial,</rdg>
                   <rdg wit="#A"><placeName><placeName>Boroa</placeName>, de la Imperial</placeName></rdg>
@@ -2413,7 +2413,7 @@
                </app>, como <app>
                   <rdg wit="#Z">mas interezados,</rdg>
                   <rdg wit="#A">más interesados</rdg>
-               </app> y que el resto de los <term>Butalmapus</term> <app>
+               </app> y que el resto de los <term n="2">Butalmapus</term> <app>
                   <rdg wit="#Z">ayudaria</rdg>
                   <rdg wit="#A">ayudaría</rdg>
                </app> gustoso <app>
@@ -2439,8 +2439,8 @@
                   <rdg wit="#A">últimos</rdg>
                </app> años, que continuarán con el mayor empeño, y a cuyo efecto <pb ed="#A" n="24"
                />pidieron algunos <app>
-                  <rdg wit="#Z"><term>caciques</term> y ca-pitanejos,</rdg>
-                  <rdg wit="#A"><term>Caciques</term> y <term>Capitanejos</term></rdg>
+                  <rdg wit="#Z"><term n="5">caciques</term> y ca-pitanejos,</rdg>
+                  <rdg wit="#A"><term n="5">Caciques</term> y <term n="6">Capitanejos</term></rdg>
                </app> papeles de seguridad para presentarse en aquellos <app>
                   <rdg wit="#Z">payzes</rdg>
                   <rdg wit="#A">países</rdg>
@@ -2473,7 +2473,7 @@
                </app> continuamente, de cuya observancia <app>
                   <rdg wit="#Z">estan</rdg>
                   <rdg wit="#A">están</rdg>
-               </app> convencidos los buenos <term>caciques</term><app>
+               </app> convencidos los buenos <term n="5">caciques</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> que les resulta la quietud y conveniencias que disfrutan en la actualidad<app>
@@ -2483,7 +2483,7 @@
          </div>
 
          <div>
-            <ab>El <term>Señor</term> Presidente del Congreso<app>
+            <ab>El <term n="23">Señor</term> Presidente del Congreso<app>
                   <rdg wit="#Z">, despues</rdg>
                   <rdg wit="#A">después</rdg>
                </app> de haber <app>
@@ -2517,11 +2517,11 @@
                </app> se les <app>
                   <rdg wit="#Z">habia</rdg>
                   <rdg wit="#A">había</rdg>
-               </app> propuesto, dirigido todo al bien de los <term>Butalmapus</term>, que tanto encargaba la
+               </app> propuesto, dirigido todo al bien de los <term n="2">Butalmapus</term>, que tanto encargaba la
                piedad de nuestro amado Soberano<app>
                   <rdg wit="#Z">;</rdg>
                   <rdg wit="#A">,</rdg>
-               </app> pero que teniendo noticia que en otros <term>Parlamento</term>s <app>
+               </app> pero que teniendo noticia que en otros <term n="16">Parlamento</term>s <app>
                   <rdg wit="#Z">habian</rdg>
                   <rdg wit="#A">habían</rdg>
                </app> hecho las mismas demonstraciones y ofrecimientos, faltando <app>
@@ -2554,7 +2554,7 @@
                </app> y por de contado<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> extinguir estos Congresos o <term>Parlamento</term>s, que son excusados no <app>
+               </app> extinguir estos Congresos o <term n="16">Parlamento</term>s, que son excusados no <app>
                   <rdg wit="#Z">verificandose</rdg>
                   <rdg wit="#A">verificándose</rdg>
                </app> por su parte los efectos<app>
@@ -2563,7 +2563,7 @@
                </app> y que siendo su <app>
                   <rdg wit="#Z">caracter</rdg>
                   <rdg wit="#A">carácter</rdg>
-               </app> anunciar a sus amigos los <term>caciques</term> la verdad, lo <app>
+               </app> anunciar a sus amigos los <term n="5">caciques</term> la verdad, lo <app>
                   <rdg wit="#Z">hacia</rdg>
                   <rdg wit="#A">hacía</rdg>
                </app> notorio a todos<app>
@@ -2663,7 +2663,7 @@
                supuesto que si alguno intentare para lo <app>
                   <rdg wit="#Z">succesivo</rdg>
                   <rdg wit="#A">sucesivo</rdg>
-               </app> semejante atrocidad, lo embaracen los <term>caciques</term><app>
+               </app> semejante atrocidad, lo embaracen los <term n="5">caciques</term><app>
                   <rdg wit="#Z">, y</rdg>
                   <rdg wit="#A">o</rdg>
                </app> recojan las <app>
@@ -2691,7 +2691,7 @@
                </app> admitido<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y observado por los <term>Butalmapus</term>, <app>
+               </app> y observado por los <term n="2">Butalmapus</term>, <app>
                   <rdg wit="#Z">encargando</rdg>
                   <rdg wit="#A">encargado</rdg>
                </app> al Comisario General de Naciones, y capitanes, vigilen<app>
@@ -2719,8 +2719,8 @@
 
          <div>
             <ab>Todos los <app>
-                  <rdg wit="#Z"><term>caciques</term></rdg>
-                  <rdg wit="#A"><term>Caciques</term></rdg>
+                  <rdg wit="#Z"><term n="5">caciques</term></rdg>
+                  <rdg wit="#A"><term n="5">Caciques</term></rdg>
                </app> oyeron con particular <app>
                   <rdg wit="#Z">atencion</rdg>
                   <rdg wit="#A">atención</rdg>
@@ -2747,8 +2747,8 @@
                   <rdg wit="#A">presidía</rdg>
                </app>
                <app>
-                  <rdg wit="#Z">el <term>Parlamento</term>: Que</rdg>
-                  <rdg wit="#A">al <term>Parlamento</term>; que</rdg>
+                  <rdg wit="#Z">el <term n="16">Parlamento</term>: Que</rdg>
+                  <rdg wit="#A">al <term n="16">Parlamento</term>; que</rdg>
                </app> ellos por su parte quedaban <app>
                   <rdg wit="#Z">convencidos</rdg>
                   <rdg wit="#A"/>
@@ -2772,8 +2772,8 @@
                   <rdg wit="#A">esforzaron</rdg>
                </app> a todos los <app>
                   <rdg wit="#Z">casiques</rdg>
-                  <rdg wit="#A"><term>Caciques</term></rdg>
-               </app> para complacer al <term>Señor</term> Presidente del Congreso<app>
+                  <rdg wit="#A"><term n="5">Caciques</term></rdg>
+               </app> para complacer al <term n="23">Señor</term> Presidente del Congreso<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y entregar si llegase <app>
@@ -2866,13 +2866,13 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> levantando el brazo (todos hincados de rodillas) y reconociendo por su Rey y
-               <term>Señor</term> natural<app>
+               <term n="23">Señor</term> natural<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> al <app>
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
-               </app> Rey de las Españas el <term><term>Señor</term> <term>Don</term></term> <app>
+               </app> Rey de las Españas el <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <app>
                   <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
                   <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
@@ -2881,7 +2881,7 @@
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias <term>Don</term> <persName>Fernando</persName><app>
+               </app> de Asturias <term n="12">Don</term> <persName>Fernando</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y que <app>
@@ -2897,7 +2897,7 @@
                </app> y <pb ed="#A" n="27"/><app>
                   <rdg wit="#Z">Consejos</rdg>
                   <rdg wit="#A">consejos</rdg>
-               </app> de este <term>Parlamento</term><app>
+               </app> de este <term n="16">Parlamento</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y del anterior, lo que verificado con el mayor decoro<app>
@@ -2909,7 +2909,7 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term>Butalmapus</term>, se hizo la salva de quince cañonazos<app>
+               </app> <term n="2">Butalmapus</term>, se hizo la salva de quince cañonazos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A">;</rdg>
                </app> repitiendo <app>
@@ -2918,19 +2918,19 @@
                </app> el Rey<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y abrazando con singular gusto y cariño al <term>Señor</term> Presidente del Congreso, a
+               </app> y abrazando con singular gusto y cariño al <term n="23">Señor</term> Presidente del Congreso, a
                todos los circunstantes, y ellos entre <app>
                   <rdg wit="#Z">si,</rdg>
                   <rdg wit="#A">sí</rdg>
-               </app> se mandó firmar por los <term>Señores</term> que se hallaron presentes, <app>
+               </app> se mandó firmar por los <term n="23">Señores</term> que se hallaron presentes, <app>
                   <rdg wit="#Z">que si para esparcir desde aquel puesto a lo interior del Butalmapu
                      de <placeName>Angol</placeName> fuere conveniente alli algun hospicio, se les concedera despues que
                      admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifi estan
                      condescender. Que por medio del Comisario de Naciones se manifi este a los
-                     <term>Butalmapus</term> en las Juntas que han de celebrar la proxima primavera para divulgar
-                     a todas sus parcialidades los Tratados de este <term>Parlamento</term>, la grande
+                     <term n="2">Butalmapus</term> en las Juntas que han de celebrar la proxima primavera para divulgar
+                     a todas sus parcialidades los Tratados de este <term n="16">Parlamento</term>, la grande
                      satisfaccion que me resulta de su conformidad a los consejos, y prevenciones
-                     que les hizo el <term>Señor</term> mi comicionado en aquel Congreso, relativas a la
+                     que les hizo el <term n="23">Señor</term> mi comicionado en aquel Congreso, relativas a la
                      conservacion de su tranquilidad, y union reciproca, y de su fi delidad a los
                      españoles en la franquicia de sus caminos para <placeName>Valdivia</placeName>, rezguardo de sus
                      costas contra los enemigos comunes, cesasion de incurciones en la pampas de
@@ -2940,15 +2940,15 @@
                      y justicia, que penden de mi autoridad, conforme a las benignas intenciones del
                      Soberano, como ya lo he hecho, atendiendoles en sus pretenciones justas que han
                      ocurrido desde mi ingreso al Mando Superior de este Reyno, y ahora con ocasion
-                     del <term>Parlamento</term>, embiandoles abundantes agazajos a todos los concurrentes, y
-                     asignando a los <term>caciques</term> de mas sequito y acreditada conducta, pensiones fi xas
-                     costeadas por la <term>Real Hacienda</term> mediante la inmensa liberali-dad del Rey, que
+                     del <term n="16">Parlamento</term>, embiandoles abundantes agazajos a todos los concurrentes, y
+                     asignando a los <term n="5">caciques</term> de mas sequito y acreditada conducta, pensiones fi xas
+                     costeadas por la <term n="22">Real Hacienda</term> mediante la inmensa liberali-dad del Rey, que
                      tiene encargado se les trate con la mayor humanidad y obsequio, a quien por eso
                      deben reconocer como padre, y rendirle sus mas humildes homenages, como a todos
                      los gefes que en su Real nombre goviernan este Reyno, y su frontera; y fi
-                     nalmente, que dandose las merecidas gracias al <term>Señor</term> Brigadier <term>Don</term> <persName>Pedro
+                     nalmente, que dandose las merecidas gracias al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro
                      Quijada</persName> Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
-                     este acto, no menos que al <term>Señor</term> Brigadier <term>Don</term> <persName>Pedro Nolazco del Rio</persName> Comandante
+                     este acto, no menos que al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro Nolazco del Rio</persName> Comandante
                      de la Plaza de <placeName>los Angeles</placeName>, por su cooperacion, e infl ujo con los Yndios que
                      ha tenido para el logro de aquellos, se le remita Testimonio de este Auto para
                      su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
@@ -2970,15 +2970,15 @@
                   <rdg wit="#Z"><persName>Antonio Garfias</persName>
                      <lb/>Escrivano subtituto de Gobierno 
                      <lb/>RESUMEN 
-                     <lb/><term>Caciques</term> de los quatro <term>Butalmapus</term> 239 
-                     <lb/><term>Capitanejos</term>, <term>Mozetones</term>, y Respetados de iden 3060 
+                     <lb/><term n="5">Caciques</term> de los quatro <term n="2">Butalmapus</term> 239 
+                     <lb/><term n="6">Capitanejos</term>, <term n="14">Mozetones</term>, y Respetados de iden 3060 
                      <lb/>3299</rdg><rdg wit="#A"/></app></ab>
             <!-- whc 13-JUN-2023: What is appropriate element to indicate a horizontal rule here? -->
          </div>
          <div><ab>
             <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
                   from A -->
-              <app><rdg wit="#Z">Asciende la suma de Concurrentes de los quatro <term>Butalmapus</term> al Parlamento General, a
+              <app><rdg wit="#Z">Asciende la suma de Concurrentes de los quatro <term n="2">Butalmapus</term> al Parlamento General, a
                tres mil doscientos noventa y nueve, segun las listas, y noticias que tomó el <term>Comisario de
                Naciones y Lengua general</term> a su arrivo al Campamento, sin incluir las continuas partidas
                que fueron llegando en los dias consecutivos de la Parla, que por las ocupaciones no se
@@ -2986,25 +2986,25 @@
                General de Naciones, y Lengua General</term>, en la <term>Plaza</term> de los Angeles en ocho de Marzo de
                mil ochocientos tres = <persName>Sebastian Xibaja</persName> = <persName>Fermin Villagran</persName>.</rdg><rdg wit="#A"/></app></ab></div>
             
-            <div><ab><app><rdg wit="#Z">Excelentisimo <term>Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
+            <div><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
             adjunto Expediente del Parlamento General celebrado en el Campo de <placeName>Negrete</placeName> con los
-            quatro <term>Butalmapus</term> o Cantones de esta Frontera, segun lo ofreci a Vuexcelencia en mi
+            quatro <term n="2">Butalmapus</term> o Cantones de esta Frontera, segun lo ofreci a Vuexcelencia en mi
             anterior Oficio de fecha ocho de Marzo proximo pasado al tiempo de su conclucion; sirviendose
             Vuexcelencia darme, y conferir la necesaria Comicion, de resultas de los justos
             motivos que le imposibilitaban su asistencia personal, por su Superior Orden de treinta
             de Octubre ultimo =</rdg><rdg wit="#A"/></app></ab></div> 
          
          <div><ab><app><rdg wit="#Z">El Estado inclusive demuestra el numero de tropas de Dragones,
-            y Milicia asistentes en el Campamento. El de Yndios va por <term>Butalmapus</term> o Goviernos
+            y Milicia asistentes en el Campamento. El de Yndios va por <term n="2">Butalmapus</term> o Goviernos
             para inteligencia de los que concurrieron. El Plano servira para dar idea del modo con
             que se colocaron las oficinas para el Congreso. Y las Actas originadas en aquel tiempo
             orientaran a Vuexcelencia de los Tratados, y ratificaciones de una paz general concertada
             a beneficio del mejor Servicio del Rey, y de una Sociedad asegurada con los naturales,
             ofrecido todo por la demonstracion de sus promesas, y cargos sugeridos Sin embargo
-            de no haber alcanzado en la celebracion el Acesor Doctor <term>Don</term> <persName>Juan Martinez de Rosas</persName>,
+            de no haber alcanzado en la celebracion el Acesor Doctor <term n="12">Don</term> <persName>Juan Martinez de Rosas</persName>,
             como Auditor de Guerra, segun la costumbre de otros Parlamentos, a estimulo de los
-            conocimientos, y practica del <term>Señor</term> Brigadier Comandante del Cuerpo de Dragones
-            <term>Don</term> <persName>Pedro Nolazco del Rio</persName> (como tengo a Vuexcelencia anunciado) confi e con su asociamiento
+            conocimientos, y practica del <term n="23">Señor</term> Brigadier Comandante del Cuerpo de Dragones
+            <term n="12">Don</term> <persName>Pedro Nolazco del Rio</persName> (como tengo a Vuexcelencia anunciado) confi e con su asociamiento
             quanto se ha ofrecido, y he logrado su conclucion, lisongeandome de los meritos
             que proporcionalmente lo han hecho ventajoso, pudiendo Vuexcelencia conocerlo
             en sus Articulos, corto tiempo del Congreso, nada de superfluidad en sus gastos, a pesar
@@ -3025,31 +3025,31 @@
             mayor satisfacción =</rdg><rdg wit="#A"/></app></ab></div>
             
             <div><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. Concepcion treinta de
-            Abril de mil ochocientos tres = Excelentisimo <term>Señor</term> = <persName>Pedro Quijada</persName> = Excelentisimo
-                     <pb ed="#Z" n="422"/><term><term>Señor</term> <term>Don</term></term> <persName>Luis Muñoz de Guzman</persName>, Teniente General de los
+            Abril de mil ochocientos tres = Excelentisimo <term n="23">Señor</term> = <persName>Pedro Quijada</persName> = Excelentisimo
+                     <pb ed="#Z" n="422"/><term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Luis Muñoz de Guzman</persName>, Teniente General de los
                      Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de <placeName>Chile</placeName>
                = </rdg><rdg wit="#A"/></app></ab></div>
                      
                <div><head><app><rdg wit="#Z">En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
-                     tres: El Excelentisimo <term><term>Señor</term> <term>Don</term></term> Luis Muñoz de Guzman, Cavallero del Orden de
+                     tres: El Excelentisimo <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> Luis Muñoz de Guzman, Cavallero del Orden de
                      Santiago, Comendador de las <placeName>Pueblas</placeName> en la de Alcantara, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de <placeName>Chile</placeName>, Presidente de su
-                     <term>real Audiencia</term>, Superintendente Subdelegado de <term>Real Hacienda</term>, y Correos, y Vice
+                     <term n="22">real Audiencia</term>, Superintendente Subdelegado de <term n="22">Real Hacienda</term>, y Correos, y Vice
                      Patrono Real, [rúbrica]:</rdg><rdg wit="#A"/></app></head></div> 
          
         
-                     <div><ab><app><rdg wit="#Z">Habiendo visto el <term>Parlamento</term> General celebrado en el
-                     Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el <term>Señor</term> Brigadier <term>Don</term> <persName>Pedro Quijada</persName>,
+                     <div><ab><app><rdg wit="#Z">Habiendo visto el <term n="16">Parlamento</term> General celebrado en el
+                     Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro Quijada</persName>,
                      Comandante Ynterino de Armas de la Provincia de la <placeName>Concepcion</placeName>, con los quatro
-                     <term>Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
+                     <term n="2">Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
                      cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
                      Articulos de su contenido, respecto de dirigirse a la ratifi cacion de los
-                     Tratados, y <term>Parlamento</term>s anteriores aprobados por su Magestad, como oportunos
+                     Tratados, y <term n="16">Parlamento</term>s anteriores aprobados por su Magestad, como oportunos
                      para la consolidacion de la paz, y mejor civilizacion de aquellas naciones, y
-                     su reconocimiento a la Soberana de nuestro Catolico Rey y <term><term>Señor</term> <term>Don</term></term> <persName>Carlos
+                     su reconocimiento a la Soberana de nuestro Catolico Rey y <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Carlos
                      quarto</persName>: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
-                     ellos quedó establecido de acuerdo con los governadores, <term>caciques</term>, y <term>gilmenes</term>
-                     de sus respectivas Parcialidades, y <term>Ayllareques</term>, precaviendose por lo que
+                     ellos quedó establecido de acuerdo con los governadores, <term n="5">caciques</term>, y <term n="26">gilmenes</term>
+                     de sus respectivas Parcialidades, y <term n="1">Ayllareques</term>, precaviendose por lo que
                      respecta a la libertad del comercio reciproco de que trata el Articulo segundo;
                      y es conforme a la Ley veinte y quatro titulo primero libro sexto de estos
                      dominios, toda coaccion y engaño de los yndios, y la introduccion en sus
@@ -3057,7 +3057,7 @@
                      conforme a la misma Ley, y siguientes hasta la treinta y una del citado titulo
                      y libro, y al peculiar Reglamento formado en su razon, y aprobado por Real
                      Orden de nueve de Febrero de mil setecientos noventa y siete. Y en quanto a las
-                     pretenciones particulares que hicieron en aquel Congreso varios <term>caciques</term>, mandó
+                     pretenciones particulares que hicieron en aquel Congreso varios <term n="5">caciques</term>, mandó
                      su Señoria, se haga entender al de <placeName>Maquegua</placeName>, y sus compañeros, que deben
                      renunciar la corta satisfaccion de poder vicitar mas facilmente a los jovenes
                      que entreguen para su educacion en el Seminario, trasladandose a la Plaza de
@@ -3074,9 +3074,9 @@
                      del Hospicio de Santa Barbara, que se habia proyectado abandonar, sino que
                      antes se proceda a su refaccion, progresando el Expediente que estaba suspenso,
                      y pendiente de la resolucion que se tomase sobre este particular en este
-                     <term>Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
-                     Parcialidades de <term>Pehuenches</term>, y señaladamente el restablecimiento de la de
-                     <placeName>Lolco</placeName>, como solicitan sus <term>caciques</term>, a cuyo efecto se encargará al <term>Señor</term>
+                     <term n="16">Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
+                     Parcialidades de <term n="17">Pehuenches</term>, y señaladamente el restablecimiento de la de
+                     <placeName>Lolco</placeName>, como solicitan sus <term n="5">caciques</term>, a cuyo efecto se encargará al <term n="23">Señor</term>
                      Yntendente Comandante Militar de la Provincia de la <placeName>Concepcion</placeName>, procure su
                      realizacion, convocando las Juntas oportunas de los yndios, y consultando
                      previamente a esta Superioridad las demas providencias que convenga anticipar
@@ -3085,7 +3085,7 @@
                      establecimiento, y sinodos fi xos: Que al cacique de la Reduccion de <placeName>Santa Feé</placeName>
                      se le persuada, desista de su pretencion de tener parroco micionero a exemplo
                      de su respetable antecesor el anciano honrado Levigueque, por ser esta una
-                     materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo <term>Señor</term>
+                     materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo <term n="23">Señor</term>
                      <persName>Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
                      Constituciones Pontificias, e Ynstituto de los Micioneros, que solo deben
                      emplearse en la convercion de los Ynfieles, hasta que formalicen las
@@ -3127,9 +3127,9 @@
 
          <div>
             <ab><app>
-                  <rdg wit="#Z">Relacion de los <term>Caciques</term> Governadores y particulares, con sus
-                     Respetados y <term>Mozetones</term> que han concurrido al <term>Parlamento</term> General de <placeName>Negrete</placeName> de
-                     los quatro <term>Butalmapus</term>, celebrado el dia tres de Marzo de mil ochocientos
+                  <rdg wit="#Z">Relacion de los <term n="5">Caciques</term> Governadores y particulares, con sus
+                     Respetados y <term n="14">Mozetones</term> que han concurrido al <term n="16">Parlamento</term> General de <placeName>Negrete</placeName> de
+                     los quatro <term n="2">Butalmapus</term>, celebrado el dia tres de Marzo de mil ochocientos
                      tres.</rdg>
                   <rdg wit="#A"/>
                </app>
