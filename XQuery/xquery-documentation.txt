@@ -1,0 +1,7 @@
+XQuery documentation and explanation
+
+William Campbell
+
+15-JUN-2023
+
+The XQueries in this folder, together with the html pages they create (also saved in this folder), are not intended to create or be webpages for the project site. They are documents used in the process. For example, term-finder.xquery identifies every <term> element in a given XML document and creates a list of them so reference numbers can be assigned. These were created for the Parlamento de Negrete 1803 TEI XML files, but they can be re-used for the same purpose, with little or no change (except variables to define input file names), for future TEI XML documents in this project.
