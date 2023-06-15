@@ -62,7 +62,7 @@
                   <rdg wit="#Z"/>
                </app>de <placeName>Negrete</placeName> <app>
                   <rdg wit="#A">con los Indios de <placeName>Chile</placeName> en los días 3, 4 y 5 de marzo de mil
-                     ochocientos tres años, presidido por el <term n="24"><term n="23">Señor</term> <term n="12">don</term></term> <persName>Pedro Quijada</persName>, Brigadier de
+                     ochocientos tres años, presidido por el <term n="24"><term n="23">Señor</term> <term n="12">don</term></term> <persName n="24">Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
                      a nombre del Excmo. <term n="23">Señor</term> Gobernador y Capitán General del Reino de
                      <placeName>Chile</placeName>.</rdg>
@@ -88,7 +88,7 @@
                </app> de mil ochocientos tres<app>
                   <rdg wit="#Z">: El <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term></rdg>
                   <rdg wit="#A">, el <term n="24"><term n="23">señor</term> <term n="12">don</term></term></rdg>
-               </app> <persName>Pedro Quijada</persName>, Brigadier de los Reales<app>
+               </app> <persName n="24">Pedro Quijada</persName>, Brigadier de los Reales<app>
                   <rdg wit="#Z"> Exercitos,</rdg>
                   <rdg wit="#A">, Ejércitos y</rdg>
                </app> Comandante del Batallon de <app>
@@ -219,10 +219,10 @@
                </app> y firmó su Señoria<app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. – </rdg>
-               </app> <persName>Pedro Quijada</persName><app>
+               </app> <persName n="24">Pedro Quijada</persName><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. – </rdg>
-               </app> <persName>Gonzalo Maria de Figueroa</persName><app>
+               </app> <persName n="8">Gonzalo Maria de Figueroa</persName><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. – </rdg>
                </app>
@@ -310,7 +310,7 @@
                </app> que les estaban preparados<app>
                   <rdg wit="#Z">;</rdg>
                   <rdg wit="#A">,</rdg>
-               </app> el <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Pedro de Quijada</persName>, Brigadier de los Reales <app>
+               </app> el <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName n="24">Pedro de Quijada</persName>, Brigadier de los Reales <app>
                   <rdg wit="#Z">Exercitos</rdg>
                   <rdg wit="#A">Ejércitos</rdg>
                </app>, Comandante del <app>
@@ -326,8 +326,8 @@
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
                </app> <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <app>
-                  <rdg wit="#Z"><persName>Luiz Muñoz de Guzman</persName></rdg>
-                  <rdg wit="#A"><persName>Luiz Muñoz de Guzmán</persName></rdg>
+                  <rdg wit="#Z"><persName n="14">Luiz Muñoz de Guzman</persName></rdg>
+                  <rdg wit="#A"><persName n="14">Luiz Muñoz de Guzmán</persName></rdg>
                </app>, <app>
                   <rdg wit="#Z">Governador Capitan General,</rdg>
                   <rdg wit="#A">Gobernador, Capitán General</rdg>
@@ -341,8 +341,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> el Brigadier <term n="12">Don</term> <app>
-                  <rdg wit="#Z"><persName>Pedro Nolazco del Rio</persName></rdg>
-                  <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
+                  <rdg wit="#Z"><persName n="23">Pedro Nolazco del Rio</persName></rdg>
+                  <rdg wit="#A"><persName n="23">Pedro Nolasco del Río</persName></rdg>
                </app>, Comandante del Cuerpo de Dragones<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -350,30 +350,31 @@
                   <rdg wit="#Z">Quartel General de <placeName>los Angeles</placeName></rdg>
                   <rdg wit="#A">cuartel general de <placeName>los Ángeles</placeName></rdg>
                </app>, <app>
-                  <rdg wit="#Z"><term n="12">Don</term> <persName>Mariano de Roa</persName>, Arzediando</rdg>
-                  <rdg wit="#A"><term n="12">don</term> <persName>Mariano de Roa</persName> Arcediano</rdg>
+                  <rdg wit="#Z"><term n="12">Don</term> <persName n="16">Mariano de Roa</persName>, Arzediando</rdg>
+                  <rdg wit="#A"><term n="12">don</term> <persName n="16">Mariano de Roa</persName> Arcediano</rdg>
                </app> de la Santa <app>
                   <rdg wit="#Z">Yglesia Catedral de la Ciudad de <placeName>Concepcion</placeName></rdg>
                   <rdg wit="#A">Iglesia Catedral de la ciudad de la <placeName>Concepción</placeName>,</rdg>
                </app> a nombre del <app>
                   <rdg wit="#Z">Ylustrisimo</rdg>
                   <rdg wit="#A">Ilustrísimo</rdg>
-               </app> <term n="23">Señor</term> <persName>Obispo de ella</persName>, <term n="12">Don</term> <app>
-                  <rdg wit="#Z"><persName>Manuel de Vega Bazan</persName>,</rdg>
-                  <rdg wit="#A"><persName>Manuel de Vega Bazán</persName></rdg>
-               </app> y <term n="12">Don</term> <persName>Juan Zapatero</persName>, <app>
-                  <rdg wit="#Z"><persName>Coroneles de Artilleria</persName></rdg>
-                  <rdg wit="#A"><persName>coroneles de artillería</persName></rdg>
+               </app> <term n="23">Señor</term> <persName n="21">Obispo de ella</persName>, 
+               <term n="12">Don</term> <app>
+                  <rdg wit="#Z"><persName n="15">Manuel de Vega Bazan</persName>,</rdg>
+                  <rdg wit="#A"><persName n="15">Manuel de Vega Bazán</persName></rdg>
+               </app> y <term n="12">Don</term> <persName n="11">Juan Zapatero</persName>, <app>
+                  <rdg wit="#Z">Coroneles de Artilleria</rdg>
+                  <rdg wit="#A">coroneles de artillería</rdg>
                </app>, <term n="12">Don</term> <app>
-                  <rdg wit="#Z"><persName>Melchor de Carbajal</persName></rdg>
-                  <rdg wit="#A"><persName>Melchor de Carvajal</persName></rdg>
-               </app>, <persName>Teniente Coronel de Dragones</persName>, el de igual <app>
+                  <rdg wit="#Z"><persName n="18">Melchor de Carbajal</persName></rdg>
+                  <rdg wit="#A"><persName n="18">Melchor de Carvajal</persName></rdg>
+               </app>, Teniente Coronel de Dragones, el de igual <app>
                   <rdg wit="#Z">claze</rdg>
                   <rdg wit="#A">clase</rdg>
                </app> <term n="12">Don</term> <app>
-                  <rdg wit="#Z"><persName>Pedro Jose de Benavente</persName></rdg>
-                  <rdg wit="#A"><persName>Pedro José de Benavente</persName></rdg>
-               </app> , <term n="12">Don</term> <persName>Miguel Puga</persName><app>
+                  <rdg wit="#Z"><persName n="22">Pedro Jose de Benavente</persName></rdg>
+                  <rdg wit="#A"><persName n="22">Pedro José de Benavente</persName></rdg>
+               </app> , <term n="12">Don</term> <persName n="19">Miguel Puga</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y <term n="12">Don</term> Luis de la Cruz, <app>
@@ -388,9 +389,9 @@
                </app>, el Reverendo Padre <app>
                   <rdg wit="#Z">Guardian</rdg>
                   <rdg wit="#A">Guardián</rdg>
-               </app> del <term n="8">Colegio de <term n="29">Propaganda</term></term> Fray <persName>Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
-                  <rdg wit="#Z"><persName>Francisco Xavier de Alday</persName></rdg>
-                  <rdg wit="#A"><persName>Francisco Javier de Aldai</persName></rdg>
+               </app> del <term n="8">Colegio de <term n="29">Propaganda</term></term> Fray <persName n="7">Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
+                  <rdg wit="#Z"><persName n="6">Francisco Xavier de Alday</persName></rdg>
+                  <rdg wit="#A"><persName n="6">Francisco Javier de Aldai</persName></rdg>
                </app> con seis <app>
                   <rdg wit="#Z">Religiosos,</rdg>
                   <rdg wit="#A">religiosos</rdg>
@@ -405,8 +406,8 @@
                   <rdg wit="#Z">hallandose</rdg>
                   <rdg wit="#A">hallándose</rdg>
                </app> a todo presente <term n="12">Don</term> <app>
-                  <rdg wit="#Z"><persName>Gonzalo Maria de Figueroa</persName></rdg>
-                  <rdg wit="#A"><persName>Gonzalo María de Figueroa</persName></rdg>
+                  <rdg wit="#Z"><persName n="8">Gonzalo Maria de Figueroa</persName></rdg>
+                  <rdg wit="#A"><persName n="8">Gonzalo María de Figueroa</persName></rdg>
                </app> , <app>
                   <rdg wit="#Z">Secretario de la Comicion:</rdg>
                   <rdg wit="#A">secretario de la comisión,</rdg>
@@ -652,8 +653,8 @@
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
                </app> <term n="23">Señor</term> <app>
-                  <rdg wit="#Z"><persName>Marques de <placeName>Osorno</placeName></persName></rdg>
-                  <rdg wit="#A"><persName>Marqués de <placeName>Osorno</placeName></persName></rdg>
+                  <rdg wit="#Z"><persName n="17">Marques de <placeName>Osorno</placeName></persName></rdg>
+                  <rdg wit="#A"><persName n="17">Marqués de <placeName>Osorno</placeName></persName></rdg>
                </app> el año <app>
                   <rdg wit="#Z">pasado</rdg>
                   <rdg wit="#A"/>
@@ -668,8 +669,8 @@
                   <rdg wit="#Z">demonstrado</rdg>
                   <rdg wit="#A">demostrado</rdg>
                </app> el Brigadier Comandante del Cuerpo de Dragones <term n="12">Don</term> <app>
-                  <rdg wit="#Z"><persName>Pedro Nolasco del Rio</persName></rdg>
-                  <rdg wit="#A"><persName>Pedro Nolasco del Río</persName></rdg>
+                  <rdg wit="#Z"><persName n="23">Pedro Nolasco del Rio</persName></rdg>
+                  <rdg wit="#A"><persName n="23">Pedro Nolasco del Río</persName></rdg>
                </app>, que os ha <app>
                   <rdg wit="#Z">governado</rdg>
                   <rdg wit="#A">gobernado</rdg>
@@ -809,15 +810,15 @@
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
                </app> y Soberano <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <app>
-                  <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
-                  <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
+                  <rdg wit="#Z"><persName n="2">Carlos quarto</persName></rdg>
+                  <rdg wit="#A"><persName n="2">Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
                   <rdg wit="#Z">Succesor</rdg>
                   <rdg wit="#A">sucesor</rdg>
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias <term n="12">Don</term> <persName>Fernando</persName>, <app>
+               </app> de Asturias <term n="12">Don</term> <persName n="4">Fernando</persName>, <app>
                   <rdg wit="#Z">debian</rdg>
                   <rdg wit="#A">debían</rdg>
                </app> prometer y jurar <app>
@@ -1455,9 +1456,9 @@
                   <rdg wit="#Z">lizencia</rdg>
                   <rdg wit="#A">licencia</rdg>
                </app> para hablar el Cacique <app>
-                  <rdg wit="#Z">Governador de la <term n="11">Reduccion</term> cristiana de <placeName>Santa Fee</placeName> <term n="12">Don</term> <persName>Ygnacio
+                  <rdg wit="#Z">Governador de la <term n="11">Reduccion</term> cristiana de <placeName>Santa Fee</placeName> <term n="12">Don</term> <persName n="9">Ygnacio
                      Naipayl[ic]an</persName>,</rdg>
-                  <rdg wit="#A">Gobernador de la <term n="11">Reducción</term> Cristiana de <placeName>Santa Fe</placeName>, <term n="12">Don</term> <persName>Ignacio
+                  <rdg wit="#A">Gobernador de la <term n="11">Reducción</term> Cristiana de <placeName>Santa Fe</placeName>, <term n="12">Don</term> <persName n="9">Ignacio
                      Nágpayluan</persName></rdg>
                </app> conforme a la preferencia antigua que tiene en estos casos<app>
                   <rdg wit="#Z">, y concedida, dirigio</rdg>
@@ -1475,8 +1476,8 @@
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
                </app> <term n="2">Butalmapus</term>, el que recayó por votos uniformes en el<app>
-                  <rdg wit="#Z"> Governador de la <term n="11">Reduccion</term> de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinaguel</persName></rdg>
-                  <rdg wit="#A">Gobernador de la <term n="11">Reducción</term> de <placeName>Angol</placeName> <term n="12">Don</term> <persName>Francisco Curinagüel</persName></rdg>
+                  <rdg wit="#Z"> Governador de la <term n="11">Reduccion</term> de <placeName>Angol</placeName> <term n="12">Don</term> <persName n="5">Francisco Curinaguel</persName></rdg>
+                  <rdg wit="#A">Gobernador de la <term n="11">Reducción</term> de <placeName>Angol</placeName> <term n="12">Don</term> <persName n="5">Francisco Curinagüel</persName></rdg>
                </app>, y en <app>
                   <rdg wit="#Z">consequencia</rdg>
                   <rdg wit="#A">consecuencia</rdg>
@@ -1517,7 +1518,7 @@
                </app> hecha por el <app>
                   <rdg wit="#Z"> Excelentisimo <term n="23">Señor</term> Capitan General en el <term n="23">señor</term></rdg>
                   <rdg wit="#A">Excmo. <term n="23">Señor</term> Capitán General en el <term n="23">Señor</term></rdg>
-               </app> Brigadier <term n="12">Don</term> <persName>Pedro Quijada</persName> para presidir el <term n="16">Parlamento</term> General<app>
+               </app> Brigadier <term n="12">Don</term> <persName n="24">Pedro Quijada</persName> para presidir el <term n="16">Parlamento</term> General<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> era de la mayor <app>
@@ -1671,10 +1672,10 @@
                </app> y lo firmo<app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. -</rdg>
-               </app> <persName>Pedro Quijada</persName><app>
+               </app> <persName n="24">Pedro Quijada</persName><app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">. -</rdg>
-               </app> <persName>Gonzalo Maria de Figueroa</persName><app>
+               </app> <persName n="8">Gonzalo Maria de Figueroa</persName><app>
                   <rdg wit="#Z"> = </rdg>
                   <rdg wit="#A">."</rdg>
                </app></ab>
@@ -1828,11 +1829,11 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> lo firmó<app>
-                  <rdg wit="#Z"> = <persName>Pedro Quijada</persName> =</rdg>
-                  <rdg wit="#A">. -<persName>Pedro Quijada</persName>. -</rdg>
+                  <rdg wit="#Z"> = <persName n="24">Pedro Quijada</persName> =</rdg>
+                  <rdg wit="#A">. -<persName n="24">Pedro Quijada</persName>. -</rdg>
                </app><app>
-                  <rdg wit="#Z"><persName>Gonzalo Maria de Figueroa</persName></rdg>
-                  <rdg wit="#A"><persName>Gonzalo María de Figueroa</persName></rdg>
+                  <rdg wit="#Z"><persName n="8">Gonzalo Maria de Figueroa</persName></rdg>
+                  <rdg wit="#A"><persName n="8">Gonzalo María de Figueroa</persName></rdg>
                </app> <app>
                   <rdg wit="#Z"> =</rdg>
                   <rdg wit="#A">.-"</rdg>
@@ -1888,7 +1889,7 @@
                </app> para celebrar <term n="16">Parlamento</term> a presencia del <app>
                   <rdg wit="#Z">Excelentisimo</rdg>
                   <rdg wit="#A">Excmo.</rdg>
-               </app> <term n="24"><term n="23">Señor</term> <persName>Marqués de <placeName>Osorno</placeName></persName></term>, cuyos <app>
+               </app> <term n="24"><term n="23">Señor</term> <persName n="17">Marqués de <placeName>Osorno</placeName></persName></term>, cuyos <app>
                   <rdg wit="#Z">Tratados</rdg>
                   <rdg wit="#A">tratados</rdg>
                </app> y consejos<app>
@@ -2873,15 +2874,15 @@
                   <rdg wit="#Z">Poderoso</rdg>
                   <rdg wit="#A">poderoso</rdg>
                </app> Rey de las Españas el <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <app>
-                  <rdg wit="#Z"><persName>Carlos quarto</persName></rdg>
-                  <rdg wit="#A"><persName>Carlos Cuarto</persName></rdg>
+                  <rdg wit="#Z"><persName n="2">Carlos quarto</persName></rdg>
+                  <rdg wit="#A"><persName n="2">Carlos Cuarto</persName></rdg>
                </app>, y por su <app>
                   <rdg wit="#Z">immediato Succesor</rdg>
                   <rdg wit="#A">inmediato sucesor</rdg>
                </app> al <app>
                   <rdg wit="#Z">Serenisimo Principe</rdg>
                   <rdg wit="#A">Serenísimo Príncipe</rdg>
-               </app> de Asturias <term n="12">Don</term> <persName>Fernando</persName><app>
+               </app> de Asturias <term n="12">Don</term> <persName n="4">Fernando</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y que <app>
@@ -2946,9 +2947,9 @@
                      tiene encargado se les trate con la mayor humanidad y obsequio, a quien por eso
                      deben reconocer como padre, y rendirle sus mas humildes homenages, como a todos
                      los gefes que en su Real nombre goviernan este Reyno, y su frontera; y fi
-                     nalmente, que dandose las merecidas gracias al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro
+                     nalmente, que dandose las merecidas gracias al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName n="24">Pedro
                      Quijada</persName> Comicionado Presidente, por su buen desempeño, y ventajosos efectos de
-                     este acto, no menos que al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro Nolazco del Rio</persName> Comandante
+                     este acto, no menos que al <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName n="23">Pedro Nolazco del Rio</persName> Comandante
                      de la <term n="18">Plaza</term> de <placeName>los Angeles</placeName>, por su cooperacion, e infl ujo con los Yndios que
                      ha tenido para el logro de aquellos, se le remita Testimonio de este Auto para
                      su archivo en la Comandancia, e Yntendencia de dicha Provincia, y que reparta
@@ -2956,8 +2957,8 @@
                      los Comandantes de las <term n="18">Plazas</term> Fronterizas, <term n="4">Cavildo</term> de la Ciudad, y demas a
                      quienes toque de qualquier manera, y que con el integro de estas Actas se de
                      cuenta a su Magestad para su Real inteligencia, y aprobacion. Y asi lo proveyó,
-                     mandó, y firmó su Excelencia, de que certifico = <persName>Muñoz</persName> = Por mandado de su
-                     Excelencia = <persName>Judas Tadeo Reyes</persName>, Secretario. <pb ed="#Z" n="421"/>Concuerda con
+                     mandó, y firmó su Excelencia, de que certifico = <persName n="20">Muñoz</persName> = Por mandado de su
+                     Excelencia = <persName n="12">Judas Tadeo Reyes</persName>, Secretario. <pb ed="#Z" n="421"/>Concuerda con
                      su original [de] que certifico. Santiago y octubre dies y ocho de mil
                      ochosientos tres.</rdg>
                   <rdg wit="#A"/>
@@ -2967,7 +2968,7 @@
          <!-- whc 1/20/23: see printed copy of Z for formatting -->
          <div>
             <ab><app>
-                  <rdg wit="#Z"><persName>Antonio Garfias</persName>
+                  <rdg wit="#Z"><persName n="1">Antonio Garfias</persName>
                      <lb/>Escrivano subtituto de Gobierno 
                      <lb/>RESUMEN 
                      <lb/><term n="5">Caciques</term> de los quatro <term n="2">Butalmapus</term> 239 
@@ -2984,7 +2985,7 @@
                que fueron llegando en los dias consecutivos de la Parla, que por las ocupaciones no se
                pudieron llevar en cuenta. Y para que conste lo firmamos los sobredichos <term n="7">Comisario
                General de Naciones, y Lengua General</term>, en la <term n="18">Plaza</term> de los Angeles en ocho de Marzo de
-               mil ochocientos tres = <persName>Sebastian Xibaja</persName> = <persName>Fermin Villagran</persName>.</rdg><rdg wit="#A"/></app></ab></div>
+               mil ochocientos tres = <persName n="25">Sebastian Xibaja</persName> = <persName n="3">Fermin Villagran</persName>.</rdg><rdg wit="#A"/></app></ab></div>
             
             <div><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
             adjunto Expediente del Parlamento General celebrado en el Campo de <placeName>Negrete</placeName> con los
@@ -3001,10 +3002,12 @@
             orientaran a Vuexcelencia de los Tratados, y ratificaciones de una paz general concertada
             a beneficio del mejor Servicio del Rey, y de una Sociedad asegurada con los naturales,
             ofrecido todo por la demonstracion de sus promesas, y cargos sugeridos Sin embargo
-            de no haber alcanzado en la celebracion el Acesor Doctor <term n="12">Don</term> <persName>Juan Martinez de Rosas</persName>,
+            de no haber alcanzado en la celebracion el Acesor Doctor <term n="12">Don</term> 
+            <persName n="10">Juan Martinez de Rosas</persName>,
             como Auditor de Guerra, segun la costumbre de otros Parlamentos, a estimulo de los
             conocimientos, y practica del <term n="23">Señor</term> Brigadier Comandante del Cuerpo de Dragones
-            <term n="12">Don</term> <persName>Pedro Nolazco del Rio</persName> (como tengo a Vuexcelencia anunciado) confie con su asociamiento
+            <term n="12">Don</term> <persName n="23">Pedro Nolazco del Rio</persName> 
+            (como tengo a Vuexcelencia anunciado) confie con su asociamiento
             quanto se ha ofrecido, y he logrado su conclucion, lisongeandome de los meritos
             que proporcionalmente lo han hecho ventajoso, pudiendo Vuexcelencia conocerlo
             en sus Articulos, corto tiempo del Congreso, nada de superfluidad en sus gastos, a pesar
@@ -3025,8 +3028,8 @@
             mayor satisfacción =</rdg><rdg wit="#A"/></app></ab></div>
             
             <div><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. Concepcion treinta de
-            Abril de mil ochocientos tres = Excelentisimo <term n="23">Señor</term> = <persName>Pedro Quijada</persName> = Excelentisimo
-                     <pb ed="#Z" n="422"/><term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Luis Muñoz de Guzman</persName>, Teniente General de los
+            Abril de mil ochocientos tres = Excelentisimo <term n="23">Señor</term> = <persName n="24">Pedro Quijada</persName> = Excelentisimo
+                     <pb ed="#Z" n="422"/><term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName n="14">Luis Muñoz de Guzman</persName>, Teniente General de los
                      Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de <placeName>Chile</placeName>
                = </rdg><rdg wit="#A"/></app></ab></div>
                      
@@ -3039,14 +3042,14 @@
          
         
                      <div><ab><app><rdg wit="#Z">Habiendo visto el <term n="16">Parlamento</term> General celebrado en el
-                     Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName>Pedro Quijada</persName>,
+                     Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName n="24">Pedro Quijada</persName>,
                      Comandante Ynterino de Armas de la Provincia de la <placeName>Concepcion</placeName>, con los quatro
                      <term n="2">Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
                      cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
                      Articulos de su contenido, respecto de dirigirse a la ratificacion de los
                      Tratados, y <term n="16">Parlamento</term>s anteriores aprobados por su Magestad, como oportunos
                      para la consolidacion de la paz, y mejor civilizacion de aquellas naciones, y
-                     su reconocimiento a la Soberana de nuestro Catolico Rey y <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Carlos
+                     su reconocimiento a la Soberana de nuestro Catolico Rey y <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName n="2">Carlos
                      quarto</persName>: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
                      ellos quedó establecido de acuerdo con los governadores, <term n="5">caciques</term>, y <term n="26">gilmenes</term>
                      de sus respectivas Parcialidades, y <term n="1">Ayllareques</term>, precaviendose por lo que
@@ -3086,7 +3089,7 @@
                      se le persuada, desista de su pretencion de tener parroco micionero a exemplo
                      de su respetable antecesor el anciano honrado Levigueque, por ser esta una
                      materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo <term n="23">Señor</term>
-                     <persName>Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
+                     <persName n="21">Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
                      Constituciones Pontificias, e Ynstituto de los Micioneros, que solo deben
                      emplearse en la convercion de los Ynfieles, hasta que formalicen las
                         <term n="11">reducciones</term>, respecto de que la de <placeName>Santa Feé</placeName>, por su antiguedad, entera
@@ -3104,23 +3107,29 @@
 
          <div>
             <ab><app>
-                  <rdg wit="#Z"><persName>Pedro Quijada</persName> = 
-                     <persName>Pedro Nolazco del Rio</persName> = 
-                     <persName>Mariano José de Roa</persName> = 
-                     <persName>Juan Zapatero</persName> = 
-                     <persName>Manuel de Vega Bazan</persName> = 
-                     <persName>Pedro José de Benavente</persName> = 
-                     <persName>Melchor de Carvajal</persName> = 
-                     <persName>Luis de la Cruz</persName> = 
-                     <persName>Miguel Puga</persName> = 
-                     Fray <persName>Francisco Xavier de Alday</persName> = 
-                     Fray <persName>Gil Calvo</persName> = Guardian de <placeName>Chillan</placeName> = 
-                     <persName>Gonzalo Maria de Figueroa</persName>, Secretario de la Comicion.</rdg>
-                  <rdg wit="#A"><persName>Pedro Quijada</persName>. - <persName>Pedro Nolasco del Rio</persName>. - <persName>Mariano José de Roa</persName>. -
-                     <persName>Juan Zapatero</persName>. - <persName>Melchor de Carvajal</persName>. - <persName>Pedro José de Benavente</persName>. - Miguel Puga.
-                     - Luis de la Cruz – Fr. <persName>Gil Calvo</persName>.- Guardián de <placeName>Chillán</placeName>. - Fr. <persName>Francisco Javier
-                     de Aldai</persName> Prefecto de Misiones. _ <persName>Gonzalo M. de Figueroa</persName> secretario de la
-                     comisión." </rdg>
+                  <rdg wit="#Z"><persName n="24">Pedro Quijada</persName> = 
+                     <persName n="23">Pedro Nolazco del Rio</persName> = 
+                     <persName n="16">Mariano José de Roa</persName> = 
+                     <persName n="11">Juan Zapatero</persName> = 
+                     <persName n="15">Manuel de Vega Bazan</persName> = 
+                     <persName n="22">Pedro José de Benavente</persName> = 
+                     <persName n="18">Melchor de Carvajal</persName> = 
+                     <persName n="13">Luis de la Cruz</persName> = 
+                     <persName n="19">Miguel Puga</persName> = 
+                     Fray <persName  n="6">Francisco Xavier de Alday</persName> = 
+                     Fray <persName n="7">Gil Calvo</persName> = Guardian de <placeName>Chillan</placeName> = 
+                     <persName n="8">Gonzalo Maria de Figueroa</persName>, Secretario de la Comicion.</rdg>
+                  <rdg wit="#A"><persName n="24">Pedro Quijada</persName>. - 
+                     <persName n="23">Pedro Nolasco del Rio</persName>. - 
+                     <persName n="16">Mariano José de Roa</persName>. -
+                     <persName n="11">Juan Zapatero</persName>. - 
+                     <persName n="18">Melchor de Carvajal</persName>. - 
+                     <persName n="22">Pedro José de Benavente</persName>. - 
+                     <persName n="19">Miguel Puga</persName>. -
+                     <persName n="24">Luis de la Cruz</persName>. – 
+                     Fr. <persName n="7">Gil Calvo</persName>.- Guardián de <placeName>Chillán</placeName>. - 
+                     Fr. <persName  n="6">Francisco Javier de Aldai</persName> Prefecto de Misiones. _ 
+                     <persName n="8">Gonzalo M. de Figueroa</persName> secretario de la comisión." </rdg>
                </app>
             </ab>
          </div>
@@ -3135,7 +3144,6 @@
                </app>
             </ab>
          </div>
-
       </body>
    </text>
 </TEI>
