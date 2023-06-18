@@ -53,11 +53,190 @@
                 </entry>
             </superEntry>
             
-            <superEntry n="">
+            <superEntry n="1">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Ayllareques</orth>
+                        
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>Province located in a butalmapu or principality in the Mapuche territory</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Ayllareques</orth>
+                        
+                    </form>
+                    <sense n="1">
+                        <def>Province located in a butalmapu or principality in the Mapuche territory</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="2">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Butalmapus</orth>
+                        
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>From  the Mapudungun term fütalmapu or "great land" to desginate the four principalities of the Mapuche territory</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Butalmapus</orth>
+                      
+                    </form>
+                    <sense n="1">
+                        <def>From  the Mapudungun term fütalmapu or "great land" to desginate the four principalities of the Mapuche territory</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="4">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Cavildo</orth>
+                        <orth>Cabildo</orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>Municipal council in colonial Spanish America</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Cabildo</orth>
+                        
+                    </form>
+                    <sense n="1">
+                        <def>Municipal council in colonial Spanish America</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="5">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Caciques</orth>
+                        <orth>caciques</orth>
+                        <orth>cacique</orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>Native indigenous chief- name given to all indigenous peoples of the Spanish empire by the Spanish. The correct technial name for a Mapuche chief is: Lonko</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Caciques</orth>
+                        <orth>caciques</orth>
+                        <orth>Cacique</orth>
+                        <orth>cacique</orth>
+                    </form>
+                    <sense n="1">
+                        <def>Native indigenous chief- name given to all indigenous peoples of the Spanish empire by the Spanish. The correct technial name for a Mapuche chief is: Lonko</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="6">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Capitanejos</orth>
+                        <orth>capitanejos</orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>A subordinate of a Cacique</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Capitanejos</orth>
+                        <orth>capitanejos</orth>
+                    </form>
+                    <sense n="1">
+                        <def>A subordinate of a Cacique</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="7">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Comisario de Naciones , Lengua general, General</orth>
+                        <orth>Comisario de Naciones y Lenguas general, Lengua General</orth>
+                        <orth>Comisario General de Naciones</orth>
+                        <orth>Comisario de Naciones</orth>
+                        <orth>Comisario de Naciones y Lengua general</orth>
+                        <orth>Comisario General de Naciones, y Lengua General</orth>
+                       
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>1, 2 According to the historian, José Manuel Zavala, this individual is "a representative of the governor….before the Mapuche." He understands and speaks the Mapuche language, understands their ways, and the Mapuche have confidence in this individual. (J.M. Zavala et al. (eds.), The Hispanic-Mapuche Parlamentos: Interethnic Geo-Politics and Concessionary Spaces in Colonial America, Ch. 5, p.78, footnote 10.)</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Commissioner of Nations and General Language</orth>
+                        <orth>General Commissioner of Nations</orth>
+                        <orth>Commissioner of Nations</orth>
+                        <orth>General Commissioner of Nations and General Language</orth>
+                    </form>
+                    <sense n="1">
+                        <def>1, 2 According to the historian, José Manuel Zavala, this individual is "a representative of the governor….before the Mapuche." He understands and speaks the Mapuche language, understands their ways, and the Mapuche have confidence in this individual. (J.M. Zavala et al. (eds.), The Hispanic-Mapuche Parlamentos: Interethnic Geo-Politics and Concessionary Spaces in Colonial America, Ch. 5, p.78, footnote 10.)</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="8">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Colegio de Propaganda</orth>
+                        
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>2 refers to the name of a Franciscan missionary school in the city of Chillán. The goal of the Franciscan friars at this school was to educate and administer the Catholic faith to those who attended, which included children of prominent Pehuenche caciques.</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Colegio de Propaganda</orth>
+                        
+                    </form>
+                    <sense n="1">
+                        <def>2 refers to the name of a Franciscan missionary school in the city of Chillán. The goal of the Franciscan friars at this school was to educate and administer the Catholic faith to those who attended, which included children of prominent Pehuenche caciques.</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="9">
+                <!--EW Missing Definition-->
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Cordillera</orth>
+                        <orth>cordillera</orth>
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
@@ -67,8 +246,8 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Cordillera</orth>
+                        
                     </form>
                     <sense n="1">
                         <def></def>
@@ -77,107 +256,133 @@
                 </entry>
             </superEntry>
             
-            <superEntry n="">
+            <superEntry n="10">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>ponchos</orth>
+                        
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
-                        <def></def>
+                        <def>A garment of a type originally worn in South America, made of thick piece of woolen cloth with a slit in the middle for the head</def>
                     </sense>
                     <note></note>
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>ponchos</orth>
+                        
                     </form>
                     <sense n="1">
-                        <def></def>
+                        <def>A garment of a type originally worn in South America, made of thick piece of woolen cloth with a slit in the middle for the head</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            <superEntry n="11">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Reducciones</orth>
+                        <orth>Reduccion</orth>
+                        <orth>Reducción</orth>
+                        <orth>reducciones</orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def>A military occupation of Mapuche lands which dispossessed and resettled Mapuche peoples from their territory and moved them onto government approved territorial allotments called reducciones, literally reductions</def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Reductions</orth>
+                        <orth>Reduction</orth>
+                        <orth>reductions</orth>
+                    </form>
+                    <sense n="1">
+                        <def>A military occupation of Mapuche lands which dispossessed and resettled Mapuche peoples from their territory and moved them onto government approved territorial allotments called reducciones, literally reductions</def>
                     </sense>
                     <note></note>
                 </entry>
             </superEntry>
             
-            <superEntry n="">
+            <superEntry n="12">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>don</orth>
+                        <orth>Don</orth>
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
-                        <def></def>
+                        <def>Spanish courtesy term to respectfully address a man. Equivalent to Mr. or Sir in English, this term is placed before a first name or a full name</def>
                     </sense>
                     <note></note>
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
+                        <orth>Don</orth>
                         <orth></orth>
                     </form>
                     <sense n="1">
-                        <def></def>
+                        <def>Spanish courtesy term to respectfully address a man. Equivalent to Mr. or Sir in English, this term is placed before a first name or a full name</def>
                     </sense>
                     <note></note>
                 </entry>
             </superEntry>
-            
-            <superEntry n="">
+            <superEntry n="13">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>malocas</orth>
+                        <orth>Malocas</orth>
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
-                        <def></def>
+                        <def>To attack, ambush, or assault in squads</def>
                     </sense>
                     <note></note>
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>malocas</orth>
+                      
                     </form>
                     <sense n="1">
-                        <def></def>
+                        <def>To attack, ambush, or assault in squads</def>
                     </sense>
                     <note></note>
                 </entry>
             </superEntry>
-            
-            <superEntry n="">
+            <superEntry n="14">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>mozetones</orth>
+                        <orth>mocetones</orth>
+                        <orth>Mozetones</orth>
+                       
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
-                        <def></def>
+                        <def>Strong young men</def>
                     </sense>
                     <note></note>
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>mozetones</orth>
+                        <orth>Mozetones</orth>
                     </form>
                     <sense n="1">
-                        <def></def>
+                        <def>Strong young men</def>
                     </sense>
                     <note></note>
                 </entry>
             </superEntry>
-            
-            <superEntry n="">
+            <superEntry n="15">
+                <!--EW Missing Definition-->
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Parla</orth>
+                        <orth>parla</orth>
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
@@ -187,195 +392,8 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-            </superEntry>
-            <superEntry n="">
-                <entry xml:lang="span">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
-                    </form>
-                    <gramGrp><pos></pos></gramGrp>
-                    <sense n="1">
-                        <def></def>
-                    </sense>
-                    <note></note>
-                </entry>
-                <entry xml:lang="eng">
-                    <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Parla</orth>
+                        <orth>parla</orth>
                     </form>
                     <sense n="1">
                         <def></def>
