@@ -37,7 +37,16 @@
                         <hr />
                         <div class="content">
                             <h1><xsl:apply-templates select="//titleStmt/title"/><xsl:text>: Comparación de Textos</xsl:text></h1>
-                            <h3>Pase a la sección:<xsl:text>   </xsl:text>
+                            <p>[Translate into Spanish:] The Parlamento of Negrete of 1803 has been published twice. The first publication was undertaken
+                                by Corporación Ayun, a Mapuche group. More recently, a new edition was published by José Manuel Zavala Cepeda.</p>
+                            <p>The Ayun version updated the original spelling, punctuation, and grammar for easier reading by a modern audience, while the 
+                            Zavala edition was a more literal transcription of the text as it appears in the archival documents. Zavala's text is thus more correct for 
+                            scholarly purposes. Moreover, several paragraphs of the original text were omitted entirely from the Ayun edition. Therefore, the 
+                            English translation that appears on this site was completed using Zavala's as the base text.</p>
+                            <p>The page below includes the Zavala and Ayun editions in parallel columns to allow readers to examine the differences between
+                            the two versions. To facilitate comparative reading, the passages where they differ are shown in red.
+                            </p>
+                            <hr/>                            <h3>Pase a la sección:<xsl:text>   </xsl:text>
                             <xsl:for-each select="//body/div">
                                 <a href="#sect-{data(@n)}"><xsl:value-of select='data(@n)'/></a>  
                                 <xsl:text>   </xsl:text>
@@ -97,37 +106,37 @@
                     </xsl:if>
                     
                     <xsl:if test="ab[.//term or .//persName or .//placeName]">
-                        <h1><b>Notas</b></h1><xsl:text>  </xsl:text> <i> Haga clic en cada triángulo para ampliar/contraer</i>
-                        <a class="top-btn" href="#">Inicio de página</a><hr/>
-                    
+                       <i> Haga clic en cada triángulo para ampliar/contraer notas</i>
                         <xsl:if test=".//term">
                             <h2><b>Términos</b></h2>
                                     <xsl:for-each-group select=".//term" group-by="data(@n)">
                                         <xsl:variable name="term-n" select="./data(@n)"/>
+                                        <xsl:variable name="sense-n" select="./data(@select)"/>
                                         <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
                                         <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
-                                            <i><xsl:apply-templates select="$this-term-span//pos"/></i>
-                                            <xsl:text>. </xsl:text>
+                                            <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
+                                            <xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=$sense-n]"/>
+                                            <!--whc: commenting out 19-JUN-2023: This is the code that would show every sense for every term, every time
                                             <xsl:for-each select="$this-term-span//sense">
                                                 <xsl:value-of select="./data(@n)"/><xsl:text>. </xsl:text>
                                                 <xsl:apply-templates/><xsl:text>. </xsl:text>
                                             </xsl:for-each><br/>
-                                            <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/><br/></details>
+                                            <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/> -->
+                                            
+                                            <br/></details>
                                     </xsl:for-each-group>        </xsl:if>
                                                 
                         <xsl:if test=".//persName">
-                            <span class="title"><b>Personas</b></span><xsl:text>  </xsl:text> <i>Haga clic en cada nombre para ampliar/contraer</i>
-                                <p>
+                            <h2><b>Personas</b></h2>
                                     <xsl:for-each-group select=".//persName" group-by="data(@n)">
                                         <xsl:variable name="pers-n" select="./data(@n)"/>
                                         <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
                                         <details><summary><b><xsl:apply-templates select="$this-pers/persName/name"/></b></summary>
                                             <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
-                                    </xsl:for-each-group>   </p>     </xsl:if>
+                                    </xsl:for-each-group>        </xsl:if>
                         
                         <xsl:if test=".//placeName">
-                            <span class="title"><b>Lugares</b></span><xsl:text>  </xsl:text> <i>Haga clic en cada lugar para ampliar/contraer</i>
-                                <p>
+                            <h2><b>Lugares</b></h2>
                                     <xsl:for-each-group select=".//placeName" group-by="data(@n)">
                                         <xsl:variable name="place-n" select="./data(@n)"/>
                                         <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
@@ -136,14 +145,13 @@
                                             <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
                                             <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
                                         </details>
-                                    </xsl:for-each-group>   </p>     </xsl:if>
-                        
+                                    </xsl:for-each-group>        </xsl:if>
+                        `       <a class="top-btn" href="#">Inicio de página</a>
                         </xsl:if>
                     
                     
-                    <!--whc: below here is unchanged double depth details tags-->
-                    
-                    <xsl:if test=".//term">
+                    <!--whc: below here is unchanged double depth details tags
+              <xsl:if test=".//term">
                         <details>
                             <summary><span class="title"><b>Términos</b></span></summary> <i>Haga clic en cada término para ampliar/contraer</i>
                         <p>
@@ -184,8 +192,9 @@
                                         <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
                                     </details>
                                 </xsl:for-each-group>   </p></details>     
-                    </xsl:if>
-                    
+                                
+                    </xsl:if> -->
+                
                 </td>
             </tr>
         </xsl:if>
@@ -228,7 +237,7 @@
         <p><b>Lugar de publicación: </b><xsl:value-of select="pubPlace"/></p>
         <p><b>Fecha de publicación: </b><xsl:value-of select="date"/></p>
         <p><b>Intervalo de página: </b><xsl:value-of select="biblScope"/></p>
-            <p><b>Notas: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>     
+<!--whc: commenting out 19-JUN-2023      <p><b>Notas: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>      -->
     </xsl:template>
 
     <xsl:template match="div//persName" mode="#all">
@@ -242,6 +251,11 @@
     <xsl:template match="placeName" mode="#all">
         <i><span class="place"><xsl:apply-templates/></span></i>
     </xsl:template>
+    
+    <xsl:template match="rdg" mode="#all">
+        <span class="variant"><xsl:apply-templates/></span>
+    </xsl:template>
+
     <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
         of nodes controlled at a higher level with modal XSLT. -->
 

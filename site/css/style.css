@@ -34,6 +34,10 @@ html{
 scroll-behavior: smooth;
 }
 
+.variant{
+    color: #8B0000;
+}
+
 .top-btn{
     float:right;
     background-color: #F5F5F5;

@@ -19,7 +19,7 @@
     <text>
         <body>
             
-            <superEntry n="0">
+            <superEntry n="0"> <!--whc: 19-JUN-2023: This first superEntry is just for demonstration purposes; it is not being used-->
                 <entry xml:lang="span">
                     <form>
                         <orth>Nacion</orth>
@@ -57,7 +57,6 @@
                 <entry xml:lang="span">
                     <form>
                         <orth>Ayllareques</orth>
-                        
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
@@ -68,7 +67,6 @@
                 <entry xml:lang="eng">
                     <form>
                         <orth>Ayllareques</orth>
-                        
                     </form>
                     <sense n="1">
                         <def>Province located in a butalmapu or principality in the Mapuche territory</def>
@@ -85,7 +83,7 @@
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
-                        <def>From  the Mapudungun term fütalmapu or "great land" to desginate the four principalities of the Mapuche territory</def>
+                        <def>From the Mapudungun term fütalmapu or "great land" to desginate the four principalities of the Mapuche territory</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -95,7 +93,7 @@
                       
                     </form>
                     <sense n="1">
-                        <def>From  the Mapudungun term fütalmapu or "great land" to desginate the four principalities of the Mapuche territory</def>
+                        <def>From the Mapudungun term fütalmapu or "great land" to desginate the four principalities of the Mapuche territory</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -329,6 +327,7 @@
                     <note></note>
                 </entry>
             </superEntry>
+            
             <superEntry n="13">
                 <entry xml:lang="span">
                     <form>
@@ -344,7 +343,6 @@
                 <entry xml:lang="eng">
                     <form>
                         <orth>malocas</orth>
-                      
                     </form>
                     <sense n="1">
                         <def>To attack, ambush, or assault in squads</def>
@@ -352,13 +350,13 @@
                     <note></note>
                 </entry>
             </superEntry>
+            
             <superEntry n="14">
                 <entry xml:lang="span">
                     <form>
                         <orth>mozetones</orth>
                         <orth>mocetones</orth>
                         <orth>Mozetones</orth>
-                       
                     </form>
                     <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
@@ -377,6 +375,7 @@
                     <note></note>
                 </entry>
             </superEntry>
+            
             <superEntry n="15">
                 <!--EW Missing Definition-->
                 <entry xml:lang="span">
@@ -401,6 +400,7 @@
                     <note></note>
                 </entry>
             </superEntry>
+            
             <superEntry n="">
                 <entry xml:lang="span">
                     <form>

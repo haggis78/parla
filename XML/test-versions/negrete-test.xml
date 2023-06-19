@@ -52,7 +52,7 @@
          <div n="1"><!--whc 25-May-2023: adding n= to divs; changing stylesheet to pull this number instead of counting divs-->
             <pb ed="#A" n="7"/>
             <pb ed="#Z" n="413"/>
-            <head><term n="6">Parlamento</term> <app>
+            <head><term n="6" select="1">Parlamento</term> <app>
                   <rdg wit="#A"> general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
                </app> de <placeName>Negrete</placeName> <app>
@@ -87,21 +87,21 @@
                   <rdg wit="#Z">: El Señor Don </rdg>
                   <rdg wit="#A">, el señor don </rdg>
                </app> <persName n="2">Pedro Quijada</persName>, Brigadier de los Reales <app>
-                  <rdg wit="#Z"><term n="2">Exercitos</term>,</rdg>
-                  <rdg wit="#A">, <term n="2">Ejércitos</term> y</rdg>
+                  <rdg wit="#Z"><term n="2" select="2">Exercitos</term>,</rdg>
+                  <rdg wit="#A">, <term n="2" select="2">Ejércitos</term> y</rdg>
                </app> Comandante del Batallon de <app>
-                  <rdg wit="#Z">Ynfanteria, y <term n="1">Comicionado</term> por el Excelentisimo</rdg>
-                  <rdg wit="#A">Infantería y <term n="1">comisionado</term> por el Excmo.</rdg>
+                  <rdg wit="#Z">Ynfanteria, y <term n="1" select="1">Comicionado</term> por el Excelentisimo</rdg>
+                  <rdg wit="#A">Infantería y <term n="1" select="1">comisionado</term> por el Excmo.</rdg>
                </app> Señor <app>
                   <rdg wit="#Z">Capitan</rdg>
                   <rdg wit="#A">Capitán</rdg>
                </app> General para presidir el Parlamento con los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> <term n="3"> Cantones</term><app>
+               </app> <term n="3" select="1"> Cantones</term><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> o <term n="4">Butalmapus</term> de <app>
+               </app> o <term n="4" select="1">Butalmapus</term> de <app>
                   <rdg wit="#Z">Yndio; dixo</rdg>
                   <rdg wit="#A">indios dijo:</rdg>
                </app> que por <app>
@@ -113,7 +113,7 @@
                </app> libradas con anticipación para la <app>
                   <rdg wit="#Z">Convocatoria y citasion al Congreso, habia</rdg>
                   <rdg wit="#A">convocatoria y citación al Congreso había</rdg>
-               </app> tenido aviso que los dichos <term n="4">Butalmapus</term> se hallaban en la mayor parte a las
+               </app> tenido aviso que los dichos <term n="4" select="1">Butalmapus</term> se hallaban en la mayor parte a las
                orillas del <app>
                   <rdg wit="#Z"><placeName n="101">Biovío</placeName></rdg>
                   <rdg wit="#A"><placeName n="101">Bío-Bío</placeName></rdg>
@@ -193,7 +193,7 @@
                </app> y ceremonial de estilo en estos casos<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y que el tres a las seis de la mañana se verificase la apertura del <term n="6">Parlamento</term> General<app>
+               </app> y que el tres a las seis de la mañana se verificase la apertura del <term n="6" select="1">Parlamento</term> General<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
                </app> en la <app>
@@ -255,8 +255,8 @@
                   <rdg wit="#Z">a</rdg>
                   <rdg wit="#A"/>
                </app> todos los Caciques con sus <app>
-                  <rdg wit="#Z"><term n="5">Governadores</term> y Capitanejos</rdg>
-                  <rdg wit="#A"><term n="5">Gobernadores</term> y Capitanes</rdg>
+                  <rdg wit="#Z"><term n="5" select="1">Governadores</term> y Capitanejos</rdg>
+                  <rdg wit="#A"><term n="5" select="1">Gobernadores</term> y Capitanes</rdg>
                </app> al saludo de estilo<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -289,7 +289,7 @@
                </app> de los <app>
                   <rdg wit="#Z">quatro</rdg>
                   <rdg wit="#A">cuatro</rdg>
-               </app> Butalmapus con doscientos treinta y nueve <app>
+               </app> <term n="4" select="2">Butalmapus</term> con doscientos treinta y nueve <app>
                   <rdg wit="#Z">Caciques,</rdg>
                   <rdg wit="#A">caciques</rdg>
                </app> y cantidad de <app>
