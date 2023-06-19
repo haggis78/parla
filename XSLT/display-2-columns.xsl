@@ -29,8 +29,6 @@
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                         <link rel="stylesheet" type="text/css" href="../css/style.css" />
-<!-- whc 07-FEB-2023: I removed the js link that made tick boxes work. Will need to add back in, plus relevant 
-                        css, to be able to change color/bold/whatever for names/places/terms etc.-->
                         <title>Negrete: Comparación de Textos</title>
                     </head>
                     <body>
@@ -65,14 +63,20 @@
     
     <xsl:template match="div">
         <xsl:if test="./head">
+            <xsl:if test="not(@n)">
+                <tr> <td>[trans to Span:] <i>A heading not in the original document was inserted by the Ayun editors only.</i></td>
+                    <th><xsl:apply-templates select="head" mode="A-head"/></th>
+                    <td></td><!--whc 19-JUN-2023: assuming there will be no notes in these sections-->
+                </tr></xsl:if>
+            <xsl:if test="@n">
             <tr id="sect-{data(@n)}">
-                <th><xsl:if test="@n">[&#167;<xsl:value-of select="data(@n)"/>] </xsl:if>  
+                <th>[&#167;<xsl:value-of select="data(@n)"/>]
                     <xsl:apply-templates select="head" mode="Z-head"/></th>
-                <th><xsl:if test="@n">[&#167;<xsl:value-of select="data(@n)"/>] </xsl:if>
+                <th>[&#167;<xsl:value-of select="data(@n)"/>]
                     <xsl:apply-templates select="head" mode="A-head"/></th>
                 <td><b>Notas</b> <i> Haga clic en cada categoría para ampliar/contraer</i>
                     <a class="top-btn" href="#">Inicio de página</a></td>
-            </tr>
+            </tr></xsl:if>
         </xsl:if>
         <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
             Get them working perfectly on div/ab and then just copy the whole thing to div/head; or figure out a way
