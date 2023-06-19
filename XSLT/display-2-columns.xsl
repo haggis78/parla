@@ -63,8 +63,10 @@
     
     <xsl:template match="div">
         <xsl:if test="./head">
-            <xsl:if test="not(@n)">
-                <tr> <td>[trans to Span:] <i>A heading not in the original document was inserted by the Ayun editors only.</i></td>
+            <xsl:if test="not(@n)"><!--whc 19-JUN-2023: This is so head divs that only appear in A (the editorial insertions),
+                which will not be numbered, do not include an id="sect-" attribute and value on them, and will include a note explaining
+                the absence of text from the Z column.--> 
+                <tr> <td>[trans to Span:] <i>A heading not in the original document was inserted here by the Ayun editors only.</i></td>
                     <th><xsl:apply-templates select="head" mode="A-head"/></th>
                     <td></td><!--whc 19-JUN-2023: assuming there will be no notes in these sections-->
                 </tr></xsl:if>
@@ -78,6 +80,7 @@
                     <a class="top-btn" href="#">Inicio de página</a></td>
             </tr></xsl:if>
         </xsl:if>
+        
         <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
             Get them working perfectly on div/ab and then just copy the whole thing to div/head; or figure out a way
             to make the notes etc. their own template rule that can be called from either type of div.-->
@@ -87,16 +90,58 @@
                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
                 <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
                     <xsl:apply-templates select="ab" mode="A-block"/> </td>
-                
                 <td>
-                    <xsl:if test="ab[.//term or .//persName or .//placeName]">
-                        <span class="title"><b>Notas</b></span> <i> Haga clic en cada categoría para ampliar/contraer</i>
-                        <a class="top-btn" href="#">Inicio de página</a><hr/>
-                    </xsl:if>
                     <xsl:if test="ab[not(.//term or .//persName or .//placeName)]">
                         <i>No hay notas en esta sección.</i>
                         <a class="top-btn" href="#">Inicio de página</a>
                     </xsl:if>
+                    
+                    <xsl:if test="ab[.//term or .//persName or .//placeName]">
+                        <h1><b>Notas</b></h1><xsl:text>  </xsl:text> <i> Haga clic en cada triángulo para ampliar/contraer</i>
+                        <a class="top-btn" href="#">Inicio de página</a><hr/>
+                    
+                        <xsl:if test=".//term">
+                            <h2><b>Términos</b></h2>
+                                    <xsl:for-each-group select=".//term" group-by="data(@n)">
+                                        <xsl:variable name="term-n" select="./data(@n)"/>
+                                        <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
+                                        <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
+                                            <i><xsl:apply-templates select="$this-term-span//pos"/></i>
+                                            <xsl:text>. </xsl:text>
+                                            <xsl:for-each select="$this-term-span//sense">
+                                                <xsl:value-of select="./data(@n)"/><xsl:text>. </xsl:text>
+                                                <xsl:apply-templates/><xsl:text>. </xsl:text>
+                                            </xsl:for-each><br/>
+                                            <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/><br/></details>
+                                    </xsl:for-each-group>        </xsl:if>
+                                                
+                        <xsl:if test=".//persName">
+                            <span class="title"><b>Personas</b></span><xsl:text>  </xsl:text> <i>Haga clic en cada nombre para ampliar/contraer</i>
+                                <p>
+                                    <xsl:for-each-group select=".//persName" group-by="data(@n)">
+                                        <xsl:variable name="pers-n" select="./data(@n)"/>
+                                        <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
+                                        <details><summary><b><xsl:apply-templates select="$this-pers/persName/name"/></b></summary>
+                                            <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
+                                    </xsl:for-each-group>   </p>     </xsl:if>
+                        
+                        <xsl:if test=".//placeName">
+                            <span class="title"><b>Lugares</b></span><xsl:text>  </xsl:text> <i>Haga clic en cada lugar para ampliar/contraer</i>
+                                <p>
+                                    <xsl:for-each-group select=".//placeName" group-by="data(@n)">
+                                        <xsl:variable name="place-n" select="./data(@n)"/>
+                                        <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
+                                        <details><summary><b><xsl:apply-templates select="$this-place/concat
+                                            (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
+                                            <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
+                                            <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
+                                        </details>
+                                    </xsl:for-each-group>   </p>     </xsl:if>
+                        
+                        </xsl:if>
+                    
+                    
+                    <!--whc: below here is unchanged double depth details tags-->
                     
                     <xsl:if test=".//term">
                         <details>
@@ -138,7 +183,9 @@
                                         <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
                                         <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
                                     </details>
-                                </xsl:for-each-group>   </p></details>     </xsl:if>
+                                </xsl:for-each-group>   </p></details>     
+                    </xsl:if>
+                    
                 </td>
             </tr>
         </xsl:if>

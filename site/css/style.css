@@ -26,6 +26,10 @@ td {
     vertical-align: top;
 }
 
+details {
+  text-indent: 20px;
+}
+
 html{
 scroll-behavior: smooth;
 }
