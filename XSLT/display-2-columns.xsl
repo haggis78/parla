@@ -71,7 +71,7 @@
     </xsl:template>
     
     <xsl:template match="div">
-        <xsl:if test="./head">
+        
             <xsl:if test="not(@n)"><!--whc 19-JUN-2023: This is so head divs that only appear in A (the editorial insertions),
                 which will not be numbered, do not include an id="sect-" attribute and value on them, and will include a note explaining
                 the absence of text from the Z column.--> 
@@ -79,33 +79,30 @@
                     <th><xsl:apply-templates select="head" mode="A-head"/></th>
                     <td></td><!--whc 19-JUN-2023: assuming there will be no notes in these sections-->
                 </tr></xsl:if>
+        
             <xsl:if test="@n">
             <tr id="sect-{data(@n)}">
+                <xsl:if test="./head">
                 <th>[&#167;<xsl:value-of select="data(@n)"/>]
                     <xsl:apply-templates select="head" mode="Z-head"/></th>
                 <th>[&#167;<xsl:value-of select="data(@n)"/>]
                     <xsl:apply-templates select="head" mode="A-head"/></th>
-                <td><b>Notas</b> <i> Haga clic en cada categoría para ampliar/contraer</i>
-                    <a class="top-btn" href="#">Inicio de página</a></td>
-            </tr></xsl:if>
-        </xsl:if>
-        
-        <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
-            Get them working perfectly on div/ab and then just copy the whole thing to div/head; or figure out a way
-            to make the notes etc. their own template rule that can be called from either type of div.-->
-        <xsl:if test="./ab">
-            <tr id="sect-{data(@n)}">
+                </xsl:if>
+                
+              <xsl:if test="./ab">
                 <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
                 <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
                     <xsl:apply-templates select="ab" mode="A-block"/> </td>
+              </xsl:if>
+                
                 <td>
-                    <xsl:if test="ab[not(.//term or .//persName or .//placeName)]">
+                    <xsl:if test="not(.//term or .//persName or .//placeName)">
                         <i>No hay notas en esta sección.</i>
                         <a class="top-btn" href="#">Inicio de página</a>
                     </xsl:if>
                     
-                    <xsl:if test="ab[.//term or .//persName or .//placeName]">
+                    <xsl:if test=".//term or .//persName or .//placeName">
                        <i> Haga clic en cada triángulo para ampliar/contraer notas</i>
                         <xsl:if test=".//term">
                             <h2><b>Términos</b></h2>
@@ -116,7 +113,9 @@
                                         <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
                                             <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
                                             <xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=$sense-n]"/>
-                                            <!--whc: commenting out 19-JUN-2023: This is the code that would show every sense for every term, every time
+                                            
+                                            <!--whc: commenting out 19-JUN-2023: This is the code that would show every sense for every term, every time;
+                                                disabling it so we can call for different senses from different instances of a given word
                                             <xsl:for-each select="$this-term-span//sense">
                                                 <xsl:value-of select="./data(@n)"/><xsl:text>. </xsl:text>
                                                 <xsl:apply-templates/><xsl:text>. </xsl:text>
@@ -150,7 +149,9 @@
                         </xsl:if>
                     
                     
-                    <!--whc: below here is unchanged double depth details tags
+                    <!--whc: 19-JUN-2023: below here is unchanged double depth details tags in case we want to reinstate them. Note: 
+                        could add attribute value on the second-order ones to indent them further while leaving first-order ones (persones, etc.)
+                        unindented - that would make the relationship clearer.
               <xsl:if test=".//term">
                         <details>
                             <summary><span class="title"><b>Términos</b></span></summary> <i>Haga clic en cada término para ampliar/contraer</i>
@@ -167,8 +168,7 @@
                         </xsl:for-each><br/>
                         <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/><br/></details>
                 </xsl:for-each-group> </p>   </details>    </xsl:if>
-                    
-                    
+                                        
                     <xsl:if test=".//persName">
                         <details><summary><span class="title"><b>Personas</b></span></summary> <i>Haga clic en cada nombre para ampliar/contraer</i>
                             <p>
@@ -184,7 +184,6 @@
                             <p>
                                 <xsl:for-each-group select=".//placeName" group-by="data(@n)">
                                     <xsl:variable name="place-n" select="./data(@n)"/>
-                                    
                                     <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
                                     <details><summary><b><xsl:apply-templates select="$this-place/concat
                                         (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
