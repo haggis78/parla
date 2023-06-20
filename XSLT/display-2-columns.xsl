@@ -44,7 +44,7 @@
                             scholarly purposes. Moreover, several paragraphs of the original text were omitted entirely from the Ayun edition. Therefore, the 
                             English translation that appears on this site was completed using Zavala's as the base text.</p>
                             <p>The page below includes the Zavala and Ayun editions in parallel columns to allow readers to examine the differences between
-                            the two versions. To facilitate comparative reading, the passages where they differ are shown in red.
+                            the two versions. To facilitate comparative reading, the passages where they differ are shown in <span class="variant">dark red</span>.
                             </p>
                             <hr/>                            <h3>Pase a la sección:<xsl:text>   </xsl:text>
                             <xsl:for-each select="//body/div">
@@ -145,7 +145,7 @@
                                             <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
                                         </details>
                                     </xsl:for-each-group>        </xsl:if>
-                        `       <a class="top-btn" href="#">Inicio de página</a>
+                               <a class="top-btn" href="#">Inicio de página</a>
                         </xsl:if>
                     
                     
@@ -240,15 +240,15 @@
     </xsl:template>
 
     <xsl:template match="div//persName" mode="#all">
-      <u><span class="pers"><xsl:apply-templates/></span></u>  
+      <span class="pers"><xsl:apply-templates/></span>  
    </xsl:template>
     
     <xsl:template match="term" mode="#all">
-        <b><span class="term"><xsl:apply-templates/></span></b>
+        <span class="term"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="placeName" mode="#all">
-        <i><span class="place"><xsl:apply-templates/></span></i>
+        <span class="place"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="rdg" mode="#all">
