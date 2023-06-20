@@ -54,8 +54,8 @@
    <text>
       <body>
 
-         <div>
-            <pb ed="#A" n="7"/><!--EW there is no number 7 in the ayun-->
+         <div n="1">
+            <pb ed="#A" n="7"/>
             <pb ed="#Z" n="413"/>
             <head><term n="16">Parlamento</term> <app>
                   <rdg wit="#A">general celebrado en el campo</rdg>
@@ -69,16 +69,15 @@
                   <rdg wit="#Z">de 1803. AGI, <placeName>Chile</placeName>, 204, fs. 1-17</rdg>
                </app></head>
          </div>
-         <div>
+         <div><!--whc 20-JUN-2023: divs that are editorial insertions in Ayun are NOT numbered, as they will have no corresponding divs in the English translation-->
             <head><app>
                   <rdg wit="#A"><lb/>Acta preliminar (instalación del comisionado real): <lb/>27 de
                      febrero de 1803</rdg>
                   <rdg wit="#Z"/>
                </app></head>
-            <!--whc 1/18/23: do I want to mark up the date here? Line breaks?-->
          </div>
 
-         <div>
+         <div n="2">
             <ab>En el campo de <placeName>Negrete</placeName> en <app>
                   <rdg wit="#Z">veinte y siete dias</rdg>
                   <rdg wit="#A">veintisiete días</rdg>
@@ -229,15 +228,15 @@
             </ab>
          </div>
 
-         <div>
+         <div><!--whc 20-JUN-2023: divs that are editorial insertions in Ayun are NOT numbered, as they will have no corresponding divs in the English translation-->
             <head><app>
                   <rdg wit="#A"><lb/>Tratado y primer acta diaria: <lb/>3 de marzo de 1803</rdg>
                   <rdg wit="#Z"/>
                </app></head>
          </div>
-         <!--whc 1/18/23: do I want to mark up the date here?-->
 
-         <div>
+
+         <div n="3">
             <ab>En el <app>
                   <rdg wit="#Z">dia</rdg>
                   <rdg wit="#A">día</rdg>
@@ -250,8 +249,7 @@
                </app> de lo mandado en el <app>
                   <rdg wit="#Z">Auto</rdg>
                   <rdg wit="#A">mismo</rdg>
-               </app><!--whc 1/19/23: check Z: A has mismo (already checked), Z has Auto. Genuine diff or is one of them a typo or autocorrect?-->
-               antecedente, <app>
+               </app> antecedente, <app>
                   <rdg wit="#Z">despues</rdg>
                   <rdg wit="#A">después</rdg>
                </app> de haberse presentado el <app>
@@ -377,7 +375,7 @@
                </app> , <term n="12">Don</term> <persName n="19">Miguel Puga</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> y <term n="12">Don</term> Luis de la Cruz, <app>
+               </app> y <term n="12">Don</term> <persName n="12">Luis de la Cruz</persName>, <app>
                   <rdg wit="#Z">Alferez Real,</rdg>
                   <rdg wit="#A">alférez Real</rdg>
                </app> y Alcalde Provincial, Diputados del <app>
@@ -436,7 +434,7 @@
                </app> lo que <app>
                   <rdg wit="#Z">executado</rdg>
                   <rdg wit="#A">ejecutaba</rdg>
-               </app> en la forma oridnaria<!--whc 1/19/23: #A has ordinaria: presumably this is a typo in #Z? -->
+               </app> en la forma ordinaria
                <app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -473,7 +471,7 @@
          </div>
 
          <!--EW started coding here-->
-         <div>
+         <div n="4">
             <ab>Tengo la mayor complacencia, <app>
                   <rdg wit="#Z"><term n="5">Caciques</term> Principales</rdg>
                   <rdg wit="#A"><term n="5">caciques</term> principales,</rdg>
@@ -493,8 +491,8 @@
                   <rdg wit="#Z">Tierra,</rdg>
                   <rdg wit="#A">tierra</rdg>
                </app> desde el <app>
-                  <rdg wit="#Z">Rio Biovio</rdg>
-                  <rdg wit="#A">río Bío- Bío</rdg>
+                  <rdg wit="#Z"><placeName>Rio Biovio</placeName></rdg>
+                  <rdg wit="#A"><placeName>río Bío- Bío</placeName></rdg>
                </app> al <app>
                   <rdg wit="#Z">Sur</rdg>
                   <rdg wit="#A">sur</rdg>
@@ -584,7 +582,7 @@
                </app>.</ab>
          </div>
 
-         <div>
+         <div n="5">
             <ab>Yo que he visto por experiencia la <app>
                   <rdg wit="#Z">situacion</rdg>
                   <rdg wit="#A">situación</rdg>
@@ -710,7 +708,7 @@
                </app> os conviene. </ab>
          </div>
 
-         <div>
+         <div n="6">
             <ab>Creo seguramente que por el conocimiento que <app>
                   <rdg wit="#Z">teneis</rdg>
                   <rdg wit="#A">tenéis</rdg>
@@ -764,8 +762,8 @@
                   <rdg wit="#A"/>
                </app> = <pb ed="#A" n="12"/></ab>
          </div>
-         <!-- whc 1/20/23: haven't tagged A page breaks in this file past here; breaks tagged in separate A-only xml file; add tags for A page beginnings going forward from here as I collate-->
-         <div>
+
+         <div n="7">
             <head><app>
                   <rdg wit="#Z">Articulos</rdg>
                   <rdg wit="#A">Artículos</rdg>
@@ -790,13 +788,14 @@
                </app>
             </head>
          </div>
-         <div>
+         <div><!--whc 20-JUN-2023: divs that are editorial insertions in Ayun are NOT numbered, as they will have no corresponding divs in the English translation-->
             <head><app>
                   <rdg wit="#A">Artículo Primero</rdg>
                   <rdg wit="#Z"/>
                </app></head>
          </div>
-         <div>
+         
+         <div n="8">
             <ab>Que siendo el primer paso de este Congreso<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -838,11 +837,10 @@
                </app> se expresará en los <app>
                   <rdg wit="#Z">Articulos siguientes = </rdg>
                   <rdg wit="#A">artículos.</rdg>
-                  <!--missing siguientes-->
                </app></ab>
          </div>
 
-         <div>
+         <div n="9">
             <ab><app>
                   <rdg wit="#A">2ᵒ.-</rdg>
                   <rdg wit="#Z"/>
@@ -971,7 +969,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="10">
             <ab><app>
                   <rdg wit="#A">3ᵒ.-</rdg>
                   <rdg wit="#Z"/>
@@ -1038,7 +1036,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="11">
             <ab><app>
                   <rdg wit="#A">4ᵒ.-</rdg>
                   <rdg wit="#Z"/>
@@ -1102,10 +1100,9 @@
             </ab>
          </div>
 
-         <div>
+         <div n="12">
             <ab><app>
-                  <rdg wit="#A">5.-</rdg>
-                  <!--there is no superscript 0 here-->
+                  <rdg wit="#A">5.-</rdg>  <!--EW: there is no superscript o here-->
                   <rdg wit="#Z"/>
                </app>Que fue <app>
                   <rdg wit="#Z">tambien</rdg>
@@ -1181,7 +1178,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="13">
             <ab><pb ed="#Z" n="416"/><app>
                   <rdg wit="#A">6ᵒ.-</rdg>
                   <rdg wit="#Z"/>
@@ -1277,7 +1274,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="14">
             <ab><app>
                   <rdg wit="#A">7ᵒ.-</rdg>
                   <rdg wit="#Z"/>
@@ -1326,7 +1323,7 @@
                </app></ab>
          </div>
 
-         <div>
+         <div n="15">
             <ab><app>
                   <rdg wit="#A">8ᵒ.-</rdg>
                   <rdg wit="#Z"/>
@@ -1451,7 +1448,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="16">
             <ab>En este estado pidió <app>
                   <rdg wit="#Z">lizencia</rdg>
                   <rdg wit="#A">licencia</rdg>
@@ -1573,7 +1570,7 @@
                </app></ab>
          </div>
 
-         <div>
+         <div n="17">
             <ab>El <app>
                   <rdg wit="#Z">Cacique</rdg>
                   <rdg wit="#A">cacique</rdg>
@@ -1626,7 +1623,7 @@
                </app></ab>
          </div>
 
-         <div>
+         <div n="18">
             <ab><app>
                   <rdg wit="#Z">ciento</rdg>
                   <rdg wit="#A">Ciento</rdg>
@@ -1681,13 +1678,15 @@
                </app></ab>
             <pb ed="#A" n="19"/>
          </div>
-         <div>
+         
+         <div><!--whc 20-JUN-2023: divs that are editorial insertions in Ayun are NOT numbered, as they will have no corresponding divs in the English translation-->
             <head><app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">Segunda acta diaria: 4 de Marzo de 1803</rdg>
                </app></head>
          </div>
-         <div>
+         
+         <div n="19">
             <ab><app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">"</rdg>
@@ -1840,13 +1839,15 @@
                </app><pb ed="#A" n="20"/>
             </ab>
          </div>
-         <div>
+         
+         <div><!--whc 20-JUN-2023: divs that are editorial insertions in Ayun are NOT numbered, as they will have no corresponding divs in the English translation-->
             <head><app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">Ultima acta diaria: 5 de Marzo de 1803</rdg>
                </app></head>
          </div>
-         <div>
+         
+         <div n="20">
             <ab><app>
                   <rdg wit="#Z">El dia</rdg>
                   <rdg wit="#A">“El día</rdg>
@@ -2016,7 +2017,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="21">
             <ab>El Cacique <app>
                   <rdg wit="#Z">Governador de <placeName>Maquehue</placeName></rdg>
                   <rdg wit="#A">Gobernador de <placeName>Maquegua</placeName></rdg>
@@ -2069,7 +2070,7 @@
                </app></ab>
          </div>
 
-         <div>
+         <div n="22">
             <ab>Los <app>
                   <rdg wit="#Z"><term n="5">Caciques</term></rdg>
                   <rdg wit="#A"><term n="5">caciques</term></rdg>
@@ -2126,7 +2127,7 @@
             <pb ed="#A" n="22"/>
          </div>
 
-         <div>
+         <div n="23">
             <ab>El Cacique de <placeName>Cura</placeName> <app>
                   <rdg wit="#Z">Millalim</rdg>
                   <rdg wit="#A">Millalem</rdg>
@@ -2248,13 +2249,13 @@
             </ab>
          </div>
 
-         <div>
+         <div n="24">
             <ab>Los <app>
                   <rdg wit="#Z"><term n="5">Caciques</term> Governadores</rdg>
                   <rdg wit="#A"><term n="5">caciques</term> Gobernadores</rdg>
                </app> de <placeName>Arauco</placeName>, <app>
-                  <rdg wit="#Z"><placeName>Tirúa</placeName>, y Boca de la Ymperial</rdg>
-                  <rdg wit="#A"><placeName>Tucapel</placeName>, <placeName>Tirúa</placeName> <placeName>Boroa</placeName>, de la Imperial</rdg>
+                  <rdg wit="#Z"><placeName>Tirúa</placeName>, y <placeName>Boca de la Ymperial</placeName></rdg>
+                  <rdg wit="#A"><placeName>Tucapel</placeName>, <placeName>Tirúa</placeName> <placeName>Boroa, de la Imperial</placeName></rdg>
                </app>, y lo mismo los de <placeName>Angol</placeName>, <placeName>Repocura</placeName>, <placeName>Maquegua</placeName>, <app>
                   <rdg wit="#Z"><placeName>Chacaico</placeName></rdg>
                   <rdg wit="#A">Chacayco</rdg>
@@ -2357,7 +2358,8 @@
                   <rdg wit="#A">.</rdg>
                </app>
             </ab></div>
-         <div><ab>
+         
+         <div n="25"><ab>
                <app>
                   <rdg wit="#Z">Ygualmente</rdg>
                   <rdg wit="#A">Igualmente</rdg>
@@ -2397,8 +2399,8 @@
                   <rdg wit="#A"><term n="16">Parlamento</term>s</rdg>
                </app>, pues no ignoraban sus designios depravados, y que los <term n="5">caciques</term> de <placeName>Arauco</placeName>,
                <placeName>Tucapel</placeName>, <app>
-                  <rdg wit="#Z">Boca de Ymperial,</rdg>
-                  <rdg wit="#A"><placeName><placeName>Boroa</placeName>, de la Imperial</placeName></rdg>
+                  <rdg wit="#Z"><placeName>Boca de Ymperial</placeName>,</rdg>
+                  <rdg wit="#A"><placeName>Boroa, de la Imperial</placeName></rdg>
                </app> y <app>
                   <rdg wit="#Z">toda</rdg>
                   <rdg wit="#A">de toda</rdg>
@@ -2483,7 +2485,7 @@
                </app></ab>
          </div>
 
-         <div>
+         <div n="26">
             <ab>El <term n="23">Señor</term> Presidente del Congreso<app>
                   <rdg wit="#Z">, despues</rdg>
                   <rdg wit="#A">después</rdg>
@@ -2598,7 +2600,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="27">
             <ab>Que al tiempo de <app>
                   <rdg wit="#Z">trancitar</rdg>
                   <rdg wit="#A">transitar</rdg>
@@ -2718,7 +2720,7 @@
             <pb ed="#A" n="26"/>
          </div>
 
-         <div>
+         <div n="28">
             <ab>Todos los <app>
                   <rdg wit="#Z"><term n="5">caciques</term></rdg>
                   <rdg wit="#A"><term n="5">Caciques</term></rdg>
@@ -2798,7 +2800,7 @@
                </app></ab>
          </div>
 
-         <div>
+         <div n="29">
             <ab>Que desde luego ratificaban sus promesas, y que no <app>
                   <rdg wit="#Z">faltarian</rdg>
                   <rdg wit="#A">faltarían</rdg>
@@ -2965,8 +2967,8 @@
                </app>
             </ab>
          </div>
-         <!-- whc 1/20/23: see printed copy of Z for formatting -->
-         <div>
+         
+         <div n="30"><!-- whc 1/20/23: see printed copy of Z for formatting -->
             <ab><app>
                   <rdg wit="#Z"><persName n="1">Antonio Garfias</persName>
                      <lb/>Escrivano subtituto de Gobierno 
@@ -2976,7 +2978,8 @@
                      <lb/>3299</rdg><rdg wit="#A"/></app></ab>
             <!-- whc 13-JUN-2023: What is appropriate element to indicate a horizontal rule here? -->
          </div>
-         <div><ab>
+         
+         <div n="31"><ab>
             <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
                   from A -->
               <app><rdg wit="#Z">Asciende la suma de Concurrentes de los quatro <term n="2">Butalmapus</term> al Parlamento General, a
@@ -2987,7 +2990,7 @@
                General de Naciones, y Lengua General</term>, en la <term n="18">Plaza</term> de los Angeles en ocho de Marzo de
                mil ochocientos tres = <persName n="25">Sebastian Xibaja</persName> = <persName n="3">Fermin Villagran</persName>.</rdg><rdg wit="#A"/></app></ab></div>
             
-            <div><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
+            <div n="32"><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
             adjunto Expediente del Parlamento General celebrado en el Campo de <placeName>Negrete</placeName> con los
             quatro <term n="2">Butalmapus</term> o Cantones de esta Frontera, segun lo ofreci a Vuexcelencia en mi
             anterior Oficio de fecha ocho de Marzo proximo pasado al tiempo de su conclucion; sirviendose
@@ -2995,7 +2998,7 @@
             motivos que le imposibilitaban su asistencia personal, por su Superior Orden de treinta
             de Octubre ultimo =</rdg><rdg wit="#A"/></app></ab></div> 
          
-         <div><ab><app><rdg wit="#Z">El Estado inclusive demuestra el numero de tropas de Dragones,
+         <div n="32"><ab><app><rdg wit="#Z">El Estado inclusive demuestra el numero de tropas de Dragones,
             y Milicia asistentes en el Campamento. El de Yndios va por <term n="2">Butalmapus</term> o Goviernos
             para inteligencia de los que concurrieron. El Plano servira para dar idea del modo con
             que se colocaron las oficinas para el Congreso. Y las Actas originadas en aquel tiempo
@@ -3014,34 +3017,36 @@
             del excesivo numero de concurrentes Parcialidades, y otras circunstancias beneméritas
             =</rdg><rdg wit="#A"/></app></ab></div>
          
-         <div><ab><app><rdg wit="#Z">En cumplimiento de mi obligacion recomiendo a Vuexcelencia el merito que han
+         <div n="33"><ab><app><rdg wit="#Z">En cumplimiento de mi obligacion recomiendo a Vuexcelencia el merito que han
             adquirido los oficiales empleados en aquella fatiga durante el tiempo del Parlamento,
             donde desempeñaron con la mayor dedicacion las atenciones del Servicio, sin haber
             dado causa para la menor reconvención = </rdg><rdg wit="#A"/></app></ab></div>
          
          
-         <div><ab><app><rdg wit="#Z">Enterado Vuexcelencia por todo lo expuesto,
+         <div n="34"><ab><app><rdg wit="#Z">Enterado Vuexcelencia por todo lo expuesto,
             conocerá los deseos que me estimulan en el cumplimiento de la Comicion con que se
             sirvió distinguirme, dandole por ello constante prueba de mi reconocimiento, y del
             anhelo con que ansio ocuparme en los asuntos del Real Servicio. Bajo de este concepto
             espero sea todo lo obrado de la Superior aprobacion de Vuexcelencia, y me servira de la
             mayor satisfacción =</rdg><rdg wit="#A"/></app></ab></div>
             
-            <div><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. Concepcion treinta de
-            Abril de mil ochocientos tres = Excelentisimo <term n="23">Señor</term> = <persName n="24">Pedro Quijada</persName> = Excelentisimo
+            <div n="35"><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. Concepcion treinta de
+               Abril de mil ochocientos tres = </rdg><rdg wit="#A"/></app></ab></div>
+            
+            <div n="36"><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = <persName n="24">Pedro Quijada</persName> = Excelentisimo
                      <pb ed="#Z" n="422"/><term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName n="14">Luis Muñoz de Guzman</persName>, Teniente General de los
                      Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de <placeName>Chile</placeName>
                = </rdg><rdg wit="#A"/></app></ab></div>
                      
-               <div><head><app><rdg wit="#Z">En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
+               <div n="37"><head><app><rdg wit="#Z">En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
                      tres: El Excelentisimo <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> Luis Muñoz de Guzman, Cavallero del Orden de
-                     Santiago, Comendador de las <placeName>Pueblas</placeName> en la de Alcantara, Teniente General de la
+                     Santiago, Comendador de las <placeName>Pueblas</placeName> en la de <placeName>Alcantara</placeName>, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de <placeName>Chile</placeName>, Presidente de su
                      <term n="21">real Audiencia</term>, Superintendente Subdelegado de <term n="22">Real Hacienda</term>, y Correos, y Vice
                      Patrono Real, [rúbrica]:</rdg><rdg wit="#A"/></app></head></div> 
          
         
-                     <div><ab><app><rdg wit="#Z">Habiendo visto el <term n="16">Parlamento</term> General celebrado en el
+                     <div n="38"><ab><app><rdg wit="#Z">Habiendo visto el <term n="16">Parlamento</term> General celebrado en el
                      Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName n="24">Pedro Quijada</persName>,
                      Comandante Ynterino de Armas de la Provincia de la <placeName>Concepcion</placeName>, con los quatro
                      <term n="2">Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
@@ -3059,7 +3064,9 @@
                      tierras de armas ofensivas y defensivas, vino, y demas efectos prohibidos,
                      conforme a la misma Ley, y siguientes hasta la treinta y una del citado titulo
                      y libro, y al peculiar Reglamento formado en su razon, y aprobado por Real
-                     Orden de nueve de Febrero de mil setecientos noventa y siete. Y en quanto a las
+                     Orden <!--whc: should this be added as a term?--> de nueve de Febrero de mil setecientos noventa y siete. </rdg><rdg wit="#A"/></app></ab></div>
+                        
+                        <div n="39"><ab><app><rdg wit="#Z">Y en quanto a las
                      pretenciones particulares que hicieron en aquel Congreso varios <term n="5">caciques</term>, mandó
                      su Señoria, se haga entender al de <placeName>Maquegua</placeName>, y sus compañeros, que deben
                      renunciar la corta satisfaccion de poder vicitar mas facilmente a los jovenes
@@ -3073,8 +3080,8 @@
                      que sobrevendrian de su reparacion.</rdg>
                <rdg wit="#A"/></app></ab></div> 
                      
-                     <div><ab><app><rdg wit="#Z">Que no se haga novedad en la subsistencia
-                     del Hospicio de Santa Barbara, que se habia proyectado abandonar, sino que
+                     <div n="40"><ab><app><rdg wit="#Z">Que no se haga novedad en la subsistencia
+                     del Hospicio de <placeName>Santa Barbara</placeName>, que se habia proyectado abandonar, sino que
                      antes se proceda a su refaccion, progresando el Expediente que estaba suspenso,
                      y pendiente de la resolucion que se tomase sobre este particular en este
                      <term n="16">Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
@@ -3095,17 +3102,15 @@
                         <term n="11">reducciones</term>, respecto de que la de <placeName>Santa Feé</placeName>, por su antiguedad, entera
                      sujecion al gremio de la Yglecia, y <pb ed="#Z" n="423"/>situacion en
                      territorio de los españoles, debe gloriarse del timbre de estar exenta de aquel
-                     concepto, como las de San Cristoval, y otras de igual claze sujetas a la
+                     concepto, como las de <placeName>San Cristoval</placeName>, y otras de igual claze sujetas a la
                      doctrina de los curas instituidos por el ordinario Ecleciastico, en todo igual
                      a los de los españoles; y </rdg>
                   <rdg wit="#A"/>
                </app>de que certifico =
-               <!--whc 1/20/23: these last few words, y de que certifico, do appear at the end of Ayun, though 
-                  several paragraphs are omitted above it. -->
             </ab>
          </div>
 
-         <div>
+         <div n="41">
             <ab><app>
                   <rdg wit="#Z"><persName n="24">Pedro Quijada</persName> = 
                      <persName n="23">Pedro Nolazco del Rio</persName> = 
@@ -3126,7 +3131,7 @@
                      <persName n="18">Melchor de Carvajal</persName>. - 
                      <persName n="22">Pedro José de Benavente</persName>. - 
                      <persName n="19">Miguel Puga</persName>. -
-                     <persName n="24">Luis de la Cruz</persName>. – 
+                     <persName n="13">Luis de la Cruz</persName>. – 
                      Fr. <persName n="7">Gil Calvo</persName>.- Guardián de <placeName>Chillán</placeName>. - 
                      Fr. <persName  n="6">Francisco Javier de Aldai</persName> Prefecto de Misiones. _ 
                      <persName n="8">Gonzalo M. de Figueroa</persName> secretario de la comisión." </rdg>
@@ -3134,7 +3139,7 @@
             </ab>
          </div>
 
-         <div>
+         <div n="42">
             <ab><app>
                   <rdg wit="#Z">Relacion de los <term n="5">Caciques</term> Governadores y particulares, con sus
                      Respetados y <term n="14">Mozetones</term> que han concurrido al <term n="16">Parlamento</term> General de <placeName>Negrete</placeName> de

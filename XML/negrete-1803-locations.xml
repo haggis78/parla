@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Negrete 1803: Locations</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPlace type="human-geography"><!--whc 20-JUN-2023: this entry for demonstration purposes-->
+            <place n="0">
+               <placeName><settlement type="village">Negrete</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.58625, -72.53205</geo></location>
+               <note type="map-link">https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg</note>
+               <note xml:lang="span">Spanish description of Negrete here</note>
+               <note xml:lang="eng">English description of Negrete here</note>
+         </place>
+         </listPlace>
+         
+         <listPlace type="natural-geography"><!--whc 20-JUN-2023: this entry for demonstration purposes-->
+            <place n="101">
+               <geogName>Bío Bío <geogFeat>River</geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.66735, -72.16367</geo></location>
+               <note type="map-link">https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg</note>
+               <note xml:lang="span">Spanish description of Bío Bío river here</note>
+               <note xml:lang="eng">English description of Bío Bío river here</note>
+            </place>
+         </listPlace>
+         
+         
+         
+         
+         
+      </body>
+  </text>
+</TEI>
