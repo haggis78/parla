@@ -236,7 +236,7 @@
         <p><b>Lugar de publicación: </b><xsl:value-of select="pubPlace"/></p>
         <p><b>Fecha de publicación: </b><xsl:value-of select="date"/></p>
         <p><b>Intervalo de página: </b><xsl:value-of select="biblScope"/></p>
-<!--whc: commenting out 19-JUN-2023      <p><b>Notas: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>      -->
+<!--whc: commenting out 19-JUN-2023 <p><b>Notas: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>      -->
     </xsl:template>
 
     <xsl:template match="div//persName" mode="#all">
