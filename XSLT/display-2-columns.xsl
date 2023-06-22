@@ -45,7 +45,17 @@
                             English translation that appears on this site was completed using Zavala's as the base text.</p>
                             <p>The page below includes the Zavala and Ayun editions in parallel columns to allow readers to examine the differences between
                             the two versions. To facilitate comparative reading, the passages where they differ are shown in <span class="variant">dark red</span>.
-                            </p>
+                                Most significantly, the Ayun editors added or expanded some headings that do not appear in the surviving archival documents, and also
+                                omitted a long section of text (more than one full page's worth in the Zavala edition) that does appear in the documents.</p>
+                            
+                            <p>A casual glance will show a great many smaller discrepancies between the versions, but readers should not immediately infer that the Ayun
+                            edition is as inaccurate as it may seem. First, many of the discrepancies relate to the Ayun editors' decision to 
+                            modernize spelling, including in the use of accent marks. This is not an error; it was a legitimate editorial choice, and Zavala simply
+                            made a different legitimate editorial choice. Second, the nature of the TEI XML encoding on which this comparison is built
+                            often required several words to be tagged together as a divergence between the two versions, even when there is only a small change in a single
+                            word. This is especially the case where a group of words are tagged as a term, a personal name, or a place name: it was more
+                            straightforward to tag the string of words as a variant reading rather than to tag only one word or a few letters. Any reader wishing to 
+                            analyze the Ayun editors' work will need to decide what is of importance and to compare the texts in detail.</p>
                             <hr/>                            <h3>Pase a la sección:<xsl:text>   </xsl:text>
                             <xsl:for-each select="//body/div">
                                 <a href="#sect-{data(@n)}"><xsl:value-of select='data(@n)'/></a>  

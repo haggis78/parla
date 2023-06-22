@@ -7,9 +7,18 @@
       <fileDesc>
          <titleStmt>
             <title>Parlamento de Negrete (1803)</title>
+            <respStmt>
+               <resp>Transcribed from printed sources</resp>
+               <persName>Pilar Herr</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded in TEI XML</resp>
+               <persName>William Campbell</persName>
+               <persName>Eleanor Withers</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p></p>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -1030,8 +1039,12 @@
                   <rdg wit="#A"/>
                </app> para los fines propuestos, en que tendré yo la mayor complacencia, y
                acreditaré la <app>
-                  <rdg wit="#Z">estimacion que tienen de mis Consejos =</rdg>
-                  <rdg wit="#A">estimación que tienen mis consejos. </rdg>
+                  <rdg wit="#Z">estimacion</rdg>
+                  <rdg wit="#A">estimación</rdg>
+               </app> que tienen 
+               <app>
+                  <rdg wit="#Z">de mis Consejos =</rdg>
+                  <rdg wit="#A">mis consejos. </rdg>
                </app>
             </ab>
          </div>
@@ -1196,7 +1209,7 @@
                   <rdg wit="#Z">ballena</rdg>
                   <rdg wit="#A">Ballena</rdg>
                </app>, se introducen sagazmente en sus costas, como ya sucedió en las de <app>
-                  <rdg wit="#Z">Tirua</rdg>
+                  <rdg wit="#Z"><placeName>Tirua</placeName></rdg>
                   <rdg wit="#A"><placeName>Tirúa</placeName></rdg>
                </app> en los <app>
                   <rdg wit="#Z">ultimos</rdg>
@@ -1290,14 +1303,14 @@
                </app> sobre las <app>
                   <rdg wit="#Z"><term n="30">pampas</term></rdg>
                   <rdg wit="#A"><term n="30">Pampas</term></rdg>
-               </app> de Buenos <app>
-                  <rdg wit="#Z">Ayres,</rdg>
-                  <rdg wit="#A">Aires</rdg>
+               </app> de <app>
+                  <rdg wit="#Z"><placeName>Buenos Ayres</placeName>,</rdg>
+                  <rdg wit="#A"><placeName>Buenos Aires</placeName></rdg>
                </app> y comercio de aquellas provincias, y viendo por experiencia el <app>
                   <rdg wit="#Z">excrupuloso</rdg>
                   <rdg wit="#A">escrupuloso</rdg>
                </app> cumplimiento que han dado los <term n="2">Butalmapus</term> a este <app>
-                  <rdg wit="#Z">Tra-tado</rdg>
+                  <rdg wit="#Z">Tratado</rdg>
                   <rdg wit="#A">tratado</rdg>
                </app>, se les recomienda la <app>
                   <rdg wit="#Z">continuacion,</rdg>
@@ -1402,7 +1415,7 @@
                   <rdg wit="#Z"><term n="5">caciques</term>, como asi</rdg>
                   <rdg wit="#A"><term n="5">cacique</term> como así</rdg>
                </app> se lo encarga <app>
-                  <rdg wit="#Z">su Ma-gestad; y yo,</rdg>
+                  <rdg wit="#Z">su Magestad; y yo,</rdg>
                   <rdg wit="#A">S.M.,</rdg>
                </app> en prueba de la <app>
                   <rdg wit="#Z">estimacion que les tengo,</rdg>
@@ -1574,7 +1587,7 @@
             <ab>El <app>
                   <rdg wit="#Z">Cacique</rdg>
                   <rdg wit="#A">cacique</rdg>
-               </app> Tranamilla de la <app>
+               </app> <persName>Tranamilla</persName> de la <app>
                   <rdg wit="#Z"><term n="11">Reduccion</term></rdg>
                   <rdg wit="#A"><term  n="11">Reducción</term></rdg>
                </app> de <placeName>Temulemu</placeName>, recopilando <app>
@@ -2021,12 +2034,12 @@
             <ab>El Cacique <app>
                   <rdg wit="#Z">Governador de <placeName>Maquehue</placeName></rdg>
                   <rdg wit="#A">Gobernador de <placeName>Maquegua</placeName></rdg>
-               </app> Vilumilla, su <app>
-                  <rdg wit="#Z">Hermano Coiguengir</rdg>
-                  <rdg wit="#A">hermano Coygüenjir</rdg>
-               </app>, Chicaguala, <app>
-                  <rdg wit="#Z">Pichunman,</rdg>
-                  <rdg wit="#A">Pichuman</rdg>
+               </app> <persName>Vilumilla</persName>, su <app>
+                  <rdg wit="#Z">Hermano <persName>Coiguengir</persName></rdg>
+                  <rdg wit="#A">hermano <persName>Coygüenjir</persName></rdg>
+               </app>, <persName>Chicaguala</persName>, <app>
+                  <rdg wit="#Z"><persName>Pichunman</persName>,</rdg>
+                  <rdg wit="#A"><persName>Pichuman</persName></rdg>
                </app> y otros<app>
                   <rdg wit="#Z">, dixeron,</rdg>
                   <rdg wit="#A">dijeron</rdg>
@@ -2077,12 +2090,12 @@
                </app> <term n="17">Pehuenches</term> de <placeName>Callaqui</placeName>, <placeName>Quilaco</placeName><app>
                   <rdg wit="#Z">, y <placeName>Huinquin</placeName>,</rdg>
                   <rdg wit="#A"> y <placeName>Hinquién</placeName>,</rdg>
-               </app> llamados Coliman, Liupay<app>
+               </app> llamados <persName>Coliman</persName>, <persName>Liupay</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y <app>
-                  <rdg wit="#Z">Coigueman, dixeron:</rdg>
-                  <rdg wit="#A">Coygüemán, dijeron:</rdg>
+                  <rdg wit="#Z"><persName>Coigueman</persName>, dixeron:</rdg>
+                  <rdg wit="#A"><persName>Coygüemán</persName>, dijeron:</rdg>
                </app>
                <app>
                   <rdg wit="#Z">Que habian oido</rdg>
@@ -2096,9 +2109,9 @@
                </app> que se pensaba mudar el Hospicio de <app>
                   <rdg wit="#Z">Miciones</rdg>
                   <rdg wit="#A">Misiones</rdg>
-               </app> que tienen en Santa <app>
-                  <rdg wit="#Z">Barbara</rdg>
-                  <rdg wit="#A">Bárbara</rdg>
+               </app> que tienen en <app>
+                  <rdg wit="#Z"><placeName>Santa Barbara</placeName></rdg>
+                  <rdg wit="#A"><placeName>Santa Bárbara</placeName></rdg>
                </app>, y que siendo este la fuente de que dimanaron las que <app>
                   <rdg wit="#Z">tenian</rdg>
                   <rdg wit="#A">tenían</rdg>
@@ -2132,9 +2145,9 @@
                   <rdg wit="#Z">Millalim</rdg>
                   <rdg wit="#A">Millalem</rdg>
                </app>, por consejo de sus <app>
-                  <rdg wit="#Z">Parciales Guegnir</rdg>
-                  <rdg wit="#A">parciales Gúgñir</rdg>
-               </app>, Pagitur, y otros, <app>
+                  <rdg wit="#Z">Parciales <persName>Guegnir</persName></rdg>
+                  <rdg wit="#A">parciales <persName>Gúgñir</persName></rdg>
+               </app>, <persName>Pagitur</persName>, y otros, <app>
                   <rdg wit="#Z">dixo:</rdg>
                   <rdg wit="#A"> dijo:</rdg>
                </app> que hace tiempo desea recordar los pasos de su <app>
@@ -2448,13 +2461,10 @@
                   <rdg wit="#Z">payzes</rdg>
                   <rdg wit="#A">países</rdg>
                </app> con sus <term n="10">ponchos</term>, y <app>
-                  <rdg wit="#Z">demas</rdg>
-                  <rdg wit="#A">demás</rdg>
+                  <rdg wit="#Z">demas generos</rdg>
+                  <rdg wit="#A">demás géneros</rdg>
                </app>
-               <app>
-                  <rdg wit="#Z">generos</rdg>
-                  <rdg wit="#A">géneros</rdg>
-               </app> de comercio, y que por <app>
+                de comercio, y que por <app>
                   <rdg wit="#Z">ultimo,</rdg>
                   <rdg wit="#A">último</rdg>
                </app>
