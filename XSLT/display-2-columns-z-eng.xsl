@@ -11,23 +11,33 @@
     version="3.0">
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
+    
+    <!--whc 24-JUN-2023: commenting out but saving for now the variables for test versions
     <xsl:variable name="negreteFiles" select="collection('../XML/test-versions/?select=*.xml')"/>
     <xsl:variable name="negText" select="document('../XML/test-versions/negrete-test.xml')"/>
     <xsl:variable name="negTrans" select="document('../XML/test-versions/english-translation-test.xml')"/>
     <xsl:variable name="negLex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
     <xsl:variable name="negPers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
-    <xsl:variable name="negPlace" select="document('../XML/test-versions/negrete-locations-test.xml')"/>
+    <xsl:variable name="negPlace" select="document('../XML/test-versions/negrete-locations-test.xml')"/>   -->
     
     <!--whc 18-FEB-2023: will need to change the varables' filepaths and file handles when it's time to run over the real files-->
+    
+    <xsl:variable name="negreteFiles" select="collection('../XML/?select=*.xml')"/>
+    <xsl:variable name="negText" select="document('../XML/negrete-1803-spanish.xml')"/>
+    <xsl:variable name="negTrans" select="document('../XML/negrete-1803-english.xml')"/>
+    <xsl:variable name="negLex" select="document('../XML/negrete-1803-lexicon.xml')"/>
+    <xsl:variable name="negPers" select="document('../XML/negrete-1803-persons.xml')"/>
+    <xsl:variable name="negPlace" select="document('../XML/negrete-1803-locations.xml')"/>
     <xsl:strip-space elements="*"/>
     
     <xsl:template match="$negText">
-            <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-2cols-z-eng.html"> 
+<!--whc 24-JUN-2023: commenting out but saving the line to create test version
+            <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-2cols-z-eng.html">   -->
+        <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/text-trans-notes.html">
                 <html>
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                         <link rel="stylesheet" type="text/css" href="../css/style.css" />
-
                         <title>Negrete: Translation</title>
                     </head>
                     <body>
@@ -42,10 +52,22 @@
                                     <xsl:text>   </xsl:text>
                                 </xsl:for-each>
                             </h3>
+                            
                             <table>
                                 <tr>
-                                    <td><xsl:apply-templates select="$negText//bibl[data(@xml:id)='Z']" mode="span"/></td>
-                                    <td><xsl:apply-templates select="$negText//bibl[data(@xml:id)='Z']" mode="eng"/></td>
+                                    <td>
+                                        <p><b>Editor: </b><xsl:apply-templates select="//bibl[data(@xml:id)='Z']/editor"/></p> 
+                                        <p><b>Título de publicación / Publication title: </b><i><xsl:value-of select="//bibl[data(@xml:id)='Z']/title"/></i></p>
+                                        <p><b>Editorial / Publisher: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/publisher"/></p>
+                                        <p><b>Lugar de publicación / Place of publication: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/pubPlace"/></p>
+                                        <p><b>Fecha de publicación / Date of publication: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/date"/></p>
+                                        <p><b>Intervalo de página / Page range: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/biblScope"/></p>
+                                        <p><b>Notas: </b><i><xsl:value-of select="//bibl[data(@xml:id)='Z']/note[@xml:lang='span']"/></i></p> 
+                                        <p><b>Notes: </b><i><xsl:value-of select="//bibl[data(@xml:id)='Z']/note[@xml:lang='eng']"/></i></p>
+                                        </td>
+                                    <td>
+                                       [Put responsibility statement for translation here?]      
+                                    </td>
                                     <th></th>
                                 </tr>
                                 <tr><th><h2>Text: Zavala</h2></th>
@@ -61,19 +83,74 @@
                                     <xsl:variable name="div-n" select="./data(@n)"/>
                                     <xsl:variable name="this-div-eng" select="$negTrans//body/div[data(@n)=$div-n]"/>
                                     
-                                    <xsl:if test="./head">
                                         <tr id="sect-{$div-n}">
+                                            <xsl:if test="./head">
                                             <th>[&#167;<xsl:value-of select="data(@n)"/>]
                                                 <xsl:apply-templates select="head" mode="Z-head"/></th>
                                             <th>[&#167;<xsl:value-of select="data(@n)"/>]  
                                                 <xsl:apply-templates select="$negTrans//div[data(@n)=$div-n]/head"/></th>
-                                             <td><b>Notes</b> <i> Click on category to expand/collapse</i>
-                                                <a class="top-btn" href="#">Top of page</a></td>
-<!-- whc 24-May-2023: I have not yet done the Notes column, which will go right here.  -->                                            
+                                            </xsl:if>
+                                            
+                                            <xsl:if test="./ab">
+                                                <td><b>[&#167;<xsl:value-of select="data(@n)"/>] </b>
+                                                    <xsl:apply-templates select="ab" mode="Z-block"/></td>
+                                                <td><b>[&#167;<xsl:value-of select="data(@n)"/>] </b> 
+                                                    <xsl:apply-templates select="$negTrans//div[data(@n)=$div-n]/ab"/></td>
+                                            </xsl:if>
+                                            
+                                            <td>
+                                                <xsl:if test="not(.//term or .//persName or .//placeName)">
+                                                    <i>No hay notas en esta sección.</i>
+                                                    <a class="top-btn" href="#">Inicio de página</a>
+                                                </xsl:if>
+                                                
+                                                <xsl:if test="$negTrans//div[data(@n)=$div-n]//term 
+                                                    or $negTrans//div[data(@n)=$div-n]//persName 
+                                                    or $negTrans//div[data(@n)=$div-n]//placeName">
+                                                    <!--whc 24-JUN-2023: needed to use xpath from translation to test for term/persName/placeName because otherwise it would call for them
+                                                        if they appeared in the Spanish in Ayun but not Zavala. Ditto all the filepaths for the if tests and for-each-group selects that follow. 
+                                                    This is not in the Zavala-Ayun comparison XSLT as it is not needed there, so these are simpler there. This would not be needed either in 
+                                                    an XSLT in the future that runs from a single-witness Spanish source XML.-->
+                                                    <p><i>Haga clic en cada triángulo para ampliar/contraer notas</i><br/>Click each triangle to expand/collapse notes</p>
+                                                    <xsl:if test="$negTrans//div[data(@n)=$div-n]//term">
+                                                        <h2><b>Términos / Terms</b></h2>
+                                                        <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
+                                                            <xsl:variable name="term-n" select="./data(@n)"/>
+                                                            <xsl:variable name="sense-n" select="./data(@select)"/>
+                                                            <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
+                                                            <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
+                                                                <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
+                                                                <xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=$sense-n]"/>
+                                                                <br/></details>
+                                                        </xsl:for-each-group>        </xsl:if>
+                                                    
+                                                    <xsl:if test="$negTrans//div[data(@n)=$div-n]//persName">
+                                                        <h2><b>Personas / Persons</b></h2>
+                                                        <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//persName" group-by="data(@n)">
+                                                            <xsl:variable name="pers-n" select="./data(@n)"/>
+                                                            <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
+                                                            <details><summary><b><xsl:apply-templates select="$this-pers/persName/name"/></b></summary>
+                                                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
+                                                        </xsl:for-each-group>        </xsl:if>
+                                                    
+                                                    <xsl:if test=".//placeName">
+                                                        <h2><b>Lugares / Places</b></h2>
+                                                        <xsl:for-each-group select=".//placeName" group-by="data(@n)">
+                                                            <xsl:variable name="place-n" select="./data(@n)"/>
+                                                            <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
+                                                            <details><summary><b><xsl:apply-templates select="$this-place/concat
+                                                                (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
+                                                                <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
+                                                                <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
+                                                            </details>
+                                                        </xsl:for-each-group>        </xsl:if>
+                                                    <a class="top-btn" href="#">Inicio de página / Top of page</a>
+                                                </xsl:if>
+                                            </td>                                            
                                         </tr>
                                     </xsl:if>
-                                        
-                                        <xsl:if test="./ab">
+                                </xsl:for-each>       
+     <!--                                   <xsl:if test="./ab">
                                             <tr id="sect-{$div-n}">
                                                 <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
                                                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
@@ -81,12 +158,12 @@
                                                     <xsl:apply-templates select="$negTrans//div[data(@n)=$div-n]/ab"/></td>
                                                 <td><b>Notes</b> <i> Click on category to expand/collapse</i>
                                                     <a class="top-btn" href="#">Top of page</a></td>
- <!-- whc 24-May-2023: I have not yet done the Notes column, which will go right here.  -->
+
                                             </tr>
                                         </xsl:if>     
                                         
                                     </xsl:if>
-                                </xsl:for-each>
+                                </xsl:for-each>-->
                                 
                             </table>
                         </div>
@@ -95,21 +172,21 @@
             </xsl:result-document>
     </xsl:template>
     
-    <xsl:template match="div">
+<!--    <xsl:template match="div">
+        <tr id="sect-{data(@n)}">
             <xsl:if test="./head">
-                <tr id="sect-{data(@n)}">
                     <th><xsl:if test="@n">[&#167;<xsl:value-of select="data(@n)"/>] </xsl:if>  
                         <xsl:apply-templates select="head" mode="Z-head"/></th>
                     <th>[&#167;<xsl:value-of select="data(@n)"/>]  
                     <xsl:apply-templates select="head" mode="Eng-head"/></th>
                 <td><b>Notes</b> <i> Click on category to expand/collapse</i>
                     <a class="top-btn" href="#">Top of page</a></td>
-            </tr>
-        </xsl:if>
+            
+        </xsl:if>  -->
         <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
             Get them working perfectly on div/ab and then just copy the whole thing to div/head; or figure out a way
             to make the notes etc. their own template rule that can be called from either type of div.-->
-        <xsl:if test="./ab">
+<!--        <xsl:if test="./ab">
             <tr id="sect-{count(preceding-sibling::div)+1}">
                 <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
@@ -170,53 +247,39 @@
                 </td>
             </tr>
         </xsl:if>
-    </xsl:template>
+    </xsl:template>   -->
     
     <xsl:template match="head" mode="Z-head">
         <xsl:apply-templates mode="Z-rdg"/>
     </xsl:template>
-    <xsl:template match="rdg[@wit[not(contains(., 'Z'))]]" mode="Z-rdg"/>
-    <!--whc: this suppresses non-Z rdg elements when called for by mode to create Z text-->
-    
-
     
     <xsl:template match="ab" mode="Z-block">
         <xsl:apply-templates mode="Z-rdg"/>
     </xsl:template>
-    
+    <xsl:template match="rdg[@wit[not(contains(., 'Z'))]]" mode="Z-rdg"/>
 
-    
-        <xsl:template match="bibl" mode="eng">
-            <p><b>Editor(s): </b> <xsl:apply-templates select="editor"/></p> 
-            <p><b>Publication title: </b><i><xsl:value-of select="title"/></i></p>
-            <p><b>Publisher: </b><xsl:value-of select="publisher"/></p>
-            <p><b>Publisher location: </b><xsl:value-of select="pubPlace"/></p>
-            <p><b>Publication date: </b><xsl:value-of select="date"/></p>
-            <p><b>Page range: </b><xsl:value-of select="biblScope"/></p>
-            <p><b>Notes: </b><i><xsl:value-of select="note[@xml:lang='eng']"/></i></p>     
-    </xsl:template>
-    <xsl:template match="bibl" mode="span">
-            <p><b>Editor(es): </b><xsl:apply-templates select="editor"/></p> 
-        <p><b>Título de publicación: </b><i><xsl:value-of select="title"/></i></p>
-        <p><b>Editorial: </b><xsl:value-of select="publisher"/></p>
-        <p><b>Lugar de publicación: </b><xsl:value-of select="pubPlace"/></p>
-        <p><b>Fecha de publicación: </b><xsl:value-of select="date"/></p>
-        <p><b>Intervalo de página: </b><xsl:value-of select="biblScope"/></p>
-            <p><b>Notas: </b><i><xsl:value-of select="note[@xml:lang='span']"/></i></p>     
-    </xsl:template>
+    <!--whc: this suppresses non-Z rdg elements when called for by mode to create Z text. Only necessary in Negrete 1803 as this is
+    a 2-witness Spanish text.-->
+
 
     <xsl:template match="div//persName" mode="#all">
       <u><span class="pers"><xsl:apply-templates/></span></u>  
    </xsl:template>
     
-    <xsl:template match="term" mode="#all">
-        <b><span class="term"><xsl:apply-templates/></span></b>
+    <xsl:template match="body//term[not(@type='untrans')]" mode="#all">
+        <span class="term"><xsl:apply-templates/></span><xsl:text> </xsl:text>
     </xsl:template>
     
-    <xsl:template match="placeName" mode="#all">
-        <i><span class="place"><xsl:apply-templates/></span></i>
+    <xsl:template match="body//term[@type='untrans']" mode="#all">
+        <span class="term"><i><xsl:apply-templates/></i></span><xsl:text> </xsl:text>
     </xsl:template>
+    <!--whc 24-JUN-2023: the xsl:text is to make sure there's a space after a term, but so far it puts one there whether the next
+        character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
+    
+    <xsl:template match="body//placeName" mode="#all">
+        <span class="place"><xsl:apply-templates/></span>
+    </xsl:template> 
     <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
-        of nodes controlled at a higher level with modal XSLT. -->
+        of nodes controlled at a higher level with modal XSLT, specifically what calls for rdg elements from only one edition. -->
 
 </xsl:stylesheet>

@@ -55,6 +55,7 @@ span.term {
     text-decoration: underline dotted;
     text-underline-position:under;
 }
-/* span.pers{color:blue; } not being used: do we really need to indicate persons in the text?*/
+
+span.pers{color:blue; }
 /* span.place{color:green; } not being used: do we really need to indicate persons in the text?*/
 /* pan.title{font-size: 1.5em;}not being used: this was only for the details-within-details notes dropdown  */

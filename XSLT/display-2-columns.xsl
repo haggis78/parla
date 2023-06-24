@@ -61,6 +61,7 @@
                                 <a href="#sect-{data(@n)}"><xsl:value-of select='data(@n)'/></a>  
                                 <xsl:text>   </xsl:text>
                             </xsl:for-each></h3>
+                            
                             <table>
                                 <tr>
                                     <td><xsl:apply-templates select="//bibl[data(@xml:id)='Z']"/></td>

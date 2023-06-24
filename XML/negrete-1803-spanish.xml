@@ -69,7 +69,7 @@
             <head><term n="16">Parlamento</term> <app>
                   <rdg wit="#A">general celebrado en el campo</rdg>
                   <rdg wit="#Z"/>
-               </app>de <placeName>Negrete</placeName> <app>
+               </app> de <placeName>Negrete</placeName> <app>
                   <rdg wit="#A">con los Indios de <placeName>Chile</placeName> en los días 3, 4 y 5 de marzo de mil
                      ochocientos tres años, presidido por el <term n="24"><term n="23">Señor</term> <term n="12">don</term></term> <persName n="24">Pedro Quijada</persName>, Brigadier de
                      los Reales Ejércitos y Comandante del Batallón de Infantería de esta frontera,
@@ -151,13 +151,10 @@
                </app> a su <app>
                   <rdg wit="#Z">arrivo</rdg>
                   <rdg wit="#A">arribo</rdg>
-               </app> el <term n="7">Comisario de Naciones<app>
-                  <rdg wit="#Z">,</rdg>
-                  <rdg wit="#A"/>
-               </app> Lengua <app>
-                  <rdg wit="#Z">general,</rdg>
-                  <rdg wit="#A">General</rdg>
-               </app></term> y sus Capitanes<app>
+               </app> el 
+               <app><rdg wit="#Z"><term n="7">Comisario de Naciones, Lengua general,</term></rdg>
+                  <rdg wit="#A"><term n="7">Comisario de Naciones Lengua General</term></rdg></app>       
+               y sus Capitanes<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> expresando estar <app>
@@ -428,10 +425,10 @@
                </app> el <app>
                   <rdg wit="#Z">juramente</rdg>
                   <rdg wit="#A">juramento</rdg>
-               </app> acostumbrado al <term n="7">Comisario de Naciones y <app>
-                  <rdg wit="#Z">Lenguas general,</rdg>
-                  <rdg wit="#A">Lengua General</rdg>
-               </app></term> de traducir fielmente <app>
+               </app> acostumbrado al 
+               <app><rdg wit="#Z"><term n="7">Comisario de Naciones y Lenguas general</term>,</rdg>
+                  <rdg wit="#A"><term n="7">Comisario de Naciones y Lengua General</term></rdg></app>       
+               de traducir fielmente <app>
                   <rdg wit="#Z">quanto</rdg>
                   <rdg wit="#A">cuanto</rdg>
                </app> se <app>
@@ -2106,10 +2103,11 @@
                </app> años<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> que se pensaba mudar el <term n="31">Hospicio de <app>
-                  <rdg wit="#Z">Miciones</rdg>
-                  <rdg wit="#A">Misiones</rdg>
-               </app></term> que tienen en <app>
+               </app> que se pensaba mudar el           
+               <app><rdg wit="#Z"><term n="31">Hospicio de Miciones</term></rdg>
+                  <rdg wit="#A"><term n="31">Hospicio de Misiones</term></rdg>
+               </app>
+               que tienen en <app>
                   <rdg wit="#Z"><placeName>Santa Barbara</placeName></rdg>
                   <rdg wit="#A"><placeName>Santa Bárbara</placeName></rdg>
                </app>, y que siendo este la fuente de que dimanaron las que <app>
