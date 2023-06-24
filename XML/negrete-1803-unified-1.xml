@@ -2106,10 +2106,10 @@
                </app> años<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> que se pensaba mudar el Hospicio de <app>
+               </app> que se pensaba mudar el <term n="31">Hospicio de <app>
                   <rdg wit="#Z">Miciones</rdg>
                   <rdg wit="#A">Misiones</rdg>
-               </app> que tienen en <app>
+               </app></term> que tienen en <app>
                   <rdg wit="#Z"><placeName>Santa Barbara</placeName></rdg>
                   <rdg wit="#A"><placeName>Santa Bárbara</placeName></rdg>
                </app>, y que siendo este la fuente de que dimanaron las que <app>
@@ -2121,7 +2121,7 @@
                </app> y se conservase para los mismos efectos, respecto a la buena <app>
                   <rdg wit="#Z">dispocicion</rdg>
                   <rdg wit="#A">disposición</rdg>
-               </app> que presentaba el <term n="17">Pehuenche</term> Millalem de <app>
+               </app> que presentaba el <term n="17">Pehuenche</term> <persName>Millalem</persName> de <app>
                   <rdg wit="#Z"><placeName>Lonco</placeName>,</rdg>
                   <rdg wit="#A"><placeName>Lolco</placeName></rdg>
                </app> y otras <app>
@@ -2408,8 +2408,8 @@
                   <rdg wit="#Z">tenian</rdg>
                   <rdg wit="#A">tenían</rdg>
                </app> ofrecido en otros <app>
-                  <rdg wit="#Z"><term n="16">parlamento</term>s</rdg>
-                  <rdg wit="#A"><term n="16">Parlamento</term>s</rdg>
+                  <rdg wit="#Z"><term n="16">parlamentos</term></rdg>
+                  <rdg wit="#A"><term n="16">Parlamentos</term></rdg>
                </app>, pues no ignoraban sus designios depravados, y que los <term n="5">caciques</term> de <placeName>Arauco</placeName>,
                <placeName>Tucapel</placeName>, <app>
                   <rdg wit="#Z"><placeName>Boca de Ymperial</placeName>,</rdg>
@@ -2534,7 +2534,7 @@
                piedad de nuestro amado Soberano<app>
                   <rdg wit="#Z">;</rdg>
                   <rdg wit="#A">,</rdg>
-               </app> pero que teniendo noticia que en otros <term n="16">Parlamento</term>s <app>
+               </app> pero que teniendo noticia que en otros <term n="16">Parlamentos</term> <app>
                   <rdg wit="#Z">habian</rdg>
                   <rdg wit="#A">habían</rdg>
                </app> hecho las mismas demonstraciones y ofrecimientos, faltando <app>
@@ -2567,7 +2567,7 @@
                </app> y por de contado<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> extinguir estos Congresos o <term n="16">Parlamento</term>s, que son excusados no <app>
+               </app> extinguir estos Congresos o <term n="16">Parlamentos</term>, que son excusados no <app>
                   <rdg wit="#Z">verificandose</rdg>
                   <rdg wit="#A">verificándose</rdg>
                </app> por su parte los efectos<app>
@@ -2937,7 +2937,7 @@
                   <rdg wit="#A">sí</rdg>
                </app> se mandó firmar por los <term n="23">Señores</term> que se hallaron presentes, <app>
                   <rdg wit="#Z">que si para esparcir desde aquel puesto a lo interior del <term n="2">Butalmapu</term>
-                     de <placeName>Angol</placeName> fuere conveniente alli algun hospicio, se les concedera despues que
+                     de <placeName>Angol</placeName> fuere conveniente alli algun <term n="31">hospicio</term>, se les concedera despues que
                      admitan, y situen aquellas en sus proprias Tierras, a lo qual no manifiestan
                      condescender. Que por medio del <term n="7">Comisario de Naciones</term> se manifieste a los
                      <term n="2">Butalmapus</term> en las Juntas que han de celebrar la proxima primavera para divulgar
@@ -2972,7 +2972,8 @@
                      mandó, y firmó su Excelencia, de que certifico = <persName n="20">Muñoz</persName> = Por mandado de su
                      Excelencia = <persName n="12">Judas Tadeo Reyes</persName>, Secretario. <pb ed="#Z" n="421"/>Concuerda con
                      su original [de] que certifico. Santiago y octubre dies y ocho de mil
-                     ochosientos tres.</rdg>
+                     ochosientos tres. <persName n="1">Antonio Garfias</persName>
+                     Escrivano subtituto de Gobierno</rdg>
                   <rdg wit="#A"/>
                </app>
             </ab>
@@ -2980,8 +2981,7 @@
          
          <div n="30"><!-- whc 1/20/23: see printed copy of Z for formatting -->
             <ab><app>
-                  <rdg wit="#Z"><persName n="1">Antonio Garfias</persName>
-                     <lb/>Escrivano subtituto de Gobierno 
+                  <rdg wit="#Z"> 
                      <lb/>RESUMEN 
                      <lb/><term n="5">Caciques</term> de los quatro <term n="2">Butalmapus</term> 239 
                      <lb/><term n="6">Capitanejos</term>, <term n="14">Mozetones</term>, y Respetados de iden 3060 
@@ -3008,7 +3008,7 @@
             motivos que le imposibilitaban su asistencia personal, por su Superior Orden de treinta
             de Octubre ultimo =</rdg><rdg wit="#A"/></app></ab></div> 
          
-         <div n="32"><ab><app><rdg wit="#Z">El Estado inclusive demuestra el numero de tropas de Dragones,
+         <div n="33"><ab><app><rdg wit="#Z">El Estado inclusive demuestra el numero de tropas de Dragones,
             y Milicia asistentes en el Campamento. El de Yndios va por <term n="2">Butalmapus</term> o Goviernos
             para inteligencia de los que concurrieron. El Plano servira para dar idea del modo con
             que se colocaron las oficinas para el Congreso. Y las Actas originadas en aquel tiempo
@@ -3027,42 +3027,42 @@
             del excesivo numero de concurrentes Parcialidades, y otras circunstancias beneméritas
             =</rdg><rdg wit="#A"/></app></ab></div>
          
-         <div n="33"><ab><app><rdg wit="#Z">En cumplimiento de mi obligacion recomiendo a Vuexcelencia el merito que han
+         <div n="34"><ab><app><rdg wit="#Z">En cumplimiento de mi obligacion recomiendo a Vuexcelencia el merito que han
             adquirido los oficiales empleados en aquella fatiga durante el tiempo del Parlamento,
             donde desempeñaron con la mayor dedicacion las atenciones del Servicio, sin haber
             dado causa para la menor reconvención = </rdg><rdg wit="#A"/></app></ab></div>
          
          
-         <div n="34"><ab><app><rdg wit="#Z">Enterado Vuexcelencia por todo lo expuesto,
+         <div n="35"><ab><app><rdg wit="#Z">Enterado Vuexcelencia por todo lo expuesto,
             conocerá los deseos que me estimulan en el cumplimiento de la Comicion con que se
             sirvió distinguirme, dandole por ello constante prueba de mi reconocimiento, y del
             anhelo con que ansio ocuparme en los asuntos del Real Servicio. Bajo de este concepto
             espero sea todo lo obrado de la Superior aprobacion de Vuexcelencia, y me servira de la
             mayor satisfacción =</rdg><rdg wit="#A"/></app></ab></div>
             
-            <div n="35"><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. Concepcion treinta de
+            <div n="36"><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. Concepcion treinta de
                Abril de mil ochocientos tres = </rdg><rdg wit="#A"/></app></ab></div>
             
-            <div n="36"><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = <persName n="24">Pedro Quijada</persName> = Excelentisimo
+            <div n="37"><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = <persName n="24">Pedro Quijada</persName> = Excelentisimo
                      <pb ed="#Z" n="422"/><term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName n="14">Luis Muñoz de Guzman</persName>, Teniente General de los
                      Reales Exercitos, Presidente, Governador, y Capitan General del Reyno de <placeName>Chile</placeName>
                = </rdg><rdg wit="#A"/></app></ab></div>
                      
-               <div n="37"><head><app><rdg wit="#Z">En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
-                     tres: El Excelentisimo <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> Luis Muñoz de Guzman, Cavallero del Orden de
-                     Santiago, Comendador de las <placeName>Pueblas</placeName> en la de <placeName>Alcantara</placeName>, Teniente General de la
+               <div n="38"><head><app><rdg wit="#Z">En la Ciudad de <placeName>Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
+                     tres: El Excelentisimo <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName>Luis Muñoz de Guzman</persName>, Cavallero del Orden de
+                     Santiago, Comendador de las Pueblas en la de <placeName>Alcantara</placeName>, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de <placeName>Chile</placeName>, Presidente de su
                      <term n="21">real Audiencia</term>, Superintendente Subdelegado de <term n="22">Real Hacienda</term>, y Correos, y Vice
                      Patrono Real, [rúbrica]:</rdg><rdg wit="#A"/></app></head></div> 
          
         
-                     <div n="38"><ab><app><rdg wit="#Z">Habiendo visto el <term n="16">Parlamento</term> General celebrado en el
-                     Campo de <placeName><placeName>Negrete</placeName></placeName> por su Comicionado el <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName n="24">Pedro Quijada</persName>,
+                     <div n="39"><ab><app><rdg wit="#Z">Habiendo visto el <term n="16">Parlamento</term> General celebrado en el
+                     Campo de <placeName>Negrete</placeName> por su Comicionado el <term n="23">Señor</term> Brigadier <term n="12">Don</term> <persName n="24">Pedro Quijada</persName>,
                      Comandante Ynterino de Armas de la Provincia de la <placeName>Concepcion</placeName>, con los quatro
                      <term n="2">Butalmapus</term> de aquella Frontera, y Payzes del Sur, en los dias desde el tres al
                      cinco de marzo proximo pasado, dixo, que debia aprobar, y aprobaba los ocho
                      Articulos de su contenido, respecto de dirigirse a la ratificacion de los
-                     Tratados, y <term n="16">Parlamento</term>s anteriores aprobados por su Magestad, como oportunos
+                     Tratados, y <term n="16">Parlamentos</term> anteriores aprobados por su Magestad, como oportunos
                      para la consolidacion de la paz, y mejor civilizacion de aquellas naciones, y
                      su reconocimiento a la Soberana de nuestro Catolico Rey y <term n="24"><term n="23">Señor</term> <term n="12">Don</term></term> <persName n="2">Carlos
                      quarto</persName>: Y en su consequencia, que se cumpla, y observe puntualmente lo que en
@@ -3073,25 +3073,25 @@
                      dominios, toda coaccion y engaño de los yndios, y la introduccion en sus
                      tierras de armas ofensivas y defensivas, vino, y demas efectos prohibidos,
                      conforme a la misma Ley, y siguientes hasta la treinta y una del citado titulo
-                     y libro, y al peculiar Reglamento formado en su razon, y aprobado por Real
-                     Orden <!--whc: should this be added as a term?--> de nueve de Febrero de mil setecientos noventa y siete. </rdg><rdg wit="#A"/></app></ab></div>
+                     y libro, y al peculiar Reglamento formado en su razon, y aprobado por 
+                        <term n="3">Real Orden</term> de nueve de Febrero de mil setecientos noventa y siete. </rdg><rdg wit="#A"/></app></ab></div>
                         
-                        <div n="39"><ab><app><rdg wit="#Z">Y en quanto a las
+                        <div n="40"><ab><app><rdg wit="#Z">Y en quanto a las
                      pretenciones particulares que hicieron en aquel Congreso varios <term n="5">caciques</term>, mandó
                      su Señoria, se haga entender al de <placeName>Maquegua</placeName>, y sus compañeros, que deben
                      renunciar la corta satisfaccion de poder vicitar mas facilmente a los jovenes
                      que entreguen para su educacion en el Seminario, trasladandose a la <term n="18">Plaza</term> de
                      <placeName>los Angeles</placeName>, por las mayores ventajas que resultan de su reunion al Colegio de
                      los Padres Micioneros de la Ciudad de <placeName>Chillan</placeName>, donde logran mejores comodidades
-                     para su subsistencia, y asig-nacion de maestros los mas a proposito, bajo la
+                     para su subsistencia, y asignacion de maestros los mas a proposito, bajo la
                      direccion del Padre Guardian, estando asi dispuesto por el Rey, sin arvitrio
                      aqui para variarlo, por los muchos inconvenientes al instituto de ambos
                      establecimientos, y mayores dotaciones, y costos exorbitantes de nueva fabrica,
                      que sobrevendrian de su reparacion.</rdg>
                <rdg wit="#A"/></app></ab></div> 
                      
-                     <div n="40"><ab><app><rdg wit="#Z">Que no se haga novedad en la subsistencia
-                     del Hospicio de <placeName>Santa Barbara</placeName>, que se habia proyectado abandonar, sino que
+                     <div n="41"><ab><app><rdg wit="#Z">Que no se haga novedad en la subsistencia
+                     del <term n="31">Hospicio</term> de <placeName>Santa Barbara</placeName>, que se habia proyectado abandonar, sino que
                      antes se proceda a su refaccion, progresando el Expediente que estaba suspenso,
                      y pendiente de la resolucion que se tomase sobre este particular en este
                      <term n="16">Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
@@ -3101,10 +3101,12 @@
                      realizacion, convocando las Juntas oportunas de los yndios, y consultando
                      previamente a esta Superioridad las demas providencias que convenga anticipar
                      para su allanamiento, asignacion de los micioneros de acuerdo con el Padre
-                     Prefecto y Guardian del Colegio de <placeName>Chillan</placeName>, y proviciones de gastos para su
-                        establecimiento, y sinodos fixos: Que al cacique de la <term  n="11">Reduccion</term> de <placeName>Santa Feé</placeName>
+                     Prefecto y Guardian del <term n="8">Colegio de <placeName>Chillan</placeName></term>, y proviciones de gastos para su
+                        establecimiento, y sinodos fixos:</rdg><rdg wit="#A"/></app></ab></div>
+                        
+                        <div n="42"><ab><app><rdg wit="#Z">Que al <term n="5">cacique</term> de la <term  n="11">Reduccion</term> de <placeName>Santa Feé</placeName>
                      se le persuada, desista de su pretencion de tener parroco micionero a exemplo
-                     de su respetable antecesor el anciano honrado Levigueque, por ser esta una
+                     de su respetable antecesor el anciano honrado <persName>Levigueque</persName>, por ser esta una
                      materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo <term n="23">Señor</term>
                      <persName n="21">Obispo de la Concepcion</persName>, conforme a los derechos de su Jurisdiccion, y a las
                      Constituciones Pontificias, e Ynstituto de los Micioneros, que solo deben
@@ -3120,36 +3122,37 @@
             </ab>
          </div>
 
-         <div n="41">
+         <div n="43">
             <ab><app>
                   <rdg wit="#Z"><persName n="24">Pedro Quijada</persName> = 
-                     <persName n="23">Pedro Nolazco del Rio</persName> = 
-                     <persName n="16">Mariano José de Roa</persName> = 
-                     <persName n="11">Juan Zapatero</persName> = 
-                     <persName n="15">Manuel de Vega Bazan</persName> = 
-                     <persName n="22">Pedro José de Benavente</persName> = 
-                     <persName n="18">Melchor de Carvajal</persName> = 
-                     <persName n="13">Luis de la Cruz</persName> = 
-                     <persName n="19">Miguel Puga</persName> = 
-                     Fray <persName  n="6">Francisco Xavier de Alday</persName> = 
-                     Fray <persName n="7">Gil Calvo</persName> = Guardian de <placeName>Chillan</placeName> = 
-                     <persName n="8">Gonzalo Maria de Figueroa</persName>, Secretario de la Comicion.</rdg>
+                     <lb/><persName n="23">Pedro Nolazco del Rio</persName> = 
+                     <lb/><persName n="16">Mariano José de Roa</persName> = 
+                     <lb/><persName n="11">Juan Zapatero</persName> = 
+                     <lb/><persName n="15">Manuel de Vega Bazan</persName> = 
+                     <lb/><persName n="22">Pedro José de Benavente</persName> = 
+                     <lb/><persName n="18">Melchor de Carvajal</persName> = 
+                     <lb/><persName n="13">Luis de la Cruz</persName> = 
+                     <lb/><persName n="19">Miguel Puga</persName> = 
+                     <lb/>Fray <persName  n="6">Francisco Xavier de Alday</persName> = 
+                     <lb/>Fray <persName n="7">Gil Calvo</persName> = Guardian de <placeName>Chillan</placeName> = 
+                     <lb/><persName n="8">Gonzalo Maria de Figueroa</persName>, Secretario de la Comicion.</rdg>
+ 
                   <rdg wit="#A"><persName n="24">Pedro Quijada</persName>. - 
-                     <persName n="23">Pedro Nolasco del Rio</persName>. - 
-                     <persName n="16">Mariano José de Roa</persName>. -
-                     <persName n="11">Juan Zapatero</persName>. - 
-                     <persName n="18">Melchor de Carvajal</persName>. - 
-                     <persName n="22">Pedro José de Benavente</persName>. - 
-                     <persName n="19">Miguel Puga</persName>. -
-                     <persName n="13">Luis de la Cruz</persName>. – 
-                     Fr. <persName n="7">Gil Calvo</persName>.- Guardián de <placeName>Chillán</placeName>. - 
-                     Fr. <persName  n="6">Francisco Javier de Aldai</persName> Prefecto de Misiones. _ 
-                     <persName n="8">Gonzalo M. de Figueroa</persName> secretario de la comisión." </rdg>
+                     <lb/><persName n="23">Pedro Nolasco del Rio</persName>. - 
+                     <lb/><persName n="16">Mariano José de Roa</persName>. -
+                     <lb/><persName n="11">Juan Zapatero</persName>. - 
+                     <lb/><persName n="18">Melchor de Carvajal</persName>. - 
+                     <lb/><persName n="22">Pedro José de Benavente</persName>. - 
+                     <lb/><persName n="19">Miguel Puga</persName>. -
+                     <lb/><persName n="13">Luis de la Cruz</persName>. – 
+                     <lb/>Fr. <persName n="7">Gil Calvo</persName>.- Guardián de <placeName>Chillán</placeName>. - 
+                     <lb/>Fr. <persName  n="6">Francisco Javier de Aldai</persName> Prefecto de Misiones. - 
+                     <persName n="8">Gonzalo M. de Figueroa</persName> secretario de la comisión. </rdg>
                </app>
             </ab>
          </div>
 
-         <div n="42">
+         <div n="44">
             <ab><app>
                   <rdg wit="#Z">Relacion de los <term n="5">Caciques</term> Governadores y particulares, con sus
                      Respetados y <term n="14">Mozetones</term> que han concurrido al <term n="16">Parlamento</term> General de <placeName>Negrete</placeName> de
