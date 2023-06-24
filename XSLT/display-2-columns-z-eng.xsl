@@ -263,7 +263,7 @@
 
 
     <xsl:template match="div//persName" mode="#all">
-      <u><span class="pers"><xsl:apply-templates/></span></u>  
+        <span class="pers"><xsl:apply-templates/></span><xsl:text> </xsl:text>  
    </xsl:template>
     
     <xsl:template match="body//term[not(@type='untrans')]" mode="#all">
@@ -277,7 +277,7 @@
         character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
     
     <xsl:template match="body//placeName" mode="#all">
-        <span class="place"><xsl:apply-templates/></span>
+        <span class="place"><xsl:apply-templates/></span><xsl:text> </xsl:text>
     </xsl:template> 
     <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
         of nodes controlled at a higher level with modal XSLT, specifically what calls for rdg elements from only one edition. -->
