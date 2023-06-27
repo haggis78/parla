@@ -22,12 +22,17 @@ th, td {
   padding: 15px;
 }
 
+th.text, td.text {
+  line-height: 1.6;
+}
+
 td {
     vertical-align: top;
 }
 
 details {
-  text-indent: 20px;
+  padding-left: 15px ;
+  text-indent: -15px ;
 }
 
 html{
@@ -58,4 +63,4 @@ span.term {
 
 span.pers{color:blue; }
 span.place{color:green; }
-/* pan.title{font-size: 1.5em;}not being used: this was only for the details-within-details notes dropdown  */
+/* span.title{font-size: 1.5em;}not being used: this was only for the details-within-details notes dropdown  */

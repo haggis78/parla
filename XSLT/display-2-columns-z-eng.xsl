@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- WHC 27-JUN-2023: When running this XSLT in oXygen, the Spanish file MUST be open and selected as the input XML -->
+
 <!-- WHC 24-May-2023: The purpose for this XSLT is to create a display version with Zavala and English translation 
     IN TWO PARALLEL COLUMNS (actually in a table element) as an html file, with a third column for notes. -->
 
@@ -12,16 +15,6 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
     
-    <!--whc 24-JUN-2023: commenting out but saving for now the variables for test versions
-    <xsl:variable name="negreteFiles" select="collection('../XML/test-versions/?select=*.xml')"/>
-    <xsl:variable name="negText" select="document('../XML/test-versions/negrete-test.xml')"/>
-    <xsl:variable name="negTrans" select="document('../XML/test-versions/english-translation-test.xml')"/>
-    <xsl:variable name="negLex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
-    <xsl:variable name="negPers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
-    <xsl:variable name="negPlace" select="document('../XML/test-versions/negrete-locations-test.xml')"/>   -->
-    
-    <!--whc 18-FEB-2023: will need to change the varables' filepaths and file handles when it's time to run over the real files-->
-    
     <xsl:variable name="negreteFiles" select="collection('../XML/?select=*.xml')"/>
     <xsl:variable name="negText" select="document('../XML/negrete-1803-spanish.xml')"/>
     <xsl:variable name="negTrans" select="document('../XML/negrete-1803-english.xml')"/>
@@ -31,8 +24,6 @@
     <xsl:strip-space elements="*"/>
     
     <xsl:template match="$negText">
-<!--whc 24-JUN-2023: commenting out but saving the line to create test version
-            <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-2cols-z-eng.html">   -->
         <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/text-trans-notes.html">
                 <html>
                     <head>
@@ -85,42 +76,41 @@
                                     
                                         <tr id="sect-{$div-n}">
                                             <xsl:if test="./head">
-                                            <th>[&#167;<xsl:value-of select="data(@n)"/>]
+                                                <th class="text">[&#167;<xsl:value-of select="data(@n)"/>]
                                                 <xsl:apply-templates select="head" mode="Z-head"/></th>
-                                            <th>[&#167;<xsl:value-of select="data(@n)"/>]  
+                                                <th class="text">[&#167;<xsl:value-of select="data(@n)"/>]  
                                                 <xsl:apply-templates select="$negTrans//div[data(@n)=$div-n]/head"/></th>
                                             </xsl:if>
                                             
-                                            <xsl:if test="./ab">
-                                                <td><b>[&#167;<xsl:value-of select="data(@n)"/>] </b>
+                                            <xsl:if test="./ab"> <!--whc 27-JUN-2023: @class="text" is to distinguish the text columns from the notes column so I can use CSS to style them separately-->
+                                                <td class="text"><b>[&#167;<xsl:value-of select="data(@n)"/>] </b>
                                                     <xsl:apply-templates select="ab" mode="Z-block"/></td>
-                                                <td><b>[&#167;<xsl:value-of select="data(@n)"/>] </b> 
+                                                <td class="text"><b>[&#167;<xsl:value-of select="data(@n)"/>] </b> 
                                                     <xsl:apply-templates select="$negTrans//div[data(@n)=$div-n]/ab"/></td>
                                             </xsl:if>
                                             
-                                            <td>
+                                            <td class="notes">
                                                 <xsl:if test="not(.//term or .//persName or .//placeName)">
-                                                    <i>No hay notas en esta sección.</i>
-                                                    <a class="top-btn" href="#">Inicio de página</a>
+                                                    <i>No hay notas en esta sección. / No notes on this section.</i>
+                                                    <a class="top-btn" href="#">Inicio de página / Top of page</a>
                                                 </xsl:if>
                                                 
                                                 <xsl:if test="$negTrans//div[data(@n)=$div-n]//term 
                                                     or $negTrans//div[data(@n)=$div-n]//persName 
                                                     or $negTrans//div[data(@n)=$div-n]//placeName">
-                                                    <!--whc 24-JUN-2023: needed to use xpath from translation to test for term/persName/placeName because otherwise it would call for them
-                                                        if they appeared in the Spanish in Ayun but not Zavala. Ditto all the filepaths for the if tests and for-each-group selects that follow. 
-                                                    This is not in the Zavala-Ayun comparison XSLT as it is not needed there, so these are simpler there. This would not be needed either in 
-                                                    an XSLT in the future that runs from a single-witness Spanish source XML.-->
+                                                    <!--whc 24-JUN-2023: needed to use xpath from translation to test for term/persName/placeName because otherwise it would call for them if they appeared in the Spanish in Ayun but not Zavala. Also occasionally a name etc is inserted into the translation for clarity even if it does not occur in the Spanish. Ditto all the filepaths for the if tests and for-each-group selects that follow. This is not in the Zavala-Ayun comparison XSLT as it is not needed there, so these are simpler there. This might not be needed either in  an XSLT in the future that runs from a single-witness Spanish source XML, except for the possibility of some names etc that had been inserted in the translation for clarity.-->
                                                     <p><i>Haga clic en cada triángulo para ampliar/contraer notas</i><br/>Click each triangle to expand/collapse notes</p>
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//term">
-                                                        <h2><b>Términos / Terms</b></h2>
+                                                        <h2><b>Términos / Terms</b></h2> <!--whc 27-JUN-2023: This is currently set up to give the Spanish term and the Spanish definition. -->
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
                                                             <xsl:variable name="term-n" select="./data(@n)"/>
                                                             <xsl:variable name="sense-n" select="./data(@select)"/>
                                                             <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
                                                             <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
                                                                 <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
-                                                                <xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=$sense-n]"/>
+                                                                <!--whc 27-JUN-2023: The next two lines allow us to choose from among multiple <sense> definitions. A <term> in the XML can have a @select attribute which tells it which <sense n=""> we want to call for in this instance. If there is no @select attribute, it defaults to <sense n="1">. -->
+                                                                <xsl:if test="@select"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=$sense-n]"/></xsl:if>
+                                                                <xsl:if test="not(@select)"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=1]"/></xsl:if>
                                                                 <br/></details>
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
@@ -133,9 +123,9 @@
                                                                 <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
-                                                    <xsl:if test=".//placeName">
+                                                    <xsl:if test="$negTrans//div[data(@n)=$div-n]//placeName">
                                                         <h2><b>Lugares / Places</b></h2>
-                                                        <xsl:for-each-group select=".//placeName" group-by="data(@n)">
+                                                        <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//placeName" group-by="data(@n)">
                                                             <xsl:variable name="place-n" select="./data(@n)"/>
                                                             <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
                                                             <details><summary><b><xsl:apply-templates select="$this-place/concat
@@ -150,21 +140,6 @@
                                         </tr>
                                     </xsl:if>
                                 </xsl:for-each>       
-     <!--                                   <xsl:if test="./ab">
-                                            <tr id="sect-{$div-n}">
-                                                <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
-                                                    <xsl:apply-templates select="ab" mode="Z-block"/> </td>
-                                                <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>  
-                                                    <xsl:apply-templates select="$negTrans//div[data(@n)=$div-n]/ab"/></td>
-                                                <td><b>Notes</b> <i> Click on category to expand/collapse</i>
-                                                    <a class="top-btn" href="#">Top of page</a></td>
-
-                                            </tr>
-                                        </xsl:if>     
-                                        
-                                    </xsl:if>
-                                </xsl:for-each>-->
-                                
                             </table>
                         </div>
                     </body>
@@ -172,6 +147,51 @@
             </xsl:result-document>
     </xsl:template>
     
+    <xsl:template match="head" mode="Z-head">
+        <xsl:apply-templates mode="Z-rdg"/>
+    </xsl:template>
+    
+    <xsl:template match="ab" mode="Z-block">
+        <xsl:apply-templates mode="Z-rdg"/>
+    </xsl:template>
+    <xsl:template match="rdg[@wit[not(contains(., 'Z'))]]" mode="Z-rdg"/>
+
+    <!--whc: this suppresses non-Z rdg elements when called for by mode to create Z text. Only necessary in Negrete 1803 as this is
+    a 2-witness Spanish text.-->
+
+    <xsl:template match="body//persName" mode="#all">
+        <span class="pers"><xsl:apply-templates/></span><xsl:text> </xsl:text>  
+   </xsl:template>
+    
+    <xsl:template match="body//term[not(@type='untrans')]" mode="#all">
+        <span class="term"><xsl:apply-templates/></span><xsl:text> </xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="body//term[@type='untrans']" mode="#all">
+        <span class="term"><i><xsl:apply-templates/></i></span><xsl:text> </xsl:text>
+    </xsl:template>  
+    <!--whc 24-JUN-2023: the xsl:text is to make sure there's a space after a term, but so far it puts one there whether the next
+        character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
+   
+    <xsl:template match="body//placeName" mode="#all">
+        <span class="place"><xsl:apply-templates/></span><xsl:text> </xsl:text>
+    </xsl:template> 
+    <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
+        of nodes controlled at a higher level with modal XSLT, specifically what calls for rdg elements from only one edition. -->
+
+</xsl:stylesheet>
+
+<!--whc 24-JUN-2023: commenting out but saving for now the variables for test versions
+    <xsl:variable name="negreteFiles" select="collection('../XML/test-versions/?select=*.xml')"/>
+    <xsl:variable name="negText" select="document('../XML/test-versions/negrete-test.xml')"/>
+    <xsl:variable name="negTrans" select="document('../XML/test-versions/english-translation-test.xml')"/>
+    <xsl:variable name="negLex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
+    <xsl:variable name="negPers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
+    <xsl:variable name="negPlace" select="document('../XML/test-versions/negrete-locations-test.xml')"/>   -->
+
+<!--whc 24-JUN-2023: commenting out but saving the line to create test version
+            <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-2cols-z-eng.html">   -->
+
 <!--    <xsl:template match="div">
         <tr id="sect-{data(@n)}">
             <xsl:if test="./head">
@@ -183,7 +203,7 @@
                     <a class="top-btn" href="#">Top of page</a></td>
             
         </xsl:if>  -->
-        <!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
+<!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
             Get them working perfectly on div/ab and then just copy the whole thing to div/head; or figure out a way
             to make the notes etc. their own template rule that can be called from either type of div.-->
 <!--        <xsl:if test="./ab">
@@ -248,38 +268,3 @@
             </tr>
         </xsl:if>
     </xsl:template>   -->
-    
-    <xsl:template match="head" mode="Z-head">
-        <xsl:apply-templates mode="Z-rdg"/>
-    </xsl:template>
-    
-    <xsl:template match="ab" mode="Z-block">
-        <xsl:apply-templates mode="Z-rdg"/>
-    </xsl:template>
-    <xsl:template match="rdg[@wit[not(contains(., 'Z'))]]" mode="Z-rdg"/>
-
-    <!--whc: this suppresses non-Z rdg elements when called for by mode to create Z text. Only necessary in Negrete 1803 as this is
-    a 2-witness Spanish text.-->
-
-
-    <xsl:template match="div//persName" mode="#all">
-        <span class="pers"><xsl:apply-templates/></span><xsl:text> </xsl:text>  
-   </xsl:template>
-    
-    <xsl:template match="body//term[not(@type='untrans')]" mode="#all">
-        <span class="term"><xsl:apply-templates/></span><xsl:text> </xsl:text>
-    </xsl:template>
-    
-    <xsl:template match="body//term[@type='untrans']" mode="#all">
-        <span class="term"><i><xsl:apply-templates/></i></span><xsl:text> </xsl:text>
-    </xsl:template>
-    <!--whc 24-JUN-2023: the xsl:text is to make sure there's a space after a term, but so far it puts one there whether the next
-        character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
-    
-    <xsl:template match="body//placeName" mode="#all">
-        <span class="place"><xsl:apply-templates/></span><xsl:text> </xsl:text>
-    </xsl:template> 
-    <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
-        of nodes controlled at a higher level with modal XSLT, specifically what calls for rdg elements from only one edition. -->
-
-</xsl:stylesheet>
