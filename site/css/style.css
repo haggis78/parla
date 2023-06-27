@@ -1,5 +1,4 @@
 body {
-
 color: black;
 font-family: arial, helvetica, sans-serif;
 font-size: 100%;
@@ -14,7 +13,7 @@ table {
 width: 100%;
 }
 
-table, th, td {
+table.document, th, td {
   border: 1px solid;
 }
 

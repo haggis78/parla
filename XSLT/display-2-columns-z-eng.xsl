@@ -21,7 +21,7 @@
     <xsl:variable name="negLex" select="document('../XML/negrete-1803-lexicon.xml')"/>
     <xsl:variable name="negPers" select="document('../XML/negrete-1803-persons.xml')"/>
     <xsl:variable name="negPlace" select="document('../XML/negrete-1803-locations.xml')"/>
-    <xsl:strip-space elements="*"/>
+<!--    <xsl:strip-space elements="*"/>   whc: 27-JUN-2023: this seems to be causing spacing problems and not solving them -->
     
     <xsl:template match="$negText">
         <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/text-trans-notes.html">
@@ -44,7 +44,7 @@
                                 </xsl:for-each>
                             </h3>
                             
-                            <table>
+                            <table class="document">
                                 <tr>
                                     <td>
                                         <p><b>Editor: </b><xsl:apply-templates select="//bibl[data(@xml:id)='Z']/editor"/></p> 
@@ -61,15 +61,11 @@
                                     </td>
                                     <th></th>
                                 </tr>
-                                <tr><th><h2>Text: Zavala</h2></th>
+                                <tr><th><h2>Texto: Zavala</h2></th>
                                     <th><h2>Text: English Translation</h2></th>
-                                    <th><h2>Notes</h2></th></tr>
+                                    <th><h2>Notas / Notes</h2></th></tr>
 
-<!--whc 24-May-2023: while <xsl:apply-templates select="$negText//body/div"/> approach was used in the XSLT for two columns
-                                of Spanish versions, I've needed to switch to an xsl:for-each loop here to be able to pull both the Zavala text from
-                                the Spanish XML and the corresponding English divs from that separate XML file. -->
-                                
-                                <xsl:for-each select=".//div">
+                                <xsl:for-each select=".//div"> <!--whc 24-May-2023: while <xsl:apply-templates select="$negText//body/div"/> approach was used in the XSLT for two columns of Spanish versions, I've needed to switch to an xsl:for-each loop here to be able to pull both the Zavala text from the Spanish XML and the corresponding English divs from that separate XML file. -->
                                     <xsl:if test="@n"><!--whc: to screen out any divs that only appear in Ayun, which will have no numbers in the Spanish XML file-->
                                     <xsl:variable name="div-n" select="./data(@n)"/>
                                     <xsl:variable name="this-div-eng" select="$negTrans//body/div[data(@n)=$div-n]"/>
@@ -147,19 +143,15 @@
             </xsl:result-document>
     </xsl:template>
     
-    <xsl:template match="head" mode="Z-head">
+    <xsl:template match="head" mode="Z-head"> <!--whc: this suppresses non-Z rdg elements when called for by mode to create Z text. Only necessary in Negrete 1803 as this is a 2-witness Spanish text.-->
         <xsl:apply-templates mode="Z-rdg"/>
     </xsl:template>
-    
     <xsl:template match="ab" mode="Z-block">
         <xsl:apply-templates mode="Z-rdg"/>
     </xsl:template>
     <xsl:template match="rdg[@wit[not(contains(., 'Z'))]]" mode="Z-rdg"/>
 
-    <!--whc: this suppresses non-Z rdg elements when called for by mode to create Z text. Only necessary in Negrete 1803 as this is
-    a 2-witness Spanish text.-->
-
-    <xsl:template match="body//persName" mode="#all">
+    <xsl:template match="body//persName" mode="#all"> <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes of nodes controlled at a higher level with modal XSLT, specifically what calls for rdg elements from only one edition. -->
         <span class="pers"><xsl:apply-templates/></span><xsl:text> </xsl:text>  
    </xsl:template>
     
@@ -170,15 +162,26 @@
     <xsl:template match="body//term[@type='untrans']" mode="#all">
         <span class="term"><i><xsl:apply-templates/></i></span><xsl:text> </xsl:text>
     </xsl:template>  
-    <!--whc 24-JUN-2023: the xsl:text is to make sure there's a space after a term, but so far it puts one there whether the next
-        character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
+    <!--whc 24-JUN-2023: the xsl:text is to make sure there's a space after a term, but so far it puts one there whether the next character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
    
     <xsl:template match="body//placeName" mode="#all">
         <span class="place"><xsl:apply-templates/></span><xsl:text> </xsl:text>
     </xsl:template> 
-    <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
-        of nodes controlled at a higher level with modal XSLT, specifically what calls for rdg elements from only one edition. -->
-
+    
+    <xsl:template match="lb"  mode="#all"><br/></xsl:template>
+    
+    <xsl:template match="metamark[@rend='horizontal-line']" mode="#all"><hr/></xsl:template>
+    
+    <xsl:template match="table" mode="#all"><table>
+        <xsl:for-each select="row">
+            <tr>
+                <xsl:for-each select="cell">
+                    <td><xsl:apply-templates/></td>
+                </xsl:for-each>
+            </tr>
+        </xsl:for-each>
+    </table></xsl:template>
+    
 </xsl:stylesheet>
 
 <!--whc 24-JUN-2023: commenting out but saving for now the variables for test versions

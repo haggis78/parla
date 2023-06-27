@@ -2684,12 +2684,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> o al fuego, y las entreguen a los comandantes de la <placeName>Barrera</placeName>, en donde se <app>
-                  <rdg wit="#Z">les</rdg>
-                  <rdg wit="#A">le</rdg>
-               </app>
-               <app>
-                  <rdg wit="#Z">gratificará</rdg>
-                  <rdg wit="#A">gratificara</rdg>
+                  <rdg wit="#Z">les gratificará</rdg>
+                  <rdg wit="#A">le gratificara</rdg>
                </app> competentemente como a <app>
                   <rdg wit="#Z">defenzores</rdg>
                   <rdg wit="#A">defensores</rdg>
@@ -2782,7 +2778,7 @@
                   <rdg wit="#Z">, exforzaron</rdg>
                   <rdg wit="#A">esforzaron</rdg>
                </app> a todos los <app>
-                  <rdg wit="#Z">casiques</rdg>
+                  <rdg wit="#Z"><term n="5">casiques</term></rdg>
                   <rdg wit="#A"><term n="5">Caciques</term></rdg>
                </app> para complacer al <term n="23">Señor</term> Presidente del Congreso<app>
                   <rdg wit="#Z">,</rdg>
@@ -2970,27 +2966,29 @@
                      mandó, y firmó su Excelencia, de que certifico = <persName n="20">Muñoz</persName> = Por mandado de su
                      Excelencia = <persName n="12">Judas Tadeo Reyes</persName>, Secretario. <pb ed="#Z" n="421"/>Concuerda con
                      su original [de] que certifico. Santiago y octubre dies y ocho de mil
-                     ochosientos tres. <persName n="1">Antonio Garfias</persName>
+                     ochosientos tres. <lb/><persName n="1">Antonio Garfias</persName><lb/>
                      Escrivano subtituto de Gobierno</rdg>
                   <rdg wit="#A"/>
                </app>
             </ab>
          </div>
-         
-         <div n="30"><!-- whc 1/20/23: see printed copy of Z for formatting -->
+ 
+         <div n="30">
             <ab><app>
-                  <rdg wit="#Z"> 
-                     <lb/>RESUMEN 
-                     <lb/><term n="5">Caciques</term> de los quatro <term n="2">Butalmapus</term> 239 
-                     <lb/><term n="6">Capitanejos</term>, <term n="14">Mozetones</term>, y Respetados de iden 3060 
-                     <lb/>3299</rdg><rdg wit="#A"/></app></ab>
-            <!-- whc 13-JUN-2023: What is appropriate element to indicate a horizontal rule here? -->
+               <rdg wit="#Z"> 
+                  <table>
+                     <row><cell>RESUMEN</cell><cell></cell></row>
+                     <row><cell><term n="5">Caciques</term> de los quatro <term n="2">Butalmapus</term></cell><cell>239</cell></row>
+                     <row><cell><term n="6">Capitanejos</term>, <term n="14">Mozetones</term>, y Respetados de iden</cell><cell>3060</cell></row>
+                     <row><cell></cell><cell>3299</cell></row>
+                  </table>
+                  <lb/><metamark rend="horizontal-line"/></rdg><rdg wit="#A"/></app></ab>
          </div>
          
          <div n="31"><ab>
             <!-- whc 1/20/23: most of p. 421 of Z, from the horizontal rule to the end of the page, is missing 
                   from A -->
-              <app><rdg wit="#Z">Asciende la suma de Concurrentes de los quatro <term n="2">Butalmapus</term> al Parlamento General, a
+            <app><rdg wit="#Z">Asciende la suma de Concurrentes de los quatro <term n="2">Butalmapus</term> al <term n="16">Parlamento</term> General, a
                tres mil doscientos noventa y nueve, segun las listas, y noticias que tomó el <term n="7">Comisario de
                Naciones y Lengua general</term> a su arrivo al Campamento, sin incluir las continuas partidas
                que fueron llegando en los dias consecutivos de la Parla, que por las ocupaciones no se
@@ -2999,7 +2997,7 @@
                mil ochocientos tres = <persName n="25">Sebastian Xibaja</persName> = <persName n="3">Fermin Villagran</persName>.</rdg><rdg wit="#A"/></app></ab></div>
             
             <div n="32"><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = Asisteme la mayor complacencia en acompañar a Vuexcelencia el
-            adjunto Expediente del Parlamento General celebrado en el Campo de <placeName>Negrete</placeName> con los
+               adjunto Expediente del <term n="16">Parlamento</term> General celebrado en el Campo de <placeName>Negrete</placeName> con los
             quatro <term n="2">Butalmapus</term> o Cantones de esta Frontera, segun lo ofreci a Vuexcelencia en mi
             anterior Oficio de fecha ocho de Marzo proximo pasado al tiempo de su conclucion; sirviendose
             Vuexcelencia darme, y conferir la necesaria Comicion, de resultas de los justos
@@ -3015,7 +3013,7 @@
             ofrecido todo por la demonstracion de sus promesas, y cargos sugeridos Sin embargo
             de no haber alcanzado en la celebracion el Acesor Doctor <term n="12">Don</term> 
             <persName n="10">Juan Martinez de Rosas</persName>,
-            como Auditor de Guerra, segun la costumbre de otros Parlamentos, a estimulo de los
+            como Auditor de Guerra, segun la costumbre de otros <term n="16">Parlamentos</term>, a estimulo de los
             conocimientos, y practica del <term n="23">Señor</term> Brigadier Comandante del Cuerpo de Dragones
             <term n="12">Don</term> <persName n="23">Pedro Nolazco del Rio</persName> 
             (como tengo a Vuexcelencia anunciado) confie con su asociamiento
@@ -3026,7 +3024,7 @@
             =</rdg><rdg wit="#A"/></app></ab></div>
          
          <div n="34"><ab><app><rdg wit="#Z">En cumplimiento de mi obligacion recomiendo a Vuexcelencia el merito que han
-            adquirido los oficiales empleados en aquella fatiga durante el tiempo del Parlamento,
+            adquirido los oficiales empleados en aquella fatiga durante el tiempo del <term n="16">Parlamento</term>,
             donde desempeñaron con la mayor dedicacion las atenciones del Servicio, sin haber
             dado causa para la menor reconvención = </rdg><rdg wit="#A"/></app></ab></div>
          
@@ -3038,7 +3036,7 @@
             espero sea todo lo obrado de la Superior aprobacion de Vuexcelencia, y me servira de la
             mayor satisfacción =</rdg><rdg wit="#A"/></app></ab></div>
             
-            <div n="36"><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. <placeName>Concepcio</placeName>n treinta de
+            <div n="36"><ab><app><rdg wit="#Z">Dios guarde a Vuexcelencia muchos años. <placeName>Concepcion</placeName> treinta de
                Abril de mil ochocientos tres = </rdg><rdg wit="#A"/></app></ab></div>
             
             <div n="37"><ab><app><rdg wit="#Z">Excelentisimo <term n="23">Señor</term> = <persName n="24">Pedro Quijada</persName> = Excelentisimo
