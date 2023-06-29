@@ -96,6 +96,7 @@
                                                     or $negTrans//div[data(@n)=$div-n]//placeName">
                                                     <!--whc 24-JUN-2023: needed to use xpath from translation to test for term/persName/placeName because otherwise it would call for them if they appeared in the Spanish in Ayun but not Zavala. Also occasionally a name etc is inserted into the translation for clarity even if it does not occur in the Spanish. Ditto all the filepaths for the if tests and for-each-group selects that follow. This is not in the Zavala-Ayun comparison XSLT as it is not needed there, so these are simpler there. This might not be needed either in  an XSLT in the future that runs from a single-witness Spanish source XML, except for the possibility of some names etc that had been inserted in the translation for clarity.-->
                                                     <p><i>Haga clic en cada triángulo para ampliar/contraer notas</i><br/>Click each triangle to expand/collapse notes</p>
+                                                    
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//term">
                                                         <h2><b>Términos / Terms</b></h2> <!--whc 27-JUN-2023: This is currently set up to give the Spanish term and the Spanish definition. -->
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
