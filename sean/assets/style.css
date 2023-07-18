@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Ysabeau Office');
+@import url('https://fonts.googleapis.com/css?family=Ysabeau%20Office');
+
 
 /* header css */
 .header{
@@ -24,7 +25,6 @@
 /* navbar css */
 .navbar {
     display: flex;
-    width: 100%;
     overflow: hidden;
     background-color: #2b2b2b;
     flex-direction: row;
@@ -107,23 +107,19 @@
 html, body {
     margin: 0;
     padding: 0;
-}
-#content {
-    margin: 2%;
+scroll-behavior: smooth;
+}   
+.content {
+     margin: 2%;
     margin-top: 7%;
 }
-body {
-    background-color: white;
-    color: #ffffff;
-    font-family: 'Ysabeau Office';    
-    font-size: 16px
-}
+
 h1 {
-    color: #0C0C0C;
+    color: #2b2b2b;
     text-align:center
 }
 h2 {
-    color:#c8b4c7;
+    color:#2b2b2b;
     text-align:center;
 }
 /* end body css */
@@ -204,6 +200,70 @@ h2 {
                 #banner header h2 a:hover {
                     border-bottom-color: transparent;
                 }
+  #skip {
+          margin-left: 50px;
+    margin-right: 50px;
+  }              
+ /* start table css */               
+table {
+    table-layout: fixed;
+width: 90%;
+   margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+th, td {
+  padding: 15px;
+  vertical-align: top;
+}
+
+th.text, td.text {
+  line-height: 1.6;
+}
+
+td {
+ text-align: left;   
+ /* not currently working; still to be decided if we want it */
+}
+
+.top-btn{
+    float:right;
+    background-color: #F5F5F5;
+  color: #404040;
+  padding: 2px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.top-btn:hover {
+    color:#F5F5F5;
+    background-color: #404040;
+} 
+details {
+  padding-left: 15px ;
+  text-indent: -15px ;
+}
+span.variant{
+    color:brown;
+}
+span.term {
+    text-decoration: underline dotted;
+    text-underline-position:under;
+}
+
+span.pers{color:blue; }
+span.place{color:green; }
+/* end table css  */
+
+body {
+    background-color: white;
+    color: #2b2b2b;
+    font-family: 'Ysabeau Office';    
+    font-size: 16px
+}
+
     /* Footer */
 
 	#footer {
