@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Navbar Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="/html/style.css"/>
+        <script src="/js/sticky.js"></script>
+        <!--shd: css and javascript files are both included. sticky js makes the navbar stick to the top of the users screen even if they scroll down. there is some css that goes along with it that is in the css file. -->
+    </head>
+    <body>
+        <div class="header">
+            <h1>A Header for the Very Cool Project</h1>
+        </div>
+        <div id="navbar">
+            <div class="navbar">
+                
+                <a href="/testing/index.xhtml">Home</a>
+                
+                <!--shd: dropdown/document names, items, filepaths, etc. can be adjusted as needed. leaving these broken up to show the different sections and their layouts. -->
+                <div class="dropdown">
+                    <button class="dropbtn">About</button>
+                    <div class="dropdown-content">
+                        <a href="/testing/html/purpose.html">Purpose</a>
+                        <a href="/testing/html/methodology.html">Methodology</a>
+                        <a href="/testing/html/team.html">Team</a>                 
+                    </div>
+                </div>      
+                
+                <a href="/testing/html/content.html">Content</a>
+                <!--shd: this is to put any of your content, such as songs, scripts, etc. note: if more items are needed for this section (i.e. if there's multiple content pages/songs/chapters to include, you can copy and adjust from one of the dropdowns. this was included just to show how to have a standalone button (technically different from index since it has to step into a folder but same idea) -->
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Analysis</button>
+                    <div class="dropdown-content">
+                        <a href="/testing/html/svg.html">SVG</a>
+                        <a href="/testing/html/network.html">Network Graphs</a>
+                        <a href="/testing/html/analysis.html">Findings/Discussion</a>
+                    </div>                                 
+                </div>
+                <!--shd:for analyses including tables, graphs, charts, and the actual written analysis of findings -->
+                
+                <div class="dropdown">
+                    <button class="dropbtn">Reference/Source</button>
+                    <div class="dropdown-content">
+                        <a href="http://www.mySourceHere.org">{Source}</a>
+                        <!--shd: note that the sources link is the only external link in this template since sources will be pulled externally. You can have more than one, just be sure to give a proper name-->                      
+                    </div>                                 
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <h1> Oh wow very cool a page!</h1>
+            <p>trying to fill up some more space so I can see if the sticky nav bar works or not</p>
+            <a href="https://github.com/smdunn921/testing"><img src="img/octocat.png" alt="picture of github logo octocat who is a cat but with octopus arms"/></a>
+            <p>(Click Octocat to redirect back to the Github repo)</p>
+            <h1>Octocat is our friend!</h1>
+            <h2>I'm still trying to make room to test the sticky navbar</h2>
+          <div id="bottom">
+            <h2>And now there are words down here too!</h2>
+          </div>
+        </div>
+    </body>
+</html>
