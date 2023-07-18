@@ -27,43 +27,99 @@
         <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/text-trans-notes.html">
                 <html>
                     <head>
-                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                         <link rel="stylesheet" type="text/css" href="../css/style.css" />
-                        <title>Negrete: Translation</title>
+                        <title>Negrete 1803: Translation</title>
                     </head>
                     <body>
-                        <img src="../images/heading-bickham-font.png" width="1100"
-                            alt="header with image of the words Parlamentos Project in historic script" />
-                        <hr />
+                        
+                        <div class="header">
+                            <h1><a href="../index.html" id="logo">Parla</a></h1><h1><a id="logo2">mentos</a></h1>
+                            
+                        </div>
+                        
+                        <!-- navbar -->
+                        <div id="navbar">
+                            <div class="navbar">
+                                
+                                <a href="../index.html">Home</a>
+                                
+                                <div class="dropdown">
+                                    <button class="dropbtn">The Parlamentos</button>
+                                    <div class="dropdown-content">
+                                        <a href="1803.html">Parlamento 1803</a>
+                                        <a href="1804.html">Parlamento 1804</a>
+                                        <a href="1805.html">Parlamento 1805</a>                 
+                                    </div>
+                                </div>      
+                                
+                                <a href="about.html">About</a>
+                                
+                                <div class="dropdown">
+                                    <button class="dropbtn">Resources</button>
+                                    <div class="dropdown-content">
+                                        <a href="students.html">For students</a>
+                                        <a href="educators.html">For educators</a>
+                                        <a href="scholars.html">For scholars</a>
+                                    </div>                                 
+                                </div>
+                            </div>
+                            <div class="footer"></div>  
+                        </div>
+                        
                         <div class="content">
-                            <h1><xsl:apply-templates select="$negText//titleStmt/title"/><xsl:text>: Text and Translation</xsl:text></h1>
-                            <h3>Skip to section:<xsl:text>   </xsl:text>
+                            <h1><xsl:apply-templates select="$negText//titleStmt/title"/></h1>
+                                <h2>Introduction</h2>
+                            <a href="#text"><p>Skip down to text and translation</p></a>
+                            <p>Para 1</p>
+                            <p>Para 2</p>
+                            <p>Para 3</p>
+                            <p>Para 4</p>
+                            <p>Para 5</p>
+                            <p>Notes to introduction</p>
+                            <hr/>
+                                <h2 id="text"><xsl:text>Text and Translation</xsl:text></h2>
+                            <h3 id="skip">Skip to section:<xsl:text>   </xsl:text>
                                 <xsl:for-each select="$negText//body/div">
                                     <a href="#sect-{data(@n)}"><xsl:value-of select='data(@n)'/></a>  
                                     <xsl:text>   </xsl:text>
                                 </xsl:for-each>
                             </h3>
                             
-                            <table class="document">
+                            <table class="document" id="document">
                                 <tr>
                                     <td>
+                                        <h2>Source bibliography</h2>
                                         <p><b>Editor: </b><xsl:apply-templates select="//bibl[data(@xml:id)='Z']/editor"/></p> 
-                                        <p><b>Título de publicación / Publication title: </b><i><xsl:value-of select="//bibl[data(@xml:id)='Z']/title"/></i></p>
-                                        <p><b>Editorial / Publisher: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/publisher"/></p>
-                                        <p><b>Lugar de publicación / Place of publication: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/pubPlace"/></p>
-                                        <p><b>Fecha de publicación / Date of publication: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/date"/></p>
-                                        <p><b>Intervalo de página / Page range: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/biblScope"/></p>
-                                        <p><b>Notas: </b><i><xsl:value-of select="//bibl[data(@xml:id)='Z']/note[@xml:lang='span']"/></i></p> 
+                                        <p><b>Publication title: </b><i><xsl:value-of select="//bibl[data(@xml:id)='Z']/title"/></i></p>
+                                        <p><b>Publisher: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/publisher"/></p>
+                                        <p><b>Place of publication: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/pubPlace"/></p>
+                                        <p><b>Date of publication: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/date"/></p>
+                                        <p><b>Page range: </b><xsl:value-of select="//bibl[data(@xml:id)='Z']/biblScope"/></p>
                                         <p><b>Notes: </b><i><xsl:value-of select="//bibl[data(@xml:id)='Z']/note[@xml:lang='eng']"/></i></p>
                                         </td>
                                     <td>
-                                       [Put responsibility statement for translation here?]      
+                                       <h2>Digital metadata</h2>
+                                        <h3>Spanish text</h3>
+                                        <xsl:for-each select="$negText//respStmt">
+                                            <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
+                                            <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
+                                            </p>
+                                        </xsl:for-each>
+                                        <h3>English text</h3>
+                                        <xsl:for-each select="$negTrans//respStmt">
+                                            <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
+                                            <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
+                                            </p>
+                                        </xsl:for-each>
+                                       
                                     </td>
                                     <th></th>
                                 </tr>
-                                <tr><th><h2>Texto: Zavala</h2></th>
+                                <tr><th><h2>Text: Zavala Edition</h2></th>
                                     <th><h2>Text: English Translation</h2></th>
-                                    <th><h2>Notas / Notes</h2></th></tr>
+                                    <th><h2>Notes</h2></th></tr>
 
                                 <xsl:for-each select=".//div"> <!--whc 24-May-2023: while <xsl:apply-templates select="$negText//body/div"/> approach was used in the XSLT for two columns of Spanish versions, I've needed to switch to an xsl:for-each loop here to be able to pull both the Zavala text from the Spanish XML and the corresponding English divs from that separate XML file. -->
                                     <xsl:if test="@n"><!--whc: to screen out any divs that only appear in Ayun, which will have no numbers in the Spanish XML file-->
@@ -87,57 +143,70 @@
                                             
                                             <td class="notes">
                                                 <xsl:if test="not(.//term or .//persName or .//placeName)">
-                                                    <i>No hay notas en esta sección. / No notes on this section.</i>
-                                                    <a class="top-btn" href="#">Inicio de página / Top of page</a>
+                                                    <b>[&#167;<xsl:value-of select="data(@n)"/>]</b><xsl:text>  </xsl:text>
+                                                    <i>No notes on this section.</i><br/>
+                                                    <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
                                                 </xsl:if>
                                                 
                                                 <xsl:if test="$negTrans//div[data(@n)=$div-n]//term 
                                                     or $negTrans//div[data(@n)=$div-n]//persName 
                                                     or $negTrans//div[data(@n)=$div-n]//placeName">
                                                     <!--whc 24-JUN-2023: needed to use xpath from translation to test for term/persName/placeName because otherwise it would call for them if they appeared in the Spanish in Ayun but not Zavala. Also occasionally a name etc is inserted into the translation for clarity even if it does not occur in the Spanish. Ditto all the filepaths for the if tests and for-each-group selects that follow. This is not in the Zavala-Ayun comparison XSLT as it is not needed there, so these are simpler there. This might not be needed either in  an XSLT in the future that runs from a single-witness Spanish source XML, except for the possibility of some names etc that had been inserted in the translation for clarity.-->
-                                                    <p><i>Haga clic en cada triángulo para ampliar/contraer notas</i><br/>Click each triangle to expand/collapse notes</p>
+                                                    <b>[&#167;<xsl:value-of select="data(@n)"/>]</b><xsl:text>  </xsl:text>
+                                                        <i>Click each triangle to expand/collapse note</i>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//term">
-                                                        <h2><b>Términos / Terms</b></h2> <!--whc 27-JUN-2023: This is currently set up to give the Spanish term and the Spanish definition. -->
+                                                        <h2><b>Terms</b></h2> <!--whc 18-JUL-2023: This is currently set up to give the Spanish term and the English definition. -->
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
                                                             <xsl:variable name="term-n" select="./data(@n)"/>
                                                             <xsl:variable name="sense-n" select="./data(@select)"/>
                                                             <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
-                                                            <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
+                                                            <details><summary><b><span class="term"><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></span></b></summary>
                                                                 <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
                                                                 <!--whc 27-JUN-2023: The next two lines allow us to choose from among multiple <sense> definitions. A <term> in the XML can have a @select attribute which tells it which <sense n=""> we want to call for in this instance. If there is no @select attribute, it defaults to <sense n="1">. -->
-                                                                <xsl:if test="@select"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=$sense-n]"/></xsl:if>
-                                                                <xsl:if test="not(@select)"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']/sense[data(@n)=1]"/></xsl:if>
+                                                                <xsl:if test="@select"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']/sense[data(@n)=$sense-n]"/></xsl:if>
+                                                                <xsl:if test="not(@select)"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']/sense[data(@n)=1]"/></xsl:if>
                                                                 <br/></details>
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//persName">
-                                                        <h2><b>Personas / Persons</b></h2>
+                                                        <h2><b>Persons</b></h2>
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//persName" group-by="data(@n)">
                                                             <xsl:variable name="pers-n" select="./data(@n)"/>
                                                             <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
-                                                            <details><summary><b><xsl:apply-templates select="$this-pers/persName/name"/></b></summary>
-                                                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
+                                                            <details><summary><b><span class="pers"><xsl:apply-templates select="$this-pers/persName/name"/></span></b></summary>
+                                                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='eng']"/><br/></details>
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//placeName">
-                                                        <h2><b>Lugares / Places</b></h2>
+                                                        <h2><b>Places</b></h2>
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//placeName" group-by="data(@n)">
                                                             <xsl:variable name="place-n" select="./data(@n)"/>
                                                             <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
-                                                            <details><summary><b><xsl:apply-templates select="$this-place/concat
-                                                                (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
-                                                                <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
+                                                            <details><summary><b><span class="place"><xsl:apply-templates select="$this-place/concat
+                                                                (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></span></b></summary>
+                                                                <xsl:apply-templates select="$this-place/note[data(@xml:lang)='eng']"/><br/>
                                                                 <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
                                                             </details>
                                                         </xsl:for-each-group>        </xsl:if>
-                                                    <a class="top-btn" href="#">Inicio de página / Top of page</a>
+                                                    <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
                                                 </xsl:if>
                                             </td>                                            
                                         </tr>
                                     </xsl:if>
                                 </xsl:for-each>       
                             </table>
+                        </div>
+                        
+                        <!-- Footer -->
+                        <div id="footer">
+                            <div class="copyright">
+                                <ul class="menu">
+                                    <li>&#169; Parlamentos. All rights reserved</li>
+                                    <!--whc: need to use &#169; rather than &copy; as escape character because oXygen does not recognize &copy; within XSLT-->
+                                    <li>Original web design by <a href="https://www.greensburg.pitt.edu/academics/center-digital-text">the CDT at Pitt-Greensburg</a>.</li>
+                                </ul>
+                            </div>
                         </div>
                     </body>
                 </html>

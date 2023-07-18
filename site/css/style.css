@@ -1,29 +1,4 @@
-body {
-color: black;
-font-family: arial, helvetica, sans-serif;
-font-size: 100%;
-margin-top: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
-
-table {
-    table-layout: fixed;
-width: 100%;
-}
-
-table.document, th, td {
-  border: 1px solid;
-}
-
-th, td {
-  padding: 15px;
-}
-
-th.text, td.text {
-  line-height: 1.6;
-}@import url('https://fonts.googleapis.com/css?family=Ysabeau%20Office');
+@import url('https://fonts.googleapis.com/css?family=Ysabeau%20Office');
 
 
 /* header css */
@@ -277,7 +252,6 @@ span.term {
     text-decoration: underline dotted;
     text-underline-position:under;
 }
-
 span.pers{color:blue; }
 span.place{color:green; }
 /* end table css  */
@@ -336,43 +310,3 @@ body {
 				margin-left: 0;
 				padding-left: 0;
 			}
-
-
-td {
-    vertical-align: top;
-}
-
-details {
-  padding-left: 15px ;
-  text-indent: -15px ;
-}
-
-html{
-scroll-behavior: smooth;
-}
-
-.top-btn{
-    float:right;
-    background-color: #F5F5F5;
-  color: #404040;
-  padding: 2px 5px;
-  border: 1px solid black;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.top-btn:hover {
-    color:#F5F5F5;
-    background-color: #404040;
-}
-
-span.variant{
-    color:brown;
-}
-span.term {
-    text-decoration: underline dotted;
-    text-underline-position:under;
-}
-
-span.pers{color:blue; }
-span.place{color:green; }
-/* span.title{font-size: 1.5em;}not being used: this was only for the details-within-details notes dropdown  */

@@ -13,14 +13,15 @@
                <persName>Pilar Herr</persName>
             </respStmt>
             <respStmt>
+               <resp>Proofread and edited</resp>
+               <persName>William Campbell</persName>
+            </respStmt>
+            <respStmt>
                <resp>Encoded in TEI XML</resp>
                <persName>William Campbell</persName>
                <persName>Eleanor Withers</persName>
             </respStmt>
-            <respStmt>
-               <resp>Proofread and edited</resp>
-               <persName>William Campbell</persName>
-            </respStmt>
+
          </titleStmt>
          <publicationStmt>
             <p></p>
