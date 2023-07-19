@@ -6,7 +6,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Title</title>
+                <title>Parlamentos Lexicon</title>
+                <respStmt>
+                    <resp>Terminology research and definitions</resp>
+                    <persName>Elizabeth Contreras</persName>
+                    <persName>Pilar Herr</persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <p>Publication Information</p>

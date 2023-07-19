@@ -6,7 +6,11 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Negrete 1803: Locations</title>
+            <title>Locations</title>
+            <respStmt>
+               <resp>Geographical research</resp>
+               <persName>Pilar Herr</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>

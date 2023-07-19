@@ -15,12 +15,12 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
     
-    <xsl:variable name="negreteFiles" select="collection('../XML/?select=*.xml')"/>
-    <xsl:variable name="negText" select="document('../XML/negrete-1803-spanish.xml')"/>
-    <xsl:variable name="negTrans" select="document('../XML/negrete-1803-english.xml')"/>
-    <xsl:variable name="negLex" select="document('../XML/negrete-1803-lexicon.xml')"/>
-    <xsl:variable name="negPers" select="document('../XML/negrete-1803-persons.xml')"/>
-    <xsl:variable name="negPlace" select="document('../XML/negrete-1803-locations.xml')"/>
+    <xsl:variable name="negreteFiles" select="collection('../XML/negrete-1803/?select=*.xml')"/>
+    <xsl:variable name="negText" select="document('../XML/negrete-1803/spanish.xml')"/>
+    <xsl:variable name="negTrans" select="document('../XML/negrete-1803/english.xml')"/>
+    <xsl:variable name="Lex" select="document('../XML/auth-files/lexicon.xml')"/>
+    <xsl:variable name="Pers" select="document('../XML/auth-files/persons.xml')"/>
+    <xsl:variable name="Place" select="document('../XML/auth-files/locations.xml')"/>
 <!--    <xsl:strip-space elements="*"/>   whc: 27-JUN-2023: this seems to be causing spacing problems and not solving them -->
     
     <xsl:template match="$negText">
@@ -115,7 +115,25 @@
                                         </xsl:for-each>
                                        
                                     </td>
-                                    <th></th>
+                                    <td>
+                                        <h2>Research and notes</h2>
+                                        <xsl:for-each select="$Lex//respStmt">
+                                            <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
+                                            <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
+                                            </p>
+                                        </xsl:for-each>
+                                        <xsl:for-each select="$Pers//respStmt">
+                                            <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
+                                            <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
+                                            </p>
+                                        </xsl:for-each>
+                                        <xsl:for-each select="$Place//respStmt">
+                                            <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
+                                            <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
+                                            </p>
+                                        </xsl:for-each>
+                                        
+                                    </td>
                                 </tr>
                                 <tr><th><h2>Text: Zavala Edition</h2></th>
                                     <th><h2>Text: English Translation</h2></th>
@@ -160,12 +178,12 @@
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
                                                             <xsl:variable name="term-n" select="./data(@n)"/>
                                                             <xsl:variable name="sense-n" select="./data(@select)"/>
-                                                            <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
+                                                            <xsl:variable name="this-term-span" select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
                                                             <details><summary><b><span class="term"><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></span></b></summary>
                                                                 <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
                                                                 <!--whc 27-JUN-2023: The next two lines allow us to choose from among multiple <sense> definitions. A <term> in the XML can have a @select attribute which tells it which <sense n=""> we want to call for in this instance. If there is no @select attribute, it defaults to <sense n="1">. -->
-                                                                <xsl:if test="@select"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']/sense[data(@n)=$sense-n]"/></xsl:if>
-                                                                <xsl:if test="not(@select)"><xsl:apply-templates select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']/sense[data(@n)=1]"/></xsl:if>
+                                                                <xsl:if test="@select"><xsl:apply-templates select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']/sense[data(@n)=$sense-n]"/></xsl:if>
+                                                                <xsl:if test="not(@select)"><xsl:apply-templates select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']/sense[data(@n)=1]"/></xsl:if>
                                                                 <br/></details>
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
@@ -173,7 +191,7 @@
                                                         <h2><b>Persons</b></h2>
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//persName" group-by="data(@n)">
                                                             <xsl:variable name="pers-n" select="./data(@n)"/>
-                                                            <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
+                                                            <xsl:variable name="this-pers" select="$Pers//person[data(@n)=$pers-n]"/>
                                                             <details><summary><b><span class="pers"><xsl:apply-templates select="$this-pers/persName/name"/></span></b></summary>
                                                                 <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='eng']"/><br/></details>
                                                         </xsl:for-each-group>        </xsl:if>
@@ -182,7 +200,7 @@
                                                         <h2><b>Places</b></h2>
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//placeName" group-by="data(@n)">
                                                             <xsl:variable name="place-n" select="./data(@n)"/>
-                                                            <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
+                                                            <xsl:variable name="this-place" select="$Place//place[data(@n)=$place-n]"/>
                                                             <details><summary><b><span class="place"><xsl:apply-templates select="$this-place/concat
                                                                 (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></span></b></summary>
                                                                 <xsl:apply-templates select="$this-place/note[data(@xml:lang)='eng']"/><br/>
@@ -258,9 +276,9 @@
     <xsl:variable name="negreteFiles" select="collection('../XML/test-versions/?select=*.xml')"/>
     <xsl:variable name="negText" select="document('../XML/test-versions/negrete-test.xml')"/>
     <xsl:variable name="negTrans" select="document('../XML/test-versions/english-translation-test.xml')"/>
-    <xsl:variable name="negLex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
-    <xsl:variable name="negPers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
-    <xsl:variable name="negPlace" select="document('../XML/test-versions/negrete-locations-test.xml')"/>   -->
+    <xsl:variable name="Lex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
+    <xsl:variable name="Pers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
+    <xsl:variable name="Place" select="document('../XML/test-versions/negrete-locations-test.xml')"/>   -->
 
 <!--whc 24-JUN-2023: commenting out but saving the line to create test version
             <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-2cols-z-eng.html">   -->
@@ -302,7 +320,7 @@
                         <p>
                 <xsl:for-each-group select=".//term" group-by="data(@n)">
                     <xsl:variable name="term-n" select="./data(@n)"/>
-                    <xsl:variable name="this-term-span" select="$negLex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
+                    <xsl:variable name="this-term-span" select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
                     <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
                         <i><xsl:apply-templates select="$this-term-span//pos"/></i>
                         <xsl:text>. </xsl:text>
@@ -319,7 +337,7 @@
                             <p>
                         <xsl:for-each-group select=".//persName" group-by="data(@n)">
                             <xsl:variable name="pers-n" select="./data(@n)"/>
-                            <xsl:variable name="this-pers" select="$negPers//person[data(@n)=$pers-n]"/>
+                            <xsl:variable name="this-pers" select="$Pers//person[data(@n)=$pers-n]"/>
                             <details><summary><b><xsl:apply-templates select="$this-pers/persName/name"/></b></summary>
                                 <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
                         </xsl:for-each-group>   </p></details>     </xsl:if>
@@ -330,7 +348,7 @@
                                 <xsl:for-each-group select=".//placeName" group-by="data(@n)">
                                     <xsl:variable name="place-n" select="./data(@n)"/>
                                     
-                                    <xsl:variable name="this-place" select="$negPlace//place[data(@n)=$place-n]"/>
+                                    <xsl:variable name="this-place" select="$Place//place[data(@n)=$place-n]"/>
                                     <details><summary><b><xsl:apply-templates select="$this-place/concat
                                         (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
                                         <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
