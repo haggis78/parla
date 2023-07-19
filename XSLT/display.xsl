@@ -3,6 +3,7 @@
     The purpose for this XSLT is to create a display version of each edition as an html file. 
 I am trying to make the syntax as universal as possible so it can be used with very few changes on all subsequent 
 Parlamento text files down the line. -->
+<!--whc 19-JUL-2023: nb this does not have a filepath to source XML so the Spanish source must be manually selected for input-->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0"
