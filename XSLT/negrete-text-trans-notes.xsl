@@ -80,6 +80,7 @@
                             <p>Notes to introduction</p>
                             <hr/>
                                 <h2 id="text"><xsl:text>Text and Translation</xsl:text></h2>
+                            <p>Note: The Spanish text has been published in multiple versions. See <a href="spanish-comparison.html">this page</a> for a comparison of the versions.</p>
                             <h3 id="skip">Skip to section:<xsl:text>   </xsl:text>
                                 <xsl:for-each select="$negText//body/div">
                                     <a href="#sect-{data(@n)}"><xsl:value-of select='data(@n)'/></a>  
