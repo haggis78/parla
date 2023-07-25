@@ -114,9 +114,9 @@ scroll-behavior: smooth;
     margin-top: 7%;
 }
 .indent {
-             margin-left: 100px;
-    margin-right: 100px;
-}
+             margin-left: 10%;
+    margin-right: 10%;
+}/* div indent is used to contain parts of the page that are neither the header nor the table */
 
 h1 {
     color: #2b2b2b;
@@ -210,15 +210,15 @@ h2 {
  /* start table css */               
 table {
     table-layout: fixed;
-    margin-left:85px;
-    margin-right:85px;
-width: 90%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+width: 85%;
    margin-top: 5px;
     margin-bottom: 50px;
 }
-
+/* table has 7.5% margin and 2.5% padding so text is at 10% indented from edge of page */
 th, td {
-  padding: 15px;
+  padding: 2.5%;
   vertical-align: top;
 }
 

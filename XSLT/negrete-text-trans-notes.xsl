@@ -69,6 +69,7 @@
                         </div>
                         
                         <div class="content">
+                            <div class="indent">
                             <h1><xsl:apply-templates select="$negText//titleStmt/title"/></h1>
                             <hr/>
                                 <h2>Introduction</h2>
@@ -88,7 +89,7 @@
                                     <xsl:text>   </xsl:text>
                                 </xsl:for-each>
                             </h3>
-                            
+                            </div>
                             <table class="document" id="document">
                                 <tr>
                                     <td>
