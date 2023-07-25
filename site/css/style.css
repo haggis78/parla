@@ -110,8 +110,12 @@ html, body {
 scroll-behavior: smooth;
 }   
 .content {
-     margin: 2%;
+
     margin-top: 7%;
+}
+.indent {
+             margin-left: 100px;
+    margin-right: 100px;
 }
 
 h1 {
@@ -201,16 +205,15 @@ h2 {
                     border-bottom-color: transparent;
                 }
   #skip {
-          margin-left: 50px;
-    margin-right: 50px;
+         text-align: center;
   }              
  /* start table css */               
 table {
     table-layout: fixed;
+    margin-left:85px;
+    margin-right:85px;
 width: 90%;
    margin-top: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-bottom: 50px;
 }
 
