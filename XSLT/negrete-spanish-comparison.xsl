@@ -32,9 +32,9 @@
                         <title>Negrete: Comparación de Textos</title>
                     </head>
                     <body>
+                        
                         <div class="header">
-                            <h1><a href="../index.html" id="logo">Parla</a></h1><h1><a id="logo2">mentos</a></h1>
-                            
+                            <a href="../index.html"><img src="../images/parla-logo.svg" alt="Parlamentos logo" width="210"/></a>
                         </div>
                         
                         <!-- navbar -->
@@ -66,7 +66,7 @@
                             <div class="footer"></div>  
                         </div>
                         
-                        <div class="content">
+                        <div class="content"><div class="indent">
                             <h1><xsl:apply-templates select="//titleStmt/title"/><xsl:text>: Comparación de Textos</xsl:text></h1>
                             <p>[Translate into Spanish:] The Parlamento of Negrete of 1803 has been published twice. The first publication was undertaken
                                 by Corporación Ayun, a Mapuche group. More recently, a new edition was published by José Manuel Zavala Cepeda.</p>
@@ -86,14 +86,15 @@
                             often required several words to be tagged together as a divergence between the two versions, even when there is only a small change in a single
                             word. This is especially the case where a group of words are tagged as a term, a personal name, or a place name: it was more
                             straightforward to tag the string of words as a variant reading rather than to tag only one word or a few letters. Any reader wishing to 
-                            analyze the Ayun editors' work will need to decide what is of importance and to compare the texts in detail.</p>
-                            <hr/>                            <h3>Pase a la sección:<xsl:text>   </xsl:text>
+                            analyze the Ayun editors' work will need to decide what is of importance to them and to compare the texts in detail.</p>
+                            <hr/>  </div>  
+                            <h3 id="skip">Pase a la sección:<xsl:text>   </xsl:text>
                             <xsl:for-each select="//body/div">
                                 <a href="#sect-{data(@n)}"><xsl:value-of select='data(@n)'/></a>  
                                 <xsl:text>   </xsl:text>
                             </xsl:for-each></h3>
                             
-                            <table class="document">
+                            <table class="document" id="document">
                                 <tr>
                                     <td><xsl:apply-templates select="//bibl[data(@xml:id)='Z']"/></td>
                                     <td><xsl:apply-templates select="//bibl[data(@xml:id)='A']"/></td>
