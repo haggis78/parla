@@ -25,9 +25,10 @@
     
     <xsl:template match="$negText">
         <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/text-trans-notes.html">
-                <html>
+                <html lang="en" class="notranslate" translate="no">
                     <head>
                         <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+                        <meta name="google" content="notranslate"/>
                         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                         <link rel="stylesheet" type="text/css" href="../css/style.css" />
                         <title>Negrete 1803: Translation</title>
@@ -35,8 +36,7 @@
                     <body>
                         
                         <div class="header">
-                            <h1><a href="../index.html" id="logo">Parla</a></h1><h1><a id="logo2">mentos</a></h1>
-                            
+                            <a href="../index.html"><img src="../images/parla-logo.svg" alt="Parlamentos logo" width="210"/></a>
                         </div>
                         
                         <!-- navbar -->
@@ -70,6 +70,7 @@
                         
                         <div class="content">
                             <h1><xsl:apply-templates select="$negText//titleStmt/title"/></h1>
+                            <hr/>
                                 <h2>Introduction</h2>
                             <a href="#text"><p>Skip down to text and translation</p></a>
                             <p>Para 1</p>
