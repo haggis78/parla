@@ -246,5 +246,19 @@
 
     <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
         of nodes controlled at a higher level with modal XSLT. -->
+    
+    <xsl:template match="lb"  mode="#all"><br/></xsl:template>
+    
+    <xsl:template match="metamark[@rend='horizontal-line']" mode="#all"><hr/></xsl:template>
+    
+    <xsl:template match="table" mode="#all"><table>
+        <xsl:for-each select="row">
+            <tr>
+                <xsl:for-each select="cell">
+                    <td><xsl:apply-templates/></td>
+                </xsl:for-each>
+            </tr>
+        </xsl:for-each>
+    </table></xsl:template>
 
 </xsl:stylesheet>
