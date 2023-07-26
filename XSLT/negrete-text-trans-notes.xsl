@@ -21,6 +21,7 @@
     <xsl:variable name="Lex" select="document('../XML/auth-files/lexicon.xml')"/>
     <xsl:variable name="Pers" select="document('../XML/auth-files/persons.xml')"/>
     <xsl:variable name="Place" select="document('../XML/auth-files/locations.xml')"/>
+    <xsl:variable name="negNotes" select="document('../XML/auth-files/negrete-notes.xml')"/>
 <!--    <xsl:strip-space elements="*"/>   whc: 27-JUN-2023: this seems to be causing spacing problems and not solving them -->
     
     <xsl:template match="$negText">
@@ -144,7 +145,7 @@
                                 </tr>
                                 <tr><th><h2>Text: Zavala Edition</h2></th>
                                     <th><h2>Text: English Translation</h2></th>
-                                    <th><h2>Notes</h2></th></tr>
+                                    <th><h2>Annotations</h2></th></tr>
 
                                 <xsl:for-each select=".//div"> <!--whc 24-May-2023: while <xsl:apply-templates select="$negText//body/div"/> approach was used in the XSLT for two columns of Spanish versions, I've needed to switch to an xsl:for-each loop here to be able to pull both the Zavala text from the Spanish XML and the corresponding English divs from that separate XML file. -->
                                     <xsl:if test="@n"><!--whc: to screen out any divs that only appear in Ayun, which will have no numbers in the Spanish XML file-->
@@ -167,9 +168,9 @@
                                             </xsl:if>
                                             
                                             <td class="notes">
-                                                <xsl:if test="not(.//term or .//persName or .//placeName)">
+                                                <xsl:if test="not(.//term or .//persName or .//placeName or .//span)">
                                                     <b>[&#167;<xsl:value-of select="data(@n)"/>]</b><xsl:text>  </xsl:text>
-                                                    <i>No notes on this section.</i><br/>
+                                                    <i>No annotations on this section.</i><br/>
                                                     <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
                                                 </xsl:if>
                                                 
@@ -216,6 +217,15 @@
                                                         </xsl:for-each-group>        </xsl:if>
                                                     <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
                                                 </xsl:if>
+                                                
+                                                <xsl:if test="$negTrans//div[data(@n)=$div-n]//span"><!--whc 26-JUL-2023: need to work this out: ready -->
+                                                    <h2><b>Notes</b></h2>
+                                                    <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//span" group-by="data(@n)">
+                                                        <xsl:variable name="note-n" select="./data(@n)"/>
+                                                        <xsl:variable name="this-note" select="$negNotes//person[data(@n)=$note-n]"/>
+                                                        <details><summary><b><span class="pers"><xsl:apply-templates select="$this-pers/persName/name"/></span></b></summary>
+                                                            <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='eng']"/><br/></details>
+                                                    </xsl:for-each-group>        </xsl:if>
                                             </td>                                            
                                         </tr>
                                     </xsl:if>

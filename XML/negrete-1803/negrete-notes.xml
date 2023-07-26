@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Parlamento de Negrete (1803): Explanatory notes</title>
+            <respStmt>
+               <resp>Explanatory notes</resp>
+               <persName>Pilar Herr</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded in TEI XML</resp>
+               <persName>William Campbell</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p></p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+         <div n="1">
+            <interp n="1"></interp>
+         </div>
+         <div n="2">
+            <interp n="1"></interp>
+         </div>
+         <div n="3">
+            <interp n="1"></interp>
+         </div>
+         <div n="4">
+            <interp n="1"></interp>
+         </div>
+         <div n="5">
+            <interp n="1"></interp>
+         </div>
+         <div n="6">
+            <interp n="1"></interp>
+         </div>
+         <div n="7">
+            <interp n="1"></interp>
+         </div>
+         <div n="8">
+            <interp n="1"></interp>
+         </div>
+         <div n="9">
+            <interp n="1"></interp>
+         </div>
+         <div n="10">
+            <interp n="1"></interp>
+         </div>
+         <div n="11">
+            <interp n="1"></interp>
+         </div>
+         <div n="12">
+            <interp n="1"></interp>
+         </div>
+         <div n="13">
+            <interp n="1"></interp>
+         </div>
+         <div n="14">
+            <interp n="1"></interp>
+         </div>
+         <div n="15">
+            <interp n="1"></interp>
+         </div>
+         <div n="16">
+            <interp n="1"></interp>
+         </div>
+         <div n="17">
+            <interp n="1"></interp>
+         </div>
+         <div n="18">
+            <interp n="1"></interp>
+         </div>
+         <div n="19">
+            <interp n="1"></interp>
+         </div>
+         <div n="20">
+            <interp n="1"></interp>
+         </div>
+         <div n="21">
+            <interp n="1"></interp>
+         </div>
+         <div n="22">
+            <interp n="1"></interp>
+         </div>
+         <div n="23">
+            <interp n="1"></interp>
+         </div>
+         <div n="24">
+            <interp n="1"></interp>
+         </div>
+         <div n="25">
+            <interp n="1"></interp>
+         </div>
+         <div n="26">
+            <interp n="1"></interp>
+         </div>
+         <div n="27">
+            <interp n="1"></interp>
+         </div>
+         <div n="28">
+            <interp n="1"></interp>
+         </div>
+         <div n="29">
+            <interp n="1"></interp>
+         </div>
+         <div n="30">
+            <interp n="1"></interp>
+         </div>
+         <div n="31">
+            <interp n="1"></interp>
+         </div>
+         <div n="32">
+            <interp n="1"></interp>
+         </div>
+         <div n="33">
+            <interp n="1"></interp>
+         </div>
+         <div n="34">
+            <interp n="1"></interp>
+         </div>
+         <div n="35">
+            <interp n="1"></interp>
+         </div>
+         <div n="36">
+            <interp n="1"></interp>
+         </div>
+         <div n="37">
+            <interp n="1"></interp>
+         </div>
+         <div n="38">
+            <interp n="1"></interp>
+         </div>
+         <div n="39">
+            <interp n="1"></interp>
+         </div>
+         <div n="40">
+            <interp n="1"></interp>
+         </div>
+         <div n="41">
+            <interp n="1"></interp>
+         </div>
+         <div n="42">
+            <interp n="1"></interp>
+         </div>         
+         <div n="43">
+            <interp n="1"></interp>
+         </div>         
+         <div n="44">
+            <interp n="1"></interp>
+         </div>
+         
+         
+      </body>
+  </text>
+</TEI>

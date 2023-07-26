@@ -25,9 +25,10 @@
     
     <xsl:template match="$negText">
             <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/spanish-comparison.html"> 
-                <html>
+                <html lang="es" class="notranslate" translate="no">
                     <head>
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                        <meta name="google" content="notranslate"/>
                         <link rel="stylesheet" type="text/css" href="../css/style.css" />
                         <title>Negrete: Comparación de Textos</title>
                     </head>
