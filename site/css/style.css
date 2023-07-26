@@ -28,8 +28,9 @@
     overflow: hidden;
     background-color: #2b2b2b;
     flex-direction: row;
-    padding: 10px 350px;
+    padding: 10px 50px;
     align-items: center;
+    justify-content: center;
     z-index: 500;
 }
 .navbar a {
@@ -114,7 +115,7 @@ scroll-behavior: smooth;
     margin-top: 7%;
 }
 .indent {
-             margin-left: 10%;
+    margin-left: 10%;
     margin-right: 10%;
 }/* div indent is used to contain parts of the page that are neither the header nor the table */
 
@@ -125,6 +126,18 @@ h1 {
 h2 {
     color:#2b2b2b;
     text-align:center;
+}
+p.tab {
+    text-indent: 30px;
+}
+#content a {
+    color: inherit;
+    font-weight: bold; 
+} 
+
+#content a:hover {
+    color: #37c0fb;
+    border-bottom-color: transparent;
 }
 /* end body css */
 
