@@ -34,7 +34,11 @@
                     <body>
                         
                         <div class="header">
-                            <a href="../index.html"><img src="../images/parla-logo.svg" alt="Parlamentos logo" width="210"/></a>
+                            <div class="figure">
+                                <a href="../index.html">
+                                    <img src="images/parla-logo.png" class="image-main" alt="Parlamentos logo" width="210"/>
+                                    <img src="images/parla-logo-blue.png" class="image-hover" alt="Parlamentos logo" width="210"/></a>
+                            </div>        
                         </div>
                         
                         <!-- navbar -->

@@ -10,6 +10,23 @@
     color: rgba(255, 255, 255, 0.7);
     padding: 2.0em 0;
 }
+/*  Rollover image styles  */
+  .figure {
+    position: relative;
+  }
+  .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.image-hover {
+    opacity: 1;
+  }
 /* end header css */
 
 /* footer css */
