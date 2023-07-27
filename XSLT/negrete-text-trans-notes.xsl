@@ -217,15 +217,15 @@
                                                         </xsl:for-each-group>        </xsl:if>
                                                     <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
                                                 </xsl:if>
-                                                
-                                                <xsl:if test="$negTrans//div[data(@n)=$div-n]//span"><!--whc 26-JUL-2023: need to work this out: ready -->
+                                                <!--      whc 26-JUL-2023: need to work this out: ready                                         
+                                                <xsl:if test="$negTrans//div[data(@n)=$div-n]//span">
                                                     <h2><b>Notes</b></h2>
                                                     <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//span" group-by="data(@n)">
                                                         <xsl:variable name="note-n" select="./data(@n)"/>
                                                         <xsl:variable name="this-note" select="$negNotes//person[data(@n)=$note-n]"/>
                                                         <details><summary><b><span class="pers"><xsl:apply-templates select="$this-pers/persName/name"/></span></b></summary>
                                                             <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='eng']"/><br/></details>
-                                                    </xsl:for-each-group>        </xsl:if>
+                                                    </xsl:for-each-group>        </xsl:if>   -->
                                             </td>                                            
                                         </tr>
                                     </xsl:if>
