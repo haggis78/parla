@@ -2,8 +2,8 @@
 
 <!-- WHC 27-JUN-2023: When running this XSLT in oXygen, the Spanish file MUST be open and selected as the input XML -->
 
-<!-- WHC 24-May-2023: The purpose for this XSLT is to create a display version with Zavala and English translation 
-    in parallel columns as an html file, with a third column for notes. -->
+<!-- WHC 31-JUL-2023: The purpose for this XSLT is to create a display version with Zavala and English translation 
+    in parallel columns as an html file, with a third column for notes. It does so using responsive divs, NOT a table layout. -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
