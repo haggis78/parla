@@ -52,9 +52,8 @@
                                 <div class="dropdown">
                                     <button class="dropbtn">The Parlamentos</button>
                                     <div class="dropdown-content">
-                                        <a href="1803.html">Parlamento 1803</a>
-                                        <a href="1804.html">Parlamento 1804</a>
-                                        <a href="1805.html">Parlamento 1805</a>                 
+                                        <a href="../negrete-1803/text-trans-notes.html">Translation</a>
+                                        <a href="../negrete-1803/spanish-comparison.html">Comparison of Editions</a>                
                                     </div>
                                 </div>      
                                 
@@ -63,9 +62,9 @@
                                 <div class="dropdown">
                                     <button class="dropbtn">Resources</button>
                                     <div class="dropdown-content">
-                                        <a href="students.html">For students</a>
-                                        <a href="educators.html">For educators</a>
-                                        <a href="scholars.html">For scholars</a>
+                                        <a href="../resources/students.html">For students</a>
+                                        <a href="../resources/educators.html">For educators</a>
+                                        <a href="../resources/scholars.html">For scholars</a>
                                     </div>                                 
                                 </div>
                             </div>
