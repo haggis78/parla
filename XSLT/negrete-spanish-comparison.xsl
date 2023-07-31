@@ -105,6 +105,81 @@
                                 </tr>
                             </table>
                             
+                            
+                            
+                                <div class="responsive-three-column-grid">
+                                    <div><h2>Hipster Ipsum</h2></div>
+                                    <div><h2>Textual Comparison</h2></div>
+                                    <div><h2>Comparación de Textos</h2></div>
+                                    
+                                    <div><p>Cupidatat eu marfa gluten-free ut bruh. Mlkshk XOXO tempor et ex forage squid vice heirloom hot chicken tattooed ascot. Scenester snackwave forage swag umami cupidatat pug sriracha bruh cloud bread craft beer la croix enamel pin. Vaporware gastropub jawn, art party skateboard cillum irure jean shorts viral messenger bag wolf 3 wolf moon. Proident hashtag fingerstache plaid kombucha minim in activated charcoal fixie deep v.</p></div>
+                                    <div><p>The Parlamento of Negrete of 1803 has been published twice. The first publication was undertaken
+                                        by Corporación Ayún, a Mapuche group. More recently, a new edition was published by José Manuel Zavala Cepeda.</p></div>   
+                                    <div><p>El Parlamento de Negrete de 1803 cuenta con dos publicaciones. La primera publicación fue realizada por la Corporación Ayún, una agrupación Mapuche, y la segunda publicación corresponde a una nueva edición llevada a cabo más recientemente por José Manuel Zavala Cepeda.</p>                        
+                                    </div>  
+                                    
+                                    <div><p>Tattooed occaecat yuccie, Brooklyn iPhone tilde ut gluten-free single-origin coffee bitters bruh voluptate qui. Cray subway tile ullamco, cloud bread jean shorts snackwave biodiesel four dollar toast shoreditch est squid cornhole. Typewriter ugh fashion axe, est meggings irony cornhole. Cillum whatever adaptogen tumeric venmo bitters listicle mukbang tonx excepteur. Eiusmod mumblecore cold-pressed tumeric, migas tilde beard non green juice ex ullamco ut veniam.</p></div>        
+                                    <div><p>The Ayun version updated the original spelling, punctuation, and grammar for easier reading by a modern audience, while the Zavala edition was a more literal transcription of the text as it appears in the archival documents. Zavala's text is thus appropriate for 
+                                        scholarly purposes. Moreover, several paragraphs of the original text were omitted entirely from the Corporación Ayún edition. Therefore, the 
+                                        English translation that appears on this site was completed using Zavala's as the base text.</p></div>
+                                    <div><p>La versión realizada por la Corporación Ayún contiene actualizaciones de ortografía, puntuación y gramática originales con el propósito de facilitarle al público moderno la lectura de ésta, mientras que la edición de Zavala se trata de una trascripción más literal del texto tal como aparece en los documentos de archivo. Este último, es más apropiado para propósitos académicos, ya que varios párrafos del texto original se omitieron por completo en la edición de la Corporación Ayún. Por lo tanto, la traducción al inglés que se incluye en este sitio se finalizó utilizando la edición de Zavala como texto de partida.</p></div>
+                                    
+                                    <div><p>Listicle franzen ramps do, fashion axe scenester prism qui dolore tumeric next level. Waistcoat letterpress dolor four loko vaporware 90's tempor sus af marxism poke viral single-origin coffee jawn gastropub. Gentrify viral meh, fugiat kale chips voluptate cardigan meditation brunch la croix blue bottle taiyaki aliquip vice dolore. Salvia deep v cliche ullamco YOLO 3 wolf moon hammock 90's single-origin coffee excepteur godard yuccie roof party.</p></div>                                        
+                                    <p>The page below includes the Zavala and Corporación Ayún editions in parallel columns to allow readers to examine the differences between
+                                        the two versions. To facilitate comparative reading, the passages where they differ are shown in <span class="variant">dark red</span>.
+                                        Most significantly, the Corporación Ayún editors added or expanded some headings that do not appear in the surviving archival documents, and also
+                                        omitted a long section of text (more than one full page's worth in the Zavala edition) that does appear in the documents.</p>
+                                    <p>La página a continuación incluye las ediciones de Zavala y de la Corporación Ayún presentadas en columnas paralelas para que el lector pueda apreciar las diferencias entre las dos versiones. Con el fin de facilitar una lectura comparativa, se han marcado de color <span class="variant">rojo oscuro</span> las diferencias entre las dos secciones. Cabe destacar que en la edición de la Corporación Ayún aparecen algunos títulos adicionales o ampliados que no son parte de los documentos de archivo que se conservan, además de la omisión de extensas secciones de texto que aparecen en los documentos originales (el equivalente de más de una página completa en la edición realizada por Zavala).</p>
+
+
+                                    <div><p>In esse kickstarter gluten-free, aliquip 90's etsy cray dolore ex tote bag jean shorts asymmetrical. Jean shorts distillery organic, ea tote bag adaptogen raclette. Nostrud hoodie bushwick fam ramps 90's kickstarter polaroid irure direct trade narwhal neutra sus yes plz. Yr DIY affogato ugh hammock listicle minim ramps whatever blue bottle elit. Man bun helvetica excepteur twee hashtag vegan edison bulb tofu fit cornhole tumblr 90's. Four dollar toast dolor twee viral, meditation umami gorpcore tattooed austin synth kombucha chia pop-up proident. Neutral milk hotel duis cold-pressed dolor church-key heirloom butcher tempor. Normcore mixtape iceland, gastropub narwhal duis excepteur before they sold out grailed shaman street art cold-pressed edison bulb ascot YOLO. Quinoa XOXO letterpress celiac. Grailed food truck whatever dolore bicycle rights. 8-bit beard listicle affogato enim. Dummy text? More like dummy thicc text, amirite?</p></div>
+                                        <div><p>A casual glance will show a great many smaller discrepancies between the versions, but readers should not immediately infer that the Corporación Ayún
+                                            edition is as inaccurate as it may seem. First, many of the discrepancies relate to the Corporación Ayún editors' decision to 
+                                            modernize spelling, including in the use of accent marks. This is not an error; it was a legitimate editorial choice, and Zavala simply
+                                            made a different legitimate editorial choice. Second, the nature of the TEI XML encoding on which this comparison is built
+                                            often required several words to be tagged together as a divergence between the two versions, even when there is only a small change in a single
+                                            word. This is especially the case where a group of words are tagged as a term, a personal name, or a place name: it was more
+                                            straightforward to tag the string of words as a variant reading rather than to tag only one word or a few letters. Any reader wishing to 
+                                            analyze the Corporación Ayún editors' work will need to decide what is of importance to them and to compare the texts in detail.</p></div>
+                                    <div><p>A primera vista se aprecian algunas diferencias menores entre las versiones, pero el lector no debería suponer de forma inmediata que la edición de la Corporación Ayún es inexacta como podría parecer. En primer lugar, muchas de las diferencias se relacionan con la decisión de los editores de la Corporación Ayún de modernizar la ortografía, incluyendo el uso de acentos. Esto no es un error, fue una decisión editorial válida y Zavala simplemente tomó una decisión editorial válida diferente. En segundo lugar, la naturaleza de la codificación de texto TEI XML que se utilizó para crear esta comparación requiere, por lo general, de varias palabras etiquetadas a la vez como una separación entre las dos versiones, incluso cuando solamente hay un pequeño cambio en una sola palabra. Este es el caso, especialmente, cuando se etiqueta un grupo de palabras como un término, un nombre personal, o un nombre de un lugar: era más sencillo etiquetar una cadena de palabras como una variación de lectura que etiquetar solamente una palabra o unas pocas letras. Todo lector que desee analizar el trabajo de los editores de la Corporación Ayún tendrá que decidir lo que es más importante y comparar los textos detalladamente.</p></div>
+                                
+                                </div>
+                            
+                            <div class="responsive-two-column-grid">
+
+                                <div><h2>Textual Comparison</h2></div>
+                                <div><h2>Comparación de Textos</h2></div>
+                                
+                                
+                                <div><p>The Parlamento of Negrete of 1803 has been published twice. The first publication was undertaken
+                                    by Corporación Ayún, a Mapuche group. More recently, a new edition was published by José Manuel Zavala Cepeda.</p></div>   
+                                <div><p>El Parlamento de Negrete de 1803 cuenta con dos publicaciones. La primera publicación fue realizada por la Corporación Ayún, una agrupación Mapuche, y la segunda publicación corresponde a una nueva edición llevada a cabo más recientemente por José Manuel Zavala Cepeda.</p>          </div>  
+                                
+      
+                                <div><p>The Ayun version updated the original spelling, punctuation, and grammar for easier reading by a modern audience, while the Zavala edition was a more literal transcription of the text as it appears in the archival documents. Zavala's text is thus appropriate for 
+                                    scholarly purposes. Moreover, several paragraphs of the original text were omitted entirely from the Corporación Ayún edition. Therefore, the 
+                                    English translation that appears on this site was completed using Zavala's as the base text.</p></div>
+                                <div><p>La versión realizada por la Corporación Ayún contiene actualizaciones de ortografía, puntuación y gramática originales con el propósito de facilitarle al público moderno la lectura de ésta, mientras que la edición de Zavala se trata de una trascripción más literal del texto tal como aparece en los documentos de archivo. Este último, es más apropiado para propósitos académicos, ya que varios párrafos del texto original se omitieron por completo en la edición de la Corporación Ayún. Por lo tanto, la traducción al inglés que se incluye en este sitio se finalizó utilizando la edición de Zavala como texto de partida.</p></div>
+                                
+                                <div><p>The page below includes the Zavala and Corporación Ayún editions in parallel columns to allow readers to examine the differences between
+                                    the two versions. To facilitate comparative reading, the passages where they differ are shown in <span class="variant">dark red</span>.
+                                    Most significantly, the Corporación Ayún editors added or expanded some headings that do not appear in the surviving archival documents, and also
+                                    omitted a long section of text (more than one full page's worth in the Zavala edition) that does appear in the documents.</p></div>
+                                <div><p>La página a continuación incluye las ediciones de Zavala y de la Corporación Ayún presentadas en columnas paralelas para que el lector pueda apreciar las diferencias entre las dos versiones. Con el fin de facilitar una lectura comparativa, se han marcado de color <span class="variant">rojo oscuro</span> las diferencias entre las dos secciones. Cabe destacar que en la edición de la Corporación Ayún aparecen algunos títulos adicionales o ampliados que no son parte de los documentos de archivo que se conservan, además de la omisión de extensas secciones de texto que aparecen en los documentos originales (el equivalente de más de una página completa en la edición realizada por Zavala).</p></div>
+                                
+
+                                <div><p>A casual glance will show a great many smaller discrepancies between the versions, but readers should not immediately infer that the Corporación Ayún
+                                    edition is as inaccurate as it may seem. First, many of the discrepancies relate to the Corporación Ayún editors' decision to 
+                                    modernize spelling, including in the use of accent marks. This is not an error; it was a legitimate editorial choice, and Zavala simply
+                                    made a different legitimate editorial choice. Second, the nature of the TEI XML encoding on which this comparison is built
+                                    often required several words to be tagged together as a divergence between the two versions, even when there is only a small change in a single
+                                    word. This is especially the case where a group of words are tagged as a term, a personal name, or a place name: it was more
+                                    straightforward to tag the string of words as a variant reading rather than to tag only one word or a few letters. Any reader wishing to 
+                                    analyze the Corporación Ayún editors' work will need to decide what is of importance to them and to compare the texts in detail.</p></div>
+                                <div><p>A primera vista se aprecian algunas diferencias menores entre las versiones, pero el lector no debería suponer de forma inmediata que la edición de la Corporación Ayún es inexacta como podría parecer. En primer lugar, muchas de las diferencias se relacionan con la decisión de los editores de la Corporación Ayún de modernizar la ortografía, incluyendo el uso de acentos. Esto no es un error, fue una decisión editorial válida y Zavala simplemente tomó una decisión editorial válida diferente. En segundo lugar, la naturaleza de la codificación de texto TEI XML que se utilizó para crear esta comparación requiere, por lo general, de varias palabras etiquetadas a la vez como una separación entre las dos versiones, incluso cuando solamente hay un pequeño cambio en una sola palabra. Este es el caso, especialmente, cuando se etiqueta un grupo de palabras como un término, un nombre personal, o un nombre de un lugar: era más sencillo etiquetar una cadena de palabras como una variación de lectura que etiquetar solamente una palabra o unas pocas letras. Todo lector que desee analizar el trabajo de los editores de la Corporación Ayún tendrá que decidir lo que es más importante y comparar los textos detalladamente.</p></div>
+                                
+                            </div>
+                           
                            
                             <hr/>  </div>  
                             <h3 id="skip">Pase a la sección:<xsl:text>   </xsl:text>

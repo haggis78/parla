@@ -156,6 +156,52 @@ p.tab {
     color: #37c0fb;
     border-bottom-color: transparent;
 }
+
+/* Responsive Two Column Layout */
+/* container */
+.responsive-two-column-grid {
+    display:block; text-align: left; padding-left: 25px;
+}
+/* columns */
+/*  whc: I have no idea what the > * in the line below is doing but if you take it out the css stops working */
+.responsive-two-column-grid > * {
+    padding-left:7.5%;
+    padding-right:7.5%;
+}
+
+/* tablet breakpoint - when it begins to stack on mobile */
+@media (min-width:768px) {
+    .responsive-two-column-grid {
+        display: grid;
+        grid-auto-rows: min-content;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* END Responsive Three Column Layout */
+
+
+/* Responsive Three Column Layout */
+/* container */
+.responsive-three-column-grid {
+    display:block; text-align: left; padding-left: 25px;
+}
+
+/* columns */
+/*  whc: I have no idea what the > * in the line below is doing but if you take it out the css stops working */
+.responsive-three-column-grid > * {
+    padding-left:7.5%;
+    padding-right:7.5%;
+}
+
+/* tablet breakpoint - when it begins to stack on mobile */
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: min-content;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+/* END Responsive Three Column Layout */
 /* end body css */
 
 /* begin logo css */
@@ -254,11 +300,6 @@ th, td {
 
 th.text, td.text {
   line-height: 1.6;
-}
-
-td {
- text-align: left;   
- /* not currently working; still to be decided if we want it */
 }
 
 .top-btn{
