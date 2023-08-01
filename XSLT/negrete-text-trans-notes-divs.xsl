@@ -180,12 +180,20 @@
                                                         <i>Click each triangle to expand/collapse note</i></p>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//term">
-                                                        <h2><b>Terms</b></h2> <!--whc 18-JUL-2023: This is currently set up to give the Spanish term and the English definition. -->
+                                                        <h2><b>Terms</b></h2> <!--whc 01-AUG-2023: This is now set up to give the Spanish term or an untranslated term in italics; the English term not in italics, if it has been translated; 
+                                                            and the English definition. It has NOT been copied over to the XSLT making an HTML table structure page. -->
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
                                                             <xsl:variable name="term-n" select="./data(@n)"/>
                                                             <xsl:variable name="sense-n" select="./data(@select)"/>
                                                             <xsl:variable name="this-term-span" select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
-                                                            <details><summary><b><span class="term"><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></span></b></summary>
+                                                            <xsl:variable name="this-term-eng" select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']"/>
+                                                            <details><summary><b><span class="term">
+                                                                <xsl:if test="@type='untrans'"><i><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></i></xsl:if>
+                                                                <xsl:if test="not(@type='untrans')"><xsl:apply-templates select="$this-term-eng//string-join(./orth, '; ')"/>
+                                                                    <xsl:text> / </xsl:text>
+                                                                    <i><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></i></xsl:if>
+                                                            
+                                                            </span></b></summary>
                                                                 <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
                                                                 <!--whc 27-JUN-2023: The next two lines allow us to choose from among multiple <sense> definitions. A <term> in the XML can have a @select attribute which tells it which <sense n=""> we want to call for in this instance. If there is no @select attribute, it defaults to <sense n="1">. -->
                                                                 <xsl:if test="@select"><xsl:apply-templates select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='eng']/sense[data(@n)=$sense-n]"/></xsl:if>
@@ -213,17 +221,21 @@
                                                                 <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
                                                             </details>
                                                         </xsl:for-each-group>        </xsl:if>
-                                                    <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
-                                                </xsl:if>
-                                                <!--      whc 26-JUL-2023: need to work this out: ready                                         
+                                                    
+                                       <!--whc 01-AUG-2023: this enables notes (category 4 in the sidebar) and has not been duplicated on the XSLT using the HTML table format.-->                                                
                                                 <xsl:if test="$negTrans//div[data(@n)=$div-n]//span">
                                                     <h2><b>Notes</b></h2>
-                                                    <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//span" group-by="data(@n)">
-                                                        <xsl:variable name="note-n" select="./data(@n)"/>
-                                                        <xsl:variable name="this-note" select="$negNotes//person[data(@n)=$note-n]"/>
-                                                        <details><summary><b><span class="pers"><xsl:apply-templates select="$this-pers/persName/name"/></span></b></summary>
-                                                            <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='eng']"/><br/></details>
-                                                    </xsl:for-each-group>        </xsl:if>   -->
+                                                    <xsl:for-each select="$negTrans//div[data(@n)=$div-n]//span">
+                                                        <xsl:variable name="note-id" select="./data(@corresp)"/>
+                                                        <xsl:variable name="this-note" select="$negNotes//div[data(@n)=$div-n]/interp[data(@corresp)=$note-id]"/>
+                                                        <details><summary><b><span class="note"><sup><xsl:value-of select='count(preceding-sibling::span[@corresp]) + 1'/></sup>
+                                                            <xsl:text> </xsl:text>
+                                                            <xsl:apply-templates select="$note-id"/></span></b></summary>
+                                                            <xsl:apply-templates select="$this-note!string()"/><br/></details>
+                                                    </xsl:for-each>        
+                                                </xsl:if>  
+                                                    <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
+                                                </xsl:if>
                                             </div>                                            
                                         
                                     </xsl:if>
@@ -270,6 +282,13 @@
     <xsl:template match="body//placeName" mode="#all">
         <span class="place"><xsl:apply-templates/></span><xsl:text> </xsl:text>
     </xsl:template> 
+
+    <!--whc 01-AUG-2023: this enables notes (category 4 in the sidebar) and has not been duplicated on the XSLT using the HTML table format.-->                                                
+    <xsl:template match="body//span[@corresp]" mode="#all">
+        <xsl:apply-templates/>
+     <!--   <xsl:text disable-output-escaping="no">† </xsl:text>  whc: this would allow use of dagger instead of note number -->
+        <sup><b><xsl:value-of select='count(preceding-sibling::span[@corresp]) + 1'/></b></sup> 
+    </xsl:template>
     
     <xsl:template match="lb"  mode="#all"><br/></xsl:template>
     
@@ -286,91 +305,3 @@
     </table></xsl:template>
     
 </xsl:stylesheet>
-
-<!--whc 24-JUN-2023: commenting out but saving for now the variables for test versions
-    <xsl:variable name="negreteFiles" select="collection('../XML/test-versions/?select=*.xml')"/>
-    <xsl:variable name="negText" select="document('../XML/test-versions/negrete-test.xml')"/>
-    <xsl:variable name="negTrans" select="document('../XML/test-versions/english-translation-test.xml')"/>
-    <xsl:variable name="Lex" select="document('../XML/test-versions/negrete-lexicon-test.xml')"/>
-    <xsl:variable name="Pers" select="document('../XML/test-versions/negrete-persons-test.xml')"/>
-    <xsl:variable name="Place" select="document('../XML/test-versions/negrete-locations-test.xml')"/>   -->
-
-<!--whc 24-JUN-2023: commenting out but saving the line to create test version
-            <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/1803-display-2cols-z-eng.html">   -->
-
-<!--    <xsl:template match="div">
-        <tr id="sect-{data(@n)}">
-            <xsl:if test="./head">
-                    <th><xsl:if test="@n">[&#167;<xsl:value-of select="data(@n)"/>] </xsl:if>  
-                        <xsl:apply-templates select="head" mode="Z-head"/></th>
-                    <th>[&#167;<xsl:value-of select="data(@n)"/>]  
-                    <xsl:apply-templates select="head" mode="Eng-head"/></th>
-                <td><b>Notes</b> <i> Click on category to expand/collapse</i>
-                    <a class="top-btn" href="#">Top of page</a></td>
-            
-        </xsl:if>  -->
-<!--whc 18-FEB-2023: Notes on div/head will follow exactly the same pattern as they do on div/ab.
-            Get them working perfectly on div/ab and then just copy the whole thing to div/head; or figure out a way
-            to make the notes etc. their own template rule that can be called from either type of div.-->
-<!--        <xsl:if test="./ab">
-            <tr id="sect-{count(preceding-sibling::div)+1}">
-                <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
-                    <xsl:apply-templates select="ab" mode="Z-block"/> </td>
-                <td><b>[&#167;<xsl:value-of select="count(preceding-sibling::div)+1"/>]  </b>
-                    <xsl:apply-templates select="ab" mode="A-block"/> </td>
-                
-                <td>
-                    <xsl:if test="ab[.//term or .//persName or .//placeName]">
-                        <span class="title"><b>Notas</b></span> <i> Haga clic en cada categoría para ampliar/contraer</i>
-                        <a class="top-btn" href="#">Inicio de página</a><hr/>
-                    </xsl:if>
-                    <xsl:if test="ab[not(.//term or .//persName or .//placeName)]">
-                        <i>No hay notas en esta sección.</i>
-                        <a class="top-btn" href="#">Inicio de página</a>
-                    </xsl:if>
-                    
-                    <xsl:if test=".//term">
-                        <details>
-                            <summary><span class="title"><b>Términos</b></span></summary> <i>Haga clic en cada término para ampliar/contraer</i>
-                        <p>
-                <xsl:for-each-group select=".//term" group-by="data(@n)">
-                    <xsl:variable name="term-n" select="./data(@n)"/>
-                    <xsl:variable name="this-term-span" select="$Lex//superEntry[data(@n)=$term-n]/entry[data(@xml:lang)='span']"/>
-                    <details><summary><b><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></b></summary>
-                        <i><xsl:apply-templates select="$this-term-span//pos"/></i>
-                        <xsl:text>. </xsl:text>
-                        <xsl:for-each select="$this-term-span//sense">
-                            <xsl:value-of select="./data(@n)"/><xsl:text>. </xsl:text>
-                            <xsl:apply-templates/><xsl:text>. </xsl:text>
-                        </xsl:for-each><br/>
-                        <u>Notas</u><xsl:text>: </xsl:text><xsl:apply-templates select="$this-term-span//note"/><br/></details>
-                </xsl:for-each-group> </p>   </details>    </xsl:if>
-                    
-                    
-                    <xsl:if test=".//persName">
-                        <details><summary><span class="title"><b>Personas</b></span></summary> <i>Haga clic en cada nombre para ampliar/contraer</i>
-                            <p>
-                        <xsl:for-each-group select=".//persName" group-by="data(@n)">
-                            <xsl:variable name="pers-n" select="./data(@n)"/>
-                            <xsl:variable name="this-pers" select="$Pers//person[data(@n)=$pers-n]"/>
-                            <details><summary><b><xsl:apply-templates select="$this-pers/persName/name"/></b></summary>
-                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='span']"/><br/></details>
-                        </xsl:for-each-group>   </p></details>     </xsl:if>
-                    
-                    <xsl:if test=".//placeName">
-                        <details><summary><span class="title"><b>Lugares</b></span></summary> <i>Haga clic en cada lugar para ampliar/contraer</i>
-                            <p>
-                                <xsl:for-each-group select=".//placeName" group-by="data(@n)">
-                                    <xsl:variable name="place-n" select="./data(@n)"/>
-                                    
-                                    <xsl:variable name="this-place" select="$Place//place[data(@n)=$place-n]"/>
-                                    <details><summary><b><xsl:apply-templates select="$this-place/concat
-                                        (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></b></summary>
-                                        <xsl:apply-templates select="$this-place/note[data(@xml:lang)='span']"/><br/>
-                                        <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
-                                    </details>
-                                </xsl:for-each-group>   </p></details>     </xsl:if>
-                </td>
-            </tr>
-        </xsl:if>
-    </xsl:template>   -->

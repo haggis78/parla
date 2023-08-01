@@ -12,12 +12,16 @@
                     <persName>Elizabeth Contreras</persName>
                     <persName>Pilar Herr</persName>
                 </respStmt>
+                <respStmt>
+                    <resp>XML encoding</resp>
+                    <persName>William Campbell</persName>
+                </respStmt>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <p></p>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <p></p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
@@ -33,7 +37,7 @@
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
-                        <def>Province located in a butalmapu or principality in the Mapuche territory (translate def into spanish)</def>
+                        <def></def>
                     </sense>
                     <note></note>
                 </entry>
@@ -56,7 +60,7 @@
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>From the Mapudungun term fütalmapu or "great land" to desginate the four principalities of the Mapuche territory (translate def into spanish)</def>
+                        <def></def>
                     </sense>
                     <note></note>
                 </entry>
@@ -67,6 +71,29 @@
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
                         <def>The four principalities of the Mapuche territory, from the Mapudungun term fütalmapu or "great land"</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="3">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Real Orden</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Real Orden</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def>Need definition</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -99,8 +126,6 @@
             <superEntry n="5">
                 <entry xml:lang="span">
                     <form>
-                        <orth>Caciques</orth>
-                        <orth>caciques</orth>
                         <orth>cacique</orth>
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
@@ -124,8 +149,7 @@
             <superEntry n="6">
                 <entry xml:lang="span">
                     <form>
-                        <orth>Capitanejos</orth>
-                        <orth>capitanejos</orth>
+                        <orth>capitanejo</orth>
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
@@ -196,7 +220,6 @@
                 <entry xml:lang="span">
                     <form>
                         <orth>Cordillera</orth>
-                        <orth>cordillera</orth>
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
@@ -242,9 +265,6 @@
             <superEntry n="11">
                 <entry xml:lang="span">
                     <form>
-                        <orth>Reducciones</orth>
-                        <orth>Reduccion</orth>
-                        <orth>Reducción</orth>
                         <orth>reducciones</orth>
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
@@ -255,8 +275,6 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth>Reductions</orth>
-                        <orth>Reduction</orth>
                         <orth>reductions</orth>
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
@@ -281,7 +299,6 @@
                 <entry xml:lang="eng">
                     <form>
                         <orth>Don</orth>
-                        <orth></orth>
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
@@ -392,7 +409,7 @@
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>a subgroup of the Mapuche who dwell in the northeast region of Araucanía, near the Andes cordillera</def>
+                        <def>a subgroup of the Mapuche living in the northeast region of Araucanía, near the Andes cordillera</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -402,7 +419,7 @@
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>a subgroup of the Mapuche who dwell in the northeast region of Araucanía, near the Andes cordillera</def>
+                        <def>a subgroup of the Mapuche living in the northeast region of Araucanía, near the Andes cordillera</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -549,9 +566,9 @@
             <superEntry n="24">
                 <entry xml:lang="span">
                     <form>
-                        <orth>Señor Don</orth>
+                        <orth>respetados</orth>
                     </form>
-                    <gramGrp><pos>n</pos></gramGrp>
+                    <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
                         <def>spanish def</def>
                     </sense>
@@ -559,11 +576,11 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth>Señor Don</orth>
+                        <orth>warriors</orth>
                     </form>
-                    <gramGrp><pos>n</pos></gramGrp>
+                    <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>english def</def>
+                        <def>english def needed</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -760,7 +777,6 @@
                 <entry xml:lang="span">
                     <form>
                         <orth>Soberano</orth>
-                        <orth></orth>
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
@@ -771,7 +787,6 @@
                 <entry xml:lang="eng">
                     <form>
                         <orth>Sovereign</orth>
-                        <orth></orth>
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
@@ -785,7 +800,6 @@
                 <entry xml:lang="span">
                     <form>
                         <orth>Soberano</orth>
-                        <orth></orth>
                     </form>
                     <gramGrp><pos>adj</pos></gramGrp>
                     <sense n="1">
@@ -796,7 +810,6 @@
                 <entry xml:lang="eng">
                     <form>
                         <orth>Sovereign</orth>
-                        <orth></orth>
                     </form>
                     <gramGrp><pos>adj</pos></gramGrp>
                     <sense n="1">
@@ -814,7 +827,7 @@
                     <form>
                         <orth>Soberania</orth>
                     </form>
-                    <gramGrp><pos></pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
                         <def></def>
                     </sense>
@@ -824,7 +837,7 @@
                     <form>
                         <orth>Sovereignty</orth>
                     </form>
-                    <gramGrp><pos></pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
                         <def>royal authority</def>
                     </sense>
@@ -836,7 +849,6 @@
                 <entry xml:lang="span">
                     <form>
                         <orth>naturales</orth>
-                        <orth></orth>
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
@@ -851,6 +863,473 @@
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
                         <def>indigenous persons or groups</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="37">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Arzediando</orth><!--whc: in Zavala-->
+                        <orth>Arcediano</orth><!--whc: in Ayun-->
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Archdeacon</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def>a senior priest connected to a cathedral, who may act as the bishop's commissary</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="38">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>Congreso</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth><term n="38">Congress</term></orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def>a gathering or meeting; often used interchangeably with Parlamento</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="39">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>ordinario Ecleciastico</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>Ecclesiastical Ordinary</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def>the highest-ranking clergyman in a diocese, typically the bishop</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="40">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>instituido</orth>
+                    </form>
+                    <gramGrp><pos>adj</pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>instituted</orth>
+                    </form>
+                    <gramGrp><pos>adj</pos></gramGrp>
+                    <sense n="1">
+                        <def>(of a priest): appointed by the bishop to serve a particular church</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="41">
+                <entry xml:lang="span">
+                    <form>
+                        <orth>gremio de la Yglecia</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth>bosom of the Church</orth>
+                    </form>
+                    <gramGrp><pos>n</pos></gramGrp>
+                    <sense n="1">
+                        <def>from the Latin 'gremio ecclesiae', or 'lap/bosom of the Church', an extension of the ancient depiction of the Church as a mother</def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>        
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+            </superEntry>
+            
+            <superEntry n="">
+                <entry xml:lang="span">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
+                    </sense>
+                    <note></note>
+                </entry>
+                <entry xml:lang="eng">
+                    <form>
+                        <orth></orth>
+                        <orth></orth>
+                    </form>
+                    <gramGrp><pos></pos></gramGrp>
+                    <sense n="1">
+                        <def></def>
                     </sense>
                     <note></note>
                 </entry>
