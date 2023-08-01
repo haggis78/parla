@@ -22,8 +22,7 @@
     <xsl:variable name="Pers" select="document('../XML/auth-files/persons.xml')"/>
     <xsl:variable name="Place" select="document('../XML/auth-files/locations.xml')"/>
     <xsl:variable name="negNotes" select="document('../XML/auth-files/negrete-notes.xml')"/>
-<!--    <xsl:strip-space elements="*"/>   whc: 27-JUN-2023: this seems to be causing spacing problems and not solving them -->
-    
+    <xsl:strip-space elements="app"/>   <!-- whc: 01-AUG-2023: prevents adding extra whitespace after app elements when punctuation follows -->    
     <xsl:template match="$negText">
         <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/text-trans-notes.html">
                 <html lang="en" class="notranslate" translate="no">
@@ -256,20 +255,19 @@
     <xsl:template match="rdg[@wit[not(contains(., 'Z'))]]" mode="Z-rdg"/>
 
     <xsl:template match="body//persName" mode="#all"> <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes of nodes controlled at a higher level with modal XSLT, specifically what calls for rdg elements from only one edition. -->
-        <span class="pers"><xsl:apply-templates/></span><xsl:text> </xsl:text>  
+        <span class="pers"><xsl:apply-templates/></span>  
    </xsl:template>
     
     <xsl:template match="body//term[not(@type='untrans')]" mode="#all">
-        <span class="term"><xsl:apply-templates/></span><xsl:text> </xsl:text>
+        <span class="term"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="body//term[@type='untrans']" mode="#all">
-        <span class="term"><i><xsl:apply-templates/></i></span><xsl:text> </xsl:text>
+        <span class="term"><i><xsl:apply-templates/></i></span>
     </xsl:template>  
-    <!--whc 24-JUN-2023: the xsl:text is to make sure there's a space after a term, but so far it puts one there whether the next character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
    
     <xsl:template match="body//placeName" mode="#all">
-        <span class="place"><xsl:apply-templates/></span><xsl:text> </xsl:text>
+        <span class="place"><xsl:apply-templates/></span>
     </xsl:template> 
     
     <xsl:template match="lb"  mode="#all"><br/></xsl:template>

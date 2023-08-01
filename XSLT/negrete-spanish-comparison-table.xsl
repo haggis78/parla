@@ -21,7 +21,7 @@
     <xsl:variable name="Pers" select="document('../XML/auth-files/persons.xml')"/>
     <xsl:variable name="Place" select="document('../XML/auth-files/locations.xml')"/>
    
-    <!--    <xsl:strip-space elements="*"/>   whc: 27-JUN-2023: this seems to be causing spacing problems and not solving them -->
+    <xsl:strip-space elements="app"/>   <!-- whc: 01-AUG-2023: prevents adding extra whitespace after app elements when punctuation follows -->
     
     <xsl:template match="$negText">
             <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/spanish-comparison.html"> 

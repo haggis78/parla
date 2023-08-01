@@ -21,8 +21,8 @@
     <xsl:variable name="Lex" select="document('../XML/auth-files/lexicon.xml')"/>
     <xsl:variable name="Pers" select="document('../XML/auth-files/persons.xml')"/>
     <xsl:variable name="Place" select="document('../XML/auth-files/locations.xml')"/>
-   
-    <!--    <xsl:strip-space elements="*"/>   whc: 27-JUN-2023: this seems to be causing spacing problems and not solving them -->
+
+    <xsl:strip-space elements="app"/>   <!-- whc: 01-AUG-2023: prevents adding extra whitespace after app elements when punctuation follows -->
     
     <xsl:template match="$negText">
             <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/spanish-comparison.html"> 
@@ -191,23 +191,10 @@
         <p><b>Intervalo de página: </b><xsl:value-of select="biblScope"/></p>
       
     </xsl:template>
-
-    <!--<xsl:template match="div//persName" mode="#all">
-      <span class="pers"><xsl:apply-templates/></span>  
-   </xsl:template>
-    
-    <xsl:template match="term" mode="#all">
-        <span class="term"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="placeName" mode="#all">
-        <span class="place"><xsl:apply-templates/></span>
-    </xsl:template>-->
     
     <xsl:template match="rdg" mode="#all">
         <span class="variant"><xsl:apply-templates/></span>
     </xsl:template>
-
     <!--whc 17-FEB-2023: mode="#all" is necessary to get template rules to match on descendant nodes
         of nodes controlled at a higher level with modal XSLT. -->
     
