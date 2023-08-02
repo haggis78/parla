@@ -23,8 +23,11 @@
                 <body>
                     <!-- header -->
                     <div class="header">
-                        <h1><a href="index.html" id="logo">Parla</a></h1><h1><a id="logo2">mentos</a></h1>
-                        
+                        <div class="figure">
+                            <a href="../index.html">
+                                <img src="../images/parla-logo.png" class="image-main" alt="Parlamentos logo" width="210"/>
+                                <img src="../images/parla-logo-blue.png" class="image-hover" alt="Parlamentos logo" width="210"/></a>
+                        </div>        
                     </div>
                     
                     <!-- navbar -->
@@ -41,7 +44,7 @@
                                 </div>
                             </div>      
                             
-                            <a href="../about.html">About</a>
+                            <a href="about.html">About</a>
                             
                             <div class="dropdown">
                                 <button class="dropbtn">Resources</button>
@@ -54,6 +57,9 @@
                         </div>
                         <div class="footer"></div>  
                     </div>
+                    
+ 
+ 
                    <div id="content"> 
                    <div class="indent"> <h1>Glossary of terms used in Parlamentos on this site</h1>
                     <h2>Introduction</h2>
