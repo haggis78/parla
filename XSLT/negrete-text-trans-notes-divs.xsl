@@ -139,6 +139,11 @@
                                             <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
                                             </p>
                                         </xsl:for-each>
+                                        <xsl:for-each select="$negNotes//respStmt">
+                                            <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
+                                            <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
+                                            </p>
+                                        </xsl:for-each>
                                         
                                     </div>
                                 
@@ -192,7 +197,6 @@
                                                                 <xsl:if test="not(@type='untrans')"><xsl:apply-templates select="$this-term-eng//string-join(./orth, '; ')"/>
                                                                     <xsl:text> / </xsl:text>
                                                                     <i><xsl:apply-templates select="$this-term-span//string-join(./orth, '; ')"/></i></xsl:if>
-                                                            
                                                             </span></b></summary>
                                                                 <i><xsl:apply-templates select="$this-term-span//pos"/></i> <xsl:text>. </xsl:text>
                                                                 <!--whc 27-JUN-2023: The next two lines allow us to choose from among multiple <sense> definitions. A <term> in the XML can have a @select attribute which tells it which <sense n=""> we want to call for in this instance. If there is no @select attribute, it defaults to <sense n="1">. -->
@@ -228,9 +232,10 @@
                                                     <xsl:for-each select="$negTrans//div[data(@n)=$div-n]//span">
                                                         <xsl:variable name="note-id" select="./data(@corresp)"/>
                                                         <xsl:variable name="this-note" select="$negNotes//div[data(@n)=$div-n]/interp[data(@corresp)=$note-id]"/>
-                                                        <details><summary><b><span class="note"><sup><xsl:value-of select='count(preceding-sibling::span[@corresp]) + 1'/></sup>
+                                                        <xsl:variable name="note-number" select="count(preceding-sibling::span[@corresp]) + 1"/>
+                                                        <details><summary><b><span class="note"><sup><xsl:value-of select="$note-number"/></sup>
                                                             <xsl:text> </xsl:text>
-                                                            <xsl:apply-templates select="$note-id"/></span></b></summary>
+                                                            <xsl:apply-templates select="$note-id!replace(.,'_',' ')"/></span></b></summary>
                                                             <xsl:apply-templates select="$this-note!string()"/><br/></details>
                                                     </xsl:for-each>        
                                                 </xsl:if>  
@@ -285,9 +290,13 @@
 
     <!--whc 01-AUG-2023: this enables notes (category 4 in the sidebar) and has not been duplicated on the XSLT using the HTML table format.-->                                                
     <xsl:template match="body//span[@corresp]" mode="#all">
+        <xsl:for-each-group select="." group-by="@corresp">
+            <xsl:variable name="note-number" select="count(preceding-sibling::span[@corresp]) + 1"/>
+        
         <xsl:apply-templates/>
      <!--   <xsl:text disable-output-escaping="no">† </xsl:text>  whc: this would allow use of dagger instead of note number -->
-        <sup><b><xsl:value-of select='count(preceding-sibling::span[@corresp]) + 1'/></b></sup> 
+        <sup><b><xsl:value-of select='$note-number'/></b></sup>
+        </xsl:for-each-group>
     </xsl:template>
     
     <xsl:template match="lb"  mode="#all"><br/></xsl:template>

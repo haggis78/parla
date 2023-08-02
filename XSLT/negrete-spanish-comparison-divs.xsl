@@ -158,7 +158,7 @@
                       <div><p><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
                       <xsl:apply-templates select="ab" mode="A-block"/> </p></div>
                       </xsl:if>   
-                  
+                <a class="top-btn" href="#">Inicio de pagina</a><a class="top-btn" href="#document">Inicio de texto</a>
              </xsl:if>
     </xsl:template>
     

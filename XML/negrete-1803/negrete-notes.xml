@@ -10,6 +10,7 @@
             <respStmt>
                <resp>Explanatory notes</resp>
                <persName>Pilar Herr</persName>
+               <persName>William Campbell</persName>
             </respStmt>
             <respStmt>
                <resp>Encoded in TEI XML</resp>
@@ -26,138 +27,211 @@
   </teiHeader>
   <text>
       <body>
-        
+        <div>
+           <p>Documentation on how this file works:</p>
+           <p>The XML file with the English translation of the Parlamento of Negrete (1803) includes a fourth class of explanatory notes
+           beyond terms, persons, and places. This file provides the text of those notes.</p>
+           <p>In the XML file with the English translation, a section to be explained is tagged with 
+              <span corresp="text_to_be_explained">text to be explained</span>. Here in this present file there is a corresponding tag
+              <interp corresp="text_to_be_explained">explanatory note</interp>. The attribute @corresp is what ties them together. They
+           must be sorted properly into the numbered divs as they appear in the English translation XML or the XSLT will not find them. 
+           This also means that:</p>
+           <p>-a @corresp attribute value can be used on more than one span in a given div the text XML, in which case it should only be
+           defined by a single interp in that corresponding div in this file; the XSLT will pull the same interp into multiple notes in the same
+           div in the output HTML;</p>
+           <p>-because the XSLT is written to pick up span elements in the text XML and number them in order, and then to find the 
+              corresponding interp in this file by @corresp, the sequence of interp elements within a div in this file does NOT need to match
+           the sequence of span elements in the text XML file;</p>
+           <p>-a @corresp attribute value can be given different notes in different divs, which is often necessary;</p>
+           <p>-if the same @corresp attribute value is being given the same note in different divs, it must appear here as a separate interp
+           in each of those divs;</p>
+           <p>-if a word in the English translation appears more than once in the same div, and is to get different notes for each occurrence, 
+           it is necessary to select a different @corresp attribute value for each to distinguish among them. For example, two different uses of
+           "land" in the XML might be given different attribute values by extending the quote being tagged and brought into the att value, such 
+           as "this_land" and "your_land".</p>
+           <p>As of 02-AUG-2023, the automatic numbering in the XSLT derives from counting the previous spans in the div. This means that
+              if a given @corresp occurs multiple times in the div, each time will get a new number in the text and a corresponding number
+           in the notes column. In theory it should be possible to collapse multiple identical notes using an xsl:for-each-group to generate the 
+           note, and to get the numbers to repeat accordingly in the text, but that is not yet worked out. Also, this means that I can't have one
+           span inside another, since neither will count the other as a preceding sibling when generating the note numbers, so a number will be 
+           repeated.</p>
+           <p>Tags below that say <interp corresp="x"></interp> are just placeholders to make it easier to fill in information, like empty 
+           cells on a spreadsheet. They don't actually do anything.</p>
+        </div>
+         
          <div n="1">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="2">
-            <interp n="1"></interp>
+            <interp corresp="Indian">Indigenous, here referring specifically to the Mapuche</interp>
+            <interp corresp="Land">Territory (general)</interp>
          </div>
          <div n="3">
-            <interp n="1"></interp>
+            <interp corresp="Royal_Standard-Bearer">The Spanish title Alférez Real means Royal Standard-Bearer or Royal Ensign, one who carries the flag in a military unit. Though it is listed after de la Cruz's name, it appears that we have two men and their two respective titles, in that order: Puga, Royal Standard-Bearer, and de la Cruz, Provincial Mayor, who together are Deputies of the Cabildo of Concepción.</interp>
+            <interp corresp="Governor">While Governor is often used in this document to denote Mapuche leaders, here it is part of the title of a Spaniard.</interp>
+            <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
          </div>
          <div n="4">
-            <interp n="1"></interp>
+            <interp corresp="Nations">Typically, the Spanish scribes only capitalized Naciones when referring to European nation-states and not when referring to Indigenous polities, which they did not regard as proper nations. This appears to be an exception to that rule.</interp>
+            <interp corresp="Port">Negrete is situated on the south bank of the Bío-Bío River, which formed the northern border of Mapuche territory at this time. While not a major port like a seaport, it may have served as a point of embarkation and trade for river traffic.</interp>
+            <interp corresp="Your_Land">Mapuche territory</interp>
+            <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
          </div>
          <div n="5">
-            <interp n="1"></interp>
+            <interp corresp="Your_Countries">Mapuche territory</interp>
          </div>
          <div n="6">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="7">
-            <interp n="1"></interp>
+            <interp corresp="Chilean_Indians">The Mapuche</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="8">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="9">
-            <interp n="1"></interp>
+            <interp corresp="last_Parlamento_of_Negrete">Parlamentos had been held at Negrete before, in 1726, 1771, and most recently 1793.</interp>
+            <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="10">
-            <interp n="1"></interp>
+            <interp corresp="last_Parlamento_of_Negrete">Parlamentos had been held at Negrete before, in 1726, 1771, and most recently 1793.</interp>
+            <interp corresp="land">Mapuche territory</interp>
+            <interp corresp="Principal_Indians">Mapuche leaders, generally construed, rather than specific ranks</interp>
          </div>
          <div n="11">
-            <interp n="1"></interp>
+            <interp corresp="Parlamento_of_Lonquilmo">Held in 1784.</interp>
+            <interp corresp="last_Parlamento_of_Negrete">Parlamentos had been held at Negrete before, in 1726, 1771, and most recently 1793.</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="12">
-            <interp n="1"></interp>
+            <interp corresp="previous_Parlamento">The Parlamento of 1793, which had also been held at Negrete.</interp>
+            <interp corresp="the_land">Mapuche territory</interp>
          </div>
          <div n="13">
-            <interp n="1"></interp>
+            <interp corresp="war_with_the_British_Nation">The Anglo-Spanish war which began in 1796 and had been brought to a temporary settlement in 1802. It would resume in 1804, so the Spaniards' concerns were not misplaced.</interp>
+            <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
+            <interp corresp="they">Foreigners (non-Mapuche and non-Spaniards)</interp>
+            <interp corresp="their">The Mapuche's</interp>
          </div>
          <div n="14">
-            <interp n="1"></interp>
+            <interp corresp="last_Parlamento_of_Negrete">Parlamentos had been held at Negrete before, in 1726, 1771, and most recently 1793.</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="15">
-            <interp n="1"></interp>
+            <interp corresp="Indians">Indigenous, here referring specifically to the Mapuche</interp>
          </div>
          <div n="16">
-            <interp n="1"></interp>
+            <interp corresp="previous_Parlamento">The Parlamento of 1793, which had also been held at Negrete.</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="17">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="18">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="19">
-            <interp n="1"></interp>
+            <interp corresp="they_would_carry_them">The Mapuche promise that they would not only keep their roads open and safe for Catholic missionaries, but would even (as hyperbole) go so far as to carry the missionaries in their arms to guarantee safe passage.</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="20">
-            <interp n="1"></interp>
+            <interp corresp="Land">Mapuche territory</interp>
          </div>
          <div n="21">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="22">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="23">
-            <interp n="1"></interp>
+            <interp corresp="Parlamento...1793">The Parlamento of 1793, which had also been held at Negrete.</interp>
+            <interp corresp="land">Mapuche territory</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="24">
-            <interp n="1"></interp>
+            <interp corresp="their_lands">Mapuche territory</interp>
+            <interp corresp="land">Mapuche territory</interp>
          </div>
          <div n="25">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="26">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="27">
-            <interp n="1"></interp>
+            <interp corresp="They_accuse_the_latter">This is a difficult passage to follow as there are multiple groups in play. Certain Mapuche fortune-tellers (A) unjustly accuse their Mapuche enemies (B) of using witchcraft to kill other Mapuches (C). The accused (B) are then executed for murder, when really it is the fortune-telling accusers (A) who are the murderers, since by their lies they subvert the Mapuche justice system to execute their enemies (B) for them. The Spanish authorites (D) ask that anyone accused of murder by witchcraft (B) should instead be handed over to the Spanish authorities (D), who would grant them (B) asylum. </interp>
+            <interp corresp="land">Mapuche territory</interp>
          </div>
          <div n="28">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="29">
-            <interp n="1"></interp>
+            <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
+            <interp corresp="Christian_Indians">Mapuches who were baptized Roman Catholics</interp>
+            <interp corresp="Indians">Indigenous, here referring specifically to the Mapuche</interp>
+            <interp corresp="heathens">Mapuches who followed their traditional Indigenous religious beliefs and practices</interp>
+            <interp corresp="This_is_how...Government_Scribe">There are three notes and three names here, apparently written at three different times in the process of the document's production. First, Muñoz (who appears to be Don Luiz Muñoz de Guzmán) adds a note certifying that the foregoing text is what was reported to him by Don Pedro Quijada and approved by himself. Second, Reyes, who may be secretary to Muñoz, signs, for reasons that are not entirely clear. Finally, Garfias, Substitute Government scribe, signs and dates the document in October, more than seven months after the Parlamento. Garfias' signature has a clear purpose. He works in a government office in Santiago, the capital. He was responsible for preparing either a file copy for the archives, or an official copy to be dispatched to Spain, or both. His signature guarantees that he has confirmed the accuracy of the copy.</interp>
          </div>
          <div n="30">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="31">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="32">
-            <interp n="1"></interp>
+            <interp corresp="Most_Excellent_Señor">
+               This section of the text is really the beginning of a new document (&#167;32-37). Don Pedro Quijada had presided over the Parlamento on behalf of Don Luiz Muñoz de Guzmán, Governor, Captain General and President of the Real Audiencia of the Kingdom of Chile, who had been unable to attend in person due to unspecified reasons (&#167;4 above). This section (&#167;&#167;32-37) constitutes Quijada's cover letter to Muñoz, written some two months after the Parlamento meeting, that Quijada included with the text of the Parlamento treaty itself and related documentation. 
+            </interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="33">
-            <interp corresp="Even...positioned">This section refers to a table, published by Zavala (pp. 424-431) but not included in our translation, laying out in detail what Mapuche leaders were in attendance, from which Butalmapus they came, and how many men each had with him, together with a similar table naming the Spanish military officers and enumerating their soldiers.</interp>
+            <interp corresp="Indians">Mapuches in attendance</interp>
+            <interp corresp="Even...positioned">This section refers to a pair of tables, published by Zavala (pp. 424-431) but not included in our translation: one laying out in detail what Mapuche leaders were in attendance, from which Butalmapus they came, and how many men each had with him, and a similar table naming the Spanish military officers and enumerating their soldiers.</interp>
          </div>
          <div n="34">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="35">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="36">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="37">
-            <interp n="1"></interp>
+            <interp corresp="His_Excellency...Quijada">This marks the end of the cover letter from Quijada to Muñoz that began in &#167;32 above.</interp>
+            <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
+            <interp corresp="Governor">While Governor is often used in this document to denote Mapuche leaders, here it is part of the title of a Spaniard.</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="38">
-            <interp n="1"></interp>
+            <interp corresp="Governor">While Governor is often used in this document to denote Mapuche leaders, here it is part of the title of a Spaniard.</interp>
+            <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
+            <interp corresp="In_the_City_of_Santiago_de_Chile">Here a new document (&#167;&#167; 38-42) begins. Don Luis Muñoz de Guzmán had commissioned Don Pedro Quijada to preside over this Parlamento on his behalf. The previous section (&#167;&#167; 32-37) was Quijada's cover letter reporting the proceedings to Muñoz. Here, some six weeks after the Parlamento meeting, Muñoz ratifies the agreements made at the Parlamento and makes some follow-up decisions with regard to the requests of certain Mapuche leaders regarding churches and clergy.</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="39">
-            <interp n="1"></interp>
+            <interp corresp="stated...approve">The implied subject of "stated" and "approved" is Don Luis Muñoz de Guzmán, last mentioned in the previous section. Here he indicates his approval of the terms of the Parlamento as reported to him by Don Pedro Quijada, who had presided over the meeting on Muñoz's behalf.  </interp>
+            <interp corresp="Indians">Indigenous, here referring specifically to the Mapuche</interp>
+            <interp corresp="them">The aforementioned treaties and Parlamentos</interp>
+            <interp corresp="their_lands">Mapuche territory</interp>
          </div>
          <div n="40">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="41">
-            <interp n="1"></interp>
+            <interp corresp="Councils_of_the_Indians">Meetings of Spanish and Mapuche leaders at a more local level than a Parlamento meeting</interp>
+            <interp corresp="x"></interp>
          </div>
          <div n="42">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>         
          <div n="43">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>         
          <div n="44">
-            <interp n="1"></interp>
+            <interp corresp="x"></interp>
          </div>
          
          

@@ -21,7 +21,7 @@
     <xsl:variable name="Lex" select="document('../XML/auth-files/lexicon.xml')"/>
     <xsl:variable name="Pers" select="document('../XML/auth-files/persons.xml')"/>
     <xsl:variable name="Place" select="document('../XML/auth-files/locations.xml')"/>
-    <xsl:variable name="negNotes" select="document('../XML/auth-files/negrete-notes.xml')"/>
+    <xsl:variable name="negNotes" select="document('../XML/negrete-1803/negrete-notes.xml')"/>
     <xsl:strip-space elements="app"/>   <!-- whc: 01-AUG-2023: prevents adding extra whitespace after app elements when punctuation follows -->    
     <xsl:template match="$negText">
         <xsl:result-document method="xhtml" indent="yes" href="../site/negrete-1803/text-trans-notes.html">

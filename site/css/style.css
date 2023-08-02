@@ -198,7 +198,7 @@ p.tab {
     .responsive-three-column-grid {
         display: grid;
         grid-auto-rows: min-content;
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1.5fr; 
         /* nb this is the proportions of the three columns. To make the third column wider, change to (e.g.) 1fr 1fr 1.5fr */
     }
 }

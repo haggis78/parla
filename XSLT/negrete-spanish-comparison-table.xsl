@@ -230,7 +230,8 @@
                 <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
                     <xsl:apply-templates select="ab" mode="Z-block"/> </td>
                 <td><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
-                    <xsl:apply-templates select="ab" mode="A-block"/> </td>
+                    <xsl:apply-templates select="ab" mode="A-block"/> 
+                    <a class="top-btn" href="#">Inicio de pagina</a><a class="top-btn" href="#document">Inicio de texto</a></td>
               </xsl:if>
                 
                 <!--             <td>

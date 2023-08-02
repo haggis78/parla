@@ -311,21 +311,21 @@
             <superEntry n="13">
                 <entry xml:lang="span">
                     <form>
-                        <orth>malocas</orth>
+                        <orth>maloca</orth>
                     </form>
-                    <gramGrp><pos>?</pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
-                        <def>To attack, ambush, or assault in squads (translate def into spanish)</def>
+                        <def></def>
                     </sense>
                     <note></note>
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth>malocas</orth>
+                        <orth>maloca</orth>
                     </form>
-                    <gramGrp><pos>?</pos></gramGrp>
+                    <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>To attack, ambush, or assault in squads</def>
+                        <def>attack, ambush, assault, or raid carried out by an organized group</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -985,13 +985,13 @@
             </superEntry>
             
             
-            <superEntry n="">
+            <superEntry n="42">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Gobernador</orth>
+                        <orth>Governador</orth>
                     </form>
-                    <gramGrp><pos></pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
                         <def></def>
                     </sense>
@@ -999,12 +999,11 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Governor</orth>
                     </form>
-                    <gramGrp><pos></pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
-                        <def></def>
+                        <def>a high-ranking Mapuche leader; a Spanish term that may be used to refer to the Cacique of a Butalmapu, or to members of a Cacique's inner circle, or to the Mapuche leader of a Reduction</def>
                     </sense>
                     <note></note>
                 </entry>
