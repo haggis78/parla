@@ -11,6 +11,10 @@
                <resp>Geographical research</resp>
                <persName>Pilar Herr</persName>
             </respStmt>
+            <respStmt>
+               <resp>TEI XML markup</resp>
+               <persName>William Campbell</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -22,17 +26,193 @@
   </teiHeader>
   <text>
       <body>
-         <listPlace type="human-geography"><!--whc 20-JUN-2023: this entry for demonstration purposes-->
-            <place n="0">
+         <listPlace type="human-geography">
+            <place n="0"><!--whc 20-JUN-2023: this entry for demonstration purposes-->
                <placeName><settlement type="village">Negrete</settlement></placeName>
                <country>Chile</country>
-               <region>Bío Bío Province</region>
+               <region>Bío Bío Region</region>
                <location><geo>-37.58625, -72.53205</geo></location>
                <note type="map-link">https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg</note>
                <note xml:lang="span">Spanish description of Negrete here</note>
                <note xml:lang="eng">English description of Negrete here</note>
          </place>
+            
+            <place n="1">
+               <placeName><settlement type="town">San Pedro de Alcántara</settlement></placeName>
+               <country>Chile</country>
+               <region>O'Higgins Region</region>
+               <location><geo>-34.76663598875209, -71.83739920929102</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">town located in the O'Higgins Region, 169 km south of Pichilemu, town was founded in 1691 by the Franciscan Order</note>
+            </place>
+            
+            <place n="2">
+               <placeName><settlement type="city">Angol</settlement></placeName>
+               <country>Chile</country>
+               <region>Malleco Region</region>
+               <location><geo>-37.79995460880765, -72.70533700360946</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">capital city of the Malleco Region in Araucanía</note>
+            </place>
+            
+            <place n="3">
+               <placeName><settlement type="city">Arauco</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Region</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">Arauco means "chalky waters." It is also called a comuna (loosely translated as a community)</note>
+            </place>
+            
+            <place n="4">
+               <placeName><settlement type="village">Boroa de Imperial (Boca de Ymperial)</settlement></placeName>
+               <country>Chile</country>
+               <region>Arucania Region</region>
+               <location><geo>-38.766196246685766, -72.85164657908746</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">town on the shores of the Cautín River in Araucanía</note>
+            </place>
+            
+            <place n="5">
+               <placeName><settlement type="province">Buenos Aires (Ayres)</settlement></placeName>
+               <country>Argentina</country>
+               <region>Province of Buenos Aires</region>
+               <location><geo>-33.7, -61</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">In the Treaty of Negrete (1803), there are several references to the Pampas of Buenos Aires, which lies on the 
+               east coast of South America</note>
+            </place>
+            
+            <place n="6">
+               <placeName><settlement type="city">Chillán</settlement></placeName>
+               <country>Chile</country>
+               <region>Ñuble Region</region>
+               <location><geo>-36.6, -72.116667</geo></location>
+               <note xml:lang="span"></note>
+               <note xml:lang="eng">city in central Chile on the south bank of the Ñuble River; site of a Franciscan missionary school</note>
+            </place>
+            
+            <place n="7">
+               <placeName><settlement type="city">Concepción</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">a significant city in central Chile, located at the mouth of the Bío Bío River; seat of the second-oldest Catholic diocese  in Chile(1563)</note>
+            </place>
+            
+            <place n="8">
+               <placeName><settlement type="village">Negrete</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Region</region>
+               <location><geo>-37.58625, -72.53205</geo></location>
+               <note xml:lang="span">Spanish description of Negrete here</note>
+               <note xml:lang="eng">a village on the south bank of the Bío Bío River; site of four Parlamentos meetings, in 1726, 1771, 1793, and 1803; also site of a Spanish fort</note>
+            </place>
+            
+            <place n="9">
+               <placeName><settlement type="town">Osorno</settlement></placeName>
+               <country>Chile</country>
+               <region>Osorno Province</region>
+               <location><geo>-40.57602579011431, -73.1421079145476</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">town on the Rahue River in south-central Chile; also the site of a Spanish fort</note>
+            </place>
+            
+            <place n="10">
+               <placeName><settlement type="village">Quilaco</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.68296946147364, -72.00171207342952</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">a village on the south shore of the Bío Bío River, nearly opposite from Santa Bárbara, 50km/30mi east of Negrete</note>
+            </place>
+            
+            <place n="11">
+               <placeName><settlement type="city">Santa Bárbara</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.6691504248179, -72.0108749446001</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">a village on the north shore of the Bío Bío River, nearly opposite from Quilaco, 50km/30mi east of Negrete</note>
+            </place>
+            
+            <place n="12">
+               <placeName><settlement type="city">Santa Fe</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.46625493934204, -72.58263620392385</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">a village about 15km/10mi north of Negrete and 20km/14mi west of Los Ángeles</note>
+            </place>
+            
+            <place n="13">
+               <placeName><settlement type="city">Santiago de Chile</settlement></placeName>
+               <country>Chile</country>
+               <region>Santiago Region</region>
+               <location><geo>-33.45, -70.666667</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">capital and principal city of Chile from the early Colonial period to the present; seat of the oldest diocese in Chile (1561); in the foothills of the Andes Mountains</note>
+            </place>
+            
+            <place n="14">
+               <placeName><settlement type="reduction">Temulemu</settlement></placeName>
+               <country>Chile</country>
+               <region>Araucanía Region</region>
+               <location><geo>-38.29419644718807, -72.82844661535829</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">a Mapuche reduction</note>
+            </place>
+            
+            <place n="15">
+               <placeName><settlement type="village">Tirúa</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-38.342582676524245, -73.49238810842566</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">a coastal town at the mouth of the river of the same name</note>
+            </place>
+            
+            <place n="16">
+               <placeName><settlement type="city">Tucapel</settlement></placeName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.283333, -71.95</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">the fort of Tucapel has moved over time, and the name has also applied to a region; but since the 18th century the fort and town have been located on the east bank of the Laja River</note>
+            </place>
+            
+            <place n="4">
+               <placeName><settlement type="city">Valdivia</settlement></placeName>
+               <country>Chile</country>
+               <region> Region</region>
+               <location><geo>-39.813889, -73.245833</geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">an important city, a few miles from the coast on the river of the same name</note>
+            </place>
+            
+            <place n="4">
+               <placeName><settlement type="city"></settlement></placeName>
+               <country>Chile</country>
+               <region> Region</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">English description here</note>
+            </place>
+            
+            <place n="4">
+               <placeName><settlement type="city"></settlement></placeName>
+               <country>Chile</country>
+               <region> Region</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">English description here</note>
+            </place>
+            
+            
+            
          </listPlace>
+         
          
          <listPlace type="natural-geography"><!--whc 20-JUN-2023: this entry for demonstration purposes-->
             <place n="101">

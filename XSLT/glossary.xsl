@@ -66,12 +66,12 @@
                     <p>In the translation process, some of these terms have been translated into English: for example, the Spanish <i>haciendas</i> has been translated as "estates".
                         However, other Spanish words have meanings specific enough that there is no equivalent in English, so that, for example, <i>Don</i> and <i>Señor</i>
                     do not have the same sense as their closest English terms, Mr. and Sir; or they may be technical terms in Spanish, such as
-                        <i>Real Hacienda</i>; or they may be words that the Spanish themselves adopted from Mapundungun, the Indigenous language
+                        <i>Real Hacienda</i>; or they may be words that the Spanish themselves adopted from Mapudungun, the Indigenous language
                     of the Mapuches, as colonizers have often done. This is the case for many of the words that refer to Mapuche institutions (e.g. 
                     <i>Butalmapus</i>) or social ranks (e.g. <i>Cacique</i>).</p>
-                    <p>In the entries that follow, if a Spanish or Mapundungun word has been used directly in our translations, it will appear as the 
+                    <p>In the entries that follow, if a Spanish or Mapudungun word has been used directly in our translations, it will appear as the 
                     headword of the entry in italics. If an English word has been used to translate it, that will appear as the first headword, and then the Spanish
-                    or Mapundungun word will follow in italics. Where there are multiple spellings of a word in the original documents or in 
+                    or Mapudungun word will follow in italics. Where there are multiple spellings of a word in the original documents or in 
                     different editions of the original documents, those appear in the headword of the entry separated by semicolons.</p>
                    <hr/>
                     <h2>Terms and Definitions</h2>
