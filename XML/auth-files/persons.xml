@@ -24,7 +24,7 @@
       <body>
          <listPerson>
             
-            <person n="1"><!-- whc: may include attributes role, sex, gender, age: add if known/used -->
+            <person n="0"><!-- whc: may include attributes role, sex, gender, age: add if known/used -->
                <!-- whc: for further specs and details, see https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html#NDPER -->
                <persName><!-- whc: contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. -->
                   <name></name><!-- whc: Use this for the name you want displayed in lists or elsewhere on website -->
@@ -38,6 +38,410 @@
                <nationality></nationality>
                <!-- whc: could include elements affiliation (maybe useful for military vs bureaucrat vs church vs Mapuche vs bandito etc.), age, birth, death, faith, langKnowledge (useful for translators?), occupation, residence -->
             </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
+            <person n="0">
+               <persName>
+                  <name></name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality></nationality>
+            </person>
+            
             
          </listPerson>
       </body>

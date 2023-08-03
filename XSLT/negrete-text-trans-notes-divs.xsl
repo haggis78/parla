@@ -88,7 +88,7 @@
                                 <h2 id="text"><xsl:text>Text and Translation</xsl:text></h2>
                             
                             <h3 id="skip">Skip to section:<xsl:text>   </xsl:text>
-                                <xsl:for-each select="$negText//body/div">
+                                <xsl:for-each select="$negText//body/div[@n]">
                                     <a href="#sect-{data(@n)}"><xsl:value-of select='data(@n)'/></a>  
                                     <xsl:text>   </xsl:text>
                                 </xsl:for-each>
