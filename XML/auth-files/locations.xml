@@ -26,24 +26,22 @@
   </teiHeader>
   <text>
       <body>
+
+<!--whc: there are two listPlace elements below, and two lists, since there are different TEI formats for different types of places.
+            The first listPlace is for human geography only: settlements, regions, countries, etc. Numbering begins with 1.
+            The second listPlace, further down, is for natural geography only: rivers, mountains, and other physical features.-->
+         <!--whc: for map, see https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg  -->
+
+
          <listPlace type="human-geography">
-            <place n="0"><!--whc 20-JUN-2023: this entry for demonstration purposes-->
-               <placeName><settlement type="village">Negrete</settlement></placeName>
-               <country>Chile</country>
-               <region>Bío Bío Region</region>
-               <location><geo>-37.58625, -72.53205</geo></location>
-               <note type="map-link">https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg</note>
-               <note xml:lang="span">Spanish description of Negrete here</note>
-               <note xml:lang="eng">English description of Negrete here</note>
-         </place>
             
-            <place n="1">
-               <placeName><settlement type="town">San Pedro de Alcántara</settlement></placeName>
+            <place n="1"><!--whc: asked Pilar for clarification: in text looks like a region, not a town-->
+               <placeName><settlement type="town">[?San Pedro de] Alcántara</settlement></placeName>
                <country>Chile</country>
                <region>O'Higgins Region</region>
                <location><geo>-34.76663598875209, -71.83739920929102</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">town located in the O'Higgins Region, 169 km south of Pichilemu, town was founded in 1691 by the Franciscan Order</note>
+               <note xml:lang="eng">[?]town located in the O'Higgins Region, 169 km south of Pichilemu, town was founded in 1691 by the Franciscan Order</note>
             </place>
             
             <place n="2">
@@ -67,13 +65,13 @@
             <place n="4">
                <placeName><settlement type="village">Boroa de Imperial (Boca de Ymperial)</settlement></placeName>
                <country>Chile</country>
-               <region>Arucania Region</region>
+               <region>Araucanía Region</region>
                <location><geo>-38.766196246685766, -72.85164657908746</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">town on the shores of the Cautín River in Araucanía</note>
+               <note xml:lang="eng">town on the north bank of the Cautín River in Araucanía</note>
             </place>
             
-            <place n="5">
+            <place n="5"><!--which one? Asking Pilar-->
                <placeName><settlement type="province">Buenos Aires (Ayres)</settlement></placeName>
                <country>Argentina</country>
                <region>Province of Buenos Aires</region>
@@ -98,7 +96,7 @@
                <region>Bío Bío Province</region>
                <location><geo></geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">a significant city in central Chile, located at the mouth of the Bío Bío River; seat of the second-oldest Catholic diocese  in Chile(1563)</note>
+               <note xml:lang="eng">a significant city in central Chile, located at the mouth of the Bío Bío River; seat of the second-oldest Catholic diocese in Chile (1563)</note>
             </place>
             
             <place n="8">
@@ -182,7 +180,7 @@
                <note xml:lang="eng">the fort of Tucapel has moved over time, and the name has also applied to a region; but since the 18th century the fort and town have been located on the east bank of the Laja River</note>
             </place>
             
-            <place n="4">
+            <place n="17">
                <placeName><settlement type="city">Valdivia</settlement></placeName>
                <country>Chile</country>
                <region> Region</region>
@@ -191,39 +189,280 @@
                <note xml:lang="eng">an important city, a few miles from the coast on the river of the same name</note>
             </place>
             
-            <place n="4">
-               <placeName><settlement type="city"></settlement></placeName>
+            <place n="18">
+               <placeName><settlement type="city">Los Ángeles</settlement></placeName>
                <country>Chile</country>
-               <region> Region</region>
-               <location><geo></geo></location>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.466667, -72.35</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">English description here</note>
+               <note xml:lang="eng">a Spanish fort and town between the Laja and Bío Bío rivers</note>
             </place>
             
-            <place n="4">
-               <placeName><settlement type="city"></settlement></placeName>
+            <place n="19">
+               <placeName><settlement type="village">Chacaico</settlement></placeName>
                <country>Chile</country>
-               <region> Region</region>
-               <location><geo></geo></location>
+               <region></region>
+               <location><geo>-38.487884915381905, -72.88921344417724</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">English description here</note>
+               <note xml:lang="eng">a settlement or region near the confluence of the Repocura and Cholchol Rivers, approximately 30km/19mi
+               northwest of Temuco</note>
             </place>
             
+            <place n="20"><!--whc: cf 21; asking Pilar-->
+               <placeName><settlement type="village">Maquegua</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
             
+            <place n="21"><!--whc: cf 20; asking Pilar-->
+               <placeName><settlement type="village">Maquehue</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
+            
+            <place n="22"><!--whc: asking Pilar-->
+               <placeName><settlement type="village">Dagüegüe, Daquegue</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
+            
+            <place n="23"><!--whc: asking Pilar-->
+               <placeName><settlement type="village">Hinquién, Huinquin</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
+            
+            <place n="24"><!--whc: asking Pilar-->
+               <placeName><settlement type="?">Lebcoyan, Lobcoyán</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
+            
+            <place n="25"><!--whc: asking Pilar-->
+               <placeName><settlement type="village">Lolco</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
+            
+            <place n="26"><!--whc: asking Pilar-->
+               <placeName><settlement type="village">Lonco</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
+            
+            <place n="27"><!--whc: asking Pilar-->
+               <placeName><settlement type="region">Alcántara</settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
+            
+            <place n="xx">
+               <placeName><settlement type="xx"></settlement></placeName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">[location not yet determined]</note>
+            </place>
             
          </listPlace>
-         
+   
+   <!--whc: entries below this line are for natural geographic features. Numbering begins with 1001.-->
          
          <listPlace type="natural-geography"><!--whc 20-JUN-2023: this entry for demonstration purposes-->
-            <place n="101">
+            <place n="xx">
+               <geogName><geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region></region>
+               <location><geo></geo></location><!--leave blank for rivers, districts, etc that can't be reduced to a map pin-->
+               <note xml:lang="span">Spanish description here</note>
+               <note xml:lang="eng">English description here</note>
+            </place>
+            
+            <place n="1001">
                <geogName>Bío Bío <geogFeat>River</geogFeat></geogName>
                <country>Chile</country>
                <region>Bío Bío Province</region>
-               <location><geo>-37.66735, -72.16367</geo></location>
-               <note type="map-link">https://www.google.com/maps/d/edit?mid=1OOVy7lKC6eSBamlDAqrFRAdkHN8VAyg</note>
+               <location><geo></geo></location><!--leave blank for rivers, districts, etc that can't be reduced to a map pin-->
                <note xml:lang="span">Spanish description of Bío Bío river here</note>
-               <note xml:lang="eng">English description of Bío Bío river here</note>
+               <note xml:lang="eng">the second-largest river in Chile; regarded as the northern frontier of Araucanía and thus the effective border between 
+                  Spanish/Chilean authority to the north and Mapuche territory to the south</note>
             </place>
+            
+            <place n="1002">
+               <geogName>Callaqui <geogFeat>Volcano</geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.916667, -71.45</geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">an ice-capped Andean volcano</note>
+            </place>
+            
+            
+            <place n="1003">
+               <geogName>Llanos <geogFeat>plains</geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location><!--region, so no straightforward coordinates-->
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">meaning "plains", used to refer to flatlands area in the Chilean Central Valley between Valdivia and Osorno</note>
+            </place>
+            
+            <place n="1004">
+               <geogName>Lonquilmo <geogFeat>Lagoon</geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo>-37.66051, -72.49488</geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">provisionally identified: site of Parlamento de Lonquilmo (1784). The Diccionario geográfico de la República de Chile (1899, p. 385) describes the site as 22km southwest of Los Angeles, and a contemporary plan of the Parlamento situates it between a lagoon and a stream labeled Estero de Fuilque. No stream of that name appears on Google Maps, but it may be an alternate or historic name of the secondary channel of the Ranaico River.</note>
+            </place>
+            
+            <place n="1005">
+               <geogName>Repocura <geogFeat>River</geogFeat></geogName>
+               <country>Chile</country>
+               <region>Araucanía Region</region>
+               <location><geo></geo></location><!--river, so no straightforward coordinates-->
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">stream beginning at the confluence of the Pellahuen and Guamaqui, flowing southeast into the Cholchol River</note>
+            </place>
+            
+            <place n="1006">
+               <geogName>San Cristóbal <geogFeat>Hill</geogFeat></geogName>
+               <country>Chile</country>
+               <region>Santiago Metropolitan Region</region>
+               <location><geo>-33.420136112716136, -70.63149279205616</geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">steep hill in the northeastern quarter of the city of Santiago de Chile</note>
+            </place>
+            
+            <place n="1007">
+               <geogName>Toltén <geogFeat>River</geogFeat></geogName>
+               <country>Chile</country>
+               <region>Araucanía Region</region>
+               <location><geo></geo></location><!--river, so no straightforward coordinates-->
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">a river flowing from Lago (Lake) Villarrica westward to the sea, forming the southern boundary of Araucanía and thus of Mapuche territory in the eighteenth-nineteenth centuries</note>
+            </place>
+            
+            <place n="100x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="100x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+            <place n="10x">
+               <geogName> <geogFeat></geogFeat></geogName>
+               <country>Chile</country>
+               <region>Bío Bío Province</region>
+               <location><geo></geo></location>
+               <note xml:lang="span">Spanish description</note>
+               <note xml:lang="eng">English description</note>
+            </place>
+            
+
+            
+            
+            
+            
          </listPlace>
          
          
