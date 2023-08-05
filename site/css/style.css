@@ -311,6 +311,8 @@ th.text, td.text {
   border: 1px solid black;
   border-radius: 5px;
   text-decoration: none;
+  text-align: center;
+  width:25%;
 }
 .top-btn:hover {
     color:#F5F5F5;

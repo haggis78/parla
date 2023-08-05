@@ -163,7 +163,7 @@
                                                 <xsl:apply-templates select="$negTrans//div[data(@n)=$div-n]/head"/></b></p></div>
                                             </xsl:if>
                                             
-                                            <xsl:if test="./ab"> <!--whc 27-JUN-2023: @class="text" is to distinguish the text columns from the notes column so I can use CSS to style them separately-->
+                                            <xsl:if test="./ab">
                                                 <div id="sect-{$div-n}"><p><b>[&#167;<xsl:value-of select="data(@n)"/>] </b>
                                                     <xsl:apply-templates select="ab" mode="Z-block"/></p></div>
                                                 <div><p><b>[&#167;<xsl:value-of select="data(@n)"/>] </b> 
@@ -222,7 +222,6 @@
                                                             <details><summary><b><span class="place"><xsl:apply-templates select="$this-place/concat
                                                                 (geogName, ' ', placeName, ', ', region,', ', country)!normalize-space()"/></span></b></summary>
                                                                 <xsl:apply-templates select="$this-place/note[data(@xml:lang)='eng']"/><br/>
-                                                                <a href="{$this-place/note[data(@type)='map-link']}" target="_blank" rel="noopener noreferrer">Map (opens in new tab)</a>
                                                             </details>
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
@@ -282,8 +281,7 @@
     <xsl:template match="body//term[@type='untrans']" mode="#all">
         <span class="term"><i><xsl:apply-templates/></i></span>
     </xsl:template>  
-    <!--whc 24-JUN-2023: the xsl:text is to make sure there's a space after a term, but so far it puts one there whether the next character is alphanumeric (good) or punctuation (bad). Thus there are sometimes spaces before periods and commas. -->
-   
+  
     <xsl:template match="body//placeName" mode="#all">
         <span class="place"><xsl:apply-templates/></span>
     </xsl:template> 
@@ -312,9 +310,5 @@
             </tr>
         </xsl:for-each>
     </table></xsl:template>
-<!--    
-    <xsl:template match="text()">
-        <xsl:apply-templates select="translate(' .', ' ', '')"/>
-    </xsl:template>
-    -->
+
 </xsl:stylesheet>

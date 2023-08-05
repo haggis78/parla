@@ -154,11 +154,13 @@
                       <xsl:if test="./ab">
                           <div id="sect-{data(@n)}">
                       <p><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
-                      <xsl:apply-templates select="ab" mode="Z-block"/> </p></div>
+                          <xsl:apply-templates select="ab" mode="Z-block"/> </p> 
+                              <a class="top-btn" href="#">Inicio de pagina</a></div>
                       <div><p><b>[&#167;<xsl:value-of select="data(@n)"/>]  </b>
-                      <xsl:apply-templates select="ab" mode="A-block"/> </p></div>
+                      <xsl:apply-templates select="ab" mode="A-block"/> </p>
+                          <a class="top-btn" href="#document">Inicio de texto</a></div>
                       </xsl:if>   
-                <a class="top-btn" href="#">Inicio de pagina</a><a class="top-btn" href="#document">Inicio de texto</a>
+               
              </xsl:if>
     </xsl:template>
     

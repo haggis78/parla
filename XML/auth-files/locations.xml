@@ -94,7 +94,7 @@
                <placeName><settlement type="city">Concepción</settlement></placeName>
                <country>Chile</country>
                <region>Bío Bío Province</region>
-               <location><geo></geo></location>
+               <location><geo>-36.82013, -73.04439</geo></location>
                <note xml:lang="span">Spanish description here</note>
                <note xml:lang="eng">a significant city in central Chile, located at the mouth of the Bío Bío River; seat of the second-oldest Catholic diocese in Chile (1563)</note>
             </place>
@@ -136,7 +136,7 @@
             </place>
             
             <place n="12">
-               <placeName><settlement type="city">Santa Fe</settlement></placeName>
+               <placeName><settlement type="city">Santa Fé</settlement></placeName>
                <country>Chile</country>
                <region>Bío Bío Province</region>
                <location><geo>-37.46625493934204, -72.58263620392385</geo></location>
@@ -271,13 +271,13 @@
                <note xml:lang="eng">[location not yet determined]</note>
             </place>
             
-            <place n="27"><!--whc: asking Pilar-->
-               <placeName><settlement type="region">Alcántara</settlement></placeName>
+            <place n="27">
+               <placeName><settlement type="region"></settlement></placeName>
                <country>Chile</country>
                <region></region>
                <location><geo></geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng"></note>
             </place>
             
             <place n="xx">
