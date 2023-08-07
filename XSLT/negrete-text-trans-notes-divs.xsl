@@ -51,7 +51,7 @@
                                 <a href="../index.html">Home</a>
                                 
                                 <div class="dropdown">
-                                    <button class="dropbtn">The Parlamentos</button>
+                                    <button class="dropbtn">Parlamento 1803</button>
                                     <div class="dropdown-content">
                                         <a href="../negrete-1803/text-trans-notes.html">Translation</a>
                                         <a href="../negrete-1803/spanish-comparison.html">Comparison of Editions</a>                
@@ -186,7 +186,7 @@
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//term">
                                                         <h2><b>Terms</b></h2> <!--whc 01-AUG-2023: This is now set up to give the Spanish term or an untranslated term in italics; the English term not in italics, if it has been translated; 
-                                                            and the English definition. It has NOT been copied over to the XSLT making an HTML table structure page. -->
+                                                            and the English definition. It has NOT been copied over to the XSLT making a table structure page. -->
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
                                                             <xsl:variable name="term-n" select="./data(@n)"/>
                                                             <xsl:variable name="sense-n" select="./data(@select)"/>
@@ -215,7 +215,7 @@
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//placeName">
-                                                        <h2><b>Places</b></h2>
+                                                        <h2><b>Places</b> [<a href="../resources/geography.html#negrete-map">Map</a>]</h2>
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//placeName" group-by="data(@n)">
                                                             <xsl:variable name="place-n" select="./data(@n)"/>
                                                             <xsl:variable name="this-place" select="$Place//place[data(@n)=$place-n]"/>
@@ -292,7 +292,6 @@
             <xsl:variable name="note-number" select="count(preceding-sibling::span[@corresp]) + 1"/>
         
         <xsl:apply-templates/>
-     <!--   <xsl:text disable-output-escaping="no">† </xsl:text>  whc: this would allow use of dagger instead of note number -->
         <sup><b><xsl:value-of select='$note-number'/></b></sup>
         </xsl:for-each-group>
     </xsl:template>

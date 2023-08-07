@@ -67,7 +67,8 @@
             <interp corresp="Land">Territory (general)</interp>
          </div>
          <div n="3">
-            <interp corresp="Royal_Standard-Bearer">The Spanish title Alférez Real means Royal Standard-Bearer or Royal Ensign, one who carries the flag in a military unit. Though it is listed after de la Cruz's name, it appears that we have two men and their two respective titles, in that order: Puga, Royal Standard-Bearer, and de la Cruz, Provincial Mayor, who together are Deputies of the Cabildo of Concepción.</interp>
+            <interp corresp="Pedro_de_Quijada">In this location alone, the original Spanish text gives his name as Pedro de Quijada rather than Pedro Quijada. This should be understood as a scribal error.</interp>
+            <interp corresp="Royal_Standard-Bearer_and_Provincial_Mayor">The Spanish title Alférez Real means Royal Standard-Bearer or Royal Ensign, one who carries the flag in a military unit. Though it is listed after de la Cruz's name, it appears that we have two men and their two respective titles, in that order: Puga, Royal Standard-Bearer, and de la Cruz, Provincial Mayor, who together are Deputies of the Cabildo of Concepción. De la Cruz was not a military official, so either this title was not his, or he may have been granted it as a temporary honor for the Parlamento only.</interp>
             <interp corresp="Governor">While Governor is often used in this document to denote Mapuche leaders, here it is part of the title of a Spaniard.</interp>
             <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
          </div>
@@ -130,11 +131,11 @@
             <interp corresp="x"></interp>
          </div>
          <div n="18">
-            <interp corresp="x"></interp>
+            <interp corresp="he...signed">The verb is singular but is followed by two signatories. This suggests that Quijada was the intended signatory but that de Figueroa, Secretary of the Commission, who may have been recording the day's business, thought it appropriate to countersign, perhaps as a witness to the proceedings.</interp>
          </div>
          <div n="19">
             <interp corresp="they_would_carry_them">The Mapuche promise that they would not only keep their roads open and safe for Catholic missionaries, but would even (as hyperbole) go so far as to carry the missionaries in their arms to guarantee safe passage.</interp>
-            <interp corresp="x"></interp>
+            <interp corresp="he_signed">The verb is singular but is followed by two signatories. This suggests that Quijada was the intended signatory but that de Figueroa, Secretary of the Commission, who may have been recording the day's business, thought it appropriate to countersign, perhaps as a witness to the proceedings.</interp>
          </div>
          <div n="20">
             <interp corresp="Land">Mapuche territory</interp>
@@ -170,9 +171,11 @@
          <div n="29">
             <interp corresp="Kingdom">Chile was considered an independent kingdom within the Spanish Empire and under the sovereignty of the King of Spain.</interp>
             <interp corresp="Christian_Indians">Mapuches who were baptized Roman Catholics</interp>
+            <interp corresp="Señores">Typically a term only used for Spanish gentlemen, here it refers to Mapuche caciques.</interp>
+            <interp corresp="they_do_not_appear_to_agree">The syntax of this sentence is exceptionally difficult, but the sense is as follows: There is an agreement in principle that a Spanish missionary outpost will be established in the Butalmapu of Angol. The Spaniards want to reserve to themselves, or to the Church, the right of determining a suitable location. However, because the Spaniards would have jurisdiction in and around the Mission Home, perhaps including a protective military presence, none of the caciques wants it to be established on his own lands, leading to some dissention among the Mapuche factions. The procedure for locating the future Mission Home is thus left unresolved.</interp>
             <interp corresp="Indians">Indigenous, here referring specifically to the Mapuche</interp>
             <interp corresp="heathens">Mapuches who followed their traditional Indigenous religious beliefs and practices</interp>
-            <interp corresp="This_is_how...Government_Scribe">There are three notes and three names here, apparently written at three different times in the process of the document's production. First, Muñoz (who appears to be Don Luiz Muñoz de Guzmán) adds a note certifying that the foregoing text is what was reported to him by Don Pedro Quijada and approved by himself. Second, Reyes, who may be secretary to Muñoz, signs, for reasons that are not entirely clear. Finally, Garfias, Substitute Government scribe, signs and dates the document in October, more than seven months after the Parlamento. Garfias' signature has a clear purpose. He works in a government office in Santiago, the capital. He was responsible for preparing either a file copy for the archives, or an official copy to be dispatched to Spain, or both. His signature guarantees that he has confirmed the accuracy of the copy.</interp>
+            <interp corresp="This_is_how...Government_Scribe">There are three notes and three names here, apparently written at three different times in the process of the document's production. First, Muñoz (who appears to be Don Luiz Muñoz de Guzmán) adds a note certifying that the foregoing text is what was reported to him by Don Pedro Quijada and approved by himself. Second, Reyes, who may be secretary to Muñoz, signs, for reasons that are not entirely clear, but may correspond to de Figueroa, Secretary of the Commission, counter-signing to Quijada (see notes above, sections 18-19). Finally, Garfias, Substitute Government scribe, signs and dates the document in October, more than seven months after the Parlamento. Garfias' signature has a clear purpose. He works in a government office in Santiago, the capital. He was responsible for preparing either a file copy for the archives (from which our text is taken), or an official copy to be dispatched to Spain, or both. His signature guarantees that he has confirmed the accuracy of the copy.</interp>
          </div>
          <div n="30">
             <interp corresp="x"></interp>
@@ -182,8 +185,7 @@
          </div>
          <div n="32">
             <interp corresp="Most_Excellent_Señor">
-               This section of the text is really the beginning of a new document (&#167;32-37). Don Pedro Quijada had presided over the Parlamento on behalf of Don Luiz Muñoz de Guzmán, Governor, Captain General and President of the Real Audiencia of the Kingdom of Chile, who had been unable to attend in person due to unspecified reasons (&#167;4 above). This section (&#167;&#167;32-37) constitutes Quijada's cover letter to Muñoz, written some two months after the Parlamento meeting, that Quijada included with the text of the Parlamento treaty itself and related documentation. 
-            </interp>
+               This section of the text is really the beginning of a new document (&#167;&#167; 32-37). Don Pedro Quijada had presided over the Parlamento on behalf of Don Luiz Muñoz de Guzmán, Governor, Captain General and President of the Real Audiencia of the Kingdom of Chile, who had been unable to attend in person due to unspecified reasons (&#167; 4 above). This section (&#167;&#167; 32-37) constitutes Quijada's cover letter to Muñoz, written some two months after the Parlamento meeting, that Quijada included with the text of the Parlamento treaty itself and related documentation.</interp>
             <interp corresp="x"></interp>
          </div>
          <div n="33">

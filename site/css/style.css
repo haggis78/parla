@@ -322,15 +322,7 @@ details {
   padding-left: 15px ;
   text-indent: -15px ;
 }
-span.variant{
-    color:brown;
-}
-span.term {
-    text-decoration: underline dotted;
-    text-underline-position:under;
-}
-span.pers{color:blue; }
-span.place{color:green; }
+
 /* end table css  */
 
 body {
@@ -339,6 +331,15 @@ body {
     font-family: 'Ysabeau Office';    
     font-size: 16px
 }
+span.variant{
+    color:brown;
+}
+span.term {
+    text-decoration: underline dotted;
+    text-underline-position:under;
+}
+span.pers{color:blue; }
+span.place{color:green; font-weight:600; }
 
     /* Footer */
 
