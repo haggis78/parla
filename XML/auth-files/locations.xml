@@ -304,11 +304,11 @@
             </place>
             
             <place n="1001">
-               <geogName>Bío Bío <geogFeat>River</geogFeat></geogName>
+               <geogName>Bío-Bío <geogFeat>River</geogFeat></geogName>
                <country>Chile</country>
                <region>Bío Bío Province</region>
                <location><geo></geo></location><!--leave blank for rivers, districts, etc that can't be reduced to a map pin-->
-               <note xml:lang="span">Spanish description of Bío Bío river here</note>
+               <note xml:lang="span">Spanish description of Bío-Bío river here</note>
                <note xml:lang="eng">the second-largest river in Chile; regarded as the northern frontier of Araucanía and thus the effective border between 
                   Spanish/Chilean authority to the north and Mapuche territory to the south</note>
             </place>
