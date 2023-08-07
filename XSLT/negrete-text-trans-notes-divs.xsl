@@ -179,14 +179,15 @@
                                                 
                                                 <xsl:if test="$negTrans//div[data(@n)=$div-n]//term 
                                                     or $negTrans//div[data(@n)=$div-n]//persName 
-                                                    or $negTrans//div[data(@n)=$div-n]//placeName">
+                                                    or $negTrans//div[data(@n)=$div-n]//placeName
+                                                    or $negTrans//div[data(@n)=$div-n]//span[@corresp]">
                                                     <!--whc 24-JUN-2023: needed to use xpath from translation to test for term/persName/placeName because otherwise it would call for them if they appeared in the Spanish in Ayun but not Zavala. Also occasionally a name etc is inserted into the translation for clarity even if it does not occur in the Spanish. Ditto all the filepaths for the if tests and for-each-group selects that follow. This is not in the Zavala-Ayun comparison XSLT as it is not needed there, so these are simpler there. This might not be needed either in  an XSLT in the future that runs from a single-witness Spanish source XML, except for the possibility of some names etc that had been inserted in the translation for clarity.-->
                                                     <p><b>[&#167;<xsl:value-of select="data(@n)"/>]</b><xsl:text>  </xsl:text>
                                                         <i>Click each triangle to expand/collapse note</i><br/>
                                                         <a href="#">Top of page</a><xsl:text> | </xsl:text><a href="#document">Top of text</a></p>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//term">
-                                                        <h2><b>Terms</b></h2> <!--whc 01-AUG-2023: This is now set up to give the Spanish term or an untranslated term in italics; the English term not in italics, if it has been translated; 
+                                                        <h3><b>Terms</b></h3> <!--whc 01-AUG-2023: This is now set up to give the Spanish term or an untranslated term in italics; the English term not in italics, if it has been translated; 
                                                             and the English definition. It has NOT been copied over to the XSLT making a table structure page. -->
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//term" group-by="data(@n)">
                                                             <xsl:variable name="term-n" select="./data(@n)"/>
@@ -207,7 +208,7 @@
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//persName">
-                                                        <h2><b>Persons</b></h2>
+                                                        <h3><b>Persons</b></h3>
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//persName" group-by="data(@n)">
                                                             <xsl:variable name="pers-n" select="./data(@n)"/>
                                                             <xsl:variable name="this-pers" select="$Pers//person[data(@n)=$pers-n]"/>
@@ -216,7 +217,7 @@
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//placeName">
-                                                        <h2><b>Places</b> [<a href="../resources/geography.html#negrete-map" target="_blank">Map</a>]</h2>
+                                                        <h3><b>Places</b> [<a href="../resources/geography.html#negrete-map" target="_blank">Map</a>]</h3>
                                                         <xsl:for-each-group select="$negTrans//div[data(@n)=$div-n]//placeName" group-by="data(@n)">
                                                             <xsl:variable name="place-n" select="./data(@n)"/>
                                                             <xsl:variable name="this-place" select="$Place//place[data(@n)=$place-n]"/>
@@ -228,7 +229,7 @@
                                                     
                                        <!--whc 01-AUG-2023: this enables notes (category 4 in the sidebar) and has not been duplicated on the XSLT using the HTML table format.-->                                                
                                                 <xsl:if test="$negTrans//div[data(@n)=$div-n]//span">
-                                                    <h2><b>Notes</b></h2>
+                                                    <h3><b>Notes</b></h3>
                                                     <xsl:for-each select="$negTrans//div[data(@n)=$div-n]//span">
                                                         <xsl:variable name="note-id" select="./data(@corresp)"/>
                                                         <xsl:variable name="this-note" select="$negNotes//div[data(@n)=$div-n]/interp[data(@corresp)=$note-id]"/>
