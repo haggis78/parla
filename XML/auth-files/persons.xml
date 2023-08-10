@@ -39,329 +39,329 @@
                <!-- whc: could include elements affiliation (maybe useful for military vs bureaucrat vs church vs Mapuche vs bandito etc.), age, birth, death, faith, langKnowledge (useful for translators?), occupation, residence -->
             </person>
             
-            <person n="0">
+            <person n="1">
                <persName>
-                  <name></name>
+                  <name>Antonio Garfias</name>
                   <roleName></roleName>
+                  <forename>Antonio</forename>
+                  <nameLink></nameLink>
+                  <surname>Garfias</surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Spanish</nationality>
+            </person>
+            
+            <person n="2">
+               <persName>
+                  <name>Carlos IV</name>
+                  <roleName>King</roleName>
+                  <forename>Carlos</forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName>IV</genName>
+               </persName>
+               <nationality>Spanish</nationality>
+            </person>
+            
+            <person n="3">
+               <persName>
+                  <name>Fermin Villagran</name>
+                  <roleName></roleName>
+                  <forename>Fermin</forename>
+                  <nameLink></nameLink>
+                  <surname>Villagran</surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Spanish</nationality>
+            </person>
+            
+            <person n="4">
+               <persName>
+                  <name>Fernando</name>
+                  <roleName>Prince</roleName>
                   <forename></forename>
                   <nameLink></nameLink>
                   <surname></surname>
                   <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Spanish</nationality>
+            </person>
+            
+            <person n="5">
+               <persName>
+                  <name>Francisco Curinagüel</name>
+                  <roleName></roleName>
+                  <forename>Francisco</forename>
+                  <nameLink></nameLink>
+                  <surname>urinagüel</surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+            </person>
+            
+            <person n="6">
+               <persName>
+                  <name>Francisco Javier de Alday</name>
+                  <roleName></roleName>
+                  <forename>Francisco</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Javier</surname>
+                  <addName>Alday</addName>
                   <genName></genName>
                </persName>
                <nationality></nationality>
             </person>
-            
-            <person n="0">
+ 
+            <person n="7">
                <persName>
-                  <name></name>
+                  <name>Gil Calvo</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Gil</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Calvo</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="8">
                <persName>
-                  <name></name>
+                  <name>Gonzalo Maria de Figueroa</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
+                  <forename>Gonzalo</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Maria</surname>
+                  <addName>Figueroa</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="9">
                <persName>
-                  <name></name>
+                  <name>Ignacio Nagpayluan</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Ignacio</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Nagpayluan</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="10">
                <persName>
-                  <name></name>
+                  <name>Juan Martinez de Rosas</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
+                  <forename>Juan</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Martinez</surname>
+                  <addName>Rosas</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="11">
                <persName>
-                  <name></name>
+                  <name>Juan Zapatero</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Juan</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Zapatero</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="12">
                <persName>
-                  <name></name>
+                  <name>Judas Tadeo Reyes</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Judas Tadeo</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Reyes</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="13">
                <persName>
-                  <name></name>
+                  <name>Luis de la Cruz</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
+                  <forename>Luis</forename>
+                  <nameLink>de</nameLink>
                   <surname></surname>
                   <addName></addName>
-                  <genName></genName>
+                  <genName>la Cruz</genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="14">
                <persName>
-                  <name></name>
+                  <name>Luis Muñoz de Guzmán</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
+                  <forename>Luis</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Muñoz</surname>
+                  <addName>Guzmán</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="15">
                <persName>
-                  <name></name>
+                  <name>Manuel de Vega Bazán</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
+                  <forename>Manuel</forename>
+                  <nameLink>de</nameLink>
+                  <surname>Bazán</surname>
+                  <addName>Vega</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="16">
                <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
+                  <name>Mariano José de Roa</name>
+                  <roleName>Archdeacon</roleName>
+                  <forename>Mariano José</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
+                  <surname>de</surname>
+                  <addName>Roa</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="17">
                <persName>
-                  <name></name>
+                  <name>Ambrosio Bernardo O'Higgins, Marquess of Osorno</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Ambrosio Bernardo</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
+                  <surname>O'Higgins</surname>
+                  <addName>Marquess of Osorno</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Irish-Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="18">
                <persName>
-                  <name></name>
+                  <name>Melchor de Carvajal or de Carbahal</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
+                  <forename>Melchor</forename>
+                  <nameLink>de</nameLink>
                   <surname></surname>
-                  <addName></addName>
+                  <addName>Carvajal or Carbahal</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="19">
                <persName>
-                  <name></name>
+                  <name>Miguel Puga</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Miguel</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Puga</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="20">
                <persName>
                   <name></name>
                   <roleName></roleName>
                   <forename></forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Muñoz</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spaniard</nationality>
             </person>
             
-            <person n="0">
+            <person n="21">
                <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
+                  <name>Tomás de Roa y Alarcón, Bishop of Concepción</name>
+                  <roleName>Bishop</roleName>
+                  <forename>Tomás</forename>
+                  <nameLink>de</nameLink>
                   <surname></surname>
-                  <addName></addName>
+                  <addName>Roa y Alarcón</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="22">
                <persName>
-                  <name></name>
+                  <name>Pedro José de Benavente</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
+                  <forename>Pedro José</forename>
+                  <nameLink>de</nameLink>
                   <surname></surname>
-                  <addName></addName>
+                  <addName>Benavente</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="23">
                <persName>
-                  <name></name>
+                  <name>Pedro Nolazco del Río</name>
                   <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
+                  <forename>Pedro</forename>
+                  <nameLink>del</nameLink>
+                  <surname>Nolazco</surname>
+                  <addName>Rio</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="24">
                <persName>
-                  <name></name>
+                  <name>Pedro Quijada</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Pdero</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Quijada</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
-            <person n="0">
+            <person n="25">
                <persName>
-                  <name></name>
+                  <name>Sebastián Xibaja</name>
                   <roleName></roleName>
-                  <forename></forename>
+                  <forename>Sebastián</forename>
                   <nameLink></nameLink>
-                  <surname></surname>
+                  <surname>Xibaja</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
+               <nationality>Spanish</nationality>
             </person>
             
             <person n="0">
