@@ -213,7 +213,7 @@
                                                             <xsl:variable name="pers-n" select="./data(@n)"/>
                                                             <xsl:variable name="this-pers" select="$Pers//person[data(@n)=$pers-n]"/>
                                                             <details><summary><b><span class="pers"><xsl:apply-templates select="$this-pers/persName/name"/></span></b></summary>
-                                                                <xsl:apply-templates select="$this-pers/note[data(@xml:lang)='eng']"/><br/></details>
+                                                                <xsl:apply-templates select="$this-pers//note[data(@xml:lang)='eng']/p"/><br/></details>
                                                         </xsl:for-each-group>        </xsl:if>
                                                     
                                                     <xsl:if test="$negTrans//div[data(@n)=$div-n]//placeName">

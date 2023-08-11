@@ -1584,7 +1584,7 @@
             <ab>El <app>
                   <rdg wit="#Z">Cacique</rdg>
                   <rdg wit="#A">cacique</rdg>
-               </app> <persName>Tranamilla</persName> de la <app>
+               </app> <persName n="26">Tranamilla</persName> de la <app>
                   <rdg wit="#Z"><term n="11">Reduccion</term></rdg>
                   <rdg wit="#A"><term  n="11">Reducción</term></rdg>
                </app> de <placeName n="14">Temulemu</placeName>, recopilando <app>
@@ -2031,12 +2031,12 @@
             <ab>El Cacique <app>
                <rdg wit="#Z"><term n="42">Governador</term> de <placeName>Maquehue</placeName></rdg>
                <rdg wit="#A"><term n="42">Gobernador</term> de <placeName>Maquegua</placeName></rdg>
-               </app> <persName>Vilumilla</persName>, su <app>
-                  <rdg wit="#Z">Hermano <persName>Coiguengir</persName></rdg>
-                  <rdg wit="#A">hermano <persName>Coygüenjir</persName></rdg>
-               </app>, <persName>Chicaguala</persName>, <app>
-                  <rdg wit="#Z"><persName>Pichunman</persName>,</rdg>
-                  <rdg wit="#A"><persName>Pichuman</persName></rdg>
+               </app> <persName n="27">Vilumilla</persName>, su <app>
+                  <rdg wit="#Z">Hermano <persName n="28">Coiguengir</persName></rdg>
+                  <rdg wit="#A">hermano <persName n="28">Coygüenjir</persName></rdg>
+               </app>, <persName n="29">Chicaguala</persName>, <app>
+                  <rdg wit="#Z"><persName n="30">Pichunman</persName>,</rdg>
+                  <rdg wit="#A"><persName n="30">Pichuman</persName></rdg>
                </app> y otros<app>
                   <rdg wit="#Z">, dixeron,</rdg>
                   <rdg wit="#A">dijeron</rdg>
@@ -2087,12 +2087,12 @@
                </app> <term n="17">Pehuenches</term> de <placeName>Callaqui</placeName>, <placeName>Quilaco</placeName><app>
                   <rdg wit="#Z">, y <placeName>Huinquin</placeName>,</rdg>
                   <rdg wit="#A"> y <placeName>Hinquién</placeName>,</rdg>
-               </app> llamados <persName>Coliman</persName>, <persName>Liupay</persName><app>
+               </app> llamados <persName n="31">Coliman</persName>, <persName n="32">Liupay</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y <app>
-                  <rdg wit="#Z"><persName>Coigueman</persName>, dixeron:</rdg>
-                  <rdg wit="#A"><persName>Coygüemán</persName>, dijeron:</rdg>
+                  <rdg wit="#Z"><persName n="33">Coigueman</persName>, dixeron:</rdg>
+                  <rdg wit="#A"><persName n="33">Coygüemán</persName>, dijeron:</rdg>
                </app>
                <app>
                   <rdg wit="#Z">Que habian oido</rdg>
@@ -2119,7 +2119,7 @@
                </app> y se conservase para los mismos efectos, respecto a la buena <app>
                   <rdg wit="#Z">dispocicion</rdg>
                   <rdg wit="#A">disposición</rdg>
-               </app> que presentaba el <term n="17">Pehuenche</term> <persName>Millalem</persName> de <app>
+               </app> que presentaba el <term n="17">Pehuenche</term> <persName n="35">Millalem</persName> de <app>
                   <rdg wit="#Z"><placeName>Lonco</placeName>,</rdg>
                   <rdg wit="#A"><placeName>Lolco</placeName></rdg>
                </app> y otras <app>
@@ -2140,12 +2140,12 @@
 
          <div n="23">
             <ab>El Cacique de <placeName>Cura</placeName> <app>
-                  <rdg wit="#Z">Millalim</rdg>
-                  <rdg wit="#A">Millalem</rdg>
+                  <rdg wit="#Z"><persName n="36">Millalim</persName></rdg>
+               <rdg wit="#A"><persName n="36">Millalem</persName></rdg>
                </app>, por consejo de sus <app>
-                  <rdg wit="#Z">Parciales <persName>Guegnir</persName></rdg>
-                  <rdg wit="#A">parciales <persName>Gúgñir</persName></rdg>
-               </app>, <persName>Pagitur</persName>, y otros, <app>
+                  <rdg wit="#Z">Parciales <persName n="37">Guegnir</persName></rdg>
+                  <rdg wit="#A">parciales <persName n="37">Gúgñir</persName></rdg>
+               </app>, <persName n="38">Pagitur</persName>, y otros, <app>
                   <rdg wit="#Z">dixo:</rdg>
                   <rdg wit="#A"> dijo:</rdg>
                </app> que hace tiempo desea recordar los pasos de su <app>
@@ -3045,7 +3045,7 @@
                = </rdg><rdg wit="#A"/></app></ab></div>
                      
                <div n="38"><head><app><rdg wit="#Z">En la Ciudad de <placeName n="13">Santiago de <placeName>Chile</placeName></placeName> a diez y nueve de Junio de mil ochocientos
-                     tres: El Excelentisimo <term n="23">Señor</term> <term n="12">Don</term> <persName>Luis Muñoz de Guzman</persName>, Cavallero del Orden de
+                     tres: El Excelentisimo <term n="23">Señor</term> <term n="12">Don</term> <persName n="14">Luis Muñoz de Guzman</persName>, Cavallero del Orden de
                      Santiago, Comendador de las Pueblas en la de <placeName n="1">Alcantara</placeName>, Teniente General de la
                      Real Armada, Governador y Capitan general del Reyno de <placeName>Chile</placeName>, Presidente de su
                      <term n="21">real Audiencia</term>, Superintendente Subdelegado de <term n="22">Real Hacienda</term>, y Correos, y Vice
@@ -3102,7 +3102,7 @@
                         
                         <div n="42"><ab><app><rdg wit="#Z">Que al <term n="5">cacique</term> de la <term  n="11">Reduccion</term> de <placeName n="12">Santa Feé</placeName>
                      se le persuada, desista de su pretencion de tener parroco micionero a exemplo
-                     de su respetable antecesor el anciano honrado <persName>Levigueque</persName>, por ser esta una
+                     de su respetable antecesor el anciano honrado <persName n="39">Levigueque</persName>, por ser esta una
                      materia vintilada, y decidida anteriormente con anuencia del Ylustrisimo <term n="23">Señor</term>
                      <persName n="21">Obispo de la <placeName n="7">Concepcion</placeName></persName>, conforme a los derechos de su Jurisdiccion, y a las
                      Constituciones Pontificias, e Ynstituto de los Micioneros, que solo deben

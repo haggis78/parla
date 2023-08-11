@@ -10,6 +10,7 @@
             <respStmt>
                <resp>Biographical research</resp>
                <persName>Pilar Herr</persName>
+               <persName>William Campbell</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -36,6 +37,8 @@
                   <genName></genName><!-- whc: contains a name component used to distinguish otherwise similar names on the basis of the relative ages or generations of the persons named, e.g. junior, senior, III -->
                </persName>
                <nationality></nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+
                <!-- whc: could include elements affiliation (maybe useful for military vs bureaucrat vs church vs Mapuche vs bandito etc.), age, birth, death, faith, langKnowledge (useful for translators?), occupation, residence -->
             </person>
             
@@ -50,6 +53,8 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+
             </person>
             
             <person n="2">
@@ -63,6 +68,8 @@
                   <genName>IV</genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+
             </person>
             
             <person n="3">
@@ -76,6 +83,8 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+
             </person>
             
             <person n="4">
@@ -89,6 +98,8 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+
             </person>
             
             <person n="5">
@@ -102,6 +113,13 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Cacique and Governor of the Butalmapu of Angol</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 424</biblScope></bibl></note>
             </person>
             
             <person n="6">
@@ -115,6 +133,7 @@
                   <genName></genName>
                </persName>
                <nationality></nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
  
             <person n="7">
@@ -128,6 +147,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="8">
@@ -141,6 +161,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="9">
@@ -154,6 +175,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="10">
@@ -167,6 +189,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="11">
@@ -180,6 +203,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="12">
@@ -193,6 +217,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="13">
@@ -206,6 +231,7 @@
                   <genName>la Cruz</genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="14">
@@ -219,6 +245,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="15">
@@ -232,6 +259,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="16">
@@ -245,6 +273,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="17">
@@ -258,6 +287,7 @@
                   <genName></genName>
                </persName>
                <nationality>Irish-Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="18">
@@ -271,6 +301,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="19">
@@ -284,11 +315,12 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="20">
                <persName>
-                  <name></name>
+                  <name>Muñoz</name>
                   <roleName></roleName>
                   <forename></forename>
                   <nameLink></nameLink>
@@ -297,6 +329,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spaniard</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="21">
@@ -310,6 +343,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="22">
@@ -323,6 +357,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="23">
@@ -336,6 +371,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="24">
@@ -349,6 +385,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
             <person n="25">
@@ -362,9 +399,143 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
             </person>
             
-            <person n="0">
+            <person n="26">
+               <persName>
+                  <name>Tranamilla</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Cacique of the Reduction of Temulemu</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 417</biblScope></bibl></note>
+            </person>
+            
+            <person n="27">
+               <persName>
+                  <name>Vilumilla</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Cacique Governor of Maquehue; brother of Coigüengir</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 418, 425</biblScope></bibl></note>
+            </person>
+            
+            <person n="28">
+               <persName>
+                  <name>Coigüengir</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Brother of Coigüengir, the Cacique Governor of Maquehue</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 418</biblScope></bibl></note>
+            </person>
+            
+            <person n="29">
+               <persName>
+                  <name>Chicaguala</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+            </person>
+            
+            <person n="30">
+               <persName>
+                  <name>Pichunman</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+            </person>
+            
+            <person n="31">
+               <persName>
+                  <name>Coliman</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+
+            </person>
+            
+            <person n="32">
+               <persName>
+                  <name>Liupay</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               
+            </person>
+            
+            <person n="33">
+               <persName>
+                  <name>Coigueman</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               
+            </person>
+            
+            <person n="34"><!--skipped this number: available for use-->
                <persName>
                   <name></name>
                   <roleName></roleName>
@@ -374,10 +545,100 @@
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               
             </person>
             
-            <person n="0">
+            <person n="35">
+               <persName>
+                  <name>Millalem</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink>of</nameLink>
+                  <surname></surname>
+                  <addName>Lonco</addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>A Pehuenche from Lonco/Lolco. Not to be conflated with Millalim of Cura</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 418, 429</biblScope></bibl></note>
+            </person>
+            
+            <person n="36">
+               <persName>
+                  <name>Millalim</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink>of</nameLink>
+                  <surname></surname>
+                  <addName>Cura</addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Described in the Parlamento of Negrete (1803) as Cacique of Cura; however, the list of caciques names Apeleb as cacique of Cura</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 418, 429</biblScope></bibl></note>
+            </person>
+            
+            <person n="37">
+               <persName>
+                  <name>Guegnir</name>
+                  <roleName></roleName>
+                  <forename></forename>
+                  <nameLink></nameLink>
+                  <surname></surname>
+                  <addName></addName>
+                  <genName></genName>
+               </persName>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+            </person>
+               
+               <person n="38">
+                  <persName>
+                     <name>Pagitur</name>
+                     <roleName></roleName>
+                     <forename></forename>
+                     <nameLink></nameLink>
+                     <surname></surname>
+                     <addName></addName>
+                     <genName></genName>
+                  </persName>
+                  <nationality>Mapuche</nationality>
+                  <note xml:lang="eng"><p>Biographical detail here</p></note>
+               </person>
+                  
+                  <person n="39">
+                     <persName>
+                        <name>Ignacio Levigueque</name>
+                        <roleName>Cacique Governor</roleName>
+                        <forename>Ignacio</forename>
+                        <nameLink></nameLink>
+                        <surname>Levigueque</surname>
+                        <addName></addName>
+                        <genName></genName>
+                     </persName>
+                     <nationality>Mapuche</nationality>
+                     <note xml:lang="eng"><p>Occurs as Cacique Governor of Santa Fe in Parlamento of Tahipue (1774) and without this title in the Parlamento of Lonquilmo (1784). Described in Parlamento of Negrete (1803) as former Governor of the Reduction of Santa Fe</p>
+                     <bibl><editor>José Manuel Zavala Cepeda</editor>
+                        <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                        <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                        <pubPlace>Temuco, Chile</pubPlace>
+                        <date>2015</date>
+                        <biblScope>pp. 316, 324-25, 328, 353, 422</biblScope></bibl></note>
+            </person>
+            
+            <person n="XX">
                <persName>
                   <name></name>
                   <roleName></roleName>
@@ -387,59 +648,9 @@
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
-            </person>
-            
-            <person n="0">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality></nationality>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               
             </person>
             
             
