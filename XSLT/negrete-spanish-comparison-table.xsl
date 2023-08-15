@@ -56,14 +56,13 @@
                                     </div>
                                 </div>      
                                 
-                                <a href="about.html">About</a>
+                                <a href="../about.html">About</a>
                                 
                                 <div class="dropdown">
                                     <button class="dropbtn">Resources</button>
                                     <div class="dropdown-content">
-                                        <a href="../resources/students.html">For students</a>
-                                        <a href="../resources/educators.html">For educators</a>
-                                        <a href="../resources/scholars.html">For scholars</a>
+                                        <a href="../resources/eng-glossary.html">Glossary</a>
+                                        <a href="../resources/geography.html">Geography and Maps</a>
                                     </div>                                 
                                 </div>
                             </div>
