@@ -256,7 +256,7 @@ p.tab {
             width: 100%;
             background: #212121;
             background: rgba(27, 27, 27, 0.75);
-            color: #fff;
+            color: rgba(255, 255, 255, 0.7);
             padding: 1.5em 0;
             z-index: 1;
         }
