@@ -38,6 +38,8 @@
                </persName>
                <nationality></nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>year of associated parlamento here</p></event>
+                  <event><p>year of another associated parlamento here</p></event></listEvent>
 
                <!-- whc: could include elements affiliation (maybe useful for military vs bureaucrat vs church vs Mapuche vs bandito etc.), age, birth, death, faith, langKnowledge (useful for translators?), occupation, residence -->
             </person>
@@ -53,8 +55,8 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
-
+               <note xml:lang="eng"><p>The government scribe who made a copy of the text of the Parlamento of Negrete (1803) and appended his name.</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="2">
@@ -68,22 +70,29 @@
                   <genName>IV</genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
-
+               <note xml:lang="eng"><p>King of Spain; born 1748; reigned from 1788 to his forced abdication in 1808; died 1819.</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="3">
                <persName>
-                  <name>Fermin Villagran</name>
+                  <name>Fermín Villagrán</name>
                   <roleName></roleName>
-                  <forename>Fermin</forename>
+                  <forename>Fermín</forename>
                   <nameLink></nameLink>
-                  <surname>Villagran</surname>
+                  <surname>Villagrán</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Spanish official present at the Parlamento of Negrete (1803); role uncertain. Occurs in Parlamento of Negrete (1793) as Captain of the Reduction of Maquegua.</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 380, 400, 421</biblScope></bibl></note>
+               <listEvent><event><p>1793</p></event><event><p>1803</p></event></listEvent>
 
             </person>
             
@@ -98,7 +107,14 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>King of Spain as Fernando (Ferdinand) VII; born 1784; reigned 1808 and again from 1813 to his death in 1833; mentioned in Parlamentos of Negrete (1793, 1803) as Prince of Asturias and heir to the Spanish throne.</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 390, 394, 414, 420</biblScope></bibl></note>
+               <listEvent><event><p>1793</p></event><event><p>1803</p></event></listEvent>
 
             </person>
             
@@ -108,32 +124,40 @@
                   <roleName></roleName>
                   <forename>Francisco</forename>
                   <nameLink></nameLink>
-                  <surname>urinagüel</surname>
+                  <surname>Curinagüel</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Cacique and Governor of the Butalmapu of Angol</p>
+               <note xml:lang="eng"><p>Cacique and Governor of the Reduction of Angol in Parlamento of Negrete (1803); previously cacique of the Reduction of Santa Juana in Parlamento of Negrete (1793)</p>
                   <bibl><editor>José Manuel Zavala Cepeda</editor>
                      <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
                      <publisher>Ediciones Universidad Católica de Temuco</publisher>
                      <pubPlace>Temuco, Chile</pubPlace>
                      <date>2015</date>
-                     <biblScope>p. 424</biblScope></bibl></note>
+                     <biblScope>pp. 399, 424</biblScope></bibl></note>
+               <listEvent><event><p>1793</p></event><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="6">
                <persName>
-                  <name>Francisco Javier de Alday</name>
+                  <name>Francisco Xavier de Alday</name>
                   <roleName></roleName>
                   <forename>Francisco</forename>
                   <nameLink>de</nameLink>
-                  <surname>Javier</surname>
+                  <surname>Xavier</surname>
                   <addName>Alday</addName>
                   <genName></genName>
                </persName>
-               <nationality></nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <nationality>Spanish</nationality>
+               <note xml:lang="eng"><p>Franciscan friar present at Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 413, 423</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
  
             <person n="7">
@@ -147,7 +171,14 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Franciscan friar, Guardian of the Colegio de Propaganda, present at Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 411, 421</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="8">
@@ -161,35 +192,56 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Served as Secretary of the Commission at the Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                  <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                  <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                  <pubPlace>Temuco, Chile</pubPlace>
+                  <date>2015</date>
+                  <biblScope>pp. 413-423</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="9">
                <persName>
-                  <name>Ignacio Nagpayluan</name>
+                  <name>Ygnacio Nagpaylican</name>
                   <roleName></roleName>
-                  <forename>Ignacio</forename>
+                  <forename>Ygnacio</forename>
                   <nameLink></nameLink>
-                  <surname>Nagpayluan</surname>
+                  <surname>Nagpaylican</surname>
                   <addName></addName>
                   <genName></genName>
                </persName>
-               <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <nationality>Mapuche</nationality>
+               <note xml:lang="eng"><p>Cacique Governor of the Reduction of Santa Fe; attended Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 416</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="10">
                <persName>
-                  <name>Juan Martinez de Rosas</name>
+                  <name>Juan Martínez de Rosas</name>
                   <roleName></roleName>
                   <forename>Juan</forename>
                   <nameLink>de</nameLink>
-                  <surname>Martinez</surname>
+                  <surname>Martínez</surname>
                   <addName>Rosas</addName>
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Spanish official mentioned as War Auditor in Parlamento of Negrete (1803) but not present at the negotiations</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 421</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="11">
@@ -203,7 +255,14 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Spanish officer; appeared as Captain of Artillery in Parlamentos of Negrete (1771) and Tahipue (1774) and as Colonel of Artillery at Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 281, 285, 295, 328, 413, 423</biblScope></bibl></note>
+               <listEvent><event><p>1771</p></event><event><p>1774</p></event><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="12">
@@ -217,7 +276,14 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>As secretary to Luis Muñoz de Guzmán, signed copy of Parlamento of Negrete (1803) after the fact but not present at the negotiations; had previously served as secretary to Ambrosio O'Higgins at Parlamento of Negrete (1793) and appeared as well at Parlamento of Santiago (1782).</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 339, 376-95, 420</biblScope></bibl></note>
+               <listEvent><event><p>1782</p></event><event><p>1793</p></event><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="13">
@@ -231,7 +297,14 @@
                   <genName>la Cruz</genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Spanish official present at Parlamento of Negrete (1803) with title of Provincial Mayor</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 413, 423</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="14">
@@ -245,7 +318,14 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>A Spanish high official in Chile: Lieutenant General of the Royal Armies, President, Governor, Captain General and President of the Real Audiencia of the Kingdom of Chile; mentioned in Parlamento of Negrete (1803) but not present at the negotiations.</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 413, 422</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="15">
@@ -260,6 +340,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="16">
@@ -274,6 +355,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="17">
@@ -288,6 +370,7 @@
                </persName>
                <nationality>Irish-Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="18">
@@ -302,6 +385,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="19">
@@ -316,6 +400,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="20">
@@ -329,7 +414,14 @@
                   <genName></genName>
                </persName>
                <nationality>Spaniard</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Signatory to Parlamento of Negrete (1803), appearing by this name only; possibly to be identified with Luis Muñoz de Guzmán, a high-ranking Spanish official</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 420</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="21">
@@ -344,6 +436,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="22">
@@ -358,6 +451,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="23">
@@ -372,13 +466,14 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="24">
                <persName>
                   <name>Pedro Quijada</name>
                   <roleName></roleName>
-                  <forename>Pdero</forename>
+                  <forename>Pedro</forename>
                   <nameLink></nameLink>
                   <surname>Quijada</surname>
                   <addName></addName>
@@ -386,6 +481,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="25">
@@ -400,6 +496,7 @@
                </persName>
                <nationality>Spanish</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="26">
@@ -413,13 +510,14 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Cacique of the Reduction of Temulemu</p>
+               <note xml:lang="eng"><p>Cacique of the Reduction of Temulemu; present at Parlamento of Negrete (1803)</p>
                   <bibl><editor>José Manuel Zavala Cepeda</editor>
                      <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
                      <publisher>Ediciones Universidad Católica de Temuco</publisher>
                      <pubPlace>Temuco, Chile</pubPlace>
                      <date>2015</date>
                      <biblScope>p. 417</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="27">
@@ -433,13 +531,14 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Cacique Governor of Maquehue; brother of Coigüengir</p>
+               <note xml:lang="eng"><p>Cacique Governor of Maquehue; brother of Coigüengir; present at Parlamento of Negrete (1803)</p>
                   <bibl><editor>José Manuel Zavala Cepeda</editor>
                      <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
                      <publisher>Ediciones Universidad Católica de Temuco</publisher>
                      <pubPlace>Temuco, Chile</pubPlace>
                      <date>2015</date>
                      <biblScope>pp. 418, 425</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="28">
@@ -453,13 +552,14 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Brother of Coigüengir, the Cacique Governor of Maquehue</p>
+               <note xml:lang="eng"><p>Brother of Coigüengir, the Cacique Governor of Maquehue; present at Parlamento of Negrete (1803)</p>
                   <bibl><editor>José Manuel Zavala Cepeda</editor>
                      <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
                      <publisher>Ediciones Universidad Católica de Temuco</publisher>
                      <pubPlace>Temuco, Chile</pubPlace>
                      <date>2015</date>
                      <biblScope>p. 418</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="29">
@@ -474,6 +574,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="30">
@@ -488,6 +589,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="31">
@@ -502,6 +604,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
 
             </person>
             
@@ -517,6 +620,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
                
             </person>
             
@@ -532,6 +636,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
                
             </person>
             
@@ -547,6 +652,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
                
             </person>
             
@@ -568,6 +674,7 @@
                      <pubPlace>Temuco, Chile</pubPlace>
                      <date>2015</date>
                      <biblScope>pp. 418, 429</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="36">
@@ -588,6 +695,7 @@
                      <pubPlace>Temuco, Chile</pubPlace>
                      <date>2015</date>
                      <biblScope>pp. 418, 429</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="37">
@@ -602,6 +710,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
                
                <person n="38">
@@ -616,6 +725,7 @@
                   </persName>
                   <nationality>Mapuche</nationality>
                   <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>1803</p></event></listEvent>
                </person>
                   
                   <person n="39">
@@ -636,6 +746,7 @@
                         <pubPlace>Temuco, Chile</pubPlace>
                         <date>2015</date>
                         <biblScope>pp. 316, 324-25, 328, 353, 422</biblScope></bibl></note>
+               <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="XX">
@@ -650,6 +761,7 @@
                </persName>
                <nationality>Mapuche</nationality>
                <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <listEvent><event><p>year</p></event></listEvent>
                
             </person>
             

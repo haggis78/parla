@@ -391,8 +391,8 @@
                   <rdg wit="#Z">Ciudad de la <placeName n="7">Concepcion</placeName></rdg>
                   <rdg wit="#A">ciudad de la <placeName n="7">Concepción</placeName></rdg>
                </app>, el Reverendo Padre <app>
-                  <rdg wit="#Z">Guardian</rdg>
-                  <rdg wit="#A">Guardián</rdg>
+                  <rdg wit="#Z"><term n="43">Guardian</term></rdg>
+                  <rdg wit="#A"><term n="43">Guardián</term></rdg>
                </app> del <term n="8">Colegio de <term n="29">Propaganda</term></term> Fray <persName n="7">Gil Calvo</persName>, Prefecto de Misiones, Fray <app>
                   <rdg wit="#Z"><persName n="6">Francisco Xavier de Alday</persName></rdg>
                   <rdg wit="#A"><persName n="6">Francisco Javier de Aldai</persName></rdg>
@@ -445,8 +445,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y encargados los Reverendos Padres <app>
-                  <rdg wit="#Z">Guardian</rdg>
-                  <rdg wit="#A">Guardián</rdg>
+                  <rdg wit="#Z"><term n="43">Guardian</term></rdg>
+                  <rdg wit="#A"><term n="43">Guardián</term></rdg>
                </app>, Prefecto<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -3080,7 +3080,7 @@
                      <placeName n="18">los Angeles</placeName>, por las mayores ventajas que resultan de su reunion al Colegio de
                      los Padres Micioneros de la Ciudad de <placeName n="6">Chillan</placeName>, donde logran mejores comodidades
                      para su subsistencia, y asignacion de maestros los mas a proposito, bajo la
-                     direccion del Padre Guardian, estando asi dispuesto por el Rey, sin arvitrio
+                     direccion del Padre <term n="43">Guardian</term>, estando asi dispuesto por el Rey, sin arvitrio
                      aqui para variarlo, por los muchos inconvenientes al instituto de ambos
                      establecimientos, y mayores dotaciones, y costos exorbitantes de nueva fabrica,
                      que sobrevendrian de su reparacion.</rdg>
@@ -3097,7 +3097,7 @@
                      realizacion, convocando las Juntas oportunas de los yndios, y consultando
                      previamente a esta Superioridad las demas providencias que convenga anticipar
                      para su allanamiento, asignacion de los micioneros de acuerdo con el Padre
-                     Prefecto y Guardian del <term n="8">Colegio de <placeName n="6">Chillan</placeName></term>, y proviciones de gastos para su
+                     Prefecto y <term n="43">Guardian</term> del <term n="8">Colegio de <placeName n="6">Chillan</placeName></term>, y proviciones de gastos para su
                         establecimiento, y sinodos fixos:</rdg><rdg wit="#A"/></app></ab></div>
                         
                         <div n="42"><ab><app><rdg wit="#Z">Que al <term n="5">cacique</term> de la <term  n="11">Reduccion</term> de <placeName n="12">Santa Feé</placeName>
@@ -3130,7 +3130,7 @@
                      <lb/><persName n="13">Luis de la Cruz</persName> = 
                      <lb/><persName n="19">Miguel Puga</persName> = 
                      <lb/>Fray <persName  n="6">Francisco Xavier de Alday</persName> = 
-                     <lb/>Fray <persName n="7">Gil Calvo</persName> = Guardian de <placeName n="6">Chillan</placeName> = 
+                     <lb/>Fray <persName n="7">Gil Calvo</persName> = <term n="43">Guardian</term> de <placeName n="6">Chillan</placeName> = 
                      <lb/><persName n="8">Gonzalo Maria de Figueroa</persName>, Secretario de la Comicion.</rdg>
  
                   <rdg wit="#A"><persName n="24">Pedro Quijada</persName>. - 
@@ -3141,7 +3141,7 @@
                      <lb/><persName n="22">Pedro José de Benavente</persName>. - 
                      <lb/><persName n="19">Miguel Puga</persName>. -
                      <lb/><persName n="13">Luis de la Cruz</persName>. – 
-                     <lb/>Fr. <persName n="7">Gil Calvo</persName>.- Guardián de <placeName n="6">Chillán</placeName>. - 
+                     <lb/>Fr. <persName n="7">Gil Calvo</persName>.- <term n="43">Guardián</term> de <placeName n="6">Chillán</placeName>. - 
                      <lb/>Fr. <persName  n="6">Francisco Javier de Aldai</persName> Prefecto de Misiones. - 
                      <persName n="8">Gonzalo M. de Figueroa</persName> secretario de la comisión. </rdg>
                </app>

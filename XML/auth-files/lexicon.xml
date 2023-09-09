@@ -905,7 +905,7 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth><term n="38">Congress</term></orth>
+                        <orth>Congress</orth>
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
@@ -1009,13 +1009,12 @@
                 </entry>
             </superEntry>
             
-            <superEntry n="">
+            <superEntry n="43">
                 <entry xml:lang="span">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Guardian</orth>
                     </form>
-                    <gramGrp><pos></pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
                         <def></def>
                     </sense>
@@ -1023,12 +1022,11 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth></orth>
-                        <orth></orth>
+                        <orth>Guardian</orth>
                     </form>
-                    <gramGrp><pos></pos></gramGrp>
+                    <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
-                        <def></def>
+                        <def>the title for the head of an establishment of Franciscan friars; comparable to an abbot or prior</def>
                     </sense>
                     <note></note>
                 </entry>
