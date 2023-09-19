@@ -265,22 +265,23 @@
             <superEntry n="11">
                 <entry xml:lang="span">
                     <form>
-                        <orth>reducciones</orth>
+                        <orth>reducción</orth>
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>A military occupation of Mapuche lands which dispossessed and resettled Mapuche peoples from their territory and moved them onto government approved territorial allotments called reducciones, literally reductions (translate def into spanish)</def>
+                        <def>An indigenous resettlement town controlled by the Spanish military.</def>
                     </sense>
                     <note></note>
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth>reductions</orth>
+                        <orth>reduction</orth>
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>A military occupation of Mapuche lands which dispossessed and resettled Mapuche peoples from their territory and moved them onto government approved territorial allotments called reducciones, literally reductions</def>
-                    </sense>
+                        <def>An indigenous resettlement town controlled by the Spanish military.</def>
+                    </sense><!--whc: sense 2 isn't really a different def but a longer def that might be called for in some instances-->
+                    <sense n="2">During the colonial period, Spanish colonizers forced the resettlement of indigenous peoples into towns where they controlled indigenous tribute and labor and the town itself was called a reducción. This practice was common in the Andes. In New Spain it was called corregimiento. In the Chile, although the Spanish created reducciones they were not as successful at controlling either the tribute or the labor of its Mapuche inhabitants because of the scarcity of Spanish numbers in Araucanía and the intermittent period of war between the Spanish and the Mapuches. </sense>
                     <note></note>
                 </entry>
             </superEntry>
@@ -373,7 +374,7 @@
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
-                        <def>english def</def>
+                        <def>talk, discussion; shortened form of parlamento</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -396,8 +397,9 @@
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
-                        <def>english def</def>
-                    </sense>
+                        <def>A meeting (conference) between two negotiating parties to agree upon terms such as trade, religion, and peace.</def>
+                    </sense><!--whc: sense 2 isn't really a different def but a longer def that might be called for in some instances-->
+                    <sense n="2">A meeting (conference) between two negotiating parties; from the French ‘parlement’ which means to speak, and thus a meeting to discuss. During the colonial period parlamentos were meetings between the Mapuche peoples and representatives of the Spanish crown to establish terms of trade, religion, lands, and peace. These parlamento meetings often took place in areas that both sides deemed to be neutral territory. After the 1825 Parlamento, these meetings became tools by which the Chilean state demanded concessions and lands from the Mapuche. At these parlamento meetings (often now just called juntas) Mapuches were no longer treated as separate parties, but rather as subjugated peoples within the Chilean nation-state.</sense>
                     <note></note>
                 </entry>
             </superEntry>
@@ -635,7 +637,7 @@
             <superEntry n="27">
                 <entry xml:lang="span">
                     <form>
-                        <orth>haciendas</orth>
+                        <orth>hacienda</orth>
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
@@ -645,11 +647,11 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth>estates</orth>
+                        <orth>estate</orth>
                     </form>
                     <gramGrp><pos>npl</pos></gramGrp>
                     <sense n="1">
-                        <def>english def</def>
+                        <def>Unlike a plantation, which raises a single crop for sale, a hacienda raises a wide range of produce so as to be largely self-sufficient</def>
                     </sense>
                     <note></note>
                 </entry>
@@ -678,12 +680,12 @@
                 </entry>
             </superEntry>
 
-            <superEntry n="29">
+            <superEntry n="29"><!--whc: not in current use: could assign another word to it-->
                 <entry xml:lang="span">
                     <form>
-                        <orth>Propaganda</orth>
+                        <orth></orth>
                     </form>
-                    <gramGrp><pos>n</pos></gramGrp>
+                    <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
                         <def>spanish def</def>
                     </sense>
@@ -691,9 +693,9 @@
                 </entry>
                 <entry xml:lang="eng">
                     <form>
-                        <orth>Propaganda</orth>
+                        <orth></orth>
                     </form>
-                    <gramGrp><pos>n</pos></gramGrp>
+                    <gramGrp><pos></pos></gramGrp>
                     <sense n="1">
                         <def>english def</def>
                     </sense>

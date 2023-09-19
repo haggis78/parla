@@ -36,7 +36,7 @@
               <interp corresp="text_to_be_explained">explanatory note</interp>. The attribute @corresp is what ties them together. They
            must be sorted properly into the numbered divs as they appear in the English translation XML or the XSLT will not find them. 
            This also means that:</p>
-           <p>-a @corresp attribute value can be used on more than one span in a given div the text XML, in which case it should only be
+           <p>-a @corresp attribute value can be used on more than one span in a given div of the text XML, in which case it should only be
            defined by a single interp in that corresponding div in this file; the XSLT will pull the same interp into multiple notes in the same
            div in the output HTML;</p>
            <p>-because the XSLT is written to pick up span elements in the text XML and number them in order, and then to find the 
@@ -58,7 +58,10 @@
            <p>Tags below that say <interp corresp="x"></interp> are just placeholders to make it easier to fill in information, like empty 
            cells on a spreadsheet. They don't actually do anything.</p>
         </div>
-         
+         <div n="0"><!--whc: n="0" is used for the notes on the introductory essay-->
+            <interp corresp="Spanish_officials">Abelardo Levaggi, "Tratado Hispano-Mapuche de Negrete de 1803," Revista de Estudios Histórico-Jurídicos, no. 26 (2004): 553–59, https://doi.org/10.4067/S0716-54552004002600018.</interp>
+            <interp corresp="eighteenth_century">For an example, see Luz María Méndez, "La organización de los parlamentos de indios en el siglo XVIII," in Relaciones fronterizas en la Araucanía, ed. Sergio Villalobos R. (Santiago de Chile: Ediciones Universidad Católica de Chile, 1982), 109–73.</interp>
+         </div> 
          <div n="1">
             <interp corresp="x"></interp>
          </div>

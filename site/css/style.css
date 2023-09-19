@@ -157,7 +157,7 @@ p.tab {
     border-bottom-color: transparent;
 }
 
-/* Responsive Two Column Layout */
+/* Responsive Two Column Layout for equal columns */
 /* container */
 .responsive-two-column-grid {
     display:block; text-align: left; padding-left: 25px;
@@ -177,7 +177,30 @@ p.tab {
         grid-template-columns: 1fr 1fr;
     }
 }
-/* END Responsive Three Column Layout */
+/* END Responsive Two Column Layout for equal columns */
+
+
+/* Responsive Two Column Layout for unequal columns, wider left than right (for intro sections of translation pages) */
+/* container */
+.responsive-two-column-grid-unequal {
+    display:block; text-align: left; padding-left: 20px;
+}
+/* columns */
+/*  whc: I have no idea what the > * in the line below is doing but if you take it out the css stops working */
+.responsive-two-column-grid-unequal > * {
+    padding-left:7.5%;
+    padding-right:7.5%;
+}
+
+/* tablet breakpoint - when it begins to stack on mobile */
+@media (min-width:768px) {
+    .responsive-two-column-grid-unequal {
+        display: grid;
+        grid-auto-rows: min-content;
+        grid-template-columns: 2.1fr 1.5fr;
+    }
+}
+/* END Responsive Two Column Layout for unequal columns */
 
 
 /* Responsive Three Column Layout */
@@ -199,7 +222,7 @@ p.tab {
         display: grid;
         grid-auto-rows: min-content;
         grid-template-columns: 1fr 1fr 1.5fr; 
-        /* nb this is the proportions of the three columns. To make the third column wider, change to (e.g.) 1fr 1fr 1.5fr */
+        /* nb this is the proportions of the three columns. To make the third column wider, change to (e.g.) 1fr 1fr 2fr */
     }
 }
 /* END Responsive Three Column Layout */
