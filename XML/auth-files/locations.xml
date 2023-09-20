@@ -71,14 +71,14 @@
                <note xml:lang="eng">town on the north bank of the Cautín River in Araucanía</note>
             </place>
             
-            <place n="5"><!--which one? Asking Pilar-->
+            <place n="5">
                <placeName><settlement type="province">Buenos Aires (Ayres)</settlement></placeName>
                <country>Argentina</country>
                <region>Province of Buenos Aires</region>
                <location><geo>-33.7, -61</geo></location>
                <note xml:lang="span">Spanish description here</note>
                <note xml:lang="eng">In the Treaty of Negrete (1803), there are several references to the Pampas of Buenos Aires, which lies on the 
-               east coast of South America</note>
+               eastern side of the Andes Cordillera</note>
             </place>
             
             <place n="6">
