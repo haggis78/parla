@@ -35,13 +35,13 @@
 
          <listPlace type="human-geography">
             
-            <place n="1"><!--whc: asked Pilar for clarification: in text looks like a region, not a town-->
-               <placeName><settlement type="town">[?San Pedro de] Alcántara</settlement></placeName>
+            <place n="1">
+               <placeName><settlement type="region">Alcántara</settlement></placeName>
                <country>Chile</country>
-               <region>O'Higgins Region</region>
-               <location><geo>-34.76663598875209, -71.83739920929102</geo></location>
+               <region>Maule Region</region>
+               <location><geo>-34.84532, -71.9831</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[?]town located in the O'Higgins Region, 169 km south of Pichilemu, town was founded in 1691 by the Franciscan Order</note>
+               <note xml:lang="eng">Region near Lake Tilicura</note>
             </place>
             
             <place n="2">
@@ -59,7 +59,7 @@
                <region>Bío Bío Region</region>
                <location><geo></geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">Arauco means "chalky waters." It is also called a comuna (loosely translated as a community)</note>
+               <note xml:lang="eng">a settlement on the southern shore of the Bay of Arauco, often fought over and repeatedly razed and rebuilt between the Spanish Conquest and the War of Independence</note>
             </place>
             
             <place n="4">
@@ -77,7 +77,7 @@
                <region>Province of Buenos Aires</region>
                <location><geo>-33.7, -61</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">In the Treaty of Negrete (1803), there are several references to the Pampas of Buenos Aires, which lies on the 
+               <note xml:lang="eng">In the Treaty of Negrete (1803), there are several references to the Pampas of Buenos Aires, which lie on the 
                eastern side of the Andes Cordillera</note>
             </place>
             
@@ -208,22 +208,22 @@
                northwest of Temuco</note>
             </place>
             
-            <place n="20"><!--whc: cf 21; asking Pilar-->
-               <placeName><settlement type="village">Maquegua</settlement></placeName>
+            <place n="20">
+               <placeName><settlement type="region">Maquegua (Maquehue)</settlement></placeName>
                <country>Chile</country>
-               <region></region>
-               <location><geo></geo></location>
+               <region>Temuco Province</region>
+               <location><geo>-38.76312085130933, -72.5663572892763</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng">a region in Temuco Province to the south of the city of Temuco and the Cautin River</note>
             </place>
             
-            <place n="21"><!--whc: cf 20; asking Pilar-->
-               <placeName><settlement type="village">Maquehue</settlement></placeName>
+            <place n="21">
+               <placeName><settlement type="xxx">Cura</settlement></placeName>
                <country>Chile</country>
                <region></region>
                <location><geo></geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng">a Mapuche settlement or region; location not yet determined</note>
             </place>
             
             <place n="22"><!--whc: asking Pilar-->
@@ -232,7 +232,7 @@
                <region></region>
                <location><geo></geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng">a Mapuche settlement or region; location not yet determined</note>
             </place>
             
             <place n="23"><!--whc: asking Pilar-->
@@ -241,7 +241,7 @@
                <region></region>
                <location><geo></geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng">a Mapuche settlement or region; location not yet determined</note>
             </place>
             
             <place n="24"><!--whc: asking Pilar-->
@@ -250,25 +250,25 @@
                <region></region>
                <location><geo></geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng">a Mapuche settlement or region; location not yet determined</note>
             </place>
             
-            <place n="25"><!--whc: asking Pilar-->
+            <place n="25">
                <placeName><settlement type="village">Lolco</settlement></placeName>
                <country>Chile</country>
                <region></region>
-               <location><geo></geo></location>
+               <location><geo>-37.677769, -72.006967</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng">a Mapuche settlement or region; possibly located south of the Bío-Bío River opposite Santa Barbara</note>
             </place>
             
-            <place n="26"><!--whc: asking Pilar-->
+            <place n="26">
                <placeName><settlement type="village">Lonco</settlement></placeName>
                <country>Chile</country>
                <region></region>
-               <location><geo></geo></location>
+               <location><geo>-36.8656, -73.03933</geo></location>
                <note xml:lang="span">Spanish description here</note>
-               <note xml:lang="eng">[location not yet determined]</note>
+               <note xml:lang="eng">settlement south of Concepción on the east bank of the Bío-Bío estuary</note>
             </place>
             
             <place n="27">
@@ -319,7 +319,7 @@
                <region>Bío Bío Province</region>
                <location><geo>-37.916667, -71.45</geo></location>
                <note xml:lang="span">Spanish description</note>
-               <note xml:lang="eng">an ice-capped Andean volcano</note>
+               <note xml:lang="eng">an ice-capped Andean volcano; place name also associated with a Mapuche Cacique</note>
             </place>
             
             
@@ -329,7 +329,7 @@
                <region>Bío Bío Province</region>
                <location><geo></geo></location><!--region, so no straightforward coordinates-->
                <note xml:lang="span">Spanish description</note>
-               <note xml:lang="eng">meaning "plains", used to refer to flatlands area in the Chilean Central Valley between Valdivia and Osorno</note>
+               <note xml:lang="eng">meaning "plains", refers to flatlands area in the Chilean Central Valley between Valdivia and Osorno</note>
             </place>
             
             <place n="1004">
@@ -365,7 +365,7 @@
                <region>Araucanía Region</region>
                <location><geo></geo></location><!--river, so no straightforward coordinates-->
                <note xml:lang="span">Spanish description</note>
-               <note xml:lang="eng">a river flowing from Lago (Lake) Villarrica westward to the sea, forming the southern boundary of Araucanía and thus of Mapuche territory in the eighteenth-nineteenth centuries</note>
+               <note xml:lang="eng">a river flowing from Lago (Lake) Villarrica westward to the sea, forming the southern boundary of Araucanía and thus of Mapuche territory in the eighteenth-nineteenth centuries; also the place name associated with a Mapuche Cacique</note>
             </place>
             
             <place n="100x">

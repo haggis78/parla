@@ -126,8 +126,8 @@
                   <rdg wit="#A">convocatoria y citación al <term n="38">Congreso</term> había</rdg>
                </app> tenido aviso que los dichos <term n="2">Butalmapus</term> se hallaban en la mayor parte a las
                orillas del <app>
-                  <rdg wit="#Z"><placeName>Biovío</placeName></rdg>
-                  <rdg wit="#A"><placeName>Bío-Bío</placeName></rdg>
+                  <rdg wit="#Z"><placeName n="1001">Biovío</placeName></rdg>
+                  <rdg wit="#A"><placeName n="1001">Bío-Bío</placeName></rdg>
                </app> para presentarse el día primero de <app>
                   <rdg wit="#Z">Marzo</rdg>
                   <rdg wit="#A">marzo</rdg>
@@ -181,8 +181,8 @@
                   <rdg wit="#Z">dias veinte y ocho de febrero, y primero de Marzo,</rdg>
                   <rdg wit="#A">días veintiocho de febrero y primero de marzo</rdg>
                </app> para que pasasen los <app>
-                  <rdg wit="#Z"><term n="5">Caciques</term> y sus Comitivas por los Vados de <placeName>Daquegue</placeName> y <placeName n="8">Negrete</placeName>,</rdg>
-                  <rdg wit="#A"><term n="5">caciques</term> y sus comitivas por los vados de <placeName>Dagüegüe</placeName> y <placeName n="8">Negrete</placeName></rdg>
+                  <rdg wit="#Z"><term n="5">Caciques</term> y sus Comitivas por los Vados de <placeName n="22">Daquegue</placeName> y <placeName n="8">Negrete</placeName>,</rdg>
+                  <rdg wit="#A"><term n="5">caciques</term> y sus comitivas por los vados de <placeName n="22">Dagüegüe</placeName> y <placeName n="8">Negrete</placeName></rdg>
                </app> dando lugar al <app>
                   <rdg wit="#Z">arrivo</rdg>
                   <rdg wit="#A">arribo</rdg>
@@ -497,8 +497,8 @@
                   <rdg wit="#Z">Tierra,</rdg>
                   <rdg wit="#A">tierra</rdg>
                </app> desde el <app>
-                  <rdg wit="#Z"><placeName>Rio Biovio</placeName></rdg>
-                  <rdg wit="#A"><placeName>río Bío- Bío</placeName></rdg>
+                  <rdg wit="#Z"><placeName n="1001">Rio Biovio</placeName></rdg>
+                  <rdg wit="#A"><placeName n="1001">río Bío- Bío</placeName></rdg>
                </app> al <app>
                   <rdg wit="#Z">Sur</rdg>
                   <rdg wit="#A">sur</rdg>
@@ -853,7 +853,7 @@
                </app>Que <app>
                   <rdg wit="#Z">habiendose</rdg>
                   <rdg wit="#A">habiendo</rdg>
-               </app> tratado en el <term n="16">Parlamento</term> de <placeName>Lonquilmo</placeName> sobre los medios de entablar las ferias<app>
+               </app> tratado en el <term n="16">Parlamento</term> de <placeName n="1004">Lonquilmo</placeName> sobre los medios de entablar las ferias<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> que proporcionasen la venta de los efectos que sacasen de comercio los <app>
@@ -1056,7 +1056,7 @@
                </app> tratado <app>
                   <rdg wit="#Z">tambien</rdg>
                   <rdg wit="#A">también</rdg>
-               </app> en el <term n="16">Parlamento</term> de <placeName>Lonquilmo</placeName>, y refrendado en el <app>
+               </app> en el <term n="16">Parlamento</term> de <placeName n="1004">Lonquilmo</placeName>, y refrendado en el <app>
                   <rdg wit="#Z">ultimo</rdg>
                   <rdg wit="#A">último</rdg>
                </app> de <placeName n="8">Negrete</placeName>, sobre las desavenencias,<pb ed="#A" n="14"/><app>
@@ -1146,8 +1146,8 @@
                   <rdg wit="#Z">Presidio</rdg>
                   <rdg wit="#A">presidio</rdg>
                </app> de <placeName n="17">Valdivia</placeName>, imitando a los <app>
-                  <rdg wit="#Z"><term n="5">caciques</term> de <placeName>Tolten</placeName></rdg>
-                  <rdg wit="#A"><term n="5">Caciques</term> de <placeName>Toltén</placeName></rdg>
+                  <rdg wit="#Z"><term n="5">caciques</term> de <placeName n="1007">Tolten</placeName></rdg>
+                  <rdg wit="#A"><term n="5">Caciques</term> de <placeName n="1007">Toltén</placeName></rdg>
                </app>, y de aquella parte del sur<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -1924,7 +1924,7 @@
                </app> al bien <app>
                   <rdg wit="#Z">comun</rdg>
                   <rdg wit="#A">común</rdg>
-               </app>, pues aunque en las <term n="11">Reducciones</term> de <placeName>Boroa</placeName><app>
+               </app>, pues aunque en las <term n="11">Reducciones</term> de <placeName n="4">Boroa</placeName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y otras<app>
@@ -2029,8 +2029,8 @@
 
          <div n="21">
             <ab>El Cacique <app>
-               <rdg wit="#Z"><term n="42">Governador</term> de <placeName>Maquehue</placeName></rdg>
-               <rdg wit="#A"><term n="42">Gobernador</term> de <placeName>Maquegua</placeName></rdg>
+               <rdg wit="#Z"><term n="42">Governador</term> de <placeName n="20">Maquehue</placeName></rdg>
+               <rdg wit="#A"><term n="42">Gobernador</term> de <placeName n="20">Maquegua</placeName></rdg>
                </app> <persName n="27">Vilumilla</persName>, su <app>
                   <rdg wit="#Z">Hermano <persName n="28">Coiguengir</persName></rdg>
                   <rdg wit="#A">hermano <persName n="28">Coygüenjir</persName></rdg>
@@ -2084,9 +2084,9 @@
             <ab>Los <app>
                   <rdg wit="#Z"><term n="5">Caciques</term></rdg>
                   <rdg wit="#A"><term n="5">caciques</term></rdg>
-               </app> <term n="17">Pehuenches</term> de <placeName>Callaqui</placeName>, <placeName>Quilaco</placeName><app>
-                  <rdg wit="#Z">, y <placeName>Huinquin</placeName>,</rdg>
-                  <rdg wit="#A"> y <placeName>Hinquién</placeName>,</rdg>
+               </app> <term n="17">Pehuenches</term> de <placeName n="1002">Callaqui</placeName>, <placeName n="10">Quilaco</placeName><app>
+                  <rdg wit="#Z">, y <placeName n="23">Huinquin</placeName>,</rdg>
+                  <rdg wit="#A"> y <placeName n="23">Hinquién</placeName>,</rdg>
                </app> llamados <persName n="31">Coliman</persName>, <persName n="32">Liupay</persName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
@@ -2120,8 +2120,8 @@
                   <rdg wit="#Z">dispocicion</rdg>
                   <rdg wit="#A">disposición</rdg>
                </app> que presentaba el <term n="17">Pehuenche</term> <persName n="35">Millalem</persName> de <app>
-                  <rdg wit="#Z"><placeName>Lonco</placeName>,</rdg>
-                  <rdg wit="#A"><placeName>Lolco</placeName></rdg>
+                  <rdg wit="#Z"><placeName n="26">Lonco</placeName>,</rdg>
+                  <rdg wit="#A"><placeName n="26">Lolco</placeName></rdg><!--whc: we determined that A wrongly "corrected" Lonco to Lolco here-->
                </app> y otras <app>
                   <rdg wit="#Z">Parcialidades, siendoles</rdg>
                   <rdg wit="#A">parcialidades, siéndoles</rdg>
@@ -2139,7 +2139,7 @@
          </div>
 
          <div n="23">
-            <ab>El Cacique de <placeName>Cura</placeName> <app>
+            <ab>El Cacique de <placeName n="21">Cura</placeName> <app>
                   <rdg wit="#Z"><persName n="36">Millalim</persName></rdg>
                <rdg wit="#A"><persName n="36">Millalem</persName></rdg>
                </app>, por consejo de sus <app>
@@ -2154,7 +2154,7 @@
                </app> pidiendo de nuevo la <app>
                   <rdg wit="#Z">micion</rdg>
                   <rdg wit="#A">Misión</rdg>
-               </app> que tuvo en <placeName>Lolco</placeName>, pero que no se ha resuelto hasta ahora por las <app>
+               </app> que tuvo en <placeName n="25">Lolco</placeName>, pero que no se ha resuelto hasta ahora por las <app>
                   <rdg wit="#Z"><term n="13">malocas</term></rdg>
                   <rdg wit="#A"><term n="13">Malocas</term></rdg>
                </app> y desavenencias que han tenido en años <app>
@@ -2187,9 +2187,9 @@
                </app> compuesta de su <app>
                   <rdg wit="#Z"><term n="42">Governador</term>,</rdg>
                   <rdg wit="#A"><term n="42">Gobernador</term></rdg>
-               </app> y <term n="5">Caciques</term>, con los de <placeName n="2">Angol</placeName>, <placeName>Maquegua</placeName>, <app>
-                  <rdg wit="#Z"><placeName>Lebcoyan</placeName></rdg>
-                  <rdg wit="#A"><placeName>Lobcoyán</placeName></rdg>
+               </app> y <term n="5">Caciques</term>, con los de <placeName n="2">Angol</placeName>, <placeName n="20">Maquegua</placeName>, <app>
+                  <rdg wit="#Z"><placeName n="24">Lebcoyan</placeName></rdg>
+                  <rdg wit="#A"><placeName n="24">Lobcoyán</placeName></rdg>
                </app>, y generalmente los <app>
                   <rdg wit="#Z">mas</rdg>
                   <rdg wit="#A">más</rdg>
@@ -2197,8 +2197,8 @@
                   <rdg wit="#Z">tierra,</rdg>
                   <rdg wit="#A">Tierra</rdg>
                </app> suplicaron la solicitud de su difunto <app>
-                  <rdg wit="#Z"><term n="42">Governador Levigueque</term>,</rdg>
-                  <rdg wit="#A"><term n="42">Gobernador Leviquegüe</term></rdg>
+                  <rdg wit="#Z"><term n="42">Governador</term> <persName n="39">Levigueque</persName>,</rdg>
+                  <rdg wit="#A"><term n="42">Gobernador</term> <persName n="39">Leviquegüe</persName></rdg>
                </app> que hizo en el <term n="16">Parlamento</term> General<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
@@ -2208,7 +2208,7 @@
                </app> para que se les diese <app>
                   <rdg wit="#Z">Micioneros</rdg>
                   <rdg wit="#A">Misioneros</rdg>
-               </app> de Propaganda en lugar del <placeName>Cura</placeName> que <app>
+               </app> de Propaganda en lugar del Cura que <app>
                   <rdg wit="#Z">les tienen</rdg>
                   <rdg wit="#A">le tienen</rdg>
                </app> puesto, como una necesidad suma espiritual<app>
@@ -2267,10 +2267,10 @@
                </app> de <placeName n="3">Arauco</placeName>, <app>
                   <rdg wit="#Z"><placeName n="15">Tirúa</placeName>, y <placeName n="4">Boca de la Ymperial</placeName></rdg>
                   <rdg wit="#A"><placeName n="16">Tucapel</placeName>, <placeName n="15">Tirúa</placeName> <placeName n="4">Boroa, de la Imperial</placeName></rdg>
-               </app>, y lo mismo los de <placeName n="2">Angol</placeName>, <placeName>Repocura</placeName>, <placeName>Maquegua</placeName>, <app>
+               </app>, y lo mismo los de <placeName n="2">Angol</placeName>, <placeName n="1005">Repocura</placeName>, <placeName n="20">Maquegua</placeName>, <app>
                   <rdg wit="#Z"><placeName n="19">Chacaico</placeName></rdg>
                   <rdg wit="#A"><placeName n="19">Chacayco</placeName></rdg>
-               </app>, y generalmente todos los <placeName>Llanos</placeName>,<app>
+               </app>, y generalmente todos los <placeName n="1003">Llanos</placeName>,<app>
                   <rdg wit="#Z"> dixeron:</rdg>
                   <rdg wit="#A">dijeron</rdg>
                </app><app>
@@ -2408,7 +2408,7 @@
                </app> ofrecido en otros <app>
                   <rdg wit="#Z"><term n="16">parlamentos</term></rdg>
                   <rdg wit="#A"><term n="16">Parlamentos</term></rdg>
-               </app>, pues no ignoraban sus designios depravados, y que los <term n="5">caciques</term> de <placeName>Arauco</placeName>,
+               </app>, pues no ignoraban sus designios depravados, y que los <term n="5">caciques</term> de <placeName n="3">Arauco</placeName>,
                <placeName n="16">Tucapel</placeName>, <app>
                   <rdg wit="#Z"><placeName n="4">Boca de Ymperial</placeName>,</rdg>
                   <rdg wit="#A"><placeName n="4">Boroa, de la Imperial</placeName></rdg>
@@ -2683,7 +2683,7 @@
                </app> destinadas al cuchillo<app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
-               </app> o al fuego, y las entreguen a los comandantes de la <placeName>Barrera</placeName>, en donde se <app>
+               </app> o al fuego, y las entreguen a los comandantes de la <term n="19" type="untrans">Barrera</term>, en donde se <app>
                   <rdg wit="#Z">les gratificará</rdg>
                   <rdg wit="#A">le gratificara</rdg>
                </app> competentemente como a <app>
@@ -2771,7 +2771,7 @@
                </app>, el <app>
                   <rdg wit="#Z">de</rdg>
                   <rdg wit="#A"/>
-               </app> <placeName>Arauco</placeName>, <placeName n="16">Tucapel</placeName><app>
+               </app> <placeName n="3">Arauco</placeName>, <placeName n="16">Tucapel</placeName><app>
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y otros<app>
@@ -3074,7 +3074,7 @@
                         
                         <div n="40"><ab><app><rdg wit="#Z">Y en quanto a las
                      pretenciones particulares que hicieron en aquel <term n="38">Congreso</term> varios <term n="5">caciques</term>, mandó
-                     su Señoria, se haga entender al de <placeName>Maquegua</placeName>, y sus compañeros, que deben
+                     su Señoria, se haga entender al de <placeName n="20">Maquegua</placeName>, y sus compañeros, que deben
                      renunciar la corta satisfaccion de poder vicitar mas facilmente a los jovenes
                      que entreguen para su educacion en el Seminario, trasladandose a la <term n="18">Plaza</term> de
                      <placeName n="18">los Angeles</placeName>, por las mayores ventajas que resultan de su reunion al Colegio de
@@ -3092,7 +3092,7 @@
                      y pendiente de la resolucion que se tomase sobre este particular en este
                      <term n="16">Parlamento</term>, por lo que puede importar a la consecucion de miciones en las
                      Parcialidades de <term n="17">Pehuenches</term>, y señaladamente el restablecimiento de la de
-                     <placeName>Lolco</placeName>, como solicitan sus <term n="5">caciques</term>, a cuyo efecto se encargará al <term n="23">Señor</term>
+                     <placeName n="25">Lolco</placeName>, como solicitan sus <term n="5">caciques</term>, a cuyo efecto se encargará al <term n="23">Señor</term>
                      Yntendente Comandante Militar de la Provincia de la <placeName n="7">Concepcion</placeName>, procure su
                      realizacion, convocando las Juntas oportunas de los yndios, y consultando
                      previamente a esta Superioridad las demas providencias que convenga anticipar
@@ -3110,7 +3110,7 @@
                         <term n="11">reducciones</term>, respecto de que la de <placeName n="12">Santa Feé</placeName>, por su antiguedad, entera
                      sujecion al <term n="41">gremio de la Yglecia</term>, y <pb ed="#Z" n="423"/>situacion en
                      territorio de los españoles, debe gloriarse del timbre de estar exenta de aquel
-                     concepto, como las de <placeName>San Cristoval</placeName>, y otras de igual claze sujetas a la
+                     concepto, como las de <placeName n="1006">San Cristoval</placeName>, y otras de igual claze sujetas a la
                      doctrina de los curas <term n="40">instituidos</term> por el <term n="39">ordinario Ecleciastico</term>, en todo igual
                      a los de los españoles; y </rdg>
                   <rdg wit="#A"/>
