@@ -44,14 +44,13 @@
                                 </div>
                             </div>      
                             
-                            <a href="about.html">About</a>
+                            <a href="../about.html">About</a>
                             
                             <div class="dropdown">
                                 <button class="dropbtn">Resources</button>
                                 <div class="dropdown-content">
-                                    <a href="students.html">For students</a>
-                                    <a href="educators.html">For educators</a>
-                                    <a href="scholars.html">For scholars</a>
+                                    <a href="eng-glossary.html">Glossary</a>
+                                    <a href="geography.html">Geography and Maps</a>
                                 </div>                                 
                             </div>
                         </div>
