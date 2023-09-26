@@ -232,8 +232,8 @@
                                             <div class="notes">
                                                 <xsl:if test="not(.//term or .//persName or .//placeName or .//span)">
                                                     <p><b>[&#167;<xsl:value-of select="data(@n)"/>]</b><xsl:text>  </xsl:text>
-                                                    <i>No annotations on this section.</i></p><br/>
-                                                    <a class="top-btn" href="#">Top of page</a><a class="top-btn" href="#document">Top of text</a>
+                                                    <i>No annotations on this section.</i><br/>
+                                                    <a href="#">Top of page</a><xsl:text> | </xsl:text><a href="#document">Top of text</a></p>
                                                 </xsl:if>
                                                 
                                                 <xsl:if test="$negTrans//div[data(@n)=$div-n]//term 
