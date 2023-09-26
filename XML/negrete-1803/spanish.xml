@@ -50,8 +50,7 @@
                      reads: "En Chile existen versiones de este parlamento en: ANHCh, FV, vol. 813,
                      fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión
                      proveniente del Fondo Varios (Marimán, 2002: 87-101)."</note>
-                  <note xml:lang="eng">[add any notes or description here IN ENGLISH: something to 
-                     this effect:] This edition aimed at a literal transcription of the manuscript sources,
+                  <note xml:lang="eng">This edition aimed at a literal transcription of the manuscript sources,
                      including the original orthography and punctuation. The footnote on p. 413
                      reads: "En Chile existen versiones de este parlamento en: ANHCh, FV, vol. 813,
                      fs. 55-65v y BNCh, Ms.M, t. 330, fs. 269-284. Pablo Marimán publico la versión
@@ -227,10 +226,10 @@
                   <rdg wit="#A">. – </rdg>
                </app> <persName n="24">Pedro Quijada</persName><app>
                   <rdg wit="#Z"> =</rdg>
-                  <rdg wit="#A">. – </rdg>
+                  <rdg wit="#A">. - </rdg>
                </app> <persName n="8">Gonzalo Maria de Figueroa</persName><app>
                   <rdg wit="#Z"> =</rdg>
-                  <rdg wit="#A">. – </rdg>
+                  <rdg wit="#A">. - </rdg>
                </app>
             </ab>
          </div>
