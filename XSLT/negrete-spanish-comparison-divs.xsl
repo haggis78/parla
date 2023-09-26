@@ -136,7 +136,7 @@
             <xsl:if test="not(@n)"><!--whc 19-JUN-2023: This is so head divs that only appear in A (the editorial insertions),
                 which will not be numbered, do not include an id="sect-" attribute and value on them, and will include a note explaining
                 the absence of text from the Z column.--> 
-                <div><p>[trans to Span:] <i>A heading not in the original document was inserted here by the Ayun editors only.</i></p></div>
+                <div><p><i>Aquí, los editores de la Corporación Ayún incluyeron un encabezado que no se encuentra en el documento original</i></p></div>
                     <div><xsl:apply-templates select="head" mode="A-head"/></div>
                 </xsl:if>
         
