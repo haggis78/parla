@@ -10,9 +10,10 @@
             <respStmt>
                <resp>Geographical research</resp>
                <persName>Pilar Herr</persName>
+               <persName>William Campbell</persName>
             </respStmt>
             <respStmt>
-               <resp>TEI XML markup</resp>
+               <resp>Encoded in TEI XML</resp>
                <persName>William Campbell</persName>
             </respStmt>
          </titleStmt>

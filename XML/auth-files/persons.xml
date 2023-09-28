@@ -12,6 +12,10 @@
                <persName>Pilar Herr</persName>
                <persName>William Campbell</persName>
             </respStmt>
+            <respStmt>
+               <resp>Encoded in TEI XML</resp>
+               <persName>William Campbell</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -339,7 +343,8 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Royal soldier from Valdivia</p></note>
+               <bibl>Biblioteca del Congreso Nacional de Chile</bibl>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -354,7 +359,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Archdeacon of the Cathedral of Concepción</p></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -369,8 +374,9 @@
                   <genName></genName>
                </persName>
                <nationality>Irish-Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
-               <listEvent><event><p>1803</p></event></listEvent>
+               <note xml:lang="eng"><p>Marquis of Osorno, Governor and Captain-General of Chile and later Viceroy of Peru; d. 1801. Presided over Parlamento of Negrete of 1793. Mentioned in, but not present at, Parlamento of Negrete of 1803.</p></note>
+               <bibl>Society for Irish Latin American Studies</bibl>
+               <listEvent><event><p>1793</p></event><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="18">
@@ -384,8 +390,14 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
-               <listEvent><event><p>1803</p></event></listEvent>
+               <note xml:lang="eng"><p>Lieutenant General of the Regiment of Militias of the Province of Itata</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 352, 363, 413, 423, 431</biblScope></bibl></note>
+               <listEvent><event><p>1784</p></event><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="19">
@@ -399,7 +411,7 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Diputado (representative) of Cabildo of Concepción</p></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -435,7 +447,8 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Bishop of Concepción from 1794 to his death in 1805. Represented at Parlamento of Negrete (1803) by his Archdeacon.</p>
+                  <bibl>https://dbe.rah.es/biografias/47728/tomas-de-roa-y-alarcon</bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -450,7 +463,13 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Lieutenant Colonel of Dragoons (Spanish Cavalry officer) present at Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 413</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -465,7 +484,13 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Spanish military officer: Lieutenant Colonel and Commander of the Plaza of Los Angeles</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 413, 420, 421, 423</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -480,7 +505,16 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>Commander in Chief of the Bío-Bío River Region; presided over Parlamento of Negrete of 1803 as acting representative of Governor Luis Muñoz Guzmán</p>
+               <bibl>
+                  <note>Article "Tratado hispano-mapuche de Negrete de 1803", Revista de estudios histórico-jurídicos. January 2010</note>
+                  
+                  <editor>José Manuel Zavala Cepeda</editor>
+                  <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                  <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                  <pubPlace>Temuco, Chile</pubPlace>
+                  <date>2015</date>
+                  <biblScope>pp. 413-423 passim</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -495,7 +529,13 @@
                   <genName></genName>
                </persName>
                <nationality>Spanish</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>A Spaniard present at the Parlamento of Negrete of 1803; his role is unclear and he has not been identified from outside sources</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 419</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -573,7 +613,13 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>a Mapuche Cacique present at Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 418</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -588,7 +634,13 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>a Mapuche Cacique present at Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 418</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
             </person>
             
@@ -603,7 +655,13 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>a Mapuche Cacique present at Parlamento of Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 418</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
 
             </person>
@@ -619,7 +677,13 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>an Arrabano Cacique present at Parlamento of Negrete (1803); also identified as Governor of Quilaco</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 418, 429</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
                
             </person>
@@ -635,7 +699,13 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
+               <note xml:lang="eng"><p>a Mapuche Cacique</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>p. 418</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
                
             </person>
@@ -688,7 +758,7 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Described in the Parlamento of Negrete (1803) as Cacique of Cura; however, the list of caciques names Apeleb as cacique of Cura</p>
+               <note xml:lang="eng"><p>Described in the Parlamento of Negrete (1803) as Cacique of Cura; however, the appended list of caciques names Apeleb as cacique of Cura</p>
                   <bibl><editor>José Manuel Zavala Cepeda</editor>
                      <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
                      <publisher>Ediciones Universidad Católica de Temuco</publisher>
@@ -709,8 +779,14 @@
                   <genName></genName>
                </persName>
                <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
-               <listEvent><event><p>1803</p></event></listEvent>
+               <note xml:lang="eng"><p>a Pehuenche Cacique from Lolco Reducción present at Parlamentos of Lonquilmo (1784) and Negrete (1803)</p>
+                  <bibl><editor>José Manuel Zavala Cepeda</editor>
+                     <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                     <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                     <pubPlace>Temuco, Chile</pubPlace>
+                     <date>2015</date>
+                     <biblScope>pp. 359-363, 418</biblScope></bibl></note>
+               <listEvent><event><p>1784</p></event><event><p>1803</p></event></listEvent>
             </person>
                
                <person n="38">
@@ -724,7 +800,13 @@
                      <genName></genName>
                   </persName>
                   <nationality>Mapuche</nationality>
-                  <note xml:lang="eng"><p>Biographical detail here</p></note>
+                  <note xml:lang="eng"><p>a Mapuche Cacique present at the Parlamento of Negrete (1803), associated with Millalim, Cacique of Cura</p>
+                     <bibl><editor>José Manuel Zavala Cepeda</editor>
+                        <title>Los Parlamentos Hispano-Mapuches, 1593-1803: Textos Fundamentales</title>
+                        <publisher>Ediciones Universidad Católica de Temuco</publisher>
+                        <pubPlace>Temuco, Chile</pubPlace>
+                        <date>2015</date>
+                        <biblScope>p. 418</biblScope></bibl></note>
                <listEvent><event><p>1803</p></event></listEvent>
                </person>
                   
@@ -746,7 +828,7 @@
                         <pubPlace>Temuco, Chile</pubPlace>
                         <date>2015</date>
                         <biblScope>pp. 316, 324-25, 328, 353, 422</biblScope></bibl></note>
-               <listEvent><event><p>1803</p></event></listEvent>
+                     <listEvent><event><p>1774</p></event><event><p>1784</p></event><event><p>1803</p></event></listEvent>
             </person>
             
             <person n="XX">

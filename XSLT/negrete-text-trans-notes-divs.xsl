@@ -183,26 +183,28 @@
                                     </div>
                                     <div>
                                         <h2>Research and notes</h2>
-                                        <xsl:for-each select="$Lex//respStmt">
+                                        <xsl:for-each select="$Lex//respStmt[not(./resp/text()='Encoded in TEI XML')]">
                                             <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
                                             <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
                                             </p>
                                         </xsl:for-each>
-                                        <xsl:for-each select="$Pers//respStmt">
+                                        <xsl:for-each select="$Pers//respStmt[not(./resp/text()='Encoded in TEI XML')]">
                                             <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
                                             <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
                                             </p>
                                         </xsl:for-each>
-                                        <xsl:for-each select="$Place//respStmt">
+                                        <xsl:for-each select="$Place//respStmt[not(./resp/text()='Encoded in TEI XML')]">
                                             <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
                                             <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
                                             </p>
                                         </xsl:for-each>
-                                        <xsl:for-each select="$negNotes//respStmt">
+                                        <xsl:for-each select="$negNotes//respStmt[not(./resp/text()='Encoded in TEI XML')]">
                                             <p><b><xsl:apply-templates select="./resp"/></b> <xsl:text> by</xsl:text></p>
                                             <p><xsl:apply-templates select="string-join(persName, ' and ')"/>
                                             </p>
                                         </xsl:for-each>
+                                        <p><b>Encoded in TEI XML</b> by</p>
+                                        <p>William Campbell</p>
                                         
                                     </div>
                                 
