@@ -831,21 +831,7 @@
                      <listEvent><event><p>1774</p></event><event><p>1784</p></event><event><p>1803</p></event></listEvent>
             </person>
             
-            <person n="XX">
-               <persName>
-                  <name></name>
-                  <roleName></roleName>
-                  <forename></forename>
-                  <nameLink></nameLink>
-                  <surname></surname>
-                  <addName></addName>
-                  <genName></genName>
-               </persName>
-               <nationality>Mapuche</nationality>
-               <note xml:lang="eng"><p>Biographical detail here</p></note>
-               <listEvent><event><p>year</p></event></listEvent>
-               
-            </person>
+
             
             
          </listPerson>
