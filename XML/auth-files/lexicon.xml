@@ -127,6 +127,7 @@
                 <entry xml:lang="span">
                     <form>
                         <orth>cacique</orth>
+                        <!-- amz 23-JAN-2024: <orth>casique</orth>-->
                     </form>
                     <gramGrp><pos>n</pos></gramGrp>
                     <sense n="1">
