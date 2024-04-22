@@ -9,6 +9,10 @@ summary {
     font-weight: bold;
 }
 
+details {
+    width:60%
+}
+
 h2 {
     text-align:left;
     margin-left:4em;    
