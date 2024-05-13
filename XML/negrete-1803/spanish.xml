@@ -1519,8 +1519,8 @@
                   <rdg wit="#Z">. Y</rdg>
                   <rdg wit="#A">, y</rdg>
                </app> enterado de todo el <app>
-                  <rdg wit="#Z"><term n="42">Governador</term> Curinaguel, dixo, que la eleccion</rdg>
-                  <rdg wit="#A"><term n="42">Gobernador</term> Curinagüel dijo: que la elección</rdg>
+                  <rdg wit="#Z"><term n="42">Governador</term> <persName n="5">Curinaguel</persName>, dixo, que la eleccion</rdg>
+                  <rdg wit="#A"><term n="42">Gobernador</term> <persName n="5">Curinagüel</persName> dijo: que la elección</rdg>
                </app> hecha por el <app>
                   <rdg wit="#Z"> Excelentisimo <term n="23">Señor</term> Capitan General en el <term n="23">señor</term></rdg>
                   <rdg wit="#A">Excmo. <term n="23">Señor</term> Capitán General en el <term n="23">Señor</term></rdg>
@@ -1619,7 +1619,7 @@
                </app> que tanta <app>
                   <rdg wit="#Z">lastima les tenian</rdg>
                   <rdg wit="#A">lástima les tenían</rdg>
-               </app>, y que Curinaguil y todos los circunstantes se empeñasen para acreditar en
+               </app>, y que <persName n="5">Curinaguil</persName> y todos los circunstantes se empeñasen para acreditar en
                aquel acto<app>
                   <rdg wit="#Z"/>
                   <rdg wit="#A">,</rdg>
@@ -1719,8 +1719,8 @@
                   <rdg wit="#Z">, recivió</rdg>
                   <rdg wit="#A">recibió</rdg>
                </app> el saludo y atenciones acostumbradas de los <term n="5">caciques</term>, continuando el <app>
-                  <rdg wit="#Z"><term n="42">Governador</term> Curinaguel</rdg>
-                  <rdg wit="#A"><term n="42">Gobernador</term> Curinagüel</rdg>
+                  <rdg wit="#Z"><term n="42">Governador</term> <persName n="5">Curinaguel</persName></rdg>
+                  <rdg wit="#A"><term n="42">Gobernador</term> <persName n="5">Curinagüel</persName></rdg>
                </app> en los<app>
                   <rdg wit="#Z"> mismos terminos que el dia antecedente, con</rdg>
                   <rdg wit="#A">en</rdg>
@@ -1888,8 +1888,8 @@
                   <rdg wit="#Z">. En</rdg>
                   <rdg wit="#A">: en</rdg>
                </app> este estado se puso en pie el <app>
-                  <rdg wit="#Z"><term n="42">Governador</term> Curinaguel</rdg>
-                  <rdg wit="#A"><term n="42">Gobernador</term> Curinagüel</rdg>
+                  <rdg wit="#Z"><term n="42">Governador</term> <persName n="5">Curinaguel</persName></rdg>
+                  <rdg wit="#A"><term n="42">Gobernador</term> <persName n="5">Curinagüel</persName></rdg>
                </app>, y dirigió a su <app>
                   <rdg wit="#Z">Señoria el razonamiento</rdg>
                   <rdg wit="#A">Señoría el Razonamiento</rdg>
@@ -2765,8 +2765,8 @@
                   <rdg wit="#Z">,</rdg>
                   <rdg wit="#A"/>
                </app> y el <app>
-                  <rdg wit="#Z"><term n="42">Governador</term> Curinaguel</rdg>
-                  <rdg wit="#A"><term n="42">Gobernador</term> Curanigüel</rdg>
+                  <rdg wit="#Z"><term n="42">Governador</term> <persName n="5">Curinaguel</persName></rdg>
+                  <rdg wit="#A"><term n="42">Gobernador</term> <persName n="5">Curanigüel</persName></rdg>
                </app>, el <app>
                   <rdg wit="#Z">de</rdg>
                   <rdg wit="#A"/>

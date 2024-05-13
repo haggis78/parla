@@ -32,8 +32,14 @@
            <p>The XML file with the English translation of the Parlamento of Negrete (1803) includes a fourth class of explanatory notes
            beyond terms, persons, and places. This file provides the text of those notes.</p>
            <p>In the XML file with the English translation, a section to be explained is tagged with 
-              <span corresp="text_to_be_explained">text to be explained</span>. Here in this present file there is a corresponding tag
-              <interp corresp="text_to_be_explained">explanatory note</interp>. The attribute @corresp is what ties them together. They
+              
+                 <span corresp="text_to_be_explained">text to be explained</span>
+              
+              Here in this present file there is a corresponding tag
+              
+                 <interp corresp="text_to_be_explained">explanatory note</interp>
+              
+           The attribute @corresp is what ties them together. They
            must be sorted properly into the numbered divs as they appear in the English translation XML or the XSLT will not find them. 
            This also means that:</p>
            <p>-a @corresp attribute value can be used on more than one span in a given div of the text XML, in which case it should only be
