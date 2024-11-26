@@ -31,6 +31,15 @@
                         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                         <meta name="google" content="notranslate"/>
                         <link rel="stylesheet" type="text/css" href="../css/style.css" />
+                        <!-- Google tag (gtag.js) -->
+                        <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-RG3MCGNBN4"></script>
+                        <script>
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            
+                            gtag('config', 'G-RG3MCGNBN4');
+                        </script>
                         <title>Negrete: Comparación de Textos</title>
                     </head>
                     <body>
