@@ -1,6 +1,6 @@
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare option saxon:output "method=html";
-declare variable $parla := doc('../xml/negrete-1803-unified-1.xml');
+declare variable $parla := doc('../XML/negrete-1803/spanish.xml');
 (:whc 1 April 2023: This runs over the text XML and creates a table listing and
 numbering the <persName> words. :)
 
